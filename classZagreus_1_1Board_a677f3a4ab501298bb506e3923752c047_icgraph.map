@@ -1,8 +1,11 @@
 <map id="Zagreus::Board::getLastMove" name="Zagreus::Board::getLastMove">
-<area shape="rect" id="Node000001" title="Retrieves the last move made." alt="" coords="407,29,620,55"/>
-<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8" title="Checks if the current position is legal based on the color that just made a move." alt="" coords="167,22,359,62"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="393,45,359,45,359,39,393,39"/>
-<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a8c0bbbe8484b26df054d217409f25325" title="Performs a perft test on the given board to a specified depth." alt="" coords="5,29,119,55"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="153,45,119,45,119,39,153,39"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="98,20,88,11,62,8,41,10,30,15,27,20,33,28,29,31,22,21,26,11,39,5,62,3,90,6,101,16"/>
+<area shape="rect" id="Node000001" title="Retrieves the last move made." alt="" coords="436,67,649,92"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8" title="Checks if the current position is legal based on the color that just made a move." alt="" coords="196,59,388,99"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="422,82,388,82,388,77,422,77"/>
+<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a8c0bbbe8484b26df054d217409f25325" title="Performs a perft test on the given board to a specified depth." alt="" coords="20,29,133,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="182,63,133,54,134,49,183,58"/>
+<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a1f59232179c0fdab4ec23afa89f2b46c" title=" " alt="" coords="5,103,148,128"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="182,100,149,106,148,101,182,95"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="115,20,104,11,77,8,54,10,42,15,39,20,46,28,42,31,34,21,38,11,53,5,77,3,106,6,118,15"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="115,93,104,85,77,81,54,83,42,88,39,94,46,101,42,104,34,94,38,84,53,78,77,76,106,80,118,89"/>
 </map>

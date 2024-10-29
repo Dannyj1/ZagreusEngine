@@ -1,0 +1,6 @@
+<map id="Zagreus::Board::getPly" name="Zagreus::Board::getPly">
+<area shape="rect" id="Node000001" title="Retrieves the number of plies since the start of the game." alt="" coords="196,29,367,55"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a1f59232179c0fdab4ec23afa89f2b46c" title=" " alt="" coords="5,29,148,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,45,148,45,148,39,182,39"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="113,20,103,11,77,8,55,10,44,15,41,20,48,28,43,31,36,21,40,11,54,5,77,3,105,6,116,16"/>
+</map>

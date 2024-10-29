@@ -14,5 +14,7 @@ var searchData=
   ['print_11',['print',['../classZagreus_1_1Board.html#a82a99b7d0775ddd726fd3175f63241e1',1,'Zagreus::Board']]],
   ['printstartupmessage_12',['printStartupMessage',['../classZagreus_1_1Engine.html#a9da44ebb2faa1b76fb8ab5c361c97d8d',1,'Zagreus::Engine']]],
   ['promotion_13',['PROMOTION',['../namespaceZagreus.html#a7735714492e635054e84a0cc179e46baa8b18bc5047643a18a4ec27886a319d00',1,'Zagreus']]],
-  ['promotionpiece_14',['PromotionPiece',['../namespaceZagreus.html#ae3d5464d72c8b3e99114db86d97e2cac',1,'Zagreus']]]
+  ['promotionpiece_14',['PromotionPiece',['../namespaceZagreus.html#ae3d5464d72c8b3e99114db86d97e2cac',1,'Zagreus']]],
+  ['pv_15',['PV',['../namespaceZagreus.html#ada679bdc3b3121c6d715689e2990b0eaaef99d28c6254f51321928e4cd38522a8',1,'Zagreus']]],
+  ['pvsearch_16',['pvSearch',['../namespaceZagreus.html#a1f59232179c0fdab4ec23afa89f2b46c',1,'Zagreus']]]
 ];

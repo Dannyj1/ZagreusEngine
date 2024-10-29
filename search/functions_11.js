@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['whitedoublepushablepawns_0',['whiteDoublePushablePawns',['../namespaceZagreus.html#a027d67da9c406b1860c84cebe5e43085',1,'Zagreus']]],
-  ['whitepawndoublepush_1',['whitePawnDoublePush',['../namespaceZagreus.html#a7692fd3583b6b4062e08a14b12db55e8',1,'Zagreus']]],
-  ['whitepawneastattacks_2',['whitePawnEastAttacks',['../namespaceZagreus.html#a172d07d677ba7327d7dcf6ce2032527f',1,'Zagreus']]],
-  ['whitepawnsinglepush_3',['whitePawnSinglePush',['../namespaceZagreus.html#a10d8ce4127d68a8189027ba00dce39b5',1,'Zagreus']]],
-  ['whitepawnwestattacks_4',['whitePawnWestAttacks',['../namespaceZagreus.html#aacd111e9b3ec452ad93d48144924aa62',1,'Zagreus']]],
-  ['whitepushablepawns_5',['whitePushablePawns',['../namespaceZagreus.html#a0d2f9d3985a89a5ace60cca661ca1b11',1,'Zagreus']]]
+  ['ucioption_0',['UCIOption',['../classZagreus_1_1UCIOption.html#ad8912cd62be4d800d640c9abfa370ef2',1,'Zagreus::UCIOption::UCIOption()=default'],['../classZagreus_1_1UCIOption.html#adb805cd76b84e361b6b363dcc77a8ebb',1,'Zagreus::UCIOption::UCIOption(std::string name, const UCIOptionType optionType)']]],
+  ['unmakemove_1',['unmakeMove',['../classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644',1,'Zagreus::Board']]]
 ];

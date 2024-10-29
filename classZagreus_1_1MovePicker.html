@@ -99,15 +99,21 @@ $(function(){ initResizable(false); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab471434d23a853ebfdbcd7915c4403db" id="r_ab471434d23a853ebfdbcd7915c4403db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structZagreus_1_1MoveList.html">MoveList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab471434d23a853ebfdbcd7915c4403db">getMoveList</a> ()</td></tr>
-<tr class="separator:ab471434d23a853ebfdbcd7915c4403db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15eb11c6a7b4840cf0f9cf8eddf98277" id="r_a15eb11c6a7b4840cf0f9cf8eddf98277"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15eb11c6a7b4840cf0f9cf8eddf98277">MovePicker</a> (const <a class="el" href="structZagreus_1_1MoveList.html">MoveList</a> &amp;moveList)</td></tr>
+<tr class="separator:a15eb11c6a7b4840cf0f9cf8eddf98277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09d795e27005db2856cd07c01228243d" id="r_a09d795e27005db2856cd07c01228243d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09d795e27005db2856cd07c01228243d">next</a> (<a class="el" href="namespaceZagreus.html#a38e749cf22c411cb709a3da939267e6f">Move</a> &amp;move)</td></tr>
+<tr class="memdesc:a09d795e27005db2856cd07c01228243d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if there is a next move and retrieves it.  <br /></td></tr>
+<tr class="separator:a09d795e27005db2856cd07c01228243d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cbdb8d0c1efc51fb0870d4a208580ef" id="r_a7cbdb8d0c1efc51fb0870d4a208580ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceZagreus.html#a38e749cf22c411cb709a3da939267e6f">Move</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cbdb8d0c1efc51fb0870d4a208580ef">getCurrentMove</a> () const</td></tr>
+<tr class="memdesc:a7cbdb8d0c1efc51fb0870d4a208580ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current move.  <br /></td></tr>
+<tr class="separator:a7cbdb8d0c1efc51fb0870d4a208580ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="move__picker_8h_source.html#l00030">30</a> of file <a class="el" href="move__picker_8h_source.html">move_picker.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab471434d23a853ebfdbcd7915c4403db" name="ab471434d23a853ebfdbcd7915c4403db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab471434d23a853ebfdbcd7915c4403db">&#9670;&#160;</a></span>getMoveList()</h2>
+<p class="definition">Definition at line <a class="el" href="move__picker_8h_source.html#l00031">31</a> of file <a class="el" href="move__picker_8h_source.html">move_picker.h</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a15eb11c6a7b4840cf0f9cf8eddf98277" name="a15eb11c6a7b4840cf0f9cf8eddf98277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15eb11c6a7b4840cf0f9cf8eddf98277">&#9670;&#160;</a></span>MovePicker()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -116,9 +122,67 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structZagreus_1_1MoveList.html">MoveList</a> &amp; Zagreus::MovePicker::getMoveList </td>
+          <td class="memname">Zagreus::MovePicker::MovePicker </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structZagreus_1_1MoveList.html">MoveList</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>moveList</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="move__picker_8h_source.html#l00037">37</a> of file <a class="el" href="move__picker_8h_source.html">move_picker.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7cbdb8d0c1efc51fb0870d4a208580ef" name="a7cbdb8d0c1efc51fb0870d4a208580ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cbdb8d0c1efc51fb0870d4a208580ef">&#9670;&#160;</a></span>getCurrentMove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceZagreus.html#a38e749cf22c411cb709a3da939267e6f">Move</a> Zagreus::MovePicker::getCurrentMove </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the current move. </p>
+<dl class="section return"><dt>Returns</dt><dd>The current move. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="move__picker_8h_source.html#l00058">58</a> of file <a class="el" href="move__picker_8h_source.html">move_picker.h</a>.</p>
+
+</div>
+</div>
+<a id="a09d795e27005db2856cd07c01228243d" name="a09d795e27005db2856cd07c01228243d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09d795e27005db2856cd07c01228243d">&#9670;&#160;</a></span>next()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Zagreus::MovePicker::next </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceZagreus.html#a38e749cf22c411cb709a3da939267e6f">Move</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>move</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -129,7 +193,16 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="move__picker_8h_source.html#l00035">35</a> of file <a class="el" href="move__picker_8h_source.html">move_picker.h</a>.</p>
+<p>Checks if there is a next move and retrieves it. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">move</td><td>The next move if available. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if there is a next move, false otherwise. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="move__picker_8h_source.html#l00044">44</a> of file <a class="el" href="move__picker_8h_source.html">move_picker.h</a>.</p>
 
 </div>
 </div>

@@ -1,0 +1,6 @@
+<map id="Zagreus::Board::isKingInCheck" name="Zagreus::Board::isKingInCheck">
+<area shape="rect" id="Node000001" title=" " alt="" coords="196,22,377,62"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a1f59232179c0fdab4ec23afa89f2b46c" title=" " alt="" coords="5,29,148,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,45,149,45,149,39,182,39"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="114,20,104,11,77,8,55,10,43,15,40,20,47,28,43,31,35,21,39,11,53,5,77,3,106,6,117,15"/>
+</map>

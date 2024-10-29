@@ -1,24 +1,27 @@
 <map id="Zagreus::encodeMove" name="Zagreus::encodeMove">
-<area shape="rect" id="Node000001" title=" " alt="" coords="513,153,680,179"/>
-<area shape="rect" id="Node000002" href="$namespaceZagreus.html#aa17c2e6f8c4e9c66ca76f079e0e11f31" title="Generates all pseudo&#45;legal bishop moves for a given color and generation type." alt="" coords="237,5,465,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="576,144,529,93,498,66,464,44,437,33,439,28,467,40,501,62,533,89,580,141"/>
-<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a72f99667533b11883e9b3f6a2ca6c8df" title="Generates all pseudo&#45;legal king moves for a given color and generation type." alt="" coords="245,55,458,80"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="565,148,519,120,464,94,427,83,429,77,466,89,521,115,568,143"/>
-<area shape="rect" id="Node000005" href="$namespaceZagreus.html#ae2e02d54638a27ad7b0fdc8a116add18" title="Generates all pseudo&#45;legal knight moves for a given color and generation type." alt="" coords="238,104,465,129"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="519,153,415,132,416,127,520,148"/>
-<area shape="rect" id="Node000006" href="$namespaceZagreus.html#a4c7d9b8324d0f12f13e5380e78b7b804" title="Generates all pseudo&#45;legal pawn moves for a given color and generation type." alt="" coords="242,153,461,179"/>
-<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="500,169,461,169,461,163,500,163"/>
-<area shape="rect" id="Node000007" href="$namespaceZagreus.html#a85a2dc8e359321dddb9e90a9d5c10f64" title="Generates all pseudo&#45;legal queen moves for a given color and generation type." alt="" coords="238,203,465,228"/>
-<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="520,184,416,205,415,200,519,179"/>
-<area shape="rect" id="Node000008" href="$namespaceZagreus.html#a35e152a0c02a5608a31c3c808a742c26" title="Generates all pseudo&#45;legal rook moves for a given color and generation type." alt="" coords="243,252,460,277"/>
-<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="567,189,521,216,466,242,425,255,423,249,464,237,518,211,564,184"/>
-<area shape="rect" id="Node000009" href="$namespaceZagreus.html#ac97eb1415a334e7c4b3f229ce893c95c" title="Converts a string in chess notation to a Move object." alt="" coords="247,302,456,342"/>
-<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="578,191,531,241,500,268,467,291,438,304,436,299,464,286,497,264,527,238,575,188"/>
-<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1" title="Generates all pseudo&#45;legal moves for all pieces of a certain color for a given color and generation t..." alt="" coords="5,129,189,155"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="258,37,238,44,201,64,166,88,114,131,111,127,163,84,198,60,236,40,256,32"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="270,86,238,94,131,132,129,127,237,89,269,80"/>
-<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="225,132,190,136,189,130,224,127"/>
-<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="228,157,189,153,190,148,229,152"/>
-<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="274,202,237,193,131,157,133,152,238,187,275,197"/>
-<area shape="poly" id="edge12_Node000008_Node000003" title=" " alt="" coords="260,251,236,242,199,222,164,199,111,157,115,153,167,195,202,217,238,237,262,246"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="704,153,871,179"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#aa17c2e6f8c4e9c66ca76f079e0e11f31" title="Generates all pseudo&#45;legal bishop moves for a given color and generation type." alt="" coords="428,5,656,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="766,144,719,93,689,66,655,44,627,33,629,28,657,40,692,62,723,89,770,141"/>
+<area shape="rect" id="Node000005" href="$namespaceZagreus.html#a72f99667533b11883e9b3f6a2ca6c8df" title="Generates all pseudo&#45;legal king moves for a given color and generation type." alt="" coords="435,55,649,80"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="756,148,709,120,655,94,618,83,620,77,657,89,712,115,758,143"/>
+<area shape="rect" id="Node000006" href="$namespaceZagreus.html#ae2e02d54638a27ad7b0fdc8a116add18" title="Generates all pseudo&#45;legal knight moves for a given color and generation type." alt="" coords="429,104,655,129"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="709,153,606,132,607,127,711,148"/>
+<area shape="rect" id="Node000007" href="$namespaceZagreus.html#a4c7d9b8324d0f12f13e5380e78b7b804" title="Generates all pseudo&#45;legal pawn moves for a given color and generation type." alt="" coords="433,153,651,179"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="690,169,652,169,652,163,690,163"/>
+<area shape="rect" id="Node000008" href="$namespaceZagreus.html#a85a2dc8e359321dddb9e90a9d5c10f64" title="Generates all pseudo&#45;legal queen moves for a given color and generation type." alt="" coords="429,203,655,228"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="711,184,607,205,606,200,709,179"/>
+<area shape="rect" id="Node000009" href="$namespaceZagreus.html#a35e152a0c02a5608a31c3c808a742c26" title="Generates all pseudo&#45;legal rook moves for a given color and generation type." alt="" coords="433,252,651,277"/>
+<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="757,189,711,216,657,242,615,255,614,249,655,237,709,211,755,184"/>
+<area shape="rect" id="Node000010" href="$namespaceZagreus.html#ac97eb1415a334e7c4b3f229ce893c95c" title="Converts a string in chess notation to a Move object." alt="" coords="437,302,647,342"/>
+<area shape="poly" id="edge15_Node000001_Node000010" title=" " alt="" coords="769,191,722,241,691,268,657,291,629,304,626,299,655,286,688,264,718,238,765,188"/>
+<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1" title="Generates all pseudo&#45;legal moves for all pieces of a certain color for a given color and generation t..." alt="" coords="196,129,380,155"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="448,37,429,44,392,64,357,88,305,131,301,127,354,84,389,60,427,40,447,32"/>
+<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a1f59232179c0fdab4ec23afa89f2b46c" title=" " alt="" coords="5,129,148,155"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="182,145,149,145,149,139,182,139"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="114,120,104,111,77,108,54,110,42,115,40,120,46,128,42,131,35,121,39,111,53,105,77,103,106,106,118,115"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="461,86,429,94,321,132,319,127,427,89,460,80"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="416,132,380,136,380,130,415,127"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="419,157,380,153,381,148,419,152"/>
+<area shape="poly" id="edge12_Node000008_Node000003" title=" " alt="" coords="464,202,427,193,322,157,323,152,429,187,466,197"/>
+<area shape="poly" id="edge14_Node000009_Node000003" title=" " alt="" coords="451,251,427,242,389,222,354,199,302,157,305,153,358,195,392,217,429,237,453,246"/>
 </map>
