@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ucioption_0',['UCIOption',['../classZagreus_1_1UCIOption.html#ad8912cd62be4d800d640c9abfa370ef2',1,'Zagreus::UCIOption::UCIOption()=default'],['../classZagreus_1_1UCIOption.html#adb805cd76b84e361b6b363dcc77a8ebb',1,'Zagreus::UCIOption::UCIOption(std::string name, const UCIOptionType optionType)']]],
-  ['unmakemove_1',['unmakeMove',['../classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644',1,'Zagreus::Board']]]
+  ['tostring_0',['toString',['../classZagreus_1_1UCIOption.html#a5e42b636debf4838dd8fe63195ae7eb0',1,'Zagreus::UCIOption']]],
+  ['transform_1',['transform',['../namespaceZagreus.html#aeffbcbe2e765a3e2ee2a60c9fee5ef34',1,'Zagreus']]]
 ];

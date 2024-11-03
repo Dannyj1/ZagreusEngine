@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['encodemove_0',['encodeMove',['../namespaceZagreus.html#a899c2b4b2028cb3129c82faa3275e2c3',1,'Zagreus::encodeMove(const uint8_t fromSquare, const uint8_t toSquare)'],['../namespaceZagreus.html#a9db9be6fed49fe3701b097c7c615c1c7',1,'Zagreus::encodeMove(const uint8_t fromSquare, const uint8_t toSquare, const MoveType moveType)'],['../namespaceZagreus.html#a2afef8d4c94723d6d1c8d05bd45040d5',1,'Zagreus::encodeMove(const uint8_t fromSquare, const uint8_t toSquare, const PromotionPiece promotionPiece)']]],
-  ['evaluate_1',['evaluate',['../classZagreus_1_1Evaluation.html#a0f4174df46fff74d4c208a04c861622a',1,'Zagreus::Evaluation']]],
-  ['evaluation_2',['Evaluation',['../classZagreus_1_1Evaluation.html#ae6c3954cd63bcea3be3239a2569bfef7',1,'Zagreus::Evaluation']]]
+  ['discard_0',['discard',['../classpcg__detail_1_1engine.html#ab47ab15e70c4ac7d284509642a4628a1',1,'pcg_detail::engine']]],
+  ['distance_1',['distance',['../classpcg__detail_1_1engine.html#aa58dc06aeb00200b73dbb890abc50fbf',1,'pcg_detail::engine::distance(itype cur_state, itype newstate, itype cur_mult, itype cur_plus, itype mask=~itype(0U))'],['../classpcg__detail_1_1engine.html#a00e9d352d7c83b5c5287d7b55b19b4bc',1,'pcg_detail::engine::distance(itype newstate, itype mask=~itype(0U)) const']]],
+  ['dosetup_2',['doSetup',['../classZagreus_1_1Engine.html#aa97883c4a13a6a6e8b348589c820aafb',1,'Zagreus::Engine']]]
 ];

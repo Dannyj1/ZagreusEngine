@@ -1,8 +1,14 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.cpp']]],
-  ['makemove_1',['makeMove',['../classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de',1,'Zagreus::Board']]],
-  ['mask_5fbishop_5fattacks_2',['mask_bishop_attacks',['../namespaceZagreus.html#a9822e1c29d5f304b6e3ff16d1c7a5fb9',1,'Zagreus']]],
-  ['mask_5frook_5fattacks_3',['mask_rook_attacks',['../namespaceZagreus.html#ab6c77e0b2ec848d790ff5aec8a292596',1,'Zagreus']]],
-  ['movepicker_4',['MovePicker',['../classZagreus_1_1MovePicker.html#a15eb11c6a7b4840cf0f9cf8eddf98277',1,'Zagreus::MovePicker']]]
+  ['increment_0',['increment',['../classpcg__detail_1_1no__stream.html#a66595e3e5a36627092dbd551011e3672',1,'pcg_detail::no_stream::increment()'],['../classpcg__detail_1_1specific__stream.html#a27613848a2d0cce630b09fb3f4efd8ea',1,'pcg_detail::specific_stream::increment()']]],
+  ['index_5fto_5fuint64_5ft_1',['index_to_uint64_t',['../namespaceZagreus.html#a15a6487ba787f60a788c341846fc3cf2',1,'Zagreus']]],
+  ['init_5fsliders_5fattacks_2',['init_sliders_attacks',['../namespaceZagreus.html#a294ebe229d913ef95b6b65410c2d84e2',1,'Zagreus']]],
+  ['initializeattacklookuptables_3',['initializeAttackLookupTables',['../namespaceZagreus.html#af09541379517ebbc25c28b2070c83221',1,'Zagreus']]],
+  ['initializemagicbitboards_4',['initializeMagicBitboards',['../namespaceZagreus.html#a37e2265345b942f5ed69201304442a05',1,'Zagreus']]],
+  ['initzobristconstants_5',['initZobristConstants',['../namespaceZagreus.html#ae320c1a2ab573411bbfc4f56222c8147',1,'Zagreus']]],
+  ['inside_5fout_6',['inside_out',['../structpcg__detail_1_1inside__out.html#aeabd4f5caea9c094a22f891a858e3d24',1,'pcg_detail::inside_out']]],
+  ['isdraw_7',['isDraw',['../classZagreus_1_1Board.html#a9e6bb00719d45cc2ed6610a9c848fcb4',1,'Zagreus::Board']]],
+  ['iskingincheck_8',['isKingInCheck',['../classZagreus_1_1Board.html#a27b03cc9604c065a113d26a9848ee0ea',1,'Zagreus::Board']]],
+  ['ispieceonsquare_9',['isPieceOnSquare',['../classZagreus_1_1Board.html#a47123e6793832bd624e425116173c933',1,'Zagreus::Board']]],
+  ['ispositionlegal_10',['isPositionLegal',['../classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8',1,'Zagreus::Board']]]
 ];

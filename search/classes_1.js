@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['engine_0',['Engine',['../classZagreus_1_1Engine.html',1,'Zagreus']]],
-  ['evaluation_1',['Evaluation',['../classZagreus_1_1Evaluation.html',1,'Zagreus']]]
+  ['can_5fspecify_5fstream_5ftag_0',['can_specify_stream_tag',['../structpcg__detail_1_1engine_1_1can__specify__stream__tag.html',1,'pcg_detail::engine']]]
 ];

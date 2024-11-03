@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['perft_2ecpp_0',['perft.cpp',['../perft_8cpp.html',1,'']]],
-  ['perft_2eh_1',['perft.h',['../perft_8h.html',1,'']]]
+  ['pcg_5fextras_2ehpp_0',['pcg_extras.hpp',['../pcg__extras_8hpp.html',1,'']]],
+  ['pcg_5frandom_2ehpp_1',['pcg_random.hpp',['../pcg__random_8hpp.html',1,'']]],
+  ['perft_2ecpp_2',['perft.cpp',['../perft_8cpp.html',1,'']]],
+  ['perft_2eh_3',['perft.h',['../perft_8h.html',1,'']]]
 ];

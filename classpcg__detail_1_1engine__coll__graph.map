@@ -1,0 +1,11 @@
+<map id="pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;" name="pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="404,33,591,117"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="230,5,338,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="346,32,404,48,403,53,345,37"/>
+<area shape="rect" id="Node000003" href="$classpcg__detail_1_1oneseq__stream.html" title=" " alt="" coords="212,55,356,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="370,73,404,73,404,78,370,78"/>
+<area shape="rect" id="Node000004" href="$structpcg__detail_1_1default__increment.html" title=" " alt="" coords="5,55,164,95"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="178,73,212,73,212,78,178,78"/>
+<area shape="rect" id="Node000005" href="$structpcg__detail_1_1default__multiplier.html" title=" " alt="" coords="213,119,355,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="364,113,403,101,405,106,365,118"/>
+</map>

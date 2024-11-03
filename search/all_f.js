@@ -1,20 +1,8 @@
 var searchData=
 [
-  ['random_5fuint64_5ft_5ffewbits_0',['random_uint64_t_fewbits',['../namespaceZagreus.html#a0a33fa1e0411df296f5c3e54bf93c812',1,'Zagreus']]],
-  ['ratt_1',['ratt',['../namespaceZagreus.html#a2401a1e51fd85440ad2797d54429af7a',1,'Zagreus']]],
-  ['rd_2',['rd',['../namespaceZagreus.html#a6fac5ee53f7209a034032316726a7e81',1,'Zagreus']]],
-  ['regular_3',['REGULAR',['../namespaceZagreus.html#ada679bdc3b3121c6d715689e2990b0eaa62a1caec0ddad698f0545a2ef90820d3',1,'Zagreus']]],
-  ['removepiece_4',['removePiece',['../classZagreus_1_1Board.html#aea72d78a798679410c1b862700061f83',1,'Zagreus::Board::removePiece(const uint8_t square)'],['../classZagreus_1_1Board.html#aa64f86852201ce46273d863c3e2fc7d6',1,'Zagreus::Board::removePiece(const uint8_t square)'],['../classZagreus_1_1Board.html#a0504ef64f76044dd624b451b4c5cf8a2',1,'Zagreus::Board::removePiece(const Piece piece, const uint8_t square)']]],
-  ['removeredundantspaces_5',['removeRedundantSpaces',['../namespaceZagreus.html#a03c33f54d5c2acba96ae41492450827d',1,'Zagreus']]],
-  ['removevar_6',['removeVar',['../classZagreus_1_1UCIOption.html#a173c2ef559df154a82f97c84246ac577',1,'Zagreus::UCIOption']]],
-  ['reset_7',['reset',['../classZagreus_1_1Board.html#a0bc759981d0c76d78c03440af1fc766c',1,'Zagreus::Board']]],
-  ['rmask_8',['rmask',['../namespaceZagreus.html#a42c73075e25106e677b9ededebd70839',1,'Zagreus']]],
-  ['rook_9',['ROOK',['../namespaceZagreus.html#a6ff930e561c85660192d5277086e9577a9b208961400d25333f2379d5739ad3fb',1,'Zagreus']]],
-  ['rook_5fattacks_10',['rook_attacks',['../namespaceZagreus.html#a9ead2a146f633e0419aaeb5012bc5dad',1,'Zagreus']]],
-  ['rook_5fattacks_5fon_5fthe_5ffly_11',['rook_attacks_on_the_fly',['../namespaceZagreus.html#a374e7c659346166c04dbd3f9d710a8f9',1,'Zagreus']]],
-  ['rook_5fmasks_12',['rook_masks',['../namespaceZagreus.html#a494c9987accb7a80df270588f5301304',1,'Zagreus']]],
-  ['rook_5fpromotion_13',['ROOK_PROMOTION',['../namespaceZagreus.html#ae3d5464d72c8b3e99114db86d97e2cacaa7aa4c11baa895571e1d0f40b698411a',1,'Zagreus']]],
-  ['rookmagics_14',['rookMagics',['../namespaceZagreus.html#a16fd8f2dd6dbaed9f5a2f39d3dcd6b85',1,'Zagreus']]],
-  ['rookphase_15',['rookPhase',['../namespaceZagreus.html#a1f8dcd8ab86439ed34ba94aeed22ef49',1,'Zagreus']]],
-  ['root_16',['ROOT',['../namespaceZagreus.html#ada679bdc3b3121c6d715689e2990b0eaac534770fa386ed803424f474ff35b133',1,'Zagreus']]]
+  ['queen_0',['QUEEN',['../namespaceZagreus.html#a6ff930e561c85660192d5277086e9577a9cf2c52e3aa569497f2f7f35aaec6973',1,'Zagreus']]],
+  ['queen_5fpromotion_1',['QUEEN_PROMOTION',['../namespaceZagreus.html#ae3d5464d72c8b3e99114db86d97e2cacadeb2464debd979632a8750087418b471',1,'Zagreus']]],
+  ['queenattacks_2',['queenAttacks',['../namespaceZagreus.html#aefaad17c1b86767da8627885966c7eda',1,'Zagreus']]],
+  ['queenphase_3',['queenPhase',['../namespaceZagreus.html#a6d045adcc3c1da72d5ddcc46ed8bdcbd',1,'Zagreus']]],
+  ['quiet_4',['QUIET',['../namespaceZagreus.html#a3d471f60f5bbb9c34722924daef89c8cace8eeb756a1b8cb19334a797ae4c0d5f',1,'Zagreus']]]
 ];

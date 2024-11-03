@@ -1,11 +1,21 @@
 var searchData=
 [
-  ['calculateblackpawnattacks_0',['calculateBlackPawnAttacks',['../namespaceZagreus.html#ae617e8a4504c4d10fa303bbda7288a1c',1,'Zagreus']]],
-  ['calculatekingattacks_1',['calculateKingAttacks',['../namespaceZagreus.html#a9e017529de41b72f6df1ee3427ebcad9',1,'Zagreus']]],
-  ['calculateknightattacks_2',['calculateKnightAttacks',['../namespaceZagreus.html#adfb4f2b88c7e18befd9a72d0c6d825f1',1,'Zagreus']]],
-  ['calculatewhitepawnattacks_3',['calculateWhitePawnAttacks',['../namespaceZagreus.html#a3e1df28b0949fb8318662fb95dee298c',1,'Zagreus']]],
-  ['cancastle_4',['canCastle',['../classZagreus_1_1Board.html#a9d9ff553f48c46abe04c951636ff64c9',1,'Zagreus::Board']]],
-  ['clearvar_5',['clearVar',['../classZagreus_1_1UCIOption.html#ae95b1df4fd9ccf77de1904e892e22515',1,'Zagreus::UCIOption']]],
-  ['count_5f1s_6',['count_1s',['../namespaceZagreus.html#ad12d6d30c4c67b4bae5738e8481399b0',1,'Zagreus']]],
-  ['count_5fbits_7',['count_bits',['../namespaceZagreus.html#a4ab101cae51c4b69a1d384d608a0ac45',1,'Zagreus']]]
+  ['backstep_0',['backstep',['../classpcg__detail_1_1engine.html#adfb7a9ba483de8ef30e53ea3a9a7ba0e',1,'pcg_detail::engine::backstep()'],['../classpcg__detail_1_1extended.html#a484d1b7cb53ef387153c321c96ec0deb',1,'pcg_detail::extended::backstep()']]],
+  ['base_5fgenerate_1',['base_generate',['../classpcg__detail_1_1engine.html#a6024d002bdbe9ac269cc7deefb5746d8',1,'pcg_detail::engine']]],
+  ['base_5fgenerate0_2',['base_generate0',['../classpcg__detail_1_1engine.html#a9c75cb00bd3a81f316546acca79a2ca7',1,'pcg_detail::engine']]],
+  ['batt_3',['batt',['../namespaceZagreus.html#a46202a8b71d92405e4595c7e8f2baf9e',1,'Zagreus']]],
+  ['bishop_5fattacks_5fon_5fthe_5ffly_4',['bishop_attacks_on_the_fly',['../namespaceZagreus.html#a24686c8c2d56edcfab74a79e142f9c72',1,'Zagreus']]],
+  ['bitboardtosquare_5',['bitboardToSquare',['../namespaceZagreus.html#aa2f3cb3e05478be9e11f947ea5cc08da',1,'Zagreus']]],
+  ['bitscanforward_6',['bitscanForward',['../namespaceZagreus.html#a3b7dc37ae50fe6f86723b9c113ba301f',1,'Zagreus']]],
+  ['bitscanreverse_7',['bitscanReverse',['../namespaceZagreus.html#a3a063e42c7d98496d451ad4882b20d0f',1,'Zagreus']]],
+  ['blackdoublepushablepawns_8',['blackDoublePushablePawns',['../namespaceZagreus.html#aca73a62242d21a1397a7cdba84da9f31',1,'Zagreus']]],
+  ['blackpawndoublepush_9',['blackPawnDoublePush',['../namespaceZagreus.html#acef3ff44d80e15c78400d1004a0e8d04',1,'Zagreus']]],
+  ['blackpawneastattacks_10',['blackPawnEastAttacks',['../namespaceZagreus.html#a319145508da8e9e93177a6a11ee060f8',1,'Zagreus']]],
+  ['blackpawnsinglepush_11',['blackPawnSinglePush',['../namespaceZagreus.html#ab92b0596a4e9b3fb90f5d34259a44804',1,'Zagreus']]],
+  ['blackpawnwestattacks_12',['blackPawnWestAttacks',['../namespaceZagreus.html#ac1dd827c29aa08f25be85d206411f699',1,'Zagreus']]],
+  ['blackpushablepawns_13',['blackPushablePawns',['../namespaceZagreus.html#a5ade02c27a6792ccd8b45237b25210b5',1,'Zagreus']]],
+  ['bmask_14',['bmask',['../namespaceZagreus.html#aa5aafe9960d89a779ae88293d6c107c0',1,'Zagreus']]],
+  ['board_15',['Board',['../classZagreus_1_1Board.html#a090aa3f5b524fd4b966df79794eb7c2c',1,'Zagreus::Board']]],
+  ['bounded_5frand_16',['bounded_rand',['../namespacepcg__extras.html#a09fe30ab14f4bae059b13199966e6562',1,'pcg_extras']]],
+  ['bump_17',['bump',['../classpcg__detail_1_1engine.html#abc83b5b934e2acfa6fac6501db0bb703',1,'pcg_detail::engine']]]
 ];
