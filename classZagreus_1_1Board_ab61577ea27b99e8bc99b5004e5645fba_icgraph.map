@@ -1,19 +1,23 @@
 <map id="Zagreus::Board::setPiece" name="Zagreus::Board::setPiece">
-<area shape="rect" id="Node000001" title="Sets a piece on a given square." alt="" coords="527,99,711,124"/>
-<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="269,99,471,124"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="513,114,471,114,471,109,513,109"/>
-<area shape="rect" id="Node000005" href="$classZagreus_1_1Board.html#a7801b76e1ebf0292f9192ee68b38dbd8" title="Sets a piece on the board from a FEN character." alt="" coords="278,149,462,189"/>
-<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="550,130,458,151,457,146,549,125"/>
-<area shape="rect" id="Node000007" href="$classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644" title="Unmakes the last move on the board." alt="" coords="261,49,479,75"/>
-<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="540,99,434,77,435,72,541,93"/>
-<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a8c0bbbe8484b26df054d217409f25325" title="Performs a perft test on the given board to a specified depth." alt="" coords="53,103,166,128"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="256,116,166,117,166,112,256,110"/>
-<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a1f59232179c0fdab4ec23afa89f2b46c" title=" " alt="" coords="38,29,181,55"/>
-<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="289,98,260,90,212,70,168,57,169,52,214,65,262,85,291,93"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="156,93,153,89,144,85,109,81,82,83,67,88,64,94,71,101,68,104,58,94,63,84,80,78,109,76,146,80,156,85,160,90"/>
-<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="156,20,153,15,144,12,109,8,82,10,67,15,64,20,71,27,68,31,58,21,63,11,80,5,109,3,146,7,156,11,160,17"/>
-<area shape="rect" id="Node000006" href="$classZagreus_1_1Board.html#af55bc3a5bf87249dcecf75df419f609b" title="Sets the board state from a FEN string." alt="" coords="5,156,213,181"/>
-<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="264,171,214,171,214,166,264,166"/>
-<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="294,80,167,106,166,101,293,75"/>
-<area shape="poly" id="edge10_Node000007_Node000004" title=" " alt="" coords="247,55,181,50,181,45,248,50"/>
+<area shape="rect" id="Node000001" title="Sets a piece on a given square." alt="" coords="701,129,885,155"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="444,129,645,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="687,145,646,145,646,139,687,139"/>
+<area shape="rect" id="Node000006" href="$classZagreus_1_1Board.html#a7801b76e1ebf0292f9192ee68b38dbd8" title="Sets a piece on the board from a FEN character." alt="" coords="453,201,637,241"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="740,161,609,203,608,198,738,156"/>
+<area shape="rect" id="Node000008" href="$classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644" title="Unmakes the last move on the board." alt="" coords="436,68,653,93"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="727,128,596,96,598,91,728,123"/>
+<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a8c0bbbe8484b26df054d217409f25325" title="Performs a perft test on the given board to a specified depth." alt="" coords="227,129,341,155"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="430,145,341,145,341,139,430,139"/>
+<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a1f59232179c0fdab4ec23afa89f2b46c" title=" " alt="" coords="213,56,355,81"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="492,127,387,95,342,84,344,79,389,90,494,122"/>
+<area shape="rect" id="Node000005" href="$namespaceZagreus.html#aea26172e75e6d6ac6db8561e4397243c" title=" " alt="" coords="5,56,132,81"/>
+<area shape="poly" id="edge7_Node000002_Node000005" title=" " alt="" coords="492,161,428,176,348,187,263,187,220,180,179,168,146,151,117,128,77,83,81,80,121,124,149,146,181,163,221,175,263,182,348,182,427,171,491,156"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="322,120,312,111,284,108,261,110,249,115,247,120,253,127,249,131,242,121,245,111,260,105,284,103,314,106,325,115"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="322,46,312,38,284,35,261,37,249,41,247,47,253,54,249,57,242,48,245,38,260,31,284,29,314,33,325,42"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="199,71,132,71,132,66,199,66"/>
+<area shape="rect" id="Node000007" href="$classZagreus_1_1Board.html#af55bc3a5bf87249dcecf75df419f609b" title="Sets the board state from a FEN string." alt="" coords="180,231,388,256"/>
+<area shape="poly" id="edge9_Node000006_Node000007" title=" " alt="" coords="439,232,388,237,388,231,439,227"/>
+<area shape="poly" id="edge11_Node000008_Node000003" title=" " alt="" coords="477,99,339,132,338,127,476,94"/>
+<area shape="poly" id="edge12_Node000008_Node000004" title=" " alt="" coords="422,78,355,74,356,69,422,72"/>
+<area shape="poly" id="edge13_Node000008_Node000005" title=" " alt="" coords="506,64,451,40,387,22,330,12,284,8,238,11,181,22,133,38,93,58,90,53,131,33,179,17,238,6,284,3,330,7,389,17,453,35,508,59"/>
 </map>

@@ -1,11 +1,14 @@
 <map id="Zagreus::bitboardToSquare" name="Zagreus::bitboardToSquare">
-<area shape="rect" id="Node000001" title="Converts a bitboard to a square index." alt="" coords="436,67,632,92"/>
-<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8" title="Checks if the current position is legal based on the color that just made a move." alt="" coords="196,59,388,99"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="422,82,388,82,388,77,422,77"/>
-<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a8c0bbbe8484b26df054d217409f25325" title="Performs a perft test on the given board to a specified depth." alt="" coords="20,29,133,55"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="182,63,133,54,134,49,183,58"/>
-<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a1f59232179c0fdab4ec23afa89f2b46c" title=" " alt="" coords="5,103,148,128"/>
-<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="182,100,149,106,148,101,182,95"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="115,20,104,11,77,8,54,10,42,15,39,20,46,28,42,31,34,21,38,11,53,5,77,3,106,6,118,15"/>
-<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="115,93,104,85,77,81,54,83,42,88,39,94,46,101,42,104,34,94,38,84,53,78,77,76,106,80,118,89"/>
+<area shape="rect" id="Node000001" title="Converts a bitboard to a square index." alt="" coords="611,103,807,128"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8" title="Checks if the current position is legal based on the color that just made a move." alt="" coords="371,95,563,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="597,118,563,118,563,113,597,113"/>
+<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a8c0bbbe8484b26df054d217409f25325" title="Performs a perft test on the given board to a specified depth." alt="" coords="195,29,308,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="393,93,322,69,289,57,291,52,324,63,395,88"/>
+<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a1f59232179c0fdab4ec23afa89f2b46c" title=" " alt="" coords="180,103,323,128"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="357,118,323,118,323,113,357,113"/>
+<area shape="rect" id="Node000005" href="$namespaceZagreus.html#aea26172e75e6d6ac6db8561e4397243c" title=" " alt="" coords="5,128,132,153"/>
+<area shape="poly" id="edge7_Node000002_Node000005" title=" " alt="" coords="357,138,323,142,223,146,132,146,132,140,222,141,322,137,357,133"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="283,19,274,11,251,8,232,10,222,15,220,20,226,28,221,31,215,21,218,11,231,5,251,3,276,6,287,15"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="283,92,274,84,251,81,232,83,222,88,220,94,226,101,221,104,215,94,218,85,231,78,251,76,276,80,287,88"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="167,130,132,135,132,129,166,124"/>
 </map>

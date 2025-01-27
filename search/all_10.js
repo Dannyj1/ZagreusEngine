@@ -7,7 +7,7 @@ var searchData=
   ['removepiece_4',['removePiece',['../classZagreus_1_1Board.html#aea72d78a798679410c1b862700061f83',1,'Zagreus::Board::removePiece(const uint8_t square)'],['../classZagreus_1_1Board.html#aa64f86852201ce46273d863c3e2fc7d6',1,'Zagreus::Board::removePiece(const uint8_t square)'],['../classZagreus_1_1Board.html#a0504ef64f76044dd624b451b4c5cf8a2',1,'Zagreus::Board::removePiece(const Piece piece, const uint8_t square)']]],
   ['removeredundantspaces_5',['removeRedundantSpaces',['../namespaceZagreus.html#a03c33f54d5c2acba96ae41492450827d',1,'Zagreus']]],
   ['removevar_6',['removeVar',['../classZagreus_1_1UCIOption.html#a173c2ef559df154a82f97c84246ac577',1,'Zagreus::UCIOption']]],
-  ['reset_7',['reset',['../classZagreus_1_1Board.html#a0bc759981d0c76d78c03440af1fc766c',1,'Zagreus::Board']]],
+  ['reset_7',['reset',['../classZagreus_1_1Board.html#a0bc759981d0c76d78c03440af1fc766c',1,'Zagreus::Board::reset()'],['../classZagreus_1_1MovePicker.html#a9f05043e3bcb58478105722fe3545c04',1,'Zagreus::MovePicker::reset()']]],
   ['result_5ftype_8',['result_type',['../classpcg__detail_1_1engine.html#a81cdacdeaef30ec157306b333a67cbe4',1,'pcg_detail::engine::result_type'],['../structpcg__detail_1_1inside__out.html#a462fb3b4baf7d7682c86c035ef96fbda',1,'pcg_detail::inside_out::result_type'],['../classpcg__detail_1_1extended.html#a82555e93cfc4739f93fdbe8f1efaf981',1,'pcg_detail::extended::result_type']]],
   ['rmask_9',['rmask',['../namespaceZagreus.html#a42c73075e25106e677b9ededebd70839',1,'Zagreus']]],
   ['rook_10',['ROOK',['../namespaceZagreus.html#a6ff930e561c85660192d5277086e9577a9b208961400d25333f2379d5739ad3fb',1,'Zagreus']]],

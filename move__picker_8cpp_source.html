@@ -114,10 +114,38 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;<a class="code" href="move__picker_8h.html">move_picker.h</a>&quot;</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceZagreus.html">Zagreus</a> {</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>} <span class="comment">// namespace Zagreus</span></div>
+<div class="foldopen" id="foldopen00029" data-start="{" data-end="}">
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="classZagreus_1_1MovePicker.html#a09d795e27005db2856cd07c01228243d">   29</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="classZagreus_1_1MovePicker.html#a09d795e27005db2856cd07c01228243d">MovePicker::next</a>(<a class="code hl_typedef" href="namespaceZagreus.html#a38e749cf22c411cb709a3da939267e6f">Move</a>&amp; move) {</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordflow">if</span> (currentIndex &gt;= moveList.<a class="code hl_variable" href="structZagreus_1_1MoveList.html#adffad2603ba0d4cf3c011d7fd9bf016f">size</a>) {</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    }</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    move = moveList.<a class="code hl_variable" href="structZagreus_1_1MoveList.html#a19aeee57e25aa2fafd66d4ef4fc0e020">moves</a>[currentIndex];</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    currentIndex += 1;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>}</div>
+</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classZagreus_1_1MovePicker.html#a7cbdb8d0c1efc51fb0870d4a208580ef">   43</a></span><a class="code hl_typedef" href="namespaceZagreus.html#a38e749cf22c411cb709a3da939267e6f">Move</a> <a class="code hl_function" href="classZagreus_1_1MovePicker.html#a7cbdb8d0c1efc51fb0870d4a208580ef">MovePicker::getCurrentMove</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordflow">return</span> moveList.<a class="code hl_variable" href="structZagreus_1_1MoveList.html#a19aeee57e25aa2fafd66d4ef4fc0e020">moves</a>[currentIndex - 1];</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>}</div>
+</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="foldopen" id="foldopen00050" data-start="{" data-end="}">
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="classZagreus_1_1MovePicker.html#a9f05043e3bcb58478105722fe3545c04">   50</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classZagreus_1_1MovePicker.html#a9f05043e3bcb58478105722fe3545c04">MovePicker::reset</a>() {</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    currentIndex = 0;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}</div>
+</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>} <span class="comment">// namespace Zagreus</span></div>
+<div class="ttc" id="aclassZagreus_1_1MovePicker_html_a09d795e27005db2856cd07c01228243d"><div class="ttname"><a href="classZagreus_1_1MovePicker.html#a09d795e27005db2856cd07c01228243d">Zagreus::MovePicker::next</a></div><div class="ttdeci">bool next(Move &amp;move)</div><div class="ttdoc">Checks if there is a next move and retrieves it.</div><div class="ttdef"><b>Definition</b> <a href="#l00029">move_picker.cpp:29</a></div></div>
+<div class="ttc" id="aclassZagreus_1_1MovePicker_html_a7cbdb8d0c1efc51fb0870d4a208580ef"><div class="ttname"><a href="classZagreus_1_1MovePicker.html#a7cbdb8d0c1efc51fb0870d4a208580ef">Zagreus::MovePicker::getCurrentMove</a></div><div class="ttdeci">Move getCurrentMove() const</div><div class="ttdoc">Gets the current move.</div><div class="ttdef"><b>Definition</b> <a href="#l00043">move_picker.cpp:43</a></div></div>
+<div class="ttc" id="aclassZagreus_1_1MovePicker_html_a9f05043e3bcb58478105722fe3545c04"><div class="ttname"><a href="classZagreus_1_1MovePicker.html#a9f05043e3bcb58478105722fe3545c04">Zagreus::MovePicker::reset</a></div><div class="ttdeci">void reset()</div><div class="ttdoc">Resets the move picker to the beginning of the move list.</div><div class="ttdef"><b>Definition</b> <a href="#l00050">move_picker.cpp:50</a></div></div>
 <div class="ttc" id="amove__picker_8h_html"><div class="ttname"><a href="move__picker_8h.html">move_picker.h</a></div></div>
 <div class="ttc" id="anamespaceZagreus_html"><div class="ttname"><a href="namespaceZagreus.html">Zagreus</a></div><div class="ttdef"><b>Definition</b> <a href="bitboard_8cpp_source.html#l00025">bitboard.cpp:25</a></div></div>
+<div class="ttc" id="anamespaceZagreus_html_a38e749cf22c411cb709a3da939267e6f"><div class="ttname"><a href="namespaceZagreus.html#a38e749cf22c411cb709a3da939267e6f">Zagreus::Move</a></div><div class="ttdeci">uint16_t Move</div><div class="ttdef"><b>Definition</b> <a href="move_8h_source.html#l00034">move.h:34</a></div></div>
+<div class="ttc" id="astructZagreus_1_1MoveList_html_a19aeee57e25aa2fafd66d4ef4fc0e020"><div class="ttname"><a href="structZagreus_1_1MoveList.html#a19aeee57e25aa2fafd66d4ef4fc0e020">Zagreus::MoveList::moves</a></div><div class="ttdeci">std::array&lt; Move, MAX_MOVES &gt; moves</div><div class="ttdef"><b>Definition</b> <a href="move_8h_source.html#l00039">move.h:39</a></div></div>
+<div class="ttc" id="astructZagreus_1_1MoveList_html_adffad2603ba0d4cf3c011d7fd9bf016f"><div class="ttname"><a href="structZagreus_1_1MoveList.html#adffad2603ba0d4cf3c011d7fd9bf016f">Zagreus::MoveList::size</a></div><div class="ttdeci">uint8_t size</div><div class="ttdef"><b>Definition</b> <a href="move_8h_source.html#l00040">move.h:40</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
