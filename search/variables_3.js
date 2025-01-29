@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['enpassantsquare_0',['enPassantSquare',['../structZagreus_1_1BoardState.html#a8168f2482c44d4edf790701162e2a79f',1,'Zagreus::BoardState']]]
+  ['default_0',['default',['../namespacepcg__detail.html#a7cefe974db0a1bb3a1fef33b171dfe60',1,'pcg_detail']]],
+  ['dis_1',['dis',['../namespaceZagreus.html#a7cbe1ef1cebd2532f1f7af1253da11d1',1,'Zagreus']]]
 ];

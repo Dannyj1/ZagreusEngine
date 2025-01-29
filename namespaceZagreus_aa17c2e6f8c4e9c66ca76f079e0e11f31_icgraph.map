@@ -1,11 +1,15 @@
 <map id="Zagreus::generateBishopMoves" name="Zagreus::generateBishopMoves">
-<area shape="rect" id="Node000001" title="Generates all pseudo&#45;legal bishop moves for a given color and generation type." alt="" coords="603,55,831,80"/>
-<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1" title="Generates all pseudo&#45;legal moves for all pieces of a certain color for a given color and generation t..." alt="" coords="371,55,555,80"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="589,70,555,70,555,65,589,65"/>
-<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a1f59232179c0fdab4ec23afa89f2b46c" title=" " alt="" coords="180,29,323,55"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="357,57,323,53,324,48,357,52"/>
-<area shape="rect" id="Node000004" href="$namespaceZagreus.html#aea26172e75e6d6ac6db8561e4397243c" title=" " alt="" coords="5,55,132,80"/>
-<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="357,70,132,70,132,65,357,65"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="283,19,274,11,251,8,232,10,222,15,220,20,226,28,221,31,215,21,218,11,231,5,251,3,276,6,287,15"/>
-<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="167,56,132,61,132,56,166,51"/>
+<area shape="rect" id="Node000001" title="Generates all pseudo&#45;legal bishop moves for a given color and generation type." alt="" coords="785,50,1013,76"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1" title="Generates all pseudo&#45;legal moves for all pieces of a certain color for a given color and generation t..." alt="" coords="553,50,737,76"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="772,66,738,66,738,60,772,60"/>
+<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a22d98355f6844d6913e2e3d64489be9e" title=" " alt="" coords="180,50,323,76"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="604,48,557,30,505,16,438,8,371,16,320,33,277,53,275,48,318,28,370,11,438,3,506,11,559,25,606,43"/>
+<area shape="rect" id="Node000004" href="$namespaceZagreus.html#aea26172e75e6d6ac6db8561e4397243c" title=" " alt="" coords="5,76,132,101"/>
+<area shape="poly" id="edge8_Node000002_Node000004" title=" " alt="" coords="571,81,506,90,403,96,301,98,132,94,132,89,301,92,403,90,505,84,570,76"/>
+<area shape="rect" id="Node000005" href="$namespaceZagreus.html#a83bfd295fec897d917f6c9c50526a970" title=" " alt="" coords="371,50,505,76"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="539,66,505,66,505,60,539,60"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="283,40,274,32,251,29,232,31,222,36,220,41,226,49,221,52,215,42,218,32,231,26,251,24,276,27,287,36"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="167,78,132,82,132,77,166,72"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="357,66,323,66,323,60,357,60"/>
+<area shape="poly" id="edge7_Node000005_Node000005" title=" " alt="" coords="471,40,462,32,438,29,418,31,408,36,406,41,411,49,407,52,401,42,404,32,417,26,438,24,464,27,474,36"/>
 </map>

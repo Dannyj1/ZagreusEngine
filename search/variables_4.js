@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['generatorseed_0',['generatorSeed',['../namespaceZagreus.html#ab31960f13bf5b1477e3f047f3380b486',1,'Zagreus']]]
+  ['enpassantsquare_0',['enPassantSquare',['../structZagreus_1_1BoardState.html#a8168f2482c44d4edf790701162e2a79f',1,'Zagreus::BoardState']]]
 ];

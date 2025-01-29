@@ -70,5 +70,5 @@ var searchData=
   ['promotion_67',['PROMOTION',['../namespaceZagreus.html#a7735714492e635054e84a0cc179e46baa8b18bc5047643a18a4ec27886a319d00',1,'Zagreus']]],
   ['promotionpiece_68',['PromotionPiece',['../namespaceZagreus.html#ae3d5464d72c8b3e99114db86d97e2cac',1,'Zagreus']]],
   ['pv_69',['PV',['../namespaceZagreus.html#ada679bdc3b3121c6d715689e2990b0eaaef99d28c6254f51321928e4cd38522a8',1,'Zagreus']]],
-  ['pvsearch_70',['pvSearch',['../namespaceZagreus.html#a1f59232179c0fdab4ec23afa89f2b46c',1,'Zagreus']]]
+  ['pvsearch_70',['pvSearch',['../namespaceZagreus.html#a22d98355f6844d6913e2e3d64489be9e',1,'Zagreus']]]
 ];
