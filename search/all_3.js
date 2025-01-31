@@ -24,8 +24,9 @@ var searchData=
   ['castlingrights_21',['castlingRights',['../structZagreus_1_1BoardState.html#a0256766f960500190cb586568bcf4378',1,'Zagreus::BoardState']]],
   ['check_22',['Check',['../namespaceZagreus.html#a25277ebd2a95d3a6cec246971a6e41c1abdb4fefad83966524bb7f2121707702b',1,'Zagreus']]],
   ['clearvar_23',['clearVar',['../classZagreus_1_1UCIOption.html#ae95b1df4fd9ccf77de1904e892e22515',1,'Zagreus::UCIOption']]],
-  ['combo_24',['Combo',['../namespaceZagreus.html#a25277ebd2a95d3a6cec246971a6e41c1adcc0a0c4aa2f3a0af20f04b99a7f135d',1,'Zagreus']]],
-  ['constants_2eh_25',['constants.h',['../constants_8h.html',1,'']]],
-  ['count_5f1s_26',['count_1s',['../namespaceZagreus.html#ad12d6d30c4c67b4bae5738e8481399b0',1,'Zagreus']]],
-  ['count_5fbits_27',['count_bits',['../namespaceZagreus.html#a4ab101cae51c4b69a1d384d608a0ac45',1,'Zagreus']]]
+  ['colors_24',['COLORS',['../constants_8h.html#a883046b8f0d1f6368a9b9eaf5ca36af3',1,'constants.h']]],
+  ['combo_25',['Combo',['../namespaceZagreus.html#a25277ebd2a95d3a6cec246971a6e41c1adcc0a0c4aa2f3a0af20f04b99a7f135d',1,'Zagreus']]],
+  ['constants_2eh_26',['constants.h',['../constants_8h.html',1,'']]],
+  ['count_5f1s_27',['count_1s',['../namespaceZagreus.html#ad12d6d30c4c67b4bae5738e8481399b0',1,'Zagreus']]],
+  ['count_5fbits_28',['count_bits',['../namespaceZagreus.html#a4ab101cae51c4b69a1d384d608a0ac45',1,'Zagreus']]]
 ];
