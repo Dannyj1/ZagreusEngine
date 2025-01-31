@@ -1,9 +1,15 @@
 <map id="Zagreus::Engine::startUci" name="Zagreus::Engine::startUci">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,42,192,67"/>
-<area shape="rect" id="Node000002" href="$classZagreus_1_1Engine.html#a9da44ebb2faa1b76fb8ab5c361c97d8d" title=" " alt="" coords="240,35,452,75"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,52,226,52,226,57,192,57"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,94,192,119"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Engine.html#a9da44ebb2faa1b76fb8ab5c361c97d8d" title=" " alt="" coords="240,55,452,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,92,226,87,227,93,192,97"/>
+<area shape="rect" id="Node000005" href="$classZagreus_1_1Engine.html#a4e0f16267cc2bef6e8dcd17687623538" title=" " alt="" coords="253,119,439,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="192,116,240,122,239,128,192,121"/>
 <area shape="rect" id="Node000003" href="$classZagreus_1_1Engine.html#aaa33edf38714c7047ab10208d8ce82a3" title=" " alt="" coords="510,5,714,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="452,40,496,35,497,41,452,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="452,52,496,44,497,49,453,58"/>
 <area shape="rect" id="Node000004" href="$classZagreus_1_1Engine.html#acb5bfe97cb4260ca05ad4007e1f837a3" title=" " alt="" coords="500,70,724,95"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="452,63,487,67,486,72,452,68"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="452,75,486,76,486,82,452,81"/>
+<area shape="rect" id="Node000006" href="$classZagreus_1_1Engine.html#a88a7ddc125e98976af68011c08213a5a" title=" " alt="" coords="511,126,713,151"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="439,136,497,136,497,141,439,141"/>
+<area shape="rect" id="Node000007" href="$classZagreus_1_1UCIOption.html#a3c9f6fd277226eb923515138fc3cd967" title=" " alt="" coords="772,119,921,159"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="713,136,758,136,758,141,713,141"/>
 </map>

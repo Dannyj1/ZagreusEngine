@@ -2,7 +2,7 @@ var searchData=
 [
   ['uci_2ecpp_0',['uci.cpp',['../uci_8cpp.html',1,'']]],
   ['uci_2eh_1',['uci.h',['../uci_8h.html',1,'']]],
-  ['ucioption_2',['UCIOption',['../classZagreus_1_1UCIOption.html',1,'Zagreus::UCIOption'],['../classZagreus_1_1UCIOption.html#ad8912cd62be4d800d640c9abfa370ef2',1,'Zagreus::UCIOption::UCIOption()=default'],['../classZagreus_1_1UCIOption.html#adb805cd76b84e361b6b363dcc77a8ebb',1,'Zagreus::UCIOption::UCIOption(std::string name, const UCIOptionType optionType)']]],
+  ['ucioption_2',['UCIOption',['../classZagreus_1_1UCIOption.html',1,'Zagreus::UCIOption'],['../classZagreus_1_1UCIOption.html#ad8912cd62be4d800d640c9abfa370ef2',1,'Zagreus::UCIOption::UCIOption()=default'],['../classZagreus_1_1UCIOption.html#adb805cd76b84e361b6b363dcc77a8ebb',1,'Zagreus::UCIOption::UCIOption(std::string name, const UCIOptionType optionType)'],['../classZagreus_1_1UCIOption.html#aced033af9e0d088f813b9e17a5e3ecd2',1,'Zagreus::UCIOption::UCIOption(std::string name, const UCIOptionType optionType, std::string defaultValue)']]],
   ['ucioptiontype_3',['UCIOptionType',['../namespaceZagreus.html#a25277ebd2a95d3a6cec246971a6e41c1',1,'Zagreus']]],
   ['uneven_5fcopy_4',['uneven_copy',['../namespacepcg__extras.html#a7be0229515bb8d26962826f1c484ec9d',1,'pcg_extras']]],
   ['uneven_5fcopy_5fimpl_5',['uneven_copy_impl',['../namespacepcg__extras.html#ae1857a2bac68e1df88092dc2d5a136b4',1,'pcg_extras::uneven_copy_impl(SrcIter src_first, DestIter dest_first, DestIter dest_last, std::true_type)'],['../namespacepcg__extras.html#a7150076de2f368a305a6123f3004e5a3',1,'pcg_extras::uneven_copy_impl(SrcIter src_first, DestIter dest_first, DestIter dest_last, std::false_type)']]],

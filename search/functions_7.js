@@ -72,5 +72,6 @@ var searchData=
   ['getvalue_69',['getValue',['../classZagreus_1_1UCIOption.html#ad72700ea43fab6c0c4290f664e7973de',1,'Zagreus::UCIOption']]],
   ['getvar_70',['getVar',['../classZagreus_1_1UCIOption.html#aa7e8c8dc9e3adcfd18bcf6d706b76e8d',1,'Zagreus::UCIOption::getVar(int index)'],['../classZagreus_1_1UCIOption.html#a7045c9599b3eb8a09549f3cf7306cf16',1,'Zagreus::UCIOption::getVar()']]],
   ['getversionstring_71',['getVersionString',['../classZagreus_1_1Engine.html#aaa33edf38714c7047ab10208d8ce82a3',1,'Zagreus::Engine']]],
-  ['getzobristconstant_72',['getZobristConstant',['../namespaceZagreus.html#a407181a24d35d16ddc196ecd2195629c',1,'Zagreus']]]
+  ['getzobristconstant_72',['getZobristConstant',['../namespaceZagreus.html#a407181a24d35d16ddc196ecd2195629c',1,'Zagreus']]],
+  ['getzobristhash_73',['getZobristHash',['../classZagreus_1_1Board.html#ad94cd8eb15a75774f32ae327ab968aa6',1,'Zagreus::Board']]]
 ];

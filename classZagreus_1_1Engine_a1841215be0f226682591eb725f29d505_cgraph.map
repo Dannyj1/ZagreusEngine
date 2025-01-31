@@ -1,0 +1,9 @@
+<map id="Zagreus::Engine::getOption" name="Zagreus::Engine::getOption">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,77,204,102"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1UCIOption.html#a888e2fff710b41306286384f0c5b29bb" title=" " alt="" coords="252,5,401,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,74,243,47,244,52,151,79"/>
+<area shape="rect" id="Node000003" href="$classZagreus_1_1UCIOption.html#ad72700ea43fab6c0c4290f664e7973de" title=" " alt="" coords="252,69,401,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,87,238,87,238,92,204,92"/>
+<area shape="rect" id="Node000004" href="$classZagreus_1_1UCIOption.html#aca38b2c1be808fd7a4edc64884152d50" title=" " alt="" coords="252,133,401,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="151,100,244,127,243,132,149,105"/>
+</map>
