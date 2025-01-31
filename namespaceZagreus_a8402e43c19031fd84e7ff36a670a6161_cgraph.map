@@ -1,6 +1,6 @@
 <map id="Zagreus::search" name="Zagreus::search">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,920,132,945"/>
-<area shape="rect" id="Node000002" href="$namespaceZagreus.html#ac59d8c691aec479e79c793b5cd802a1a" title=" " alt="" coords="180,440,399,465"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a274cbb0aba18a5da103d272022d5712f" title=" " alt="" coords="180,440,399,465"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,919,80,833,102,701,117,633,135,570,155,518,178,483,195,470,198,474,182,486,160,521,140,572,123,634,108,702,85,833,74,920"/>
 <area shape="rect" id="Node000003" href="$namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1" title="Generates all pseudo&#45;legal moves for all pieces of a certain color for a given color and generation t..." alt="" coords="682,381,866,407"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="71,919,84,882,107,830,138,773,178,720,243,660,315,606,390,557,467,515,609,450,719,408,721,413,612,455,469,520,393,562,318,610,246,664,182,724,142,776,111,832,89,884,76,921"/>

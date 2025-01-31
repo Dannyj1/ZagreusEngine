@@ -7,5 +7,6 @@ var searchData=
   ['bishopmagics_4',['bishopMagics',['../namespaceZagreus.html#a7593206baeb776a88b56acf788f71477',1,'Zagreus']]],
   ['bishopphase_5',['bishopPhase',['../namespaceZagreus.html#a3cc7e4512f5d873b270497a7637c6271',1,'Zagreus']]],
   ['bittable_6',['BitTable',['../namespaceZagreus.html#a7615268e1cccf20a27afd81a53fb62bd',1,'Zagreus']]],
-  ['blacktime_7',['blackTime',['../structZagreus_1_1SearchParams.html#ab191e90b19f57f2cc6303917692bb01a',1,'Zagreus::SearchParams']]]
+  ['blackinc_7',['blackInc',['../structZagreus_1_1SearchParams.html#a03c4c3f1613b48d9d457eb5bac657ff6',1,'Zagreus::SearchParams']]],
+  ['blacktime_8',['blackTime',['../structZagreus_1_1SearchParams.html#ab191e90b19f57f2cc6303917692bb01a',1,'Zagreus::SearchParams']]]
 ];

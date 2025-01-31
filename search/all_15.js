@@ -16,11 +16,12 @@ var searchData=
   ['white_5fqueenside_5fcastle_5funoccupied_13',['WHITE_QUEENSIDE_CASTLE_UNOCCUPIED',['../constants_8h.html#a23d25b325cef32713f9dd19598a55053',1,'constants.h']]],
   ['white_5frook_14',['WHITE_ROOK',['../namespaceZagreus.html#a80c68b0ed6d2623104cdff1da84729a7a64af4378222a703ff3d40c1c0ae1e456',1,'Zagreus']]],
   ['whitedoublepushablepawns_15',['whiteDoublePushablePawns',['../namespaceZagreus.html#a027d67da9c406b1860c84cebe5e43085',1,'Zagreus']]],
-  ['whitepawndoublepush_16',['whitePawnDoublePush',['../namespaceZagreus.html#a7692fd3583b6b4062e08a14b12db55e8',1,'Zagreus']]],
-  ['whitepawneastattacks_17',['whitePawnEastAttacks',['../namespaceZagreus.html#a172d07d677ba7327d7dcf6ce2032527f',1,'Zagreus']]],
-  ['whitepawnsinglepush_18',['whitePawnSinglePush',['../namespaceZagreus.html#a10d8ce4127d68a8189027ba00dce39b5',1,'Zagreus']]],
-  ['whitepawnwestattacks_19',['whitePawnWestAttacks',['../namespaceZagreus.html#aacd111e9b3ec452ad93d48144924aa62',1,'Zagreus']]],
-  ['whitepushablepawns_20',['whitePushablePawns',['../namespaceZagreus.html#a0d2f9d3985a89a5ace60cca661ca1b11',1,'Zagreus']]],
-  ['whitetime_21',['whiteTime',['../structZagreus_1_1SearchParams.html#a05e3612c3fadb30878fc56e636c6b425',1,'Zagreus::SearchParams']]],
-  ['wrapped_22',['wrapped',['../classpcg__detail_1_1engine.html#a142a7d2853ddc5e0583e0398da4c77b7',1,'pcg_detail::engine']]]
+  ['whiteinc_16',['whiteInc',['../structZagreus_1_1SearchParams.html#ae64edfa9997730b853a1ca4e0a58205f',1,'Zagreus::SearchParams']]],
+  ['whitepawndoublepush_17',['whitePawnDoublePush',['../namespaceZagreus.html#a7692fd3583b6b4062e08a14b12db55e8',1,'Zagreus']]],
+  ['whitepawneastattacks_18',['whitePawnEastAttacks',['../namespaceZagreus.html#a172d07d677ba7327d7dcf6ce2032527f',1,'Zagreus']]],
+  ['whitepawnsinglepush_19',['whitePawnSinglePush',['../namespaceZagreus.html#a10d8ce4127d68a8189027ba00dce39b5',1,'Zagreus']]],
+  ['whitepawnwestattacks_20',['whitePawnWestAttacks',['../namespaceZagreus.html#aacd111e9b3ec452ad93d48144924aa62',1,'Zagreus']]],
+  ['whitepushablepawns_21',['whitePushablePawns',['../namespaceZagreus.html#a0d2f9d3985a89a5ace60cca661ca1b11',1,'Zagreus']]],
+  ['whitetime_22',['whiteTime',['../structZagreus_1_1SearchParams.html#a05e3612c3fadb30878fc56e636c6b425',1,'Zagreus::SearchParams']]],
+  ['wrapped_23',['wrapped',['../classpcg__detail_1_1engine.html#a142a7d2853ddc5e0583e0398da4c77b7',1,'pcg_detail::engine']]]
 ];
