@@ -14,10 +14,10 @@
 <area shape="poly" id="edge58_Node000001_Node000058" title=" " alt="" coords="132,933,660,956,659,961,132,938"/>
 <area shape="rect" id="Node000067" href="$namespaceZagreus.html#a50672cdfdd70d159a3fa4de3d2cc1815" title=" " alt="" coords="218,819,361,844"/>
 <area shape="poly" id="edge76_Node000001_Node000067" title=" " alt="" coords="96,917,247,847,250,852,99,922"/>
-<area shape="rect" id="Node000073" href="$classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644" title="Unmakes the last move on the board." alt="" coords="665,871,883,896"/>
-<area shape="poly" id="edge102_Node000001_Node000073" title=" " alt="" coords="132,926,652,889,652,894,133,931"/>
-<area shape="rect" id="Node000074" href="$classZagreus_1_1Engine.html#aca7f188f346b2c77fa61853cbe9c8e13" title=" " alt="" coords="194,1135,385,1175"/>
-<area shape="poly" id="edge101_Node000001_Node000074" title=" " alt="" coords="76,945,89,980,110,1028,141,1078,160,1101,182,1121,189,1126,186,1131,178,1125,156,1105,137,1081,105,1030,84,982,71,946"/>
+<area shape="rect" id="Node000074" href="$classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644" title="Unmakes the last move on the board." alt="" coords="665,871,883,896"/>
+<area shape="poly" id="edge102_Node000001_Node000074" title=" " alt="" coords="132,926,652,889,652,894,133,931"/>
+<area shape="rect" id="Node000075" href="$classZagreus_1_1Engine.html#aca7f188f346b2c77fa61853cbe9c8e13" title=" " alt="" coords="194,1135,385,1175"/>
+<area shape="poly" id="edge101_Node000001_Node000075" title=" " alt="" coords="76,945,89,980,110,1028,141,1078,160,1101,182,1121,189,1126,186,1131,178,1125,156,1105,137,1081,105,1030,84,982,71,946"/>
 <area shape="rect" id="Node000004" href="$namespaceZagreus.html#aa17c2e6f8c4e9c66ca76f079e0e11f31" title="Generates all pseudo&#45;legal bishop moves for a given color and generation type." alt="" coords="936,29,1164,55"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="775,381,787,322,814,236,834,189,860,143,891,100,929,64,936,59,939,63,932,68,895,104,864,146,839,191,819,238,792,324,780,382"/>
 <area shape="rect" id="Node000010" href="$classZagreus_1_1Board.html#aefa101d59ff5ac5c1db21801f7e1b936" title="Retrieves the bitboard for a given piece type." alt="" coords="1231,169,1437,195"/>
@@ -135,7 +135,7 @@
 <area shape="poly" id="edge80_Node000067_Node000069" title=" " alt="" coords="300,817,359,759,400,726,445,697,501,671,559,650,669,620,670,625,560,655,503,676,448,702,403,730,362,763,304,820"/>
 <area shape="rect" id="Node000070" href="$namespaceZagreus.html#afea42fabc6eeb749b22e802c81594065" title=" " alt="" coords="465,768,599,793"/>
 <area shape="poly" id="edge86_Node000067_Node000070" title=" " alt="" coords="351,816,457,794,458,799,352,821"/>
-<area shape="poly" id="edge100_Node000067_Node000073" title=" " alt="" coords="361,835,618,861,664,866,664,872,617,866,361,840"/>
+<area shape="poly" id="edge100_Node000067_Node000074" title=" " alt="" coords="361,835,618,861,664,866,664,872,617,866,361,840"/>
 <area shape="poly" id="edge81_Node000069_Node000010" title=" " alt="" coords="785,582,880,418,892,390,899,367,908,344,929,323,961,303,991,293,1019,290,1048,290,1105,289,1135,281,1168,265,1183,251,1191,236,1200,220,1216,205,1231,197,1233,202,1219,210,1204,223,1196,238,1187,254,1171,270,1137,286,1106,294,1048,295,1020,295,992,298,963,308,932,327,913,347,904,368,897,392,885,421,790,584"/>
 <area shape="poly" id="edge82_Node000069_Node000052" title=" " alt="" coords="865,601,939,601,939,606,865,606"/>
 <area shape="poly" id="edge87_Node000070_Node000003" title=" " alt="" coords="539,766,755,417,760,420,544,769"/>
@@ -143,12 +143,12 @@
 <area shape="poly" id="edge90_Node000070_Node000058" title=" " alt="" coords="548,792,667,907,730,942,728,947,664,911,545,796"/>
 <area shape="poly" id="edge88_Node000070_Node000068" title=" " alt="" coords="540,793,556,831,582,884,619,939,642,965,667,986,689,999,686,1004,664,991,638,968,615,942,577,886,551,833,535,795"/>
 <area shape="poly" id="edge91_Node000070_Node000070" title=" " alt="" coords="493,770,485,760,489,750,505,744,532,741,566,745,579,755,575,759,564,750,532,747,506,749,493,754,490,759,497,766"/>
-<area shape="poly" id="edge92_Node000070_Node000073" title=" " alt="" coords="569,791,618,810,735,862,733,867,616,815,567,796"/>
-<area shape="poly" id="edge93_Node000073_Node000049" title=" " alt="" coords="790,868,849,826,888,802,930,782,956,773,958,778,932,787,891,807,852,830,793,873"/>
-<area shape="poly" id="edge94_Node000073_Node000051" title=" " alt="" coords="811,868,930,831,970,822,971,827,931,837,813,873"/>
-<area shape="poly" id="edge97_Node000073_Node000056" title=" " alt="" coords="883,871,955,864,955,869,883,876"/>
-<area shape="poly" id="edge95_Node000073_Node000059" title=" " alt="" coords="869,893,1234,943,1233,948,868,899"/>
-<area shape="poly" id="edge96_Node000073_Node000061" title=" " alt="" coords="818,894,853,911,885,938,898,957,904,977,907,1014,911,1049,919,1066,933,1083,946,1093,943,1097,929,1087,914,1069,906,1050,902,1014,899,978,893,960,881,941,850,916,815,899"/>
-<area shape="poly" id="edge98_Node000073_Node000065" title=" " alt="" coords="804,894,1010,989,1008,994,802,899"/>
-<area shape="poly" id="edge99_Node000073_Node000066" title=" " alt="" coords="814,894,850,911,885,938,901,964,908,989,914,1012,932,1033,947,1042,944,1047,929,1037,910,1014,902,990,897,966,881,941,847,916,812,898"/>
+<area shape="poly" id="edge92_Node000070_Node000074" title=" " alt="" coords="569,791,618,810,735,862,733,867,616,815,567,796"/>
+<area shape="poly" id="edge93_Node000074_Node000049" title=" " alt="" coords="790,868,849,826,888,802,930,782,956,773,958,778,932,787,891,807,852,830,793,873"/>
+<area shape="poly" id="edge94_Node000074_Node000051" title=" " alt="" coords="811,868,930,831,970,822,971,827,931,837,813,873"/>
+<area shape="poly" id="edge97_Node000074_Node000056" title=" " alt="" coords="883,871,955,864,955,869,883,876"/>
+<area shape="poly" id="edge95_Node000074_Node000059" title=" " alt="" coords="869,893,1234,943,1233,948,868,899"/>
+<area shape="poly" id="edge96_Node000074_Node000061" title=" " alt="" coords="818,894,853,911,885,938,898,957,904,977,907,1014,911,1049,919,1066,933,1083,946,1093,943,1097,929,1087,914,1069,906,1050,902,1014,899,978,893,960,881,941,850,916,815,899"/>
+<area shape="poly" id="edge98_Node000074_Node000065" title=" " alt="" coords="804,894,1010,989,1008,994,802,899"/>
+<area shape="poly" id="edge99_Node000074_Node000066" title=" " alt="" coords="814,894,850,911,885,938,901,964,908,989,914,1012,932,1033,947,1042,944,1047,929,1037,910,1014,902,990,897,966,881,941,847,916,812,898"/>
 </map>
