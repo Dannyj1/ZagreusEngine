@@ -112,14 +112,17 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment"> */</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceZagreus.html">Zagreus</a> {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &quot;<a class="code" href="search_8h.html">search.h</a>&quot;</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#include &quot;<a class="code" href="types_8h.html">types.h</a>&quot;</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keywordtype">int</span> <a class="code hl_function" href="namespaceZagreus.html#a5d00c9393e75e071bc7ebbd0d6a12c29">calculateSearchTime</a>(<span class="keywordtype">int</span> msLeft, <span class="keywordtype">int</span> movesPlayed);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>} <span class="comment">// namespace Zagreus</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceZagreus.html">Zagreus</a> {</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">template</span> &lt;PieceColor color&gt;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keywordtype">int</span> <a class="code hl_function" href="namespaceZagreus.html#ac59d8c691aec479e79c793b5cd802a1a">calculateSearchTime</a>(SearchParams&amp; params, <span class="keywordtype">int</span> movesPlayed);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>} <span class="comment">// namespace Zagreus</span></div>
 <div class="ttc" id="anamespaceZagreus_html"><div class="ttname"><a href="namespaceZagreus.html">Zagreus</a></div><div class="ttdef"><b>Definition</b> <a href="bitboard_8cpp_source.html#l00025">bitboard.cpp:25</a></div></div>
-<div class="ttc" id="anamespaceZagreus_html_a5d00c9393e75e071bc7ebbd0d6a12c29"><div class="ttname"><a href="namespaceZagreus.html#a5d00c9393e75e071bc7ebbd0d6a12c29">Zagreus::calculateSearchTime</a></div><div class="ttdeci">int calculateSearchTime(int msLeft, int movesPlayed)</div><div class="ttdef"><b>Definition</b> <a href="timeman_8cpp_source.html#l00024">timeman.cpp:24</a></div></div>
+<div class="ttc" id="anamespaceZagreus_html_ac59d8c691aec479e79c793b5cd802a1a"><div class="ttname"><a href="namespaceZagreus.html#ac59d8c691aec479e79c793b5cd802a1a">Zagreus::calculateSearchTime</a></div><div class="ttdeci">int calculateSearchTime(SearchParams &amp;params, int movesPlayed)</div><div class="ttdef"><b>Definition</b> <a href="timeman_8cpp_source.html#l00025">timeman.cpp:25</a></div></div>
+<div class="ttc" id="asearch_8h_html"><div class="ttname"><a href="search_8h.html">search.h</a></div></div>
+<div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="types_8h.html">types.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

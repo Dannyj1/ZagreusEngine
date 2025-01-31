@@ -8,6 +8,9 @@ var searchData=
   ['f6_5',['F6',['../namespaceZagreus.html#a7d2e00f0541186be79cce3c9621e918fa5af910e500b712c9a1a8bc71ed29ea7c',1,'Zagreus']]],
   ['f7_6',['F7',['../namespaceZagreus.html#a7d2e00f0541186be79cce3c9621e918fa080c6e0113a7e7849127b9794f49c0c5',1,'Zagreus']]],
   ['f8_7',['F8',['../namespaceZagreus.html#a7d2e00f0541186be79cce3c9621e918fa2d55cde46faea08a66574735c53017e8',1,'Zagreus']]],
-  ['find_5fmagic_8',['find_magic',['../namespaceZagreus.html#a61bf0620553dd24e6a4181fedf8e2718',1,'Zagreus']]],
-  ['findfastestseed_9',['findFastestSeed',['../namespaceZagreus.html#a8b9de4c6d0212eec3f86b7011ca830aa',1,'Zagreus']]]
+  ['fail_5fhigh_5fnode_8',['FAIL_HIGH_NODE',['../namespaceZagreus.html#ae0877a94867882cbc10b59abe123769ea37eb3a52a54bc1a6c0bc7b0004e75a53',1,'Zagreus']]],
+  ['fail_5flow_5fnode_9',['FAIL_LOW_NODE',['../namespaceZagreus.html#ae0877a94867882cbc10b59abe123769eac253b6e9f6bc23e30951a09ccf71298f',1,'Zagreus']]],
+  ['fast_5fbenchmark_5fpositions_10',['FAST_BENCHMARK_POSITIONS',['../main_8cpp.html#af116b404f707d30ebd18c5de501bcaa4',1,'main.cpp']]],
+  ['find_5fmagic_11',['find_magic',['../namespaceZagreus.html#a61bf0620553dd24e6a4181fedf8e2718',1,'Zagreus']]],
+  ['findfastestseed_12',['findFastestSeed',['../namespaceZagreus.html#a8b9de4c6d0212eec3f86b7011ca830aa',1,'Zagreus']]]
 ];

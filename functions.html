@@ -93,6 +93,7 @@ $(function(){ initResizable(false); });
 
 <h3><a id="index_a" name="index_a"></a>- a -</h3><ul>
 <li>addOption()&#160;:&#160;<a class="el" href="classZagreus_1_1Engine.html#a88a7ddc125e98976af68011c08213a5a">Zagreus::Engine</a></li>
+<li>addPosition()&#160;:&#160;<a class="el" href="classZagreus_1_1TranspositionTable.html#a9a1c9808fbff7e92bec1578ce81b4a02">Zagreus::TranspositionTable</a></li>
 <li>addVar()&#160;:&#160;<a class="el" href="classZagreus_1_1UCIOption.html#a9bd71248e84bb86ff3dc177f5fba4c1a">Zagreus::UCIOption</a></li>
 <li>advance()&#160;:&#160;<a class="el" href="classpcg__detail_1_1engine.html#a12d3653cfe490a59f7ce55d028f1a7e0">pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;</a>, <a class="el" href="classpcg__detail_1_1extended.html#ad917a2241597772e81668695c18ab2bb">pcg_detail::extended&lt; table_pow2, advance_pow2, baseclass, extvalclass, kdd &gt;</a></li>
 <li>attacksByColor&#160;:&#160;<a class="el" href="structZagreus_1_1EvalData.html#ac2e6c5e1688cafce6f1ca9fa86e5129d">Zagreus::EvalData</a></li>
@@ -105,6 +106,8 @@ $(function(){ initResizable(false); });
 <li>backstep()&#160;:&#160;<a class="el" href="classpcg__detail_1_1engine.html#adfb7a9ba483de8ef30e53ea3a9a7ba0e">pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;</a>, <a class="el" href="classpcg__detail_1_1extended.html#a484d1b7cb53ef387153c321c96ec0deb">pcg_detail::extended&lt; table_pow2, advance_pow2, baseclass, extvalclass, kdd &gt;</a></li>
 <li>base_generate()&#160;:&#160;<a class="el" href="classpcg__detail_1_1engine.html#a6024d002bdbe9ac269cc7deefb5746d8">pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;</a></li>
 <li>base_generate0()&#160;:&#160;<a class="el" href="classpcg__detail_1_1engine.html#a9c75cb00bd3a81f316546acca79a2ca7">pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;</a></li>
+<li>bestMove&#160;:&#160;<a class="el" href="structZagreus_1_1TTEntry.html#a11425f44f910837e629998c0a93d8774">Zagreus::TTEntry</a></li>
+<li>blackTime&#160;:&#160;<a class="el" href="structZagreus_1_1SearchParams.html#ab191e90b19f57f2cc6303917692bb01a">Zagreus::SearchParams</a></li>
 <li>Board()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#a090aa3f5b524fd4b966df79794eb7c2c">Zagreus::Board</a></li>
 <li>bump()&#160;:&#160;<a class="el" href="classpcg__detail_1_1engine.html#abc83b5b934e2acfa6fac6501db0bb703">pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;</a></li>
 </ul>
@@ -120,6 +123,7 @@ $(function(){ initResizable(false); });
 
 
 <h3><a id="index_d" name="index_d"></a>- d -</h3><ul>
+<li>depth&#160;:&#160;<a class="el" href="structZagreus_1_1SearchParams.html#ab08825d4e55fac708025c608cff94dcc">Zagreus::SearchParams</a>, <a class="el" href="structZagreus_1_1SearchStats.html#a26ada4d3e3751115f06285503ea3eda7">Zagreus::SearchStats</a>, <a class="el" href="structZagreus_1_1TTEntry.html#a4539437a1e61a7efe925be973097cc82">Zagreus::TTEntry</a></li>
 <li>discard()&#160;:&#160;<a class="el" href="classpcg__detail_1_1engine.html#ab47ab15e70c4ac7d284509642a4628a1">pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;</a></li>
 <li>distance()&#160;:&#160;<a class="el" href="classpcg__detail_1_1engine.html#aa58dc06aeb00200b73dbb890abc50fbf">pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;</a></li>
 <li>doSetup()&#160;:&#160;<a class="el" href="classZagreus_1_1Engine.html#aa97883c4a13a6a6e8b348589c820aafb">Zagreus::Engine</a></li>
@@ -146,19 +150,22 @@ $(function(){ initResizable(false); });
 <li>getDefaultValue()&#160;:&#160;<a class="el" href="classZagreus_1_1UCIOption.html#a888e2fff710b41306286384f0c5b29bb">Zagreus::UCIOption</a></li>
 <li>getEmptyBitboard()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#a85c42131fc55c15b09f3aa2544a93c4d">Zagreus::Board</a></li>
 <li>getEnPassantSquare()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#aa6253b1169d1bda9e23823590061b280">Zagreus::Board</a></li>
+<li>getEntry()&#160;:&#160;<a class="el" href="classZagreus_1_1TranspositionTable.html#a0eaba95d499a76b17e0d3499fc14f0c2">Zagreus::TranspositionTable</a></li>
 <li>getLastMove()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#a677f3a4ab501298bb506e3923752c047">Zagreus::Board</a></li>
 <li>getMaxValue()&#160;:&#160;<a class="el" href="classZagreus_1_1UCIOption.html#acc7cfc9f3c2e7fd1f34e402477cffca0">Zagreus::UCIOption</a></li>
 <li>getMinValue()&#160;:&#160;<a class="el" href="classZagreus_1_1UCIOption.html#a6c5d79362db65eccbdc08fc7420987b7">Zagreus::UCIOption</a></li>
 <li>getName()&#160;:&#160;<a class="el" href="classZagreus_1_1UCIOption.html#a3c9f6fd277226eb923515138fc3cd967">Zagreus::UCIOption</a></li>
 <li>getOccupiedBitboard()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#aea6dd15340ca705e00c18b7f967f073c">Zagreus::Board</a></li>
 <li>getOption()&#160;:&#160;<a class="el" href="classZagreus_1_1Engine.html#a1841215be0f226682591eb725f29d505">Zagreus::Engine</a></li>
-<li>getOptionType()&#160;:&#160;<a class="el" href="classZagreus_1_1UCIOption.html#a83dfb9cd5b43d0bf92cd8beda847a799">Zagreus::UCIOption</a></li>
+<li>getOptionType()&#160;:&#160;<a class="el" href="classZagreus_1_1UCIOption.html#a4a1e9a329f9d8c781ef69c82728ebf84">Zagreus::UCIOption</a></li>
 <li>getPieceCount()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#ac5d84f62ae1b79462cd2fd5dc714c89c">Zagreus::Board</a></li>
 <li>getPieceOnSquare()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#afd4c02ec09ab6fde7631b59b2a4d9c97">Zagreus::Board</a></li>
 <li>getPly()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#adf38c4f68536f92b5abed37c59bb018a">Zagreus::Board</a></li>
+<li>getScore()&#160;:&#160;<a class="el" href="classZagreus_1_1TranspositionTable.html#aba1c10c6f88fd4732d237abe9cc5c2b0">Zagreus::TranspositionTable</a></li>
 <li>getSideToMove()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#afc62efe1e90a8573ffddbb423ec95534">Zagreus::Board</a></li>
 <li>getSquareAttackers()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#a7fb1dd02d78c9111d73cb44f100c8997">Zagreus::Board</a></li>
 <li>getSquareAttackersByColor()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#a8210f4772db4ca37dd43ea5358c0b88f">Zagreus::Board</a></li>
+<li>getTT()&#160;:&#160;<a class="el" href="classZagreus_1_1TranspositionTable.html#a4315934b5aa610a63321dfa6515b6f98">Zagreus::TranspositionTable</a></li>
 <li>getValue()&#160;:&#160;<a class="el" href="classZagreus_1_1UCIOption.html#ad72700ea43fab6c0c4290f664e7973de">Zagreus::UCIOption</a></li>
 <li>getVar()&#160;:&#160;<a class="el" href="classZagreus_1_1UCIOption.html#aa7e8c8dc9e3adcfd18bcf6d706b76e8d">Zagreus::UCIOption</a></li>
 <li>getVersionString()&#160;:&#160;<a class="el" href="classZagreus_1_1Engine.html#aaa33edf38714c7047ab10208d8ce82a3">Zagreus::Engine</a></li>
@@ -167,6 +174,7 @@ $(function(){ initResizable(false); });
 
 <h3><a id="index_h" name="index_h"></a>- h -</h3><ul>
 <li>halfMoveClock&#160;:&#160;<a class="el" href="structZagreus_1_1BoardState.html#ab7da860c1fd2c3cae7866c3226874d79">Zagreus::BoardState</a></li>
+<li>hashSize&#160;:&#160;<a class="el" href="classZagreus_1_1TranspositionTable.html#aade013cae70e9ffa5aba82accf72a4de">Zagreus::TranspositionTable</a></li>
 <li>hasOption()&#160;:&#160;<a class="el" href="classZagreus_1_1Engine.html#a3a16af861f7078b068c14518ddc1d93f">Zagreus::Engine</a></li>
 <li>htype&#160;:&#160;<a class="el" href="structpcg__detail_1_1xsl__rr__rr__mixin.html#a65cf0d6a4c80342f09aa381556bd81ac">pcg_detail::xsl_rr_rr_mixin&lt; xtype, itype &gt;</a></li>
 </ul>
@@ -183,6 +191,7 @@ $(function(){ initResizable(false); });
 <li>isKingInCheck()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#a27b03cc9604c065a113d26a9848ee0ea">Zagreus::Board</a></li>
 <li>isPieceOnSquare()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#a47123e6793832bd624e425116173c933">Zagreus::Board</a></li>
 <li>isPositionLegal()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8">Zagreus::Board</a></li>
+<li>isSearchStopped()&#160;:&#160;<a class="el" href="classZagreus_1_1Engine.html#a2fd88cb737e7b4b2af11f6a2e93e6634">Zagreus::Engine</a></li>
 </ul>
 
 
@@ -199,6 +208,8 @@ $(function(){ initResizable(false); });
 <h3><a id="index_n" name="index_n"></a>- n -</h3><ul>
 <li>next()&#160;:&#160;<a class="el" href="classZagreus_1_1MovePicker.html#a09d795e27005db2856cd07c01228243d">Zagreus::MovePicker</a></li>
 <li>no_stream()&#160;:&#160;<a class="el" href="classpcg__detail_1_1no__stream.html#a03c0727fd92e864096b298cf6abcd523">pcg_detail::no_stream&lt; itype &gt;</a></li>
+<li>nodesSearched&#160;:&#160;<a class="el" href="structZagreus_1_1SearchStats.html#a386fc0b1bc35dae9fe5c341ead711f0b">Zagreus::SearchStats</a></li>
+<li>nodeType&#160;:&#160;<a class="el" href="structZagreus_1_1TTEntry.html#aa235ee398749b66e3a4b68742645b8ec">Zagreus::TTEntry</a></li>
 </ul>
 
 
@@ -207,6 +218,7 @@ $(function(){ initResizable(false); });
 <li>operator()()&#160;:&#160;<a class="el" href="classpcg__detail_1_1engine.html#af26836cecbdaa218abfd1182f2e84402">pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;</a>, <a class="el" href="classpcg__detail_1_1extended.html#a09db52d110feeaa594ab04209685c2d8">pcg_detail::extended&lt; table_pow2, advance_pow2, baseclass, extvalclass, kdd &gt;</a></li>
 <li>operator-&#160;:&#160;<a class="el" href="classpcg__detail_1_1engine.html#a5e668211d96961296a32014645938076">pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;</a></li>
 <li>operator&lt;&lt;&#160;:&#160;<a class="el" href="classpcg__detail_1_1engine.html#aab0c899670f21df57fd0268adc871dba">pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;</a>, <a class="el" href="classpcg__detail_1_1extended.html#a774b7901683af3331e792ebed136e479">pcg_detail::extended&lt; table_pow2, advance_pow2, baseclass, extvalclass, kdd &gt;</a></li>
+<li>operator=()&#160;:&#160;<a class="el" href="classZagreus_1_1TranspositionTable.html#a967ae788b6b4625a3f4d57b92db73ab4">Zagreus::TranspositionTable</a></li>
 <li>operator==&#160;:&#160;<a class="el" href="classpcg__detail_1_1engine.html#af79f90f1b65a5d7c932621ae5ab0a603">pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;</a>, <a class="el" href="classpcg__detail_1_1extended.html#a40929ecf1de81eaea048b61014233b80">pcg_detail::extended&lt; table_pow2, advance_pow2, baseclass, extvalclass, kdd &gt;</a></li>
 <li>operator&gt;&gt;&#160;:&#160;<a class="el" href="classpcg__detail_1_1engine.html#af22ddb758f51f32a6e379ed09cb20457">pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;</a>, <a class="el" href="classpcg__detail_1_1extended.html#a16065bdf8ec218a0458a42cf81cefab7">pcg_detail::extended&lt; table_pow2, advance_pow2, baseclass, extvalclass, kdd &gt;</a></li>
 <li>output()&#160;:&#160;<a class="el" href="structpcg__detail_1_1rxs__m__mixin.html#a1e54da5e2100566567711712c86d9950">pcg_detail::rxs_m_mixin&lt; xtype, itype &gt;</a>, <a class="el" href="structpcg__detail_1_1rxs__m__xs__mixin.html#a76f1d8fe1cf7e1dfc633e57658f90080">pcg_detail::rxs_m_xs_mixin</a>, <a class="el" href="structpcg__detail_1_1xsh__mixin.html#a141ad715e88293bee4c03a71ac049ae0">pcg_detail::xsh_mixin&lt; xtype, itype &gt;</a>, <a class="el" href="structpcg__detail_1_1xsh__rr__mixin.html#a068297faa77ab664e5c505ba22369b37">pcg_detail::xsh_rr_mixin&lt; xtype, itype &gt;</a>, <a class="el" href="structpcg__detail_1_1xsh__rs__mixin.html#ac24761e9ef8d0f5d4633b60cdc11ecb6">pcg_detail::xsh_rs_mixin&lt; xtype, itype &gt;</a>, <a class="el" href="structpcg__detail_1_1xsl__mixin.html#ac992fdba50cfa3dc08f185cb01da7507">pcg_detail::xsl_mixin&lt; xtype, itype &gt;</a>, <a class="el" href="structpcg__detail_1_1xsl__rr__mixin.html#ae057cf32421c5fe89b56056f87a293c2">pcg_detail::xsl_rr_mixin&lt; xtype, itype &gt;</a>, <a class="el" href="structpcg__detail_1_1xsl__rr__rr__mixin.html#a5c914f5d43e5f16351bba8feacf9f8c6">pcg_detail::xsl_rr_rr_mixin&lt; xtype, itype &gt;</a></li>
@@ -221,6 +233,11 @@ $(function(){ initResizable(false); });
 </ul>
 
 
+<h3><a id="index_q" name="index_q"></a>- q -</h3><ul>
+<li>qNodesSearched&#160;:&#160;<a class="el" href="structZagreus_1_1SearchStats.html#a3b79ebe9145e435236b851708233fe5e">Zagreus::SearchStats</a></li>
+</ul>
+
+
 <h3><a id="index_r" name="index_r"></a>- r -</h3><ul>
 <li>removePiece()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#aea72d78a798679410c1b862700061f83">Zagreus::Board</a></li>
 <li>removeVar()&#160;:&#160;<a class="el" href="classZagreus_1_1UCIOption.html#a173c2ef559df154a82f97c84246ac577">Zagreus::UCIOption</a></li>
@@ -230,6 +247,7 @@ $(function(){ initResizable(false); });
 
 
 <h3><a id="index_s" name="index_s"></a>- s -</h3><ul>
+<li>score&#160;:&#160;<a class="el" href="structZagreus_1_1SearchStats.html#a0e35ee0f1326bffd7a0ae4ebddbf6617">Zagreus::SearchStats</a>, <a class="el" href="structZagreus_1_1TTEntry.html#aacb2f56907deb79b0b6357d2423761cb">Zagreus::TTEntry</a></li>
 <li>seed()&#160;:&#160;<a class="el" href="classpcg__detail_1_1engine.html#a17ee3e31eadcb8039f996762114d9597">pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;</a>, <a class="el" href="classpcg__detail_1_1extended.html#af67216cce3a9091fea149dce8fd3cab9">pcg_detail::extended&lt; table_pow2, advance_pow2, baseclass, extvalclass, kdd &gt;</a></li>
 <li>seed_seq_from()&#160;:&#160;<a class="el" href="classpcg__extras_1_1seed__seq__from.html#a1d01bd6f7f0c4c3dae871e8026d92c38">pcg_extras::seed_seq_from&lt; RngType &gt;</a></li>
 <li>sendInfoMessage()&#160;:&#160;<a class="el" href="classZagreus_1_1Engine.html#aca7f188f346b2c77fa61853cbe9c8e13">Zagreus::Engine</a></li>
@@ -242,6 +260,8 @@ $(function(){ initResizable(false); });
 <li>setMinValue()&#160;:&#160;<a class="el" href="classZagreus_1_1UCIOption.html#a70cb7aece37a2fd90162d7ad5d870b19">Zagreus::UCIOption</a></li>
 <li>setPiece()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#ab61577ea27b99e8bc99b5004e5645fba">Zagreus::Board</a></li>
 <li>setPieceFromFENChar()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#a7801b76e1ebf0292f9192ee68b38dbd8">Zagreus::Board</a></li>
+<li>setSideToMove()&#160;:&#160;<a class="el" href="classZagreus_1_1Board.html#a9c27b83426d250ef569a2da8b4d0bcb7">Zagreus::Board</a></li>
+<li>setTableSize()&#160;:&#160;<a class="el" href="classZagreus_1_1TranspositionTable.html#ad9c9d627d0a140aec262be74ad419857">Zagreus::TranspositionTable</a></li>
 <li>setValue()&#160;:&#160;<a class="el" href="classZagreus_1_1UCIOption.html#aca38b2c1be808fd7a4edc64884152d50">Zagreus::UCIOption</a></li>
 <li>setVar()&#160;:&#160;<a class="el" href="classZagreus_1_1UCIOption.html#ad37e5e2b564261fb000f33f67016ff34">Zagreus::UCIOption</a></li>
 <li>size()&#160;:&#160;<a class="el" href="classpcg__extras_1_1seed__seq__from.html#a6889125ccdb3b1113c345d5a7d0c9255">pcg_extras::seed_seq_from&lt; RngType &gt;</a>, <a class="el" href="structZagreus_1_1MoveList.html#adffad2603ba0d4cf3c011d7fd9bf016f">Zagreus::MoveList</a></li>
@@ -256,7 +276,10 @@ $(function(){ initResizable(false); });
 
 
 <h3><a id="index_t" name="index_t"></a>- t -</h3><ul>
+<li>timeSpentMs&#160;:&#160;<a class="el" href="structZagreus_1_1SearchStats.html#a5cd01a93f513de2fcdad8b073038eb35">Zagreus::SearchStats</a></li>
 <li>toString()&#160;:&#160;<a class="el" href="classZagreus_1_1UCIOption.html#a5e42b636debf4838dd8fe63195ae7eb0">Zagreus::UCIOption</a></li>
+<li>TranspositionTable()&#160;:&#160;<a class="el" href="classZagreus_1_1TranspositionTable.html#aa4b76abea2e9f7456d1a0aebc15eb910">Zagreus::TranspositionTable</a></li>
+<li>transpositionTable&#160;:&#160;<a class="el" href="classZagreus_1_1TranspositionTable.html#ab90f0aefbc8683bf17c8d6cb1b1143e6">Zagreus::TranspositionTable</a></li>
 <li>type&#160;:&#160;<a class="el" href="structpcg__detail_1_1halfsize__trait_3_01pcg128__t_01_4.html#a35f5d7dd3e5f4f08e55a8f9492123cc3">pcg_detail::halfsize_trait&lt; pcg128_t &gt;</a>, <a class="el" href="structpcg__detail_1_1halfsize__trait_3_01uint16__t_01_4.html#a088521d075a6c8802fcbc1107785431a">pcg_detail::halfsize_trait&lt; uint16_t &gt;</a>, <a class="el" href="structpcg__detail_1_1halfsize__trait_3_01uint32__t_01_4.html#a62a81fc45ce14418c7e6173c16d9e64e">pcg_detail::halfsize_trait&lt; uint32_t &gt;</a>, <a class="el" href="structpcg__detail_1_1halfsize__trait_3_01uint64__t_01_4.html#a6c4832c9fe65c3d32245f004c1d2320d">pcg_detail::halfsize_trait&lt; uint64_t &gt;</a></li>
 </ul>
 
@@ -269,17 +292,24 @@ $(function(){ initResizable(false); });
 
 
 <h3><a id="index_v" name="index_v"></a>- v -</h3><ul>
+<li>validationHash&#160;:&#160;<a class="el" href="structZagreus_1_1TTEntry.html#af699059bdb42f1aadfc82f8439bdcba9">Zagreus::TTEntry</a></li>
 <li>value&#160;:&#160;<a class="el" href="structpcg__extras_1_1static__arbitrary__seed.html#a0168de8c2e22973e0d7802ed69050d6f">pcg_extras::static_arbitrary_seed&lt; IntType &gt;</a></li>
 </ul>
 
 
 <h3><a id="index_w" name="index_w"></a>- w -</h3><ul>
+<li>whiteTime&#160;:&#160;<a class="el" href="structZagreus_1_1SearchParams.html#a05e3612c3fadb30878fc56e636c6b425">Zagreus::SearchParams</a></li>
 <li>wrapped()&#160;:&#160;<a class="el" href="classpcg__detail_1_1engine.html#a142a7d2853ddc5e0583e0398da4c77b7">pcg_detail::engine&lt; xtype, itype, output_mixin, output_previous, stream_mixin, multiplier_mixin &gt;</a></li>
 </ul>
 
 
 <h3><a id="index_z" name="index_z"></a>- z -</h3><ul>
 <li>zobristHash&#160;:&#160;<a class="el" href="structZagreus_1_1BoardState.html#afc232be750e7efa53b5c03508f51d606">Zagreus::BoardState</a></li>
+</ul>
+
+
+<h3><a id="index__7E" name="index__7E"></a>- ~ -</h3><ul>
+<li>~TranspositionTable()&#160;:&#160;<a class="el" href="classZagreus_1_1TranspositionTable.html#a11326423d706ca8e9d757ee9287aed59">Zagreus::TranspositionTable</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

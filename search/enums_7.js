@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ucioptiontype_0',['UCIOptionType',['../namespaceZagreus.html#a25277ebd2a95d3a6cec246971a6e41c1',1,'Zagreus']]]
+  ['ttnodetype_0',['TTNodeType',['../namespaceZagreus.html#ae0877a94867882cbc10b59abe123769e',1,'Zagreus']]]
 ];

@@ -14,5 +14,6 @@ var searchData=
   ['isdraw_11',['isDraw',['../classZagreus_1_1Board.html#a9e6bb00719d45cc2ed6610a9c848fcb4',1,'Zagreus::Board']]],
   ['iskingincheck_12',['isKingInCheck',['../classZagreus_1_1Board.html#a27b03cc9604c065a113d26a9848ee0ea',1,'Zagreus::Board']]],
   ['ispieceonsquare_13',['isPieceOnSquare',['../classZagreus_1_1Board.html#a47123e6793832bd624e425116173c933',1,'Zagreus::Board']]],
-  ['ispositionlegal_14',['isPositionLegal',['../classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8',1,'Zagreus::Board']]]
+  ['ispositionlegal_14',['isPositionLegal',['../classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8',1,'Zagreus::Board']]],
+  ['issearchstopped_15',['isSearchStopped',['../classZagreus_1_1Engine.html#a2fd88cb737e7b4b2af11f6a2e93e6634',1,'Zagreus::Engine']]]
 ];

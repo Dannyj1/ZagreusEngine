@@ -2,7 +2,7 @@ var searchData=
 [
   ['magics_2ecpp_0',['magics.cpp',['../magics_8cpp.html',1,'']]],
   ['magics_2eh_1',['magics.h',['../magics_8h.html',1,'']]],
-  ['main_2',['main',['../main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.cpp']]],
+  ['main_2',['main',['../main_8cpp.html#a638b85ceffac097c2aa79b76ba8c055e',1,'main.cpp']]],
   ['main_2ecpp_3',['main.cpp',['../main_8cpp.html',1,'']]],
   ['makemove_4',['makeMove',['../classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de',1,'Zagreus::Board']]],
   ['mask_5fbishop_5fattacks_5',['mask_bishop_attacks',['../namespaceZagreus.html#a9822e1c29d5f304b6e3ff16d1c7a5fb9',1,'Zagreus']]],

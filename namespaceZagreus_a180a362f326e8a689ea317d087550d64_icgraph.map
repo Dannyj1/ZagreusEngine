@@ -1,9 +1,13 @@
 <map id="Zagreus::generateMagics" name="Zagreus::generateMagics">
-<area shape="rect" id="Node000001" title=" " alt="" coords="475,35,661,60"/>
-<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a8b9de4c6d0212eec3f86b7011ca830aa" title=" " alt="" coords="241,5,427,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="461,37,426,32,427,27,462,31"/>
-<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a37e2265345b942f5ed69201304442a05" title=" " alt="" coords="245,55,423,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="461,63,424,67,423,62,461,57"/>
-<area shape="rect" id="Node000004" href="$classZagreus_1_1Engine.html#aa97883c4a13a6a6e8b348589c820aafb" title=" " alt="" coords="5,63,193,88"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="231,78,193,78,193,73,231,73"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="720,35,907,60"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a8b9de4c6d0212eec3f86b7011ca830aa" title=" " alt="" coords="487,5,672,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="706,37,672,32,672,27,707,31"/>
+<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a37e2265345b942f5ed69201304442a05" title=" " alt="" coords="490,55,669,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="707,63,669,67,668,62,706,57"/>
+<area shape="rect" id="Node000004" href="$classZagreus_1_1Engine.html#aa97883c4a13a6a6e8b348589c820aafb" title=" " alt="" coords="251,63,439,88"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="476,78,439,78,439,73,476,73"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#a9da5c1576379032450eee69dc694e6a4" title=" " alt="" coords="108,63,203,88"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="237,78,203,78,203,73,237,73"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html#a638b85ceffac097c2aa79b76ba8c055e" title=" " alt="" coords="5,63,60,88"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="95,78,60,78,60,73,95,73"/>
 </map>

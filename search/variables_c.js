@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['size_0',['size',['../structZagreus_1_1MoveList.html#adffad2603ba0d4cf3c011d7fd9bf016f',1,'Zagreus::MoveList']]],
-  ['startposfen_1',['startPosFEN',['../namespaceZagreus.html#af06c7a265e63d5df7642baf04e51a761',1,'Zagreus']]],
-  ['state_5f_2',['state_',['../classpcg__detail_1_1engine.html#a8e29a3b26c9966667b6ea7a7f153b145',1,'pcg_detail::engine']]]
+  ['qnodessearched_0',['qNodesSearched',['../structZagreus_1_1SearchStats.html#a3b79ebe9145e435236b851708233fe5e',1,'Zagreus::SearchStats']]],
+  ['queenphase_1',['queenPhase',['../namespaceZagreus.html#a6d045adcc3c1da72d5ddcc46ed8bdcbd',1,'Zagreus']]]
 ];

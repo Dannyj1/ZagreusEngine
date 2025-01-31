@@ -17,5 +17,6 @@ var searchData=
   ['whitepawnsinglepush_14',['whitePawnSinglePush',['../namespaceZagreus.html#a10d8ce4127d68a8189027ba00dce39b5',1,'Zagreus']]],
   ['whitepawnwestattacks_15',['whitePawnWestAttacks',['../namespaceZagreus.html#aacd111e9b3ec452ad93d48144924aa62',1,'Zagreus']]],
   ['whitepushablepawns_16',['whitePushablePawns',['../namespaceZagreus.html#a0d2f9d3985a89a5ace60cca661ca1b11',1,'Zagreus']]],
-  ['wrapped_17',['wrapped',['../classpcg__detail_1_1engine.html#a142a7d2853ddc5e0583e0398da4c77b7',1,'pcg_detail::engine']]]
+  ['whitetime_17',['whiteTime',['../structZagreus_1_1SearchParams.html#a05e3612c3fadb30878fc56e636c6b425',1,'Zagreus::SearchParams']]],
+  ['wrapped_18',['wrapped',['../classpcg__detail_1_1engine.html#a142a7d2853ddc5e0583e0398da4c77b7',1,'pcg_detail::engine']]]
 ];
