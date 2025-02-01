@@ -220,7 +220,7 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>        <a class="code hl_typedef" href="namespaceZagreus.html#a38e749cf22c411cb709a3da939267e6f">Move</a> move;</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        <span class="keywordflow">while</span> (movePicker.next(move)) {</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>            board.<a class="code hl_function" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de">makeMove</a>(movePicker.getCurrentMove());</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>            board.<a class="code hl_function" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de">makeMove</a>(move);</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>            <span class="keywordflow">if</span> (!board.<a class="code hl_function" href="classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8">isPositionLegal</a>&lt;color&gt;()) {</div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>                board.<a class="code hl_function" href="classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644">unmakeMove</a>();</div>
