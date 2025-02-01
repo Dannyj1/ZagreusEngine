@@ -16,7 +16,7 @@ var searchData=
   ['blackpawnwestattacks_13',['blackPawnWestAttacks',['../namespaceZagreus.html#ac1dd827c29aa08f25be85d206411f699',1,'Zagreus']]],
   ['blackpushablepawns_14',['blackPushablePawns',['../namespaceZagreus.html#a5ade02c27a6792ccd8b45237b25210b5',1,'Zagreus']]],
   ['bmask_15',['bmask',['../namespaceZagreus.html#aa5aafe9960d89a779ae88293d6c107c0',1,'Zagreus']]],
-  ['board_16',['Board',['../classZagreus_1_1Board.html#a090aa3f5b524fd4b966df79794eb7c2c',1,'Zagreus::Board']]],
+  ['board_16',['Board',['../classZagreus_1_1Board.html#a090aa3f5b524fd4b966df79794eb7c2c',1,'Zagreus::Board::Board()'],['../classZagreus_1_1Board.html#a60c9c6257773753d7deab8019c14f8ca',1,'Zagreus::Board::Board(const Board &amp;)=delete']]],
   ['bounded_5frand_17',['bounded_rand',['../namespacepcg__extras.html#a09fe30ab14f4bae059b13199966e6562',1,'pcg_extras']]],
   ['bump_18',['bump',['../classpcg__detail_1_1engine.html#abc83b5b934e2acfa6fac6501db0bb703',1,'pcg_detail::engine']]]
 ];

@@ -54,7 +54,7 @@ var searchData=
   ['blackpushablepawns_51',['blackPushablePawns',['../namespaceZagreus.html#a5ade02c27a6792ccd8b45237b25210b5',1,'Zagreus']]],
   ['blacktime_52',['blackTime',['../structZagreus_1_1SearchParams.html#ab191e90b19f57f2cc6303917692bb01a',1,'Zagreus::SearchParams']]],
   ['bmask_53',['bmask',['../namespaceZagreus.html#aa5aafe9960d89a779ae88293d6c107c0',1,'Zagreus']]],
-  ['board_54',['Board',['../classZagreus_1_1Board.html',1,'Zagreus::Board'],['../classZagreus_1_1Board.html#a090aa3f5b524fd4b966df79794eb7c2c',1,'Zagreus::Board::Board()']]],
+  ['board_54',['Board',['../classZagreus_1_1Board.html',1,'Zagreus::Board'],['../classZagreus_1_1Board.html#a090aa3f5b524fd4b966df79794eb7c2c',1,'Zagreus::Board::Board()'],['../classZagreus_1_1Board.html#a60c9c6257773753d7deab8019c14f8ca',1,'Zagreus::Board::Board(const Board &amp;)=delete']]],
   ['board_2ecpp_55',['board.cpp',['../board_8cpp.html',1,'']]],
   ['board_2eh_56',['board.h',['../board_8h.html',1,'']]],
   ['boardstate_57',['BoardState',['../structZagreus_1_1BoardState.html',1,'Zagreus']]],
