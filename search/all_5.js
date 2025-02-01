@@ -22,7 +22,7 @@ var searchData=
   ['evaluate_19',['evaluate',['../classZagreus_1_1Evaluation.html#a0f4174df46fff74d4c208a04c861622a',1,'Zagreus::Evaluation']]],
   ['evaluation_20',['Evaluation',['../classZagreus_1_1Evaluation.html',1,'Zagreus::Evaluation'],['../classZagreus_1_1Evaluation.html#ae6c3954cd63bcea3be3239a2569bfef7',1,'Zagreus::Evaluation::Evaluation()']]],
   ['evasions_21',['EVASIONS',['../namespaceZagreus.html#a3d471f60f5bbb9c34722924daef89c8caba68afb85bbe6921753860b2e6b68545',1,'Zagreus']]],
-  ['exact_5fnode_22',['EXACT_NODE',['../namespaceZagreus.html#ae0877a94867882cbc10b59abe123769eacd0676f5786d68d12c73963f445c0e49',1,'Zagreus']]],
+  ['exact_22',['EXACT',['../namespaceZagreus.html#ae0877a94867882cbc10b59abe123769ea682445c2e6a470406f47fb7a24f3193a',1,'Zagreus']]],
   ['ext_5fmcg_5fxsh_5frs_5f64_5f32_23',['ext_mcg_xsh_rs_64_32',['../namespacepcg__engines.html#ad0d1eac501cf57ce1e9b83dc8f906ce1',1,'pcg_engines']]],
   ['ext_5fmcg_5fxsl_5frr_5f128_5f64_24',['ext_mcg_xsl_rr_128_64',['../namespacepcg__engines.html#a0d5892582417b6fdcd486dc7afd6891d',1,'pcg_engines']]],
   ['ext_5foneseq_5frxs_5fm_5fxs_5f32_5f32_25',['ext_oneseq_rxs_m_xs_32_32',['../namespacepcg__engines.html#a6dbc7c919515fd231b8189a5c158ffed',1,'pcg_engines']]],

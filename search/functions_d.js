@@ -9,5 +9,6 @@ var searchData=
   ['poplsb_6',['popLsb',['../namespaceZagreus.html#a5b8e7dc1ddf3599e06c25e9e88952fbf',1,'Zagreus']]],
   ['print_7',['print',['../classZagreus_1_1Board.html#a82a99b7d0775ddd726fd3175f63241e1',1,'Zagreus::Board']]],
   ['printstartupmessage_8',['printStartupMessage',['../classZagreus_1_1Engine.html#a9da44ebb2faa1b76fb8ab5c361c97d8d',1,'Zagreus::Engine']]],
-  ['pvsearch_9',['pvSearch',['../namespaceZagreus.html#a50672cdfdd70d159a3fa4de3d2cc1815',1,'Zagreus']]]
+  ['probeposition_9',['probePosition',['../classZagreus_1_1TranspositionTable.html#a2d08e7957c241c6c487761ef0aa0fdf5',1,'Zagreus::TranspositionTable']]],
+  ['pvsearch_10',['pvSearch',['../namespaceZagreus.html#a50672cdfdd70d159a3fa4de3d2cc1815',1,'Zagreus']]]
 ];

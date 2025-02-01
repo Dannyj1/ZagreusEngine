@@ -1,4 +1,4 @@
-<map id="Zagreus::TranspositionTable::getScore" name="Zagreus::TranspositionTable::getScore">
+<map id="Zagreus::TranspositionTable::probePosition" name="Zagreus::TranspositionTable::probePosition">
 <area shape="rect" id="Node000001" title=" " alt="" coords="553,22,756,62"/>
 <area shape="rect" id="Node000002" href="$namespaceZagreus.html#a50672cdfdd70d159a3fa4de3d2cc1815" title=" " alt="" coords="180,29,323,55"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="539,35,505,33,438,31,371,33,323,36,323,31,371,27,438,25,505,27,540,29"/>

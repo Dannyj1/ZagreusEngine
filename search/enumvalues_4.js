@@ -12,5 +12,5 @@ var searchData=
   ['empty_9',['EMPTY',['../namespaceZagreus.html#a80c68b0ed6d2623104cdff1da84729a7ad46b5d947d7e11d716e462ac7a2f8c1d',1,'Zagreus']]],
   ['en_5fpassant_10',['EN_PASSANT',['../namespaceZagreus.html#a7735714492e635054e84a0cc179e46baa9d4ea42b20f4964a99e9dbd5b89ef9cc',1,'Zagreus']]],
   ['evasions_11',['EVASIONS',['../namespaceZagreus.html#a3d471f60f5bbb9c34722924daef89c8caba68afb85bbe6921753860b2e6b68545',1,'Zagreus']]],
-  ['exact_5fnode_12',['EXACT_NODE',['../namespaceZagreus.html#ae0877a94867882cbc10b59abe123769eacd0676f5786d68d12c73963f445c0e49',1,'Zagreus']]]
+  ['exact_12',['EXACT',['../namespaceZagreus.html#ae0877a94867882cbc10b59abe123769ea682445c2e6a470406f47fb7a24f3193a',1,'Zagreus']]]
 ];

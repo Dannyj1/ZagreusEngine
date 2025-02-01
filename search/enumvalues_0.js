@@ -8,5 +8,6 @@ var searchData=
   ['a6_5',['A6',['../namespaceZagreus.html#a7d2e00f0541186be79cce3c9621e918fa06ad3a344f6225ec0d4aa5e69891ae4b',1,'Zagreus']]],
   ['a7_6',['A7',['../namespaceZagreus.html#a7d2e00f0541186be79cce3c9621e918fa393c525666b53f11a14d3d70def03f73',1,'Zagreus']]],
   ['a8_7',['A8',['../namespaceZagreus.html#a7d2e00f0541186be79cce3c9621e918fae273a67f60d99acb2e0864ef1be168e6',1,'Zagreus']]],
-  ['all_8',['ALL',['../namespaceZagreus.html#a3d471f60f5bbb9c34722924daef89c8caa6d0baaddf607878ab0d9a3c8bbe321e',1,'Zagreus']]]
+  ['all_8',['ALL',['../namespaceZagreus.html#a3d471f60f5bbb9c34722924daef89c8caa6d0baaddf607878ab0d9a3c8bbe321e',1,'Zagreus']]],
+  ['alpha_9',['ALPHA',['../namespaceZagreus.html#ae0877a94867882cbc10b59abe123769ea400e68c7fe8580a082d6f80a13040da7',1,'Zagreus']]]
 ];

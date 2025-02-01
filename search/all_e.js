@@ -68,8 +68,9 @@ var searchData=
   ['print_65',['print',['../classZagreus_1_1Board.html#a82a99b7d0775ddd726fd3175f63241e1',1,'Zagreus::Board']]],
   ['printable_5ftypename_66',['printable_typename',['../structpcg__extras_1_1printable__typename.html',1,'pcg_extras']]],
   ['printstartupmessage_67',['printStartupMessage',['../classZagreus_1_1Engine.html#a9da44ebb2faa1b76fb8ab5c361c97d8d',1,'Zagreus::Engine']]],
-  ['promotion_68',['PROMOTION',['../namespaceZagreus.html#a7735714492e635054e84a0cc179e46baa8b18bc5047643a18a4ec27886a319d00',1,'Zagreus']]],
-  ['promotionpiece_69',['PromotionPiece',['../namespaceZagreus.html#ae3d5464d72c8b3e99114db86d97e2cac',1,'Zagreus']]],
-  ['pv_70',['PV',['../namespaceZagreus.html#ada679bdc3b3121c6d715689e2990b0eaaef99d28c6254f51321928e4cd38522a8',1,'Zagreus']]],
-  ['pvsearch_71',['pvSearch',['../namespaceZagreus.html#a50672cdfdd70d159a3fa4de3d2cc1815',1,'Zagreus']]]
+  ['probeposition_68',['probePosition',['../classZagreus_1_1TranspositionTable.html#a2d08e7957c241c6c487761ef0aa0fdf5',1,'Zagreus::TranspositionTable']]],
+  ['promotion_69',['PROMOTION',['../namespaceZagreus.html#a7735714492e635054e84a0cc179e46baa8b18bc5047643a18a4ec27886a319d00',1,'Zagreus']]],
+  ['promotionpiece_70',['PromotionPiece',['../namespaceZagreus.html#ae3d5464d72c8b3e99114db86d97e2cac',1,'Zagreus']]],
+  ['pv_71',['PV',['../namespaceZagreus.html#ada679bdc3b3121c6d715689e2990b0eaaef99d28c6254f51321928e4cd38522a8',1,'Zagreus']]],
+  ['pvsearch_72',['pvSearch',['../namespaceZagreus.html#a50672cdfdd70d159a3fa4de3d2cc1815',1,'Zagreus']]]
 ];
