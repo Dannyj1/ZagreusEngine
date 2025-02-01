@@ -10,5 +10,5 @@ var searchData=
   ['print_7',['print',['../classZagreus_1_1Board.html#a82a99b7d0775ddd726fd3175f63241e1',1,'Zagreus::Board']]],
   ['printstartupmessage_8',['printStartupMessage',['../classZagreus_1_1Engine.html#a9da44ebb2faa1b76fb8ab5c361c97d8d',1,'Zagreus::Engine']]],
   ['probeposition_9',['probePosition',['../classZagreus_1_1TranspositionTable.html#a2d08e7957c241c6c487761ef0aa0fdf5',1,'Zagreus::TranspositionTable']]],
-  ['pvsearch_10',['pvSearch',['../namespaceZagreus.html#a50672cdfdd70d159a3fa4de3d2cc1815',1,'Zagreus']]]
+  ['pvsearch_10',['pvSearch',['../namespaceZagreus.html#a8a0aa6f732058a286c54db2914fbe28e',1,'Zagreus']]]
 ];

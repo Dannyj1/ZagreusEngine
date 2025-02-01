@@ -21,11 +21,11 @@
 <area shape="rect" id="Node000015" href="$classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8" title="Checks if the current position is legal based on the color that just made a move." alt="" coords="553,414,745,454"/>
 <area shape="poly" id="edge32_Node000001_Node000015" title=" " alt="" coords="1407,264,1388,307,1359,361,1318,412,1293,435,1265,453,1194,481,1118,498,1040,505,963,503,889,495,821,484,711,457,713,452,822,479,890,490,963,498,1040,499,1117,493,1192,476,1263,448,1290,430,1314,409,1354,358,1383,305,1402,261"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1055,83,1037,90,996,114,959,142,906,193,902,189,956,138,993,109,1035,85,1053,78"/>
-<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a50672cdfdd70d159a3fa4de3d2cc1815" title=" " alt="" coords="180,289,323,315"/>
+<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a8a0aa6f732058a286c54db2914fbe28e" title=" " alt="" coords="180,289,323,315"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="785,214,592,234,481,250,371,270,291,292,290,287,370,265,480,245,591,229,785,209"/>
 <area shape="rect" id="Node000005" href="$namespaceZagreus.html#a8402e43c19031fd84e7ff36a670a6161" title=" " alt="" coords="5,289,132,315"/>
 <area shape="poly" id="edge9_Node000003_Node000005" title=" " alt="" coords="785,200,660,199,508,204,343,222,261,236,181,255,134,273,94,292,92,287,132,268,179,250,260,231,342,216,508,199,660,194,785,195"/>
-<area shape="rect" id="Node000006" href="$namespaceZagreus.html#a7fa7d046b3ab54a7dd1078dfb0c383a7" title=" " alt="" coords="371,327,505,352"/>
+<area shape="rect" id="Node000006" href="$namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,327,505,352"/>
 <area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="835,223,482,329,481,324,833,218"/>
 <area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="283,279,274,271,251,268,232,270,222,275,220,280,226,288,221,291,215,281,218,271,231,265,251,263,276,266,287,275"/>
 <area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="166,305,132,305,132,299,166,299"/>
