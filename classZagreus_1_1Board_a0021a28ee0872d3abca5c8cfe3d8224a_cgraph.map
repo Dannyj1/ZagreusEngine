@@ -2,11 +2,11 @@
 <area shape="rect" id="Node000001" title="gets the square of the attacker with the lowest value of a given square" alt="" coords="5,135,212,175"/>
 <area shape="rect" id="Node000002" href="$namespaceZagreus.html#a3b7dc37ae50fe6f86723b9c113ba301f" title="Finds the index of the least significant set bit (LSB) in a bitboard." alt="" coords="266,113,449,139"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,141,252,136,253,141,213,146"/>
-<area shape="rect" id="Node000003" href="$classZagreus_1_1Board.html#a8210f4772db4ca37dd43ea5358c0b88f" title="Retrieves the attackers of a given square by color." alt="" coords="260,163,455,203"/>
+<area shape="rect" id="Node000003" href="$classZagreus_1_1Board.html#ab5dadccf0de6e5507efa4c35b225a675" title="Retrieves the attackers of a given square by color." alt="" coords="260,163,455,203"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,164,247,168,246,174,212,170"/>
 <area shape="rect" id="Node000004" href="$classZagreus_1_1Board.html#ae05e57705dd28daf8718d043c68d16d2" title="Retrieves the bitboard for a given color." alt="" coords="508,131,692,171"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="455,168,494,163,495,168,455,173"/>
-<area shape="rect" id="Node000005" href="$classZagreus_1_1Board.html#a7fb1dd02d78c9111d73cb44f100c8997" title="Retrieves the attackers of a given square." alt="" coords="503,195,697,235"/>
+<area shape="rect" id="Node000005" href="$classZagreus_1_1Board.html#a2f1f56b6140937dd1c0e430f0c0784bb" title="Retrieves the attackers of a given square." alt="" coords="503,195,697,235"/>
 <area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="455,194,489,198,489,203,455,199"/>
 <area shape="rect" id="Node000006" href="$namespaceZagreus.html#adda3e72c179c4e9f1ef1406a61d9fea7" title="Retrieves the bishop attacks for a given square and occupied squares." alt="" coords="749,55,947,80"/>
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="678,193,695,181,712,159,718,136,725,112,744,89,751,84,754,88,747,93,730,115,723,137,717,161,699,185,681,197"/>

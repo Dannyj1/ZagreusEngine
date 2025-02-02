@@ -368,7 +368,7 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno"><a class="line" href="namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7">  270</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7">qSearch</a>(<a class="code hl_class" href="classZagreus_1_1Engine.html">Engine</a>&amp; engine, <a class="code hl_class" href="classZagreus_1_1Board.html">Board</a>&amp; board, <span class="keywordtype">int</span> alpha, <span class="keywordtype">int</span> beta, <span class="keywordtype">int</span> depth, <a class="code hl_struct" href="structZagreus_1_1SearchStats.html">SearchStats</a>&amp; stats,</div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>            <span class="keyword">const</span> std::chrono::time_point&lt;std::chrono::steady_clock&gt;</div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>            &amp; endTime) {</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> isPV = nodeType == <a class="code hl_enumvalue" href="namespaceZagreus.html#ada679bdc3b3121c6d715689e2990b0eaaef99d28c6254f51321928e4cd38522a8">PV</a>;</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    <span class="comment">// constexpr bool isPV = nodeType == PV;</span></div>
 <div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span> </div>
 <div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    <span class="keywordflow">if</span> (board.<a class="code hl_function" href="classZagreus_1_1Board.html#a9e6bb00719d45cc2ed6610a9c848fcb4">isDraw</a>()) {</div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="constants_8h.html#afa84451f168e2c98d68dbaf7ab5d85c0">DRAW_SCORE</a>;</div>
@@ -406,72 +406,80 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>    <span class="keyword">constexpr</span> <a class="code hl_enumeration" href="namespaceZagreus.html#a06e913bde27d160c82c691b3925920a4">PieceColor</a> opponentColor = !color;</div>
 <div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>    <span class="keywordtype">int</span> legalMoves = 0;</div>
 <div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span> </div>
-<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>    <a class="code hl_typedef" href="namespaceZagreus.html#a38e749cf22c411cb709a3da939267e6f">Move</a> move;</div>
-<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>    <a class="code hl_struct" href="structZagreus_1_1MoveList.html">MoveList</a> moves = <a class="code hl_struct" href="structZagreus_1_1MoveList.html">MoveList</a>{};</div>
-<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>    <a class="code hl_function" href="namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1">generateMoves&lt;color, QSEARCH&gt;</a>(board, moves);</div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>    <a class="code hl_class" href="classZagreus_1_1MovePicker.html">MovePicker</a> movePicker{moves};</div>
-<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>    movePicker.<a class="code hl_function" href="classZagreus_1_1MovePicker.html#ac02126cefeb583a4d31dd47393155e4f">sort</a>(board);</div>
-<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span> </div>
-<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>    <span class="keywordflow">while</span> (movePicker.next(move)) {</div>
-<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>        board.<a class="code hl_function" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de">makeMove</a>(move);</div>
-<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>        <span class="comment">// const Square toSquare = getToSquare(move);</span></div>
-<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>        <span class="comment">// const Piece capturedPiece = board.getPieceOnSquare(toSquare);</span></div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>    <span class="keywordtype">bool</span> isInCheck = board.<a class="code hl_function" href="classZagreus_1_1Board.html#a27b03cc9604c065a113d26a9848ee0ea">isKingInCheck</a>&lt;color&gt;();</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span> </div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>    <a class="code hl_typedef" href="namespaceZagreus.html#a38e749cf22c411cb709a3da939267e6f">Move</a> move;</div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>    <a class="code hl_struct" href="structZagreus_1_1MoveList.html">MoveList</a> moves = <a class="code hl_struct" href="structZagreus_1_1MoveList.html">MoveList</a>{};</div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span> </div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>    <span class="keywordflow">if</span> (isInCheck) {</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>        <a class="code hl_function" href="namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1">generateMoves&lt;color, EVASIONS&gt;</a>(board, moves);</div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>        <a class="code hl_function" href="namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1">generateMoves&lt;color, QSEARCH&gt;</a>(board, moves);</div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>    }</div>
 <div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span> </div>
-<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>        <span class="keywordflow">if</span> (!board.<a class="code hl_function" href="classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8">isPositionLegal</a>&lt;color&gt;()) {</div>
-<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>            board.<a class="code hl_function" href="classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644">unmakeMove</a>();</div>
-<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>        }</div>
-<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span> </div>
-<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>        legalMoves += 1;</div>
-<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span> </div>
-<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>        <span class="comment">/*if (capturedPiece != EMPTY) {</span></div>
-<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span><span class="comment">            int see = getPieceValue(capturedPiece) - board.see&lt;opponentColor&gt;(toSquare);</span></div>
-<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span><span class="comment"></span> </div>
-<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span><span class="comment">            if (see &lt; 0) {</span></div>
-<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span><span class="comment">                board.unmakeMove();</span></div>
-<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span><span class="comment">                continue;</span></div>
-<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span><span class="comment">            }</span></div>
-<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span><span class="comment">        }*/</span></div>
-<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span> </div>
-<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>        <span class="keyword">const</span> <span class="keywordtype">int</span> score = -<a class="code hl_function" href="namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7">qSearch&lt;!color, nodeType&gt;</a>(engine, board, -beta, -alpha, depth - 1, stats, endTime);</div>
-<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span> </div>
-<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>        board.<a class="code hl_function" href="classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644">unmakeMove</a>();</div>
-<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span> </div>
-<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>        <span class="keywordflow">if</span> (score &gt;= beta) {</div>
-<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>            <span class="comment">/*if (!engine.isSearchStopped()) {</span></div>
-<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span><span class="comment">                tt-&gt;savePosition(board.getZobristHash(), depth, board.getPly(), score, NO_MOVE, BETA);</span></div>
-<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span><span class="comment">            }*/</span></div>
-<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span> </div>
-<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>            <span class="keywordflow">return</span> score;</div>
-<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>        }</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>    <a class="code hl_class" href="classZagreus_1_1MovePicker.html">MovePicker</a> movePicker{moves};</div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>    movePicker.<a class="code hl_function" href="classZagreus_1_1MovePicker.html#ac02126cefeb583a4d31dd47393155e4f">sort</a>(board);</div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span> </div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>    <span class="keywordflow">while</span> (movePicker.next(move)) {</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>        board.<a class="code hl_function" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de">makeMove</a>(move);</div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>        <span class="comment">// const Square toSquare = getToSquare(move);</span></div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>        <span class="comment">// const Piece capturedPiece = board.getPieceOnSquare(toSquare);</span></div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span> </div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>        <span class="keywordflow">if</span> (!board.<a class="code hl_function" href="classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8">isPositionLegal</a>&lt;color&gt;()) {</div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>            board.<a class="code hl_function" href="classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644">unmakeMove</a>();</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>        }</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span> </div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>        legalMoves += 1;</div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span> </div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>        <span class="comment">/*if (capturedPiece != EMPTY) {</span></div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span><span class="comment">            int see = getPieceValue(capturedPiece) - board.see&lt;opponentColor&gt;(toSquare);</span></div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span><span class="comment"></span> </div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span><span class="comment">            if (see &lt; 0) {</span></div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span><span class="comment">                board.unmakeMove();</span></div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span><span class="comment">                continue;</span></div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span><span class="comment">            }</span></div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span><span class="comment">        }*/</span></div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span> </div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>        <span class="keyword">const</span> <span class="keywordtype">int</span> score = -<a class="code hl_function" href="namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7">qSearch&lt;!color, nodeType&gt;</a>(engine, board, -beta, -alpha, depth - 1, stats, endTime);</div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span> </div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>        board.<a class="code hl_function" href="classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644">unmakeMove</a>();</div>
 <div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span> </div>
-<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>        <span class="keywordflow">if</span> (score &gt; bestScore) {</div>
-<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>            bestScore = score;</div>
-<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>        }</div>
-<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span> </div>
-<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>        <span class="keywordflow">if</span> (score &gt; alpha) {</div>
-<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>            alpha = score;</div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>        <span class="keywordflow">if</span> (score &gt;= beta) {</div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>            <span class="comment">/*if (!engine.isSearchStopped()) {</span></div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span><span class="comment">                tt-&gt;savePosition(board.getZobristHash(), depth, board.getPly(), score, NO_MOVE, BETA);</span></div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span><span class="comment">            }*/</span></div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span> </div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>            <span class="keywordflow">return</span> score;</div>
 <div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>        }</div>
-<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>    }</div>
-<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span> </div>
-<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>    <span class="keywordflow">if</span> (!legalMoves &amp;&amp; board.<a class="code hl_function" href="classZagreus_1_1Board.html#a27b03cc9604c065a113d26a9848ee0ea">isKingInCheck</a>&lt;color&gt;()) {</div>
-<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>        bestScore = -<a class="code hl_define" href="constants_8h.html#a8d9895fbbd3a293b00425f34a9d5f14a">MATE_SCORE</a> + board.<a class="code hl_function" href="classZagreus_1_1Board.html#adf38c4f68536f92b5abed37c59bb018a">getPly</a>();</div>
-<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>    }</div>
-<div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span> </div>
-<div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span>    <span class="comment">/*TTNodeType ttNodeType = ALPHA;</span></div>
-<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span><span class="comment"></span> </div>
-<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span><span class="comment">    if (isPV) {</span></div>
-<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span><span class="comment">        ttNodeType = EXACT;</span></div>
-<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span><span class="comment">    }</span></div>
-<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span><span class="comment"></span> </div>
-<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span><span class="comment">    if (!engine.isSearchStopped()) {</span></div>
-<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span><span class="comment">        tt-&gt;savePosition(board.getZobristHash(), depth, board.getPly(), bestScore, NO_MOVE, ttNodeType);</span></div>
-<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span><span class="comment">    }*/</span></div>
-<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span> </div>
-<div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span>    <span class="keywordflow">return</span> bestScore;</div>
-<div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>}</div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span> </div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>        <span class="keywordflow">if</span> (score &gt; bestScore) {</div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>            bestScore = score;</div>
+<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>        }</div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span> </div>
+<div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span>        <span class="keywordflow">if</span> (score &gt; alpha) {</div>
+<div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span>            alpha = score;</div>
+<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>        }</div>
+<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span>    }</div>
+<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span> </div>
+<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>    <span class="keywordflow">if</span> (!legalMoves &amp;&amp; isInCheck) {</div>
+<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>        bestScore = -<a class="code hl_define" href="constants_8h.html#a8d9895fbbd3a293b00425f34a9d5f14a">MATE_SCORE</a> + board.<a class="code hl_function" href="classZagreus_1_1Board.html#adf38c4f68536f92b5abed37c59bb018a">getPly</a>();</div>
+<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>    }</div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span> </div>
+<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span>    <span class="comment">/*TTNodeType ttNodeType = ALPHA;</span></div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span><span class="comment"></span> </div>
+<div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span><span class="comment">    if (isPV) {</span></div>
+<div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span><span class="comment">        ttNodeType = EXACT;</span></div>
+<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span><span class="comment">    }</span></div>
+<div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span><span class="comment"></span> </div>
+<div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span><span class="comment">    if (!engine.isSearchStopped()) {</span></div>
+<div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span><span class="comment">        tt-&gt;savePosition(board.getZobristHash(), depth, board.getPly(), bestScore, NO_MOVE, ttNodeType);</span></div>
+<div class="line"><a id="l00379" name="l00379"></a><span class="lineno">  379</span><span class="comment">    }*/</span></div>
+<div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span> </div>
+<div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span>    <span class="keywordflow">return</span> bestScore;</div>
+<div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span>}</div>
 </div>
-<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>} <span class="comment">// namespace Zagreus</span></div>
+<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span>} <span class="comment">// namespace Zagreus</span></div>
 <div class="ttc" id="aboard_8h_html"><div class="ttname"><a href="board_8h.html">board.h</a></div></div>
 <div class="ttc" id="aclassZagreus_1_1Board_html"><div class="ttname"><a href="classZagreus_1_1Board.html">Zagreus::Board</a></div><div class="ttdoc">Represents the chess board and provides methods to manipulate it. The board consists of several bitbo...</div><div class="ttdef"><b>Definition</b> <a href="board_8h_source.html#l00061">board.h:61</a></div></div>
 <div class="ttc" id="aclassZagreus_1_1Board_html_a27b03cc9604c065a113d26a9848ee0ea"><div class="ttname"><a href="classZagreus_1_1Board.html#a27b03cc9604c065a113d26a9848ee0ea">Zagreus::Board::isKingInCheck</a></div><div class="ttdeci">bool isKingInCheck() const</div><div class="ttdef"><b>Definition</b> <a href="board_8h_source.html#l00331">board.h:331</a></div></div>
@@ -481,9 +489,9 @@ $(function(){ initResizable(false); });
 <div class="ttc" id="aclassZagreus_1_1Board_html_adf38c4f68536f92b5abed37c59bb018a"><div class="ttname"><a href="classZagreus_1_1Board.html#adf38c4f68536f92b5abed37c59bb018a">Zagreus::Board::getPly</a></div><div class="ttdeci">constexpr int getPly() const</div><div class="ttdoc">Retrieves the number of plies since the start of the game.</div><div class="ttdef"><b>Definition</b> <a href="board_8h_source.html#l00164">board.h:164</a></div></div>
 <div class="ttc" id="aclassZagreus_1_1Board_html_ae70908b24b651bffc106303f3646f2de"><div class="ttname"><a href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de">Zagreus::Board::makeMove</a></div><div class="ttdeci">void makeMove(const Move &amp;move)</div><div class="ttdoc">Makes a move on the board.</div><div class="ttdef"><b>Definition</b> <a href="board_8cpp_source.html#l00298">board.cpp:298</a></div></div>
 <div class="ttc" id="aclassZagreus_1_1Engine_html"><div class="ttname"><a href="classZagreus_1_1Engine.html">Zagreus::Engine</a></div><div class="ttdef"><b>Definition</b> <a href="uci_8h_source.html#l00034">uci.h:34</a></div></div>
-<div class="ttc" id="aclassZagreus_1_1Engine_html_a2d9d038f1c203aadd2042a26e75af516"><div class="ttname"><a href="classZagreus_1_1Engine.html#a2d9d038f1c203aadd2042a26e75af516">Zagreus::Engine::setSearchStopped</a></div><div class="ttdeci">void setSearchStopped(bool value)</div><div class="ttdef"><b>Definition</b> <a href="uci_8cpp_source.html#l00468">uci.cpp:468</a></div></div>
-<div class="ttc" id="aclassZagreus_1_1Engine_html_a2fd88cb737e7b4b2af11f6a2e93e6634"><div class="ttname"><a href="classZagreus_1_1Engine.html#a2fd88cb737e7b4b2af11f6a2e93e6634">Zagreus::Engine::isSearchStopped</a></div><div class="ttdeci">bool isSearchStopped() const</div><div class="ttdef"><b>Definition</b> <a href="uci_8cpp_source.html#l00464">uci.cpp:464</a></div></div>
-<div class="ttc" id="aclassZagreus_1_1Engine_html_aca7f188f346b2c77fa61853cbe9c8e13"><div class="ttname"><a href="classZagreus_1_1Engine.html#aca7f188f346b2c77fa61853cbe9c8e13">Zagreus::Engine::sendInfoMessage</a></div><div class="ttdeci">void sendInfoMessage(std::string_view message)</div><div class="ttdef"><b>Definition</b> <a href="uci_8cpp_source.html#l00509">uci.cpp:509</a></div></div>
+<div class="ttc" id="aclassZagreus_1_1Engine_html_a2d9d038f1c203aadd2042a26e75af516"><div class="ttname"><a href="classZagreus_1_1Engine.html#a2d9d038f1c203aadd2042a26e75af516">Zagreus::Engine::setSearchStopped</a></div><div class="ttdeci">void setSearchStopped(bool value)</div><div class="ttdef"><b>Definition</b> <a href="uci_8cpp_source.html#l00469">uci.cpp:469</a></div></div>
+<div class="ttc" id="aclassZagreus_1_1Engine_html_a2fd88cb737e7b4b2af11f6a2e93e6634"><div class="ttname"><a href="classZagreus_1_1Engine.html#a2fd88cb737e7b4b2af11f6a2e93e6634">Zagreus::Engine::isSearchStopped</a></div><div class="ttdeci">bool isSearchStopped() const</div><div class="ttdef"><b>Definition</b> <a href="uci_8cpp_source.html#l00465">uci.cpp:465</a></div></div>
+<div class="ttc" id="aclassZagreus_1_1Engine_html_aca7f188f346b2c77fa61853cbe9c8e13"><div class="ttname"><a href="classZagreus_1_1Engine.html#aca7f188f346b2c77fa61853cbe9c8e13">Zagreus::Engine::sendInfoMessage</a></div><div class="ttdeci">void sendInfoMessage(std::string_view message)</div><div class="ttdef"><b>Definition</b> <a href="uci_8cpp_source.html#l00510">uci.cpp:510</a></div></div>
 <div class="ttc" id="aclassZagreus_1_1Evaluation_html"><div class="ttname"><a href="classZagreus_1_1Evaluation.html">Zagreus::Evaluation</a></div><div class="ttdef"><b>Definition</b> <a href="eval_8h_source.html#l00047">eval.h:47</a></div></div>
 <div class="ttc" id="aclassZagreus_1_1Evaluation_html_a0f4174df46fff74d4c208a04c861622a"><div class="ttname"><a href="classZagreus_1_1Evaluation.html#a0f4174df46fff74d4c208a04c861622a">Zagreus::Evaluation::evaluate</a></div><div class="ttdeci">int evaluate()</div><div class="ttdoc">Evaluates the current board position.</div><div class="ttdef"><b>Definition</b> <a href="eval_8cpp_source.html#l00037">eval.cpp:37</a></div></div>
 <div class="ttc" id="aclassZagreus_1_1MovePicker_html"><div class="ttname"><a href="classZagreus_1_1MovePicker.html">Zagreus::MovePicker</a></div><div class="ttdef"><b>Definition</b> <a href="move__picker_8h_source.html#l00028">move_picker.h:28</a></div></div>

@@ -15,11 +15,11 @@
 <area shape="poly" id="edge41_Node000001_Node000035" title=" " alt="" coords="157,246,191,243,192,248,158,252"/>
 <area shape="rect" id="Node000006" href="$namespaceZagreus.html#a3b7dc37ae50fe6f86723b9c113ba301f" title="Finds the index of the least significant set bit (LSB) in a bitboard." alt="" coords="499,635,681,661"/>
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="418,645,485,645,485,651,418,651"/>
-<area shape="rect" id="Node000007" href="$classZagreus_1_1Board.html#a8210f4772db4ca37dd43ea5358c0b88f" title="Retrieves the attackers of a given square by color." alt="" coords="493,685,687,725"/>
+<area shape="rect" id="Node000007" href="$classZagreus_1_1Board.html#ab5dadccf0de6e5507efa4c35b225a675" title="Retrieves the attackers of a given square by color." alt="" coords="493,685,687,725"/>
 <area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="411,665,480,680,479,685,410,671"/>
 <area shape="rect" id="Node000008" href="$classZagreus_1_1Board.html#ae05e57705dd28daf8718d043c68d16d2" title="Retrieves the bitboard for a given color." alt="" coords="769,653,953,693"/>
 <area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="687,691,755,683,756,688,688,697"/>
-<area shape="rect" id="Node000009" href="$classZagreus_1_1Board.html#a7fb1dd02d78c9111d73cb44f100c8997" title="Retrieves the attackers of a given square." alt="" coords="764,717,959,757"/>
+<area shape="rect" id="Node000009" href="$classZagreus_1_1Board.html#a2f1f56b6140937dd1c0e430f0c0784bb" title="Retrieves the attackers of a given square." alt="" coords="764,717,959,757"/>
 <area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="688,714,751,722,750,727,687,719"/>
 <area shape="rect" id="Node000010" href="$namespaceZagreus.html#adda3e72c179c4e9f1ef1406a61d9fea7" title="Retrieves the bishop attacks for a given square and occupied squares." alt="" coords="1017,577,1215,602"/>
 <area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="946,715,964,703,980,681,986,658,993,634,1012,611,1019,606,1022,610,1015,615,998,637,992,660,985,684,967,707,949,719"/>

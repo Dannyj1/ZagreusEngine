@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="Retrieves the attackers of a given square by color." alt="" coords="5,163,200,203"/>
 <area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#ae05e57705dd28daf8718d043c68d16d2" title="Retrieves the bitboard for a given color." alt="" coords="253,131,437,171"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,168,239,163,240,168,201,173"/>
-<area shape="rect" id="Node000003" href="$classZagreus_1_1Board.html#a7fb1dd02d78c9111d73cb44f100c8997" title="Retrieves the attackers of a given square." alt="" coords="248,195,443,235"/>
+<area shape="rect" id="Node000003" href="$classZagreus_1_1Board.html#a2f1f56b6140937dd1c0e430f0c0784bb" title="Retrieves the attackers of a given square." alt="" coords="248,195,443,235"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,194,235,198,234,203,200,199"/>
 <area shape="rect" id="Node000004" href="$namespaceZagreus.html#adda3e72c179c4e9f1ef1406a61d9fea7" title="Retrieves the bishop attacks for a given square and occupied squares." alt="" coords="495,55,692,80"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="423,193,441,181,457,159,464,136,470,112,489,89,497,84,500,88,492,93,475,115,469,137,462,161,445,185,426,197"/>

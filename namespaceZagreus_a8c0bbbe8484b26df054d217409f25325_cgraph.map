@@ -25,7 +25,7 @@
 <area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="376,233,393,220,408,199,415,179,416,136,417,92,424,70,441,48,459,35,462,39,445,52,429,72,422,93,421,136,420,180,413,202,397,224,379,238"/>
 <area shape="rect" id="Node000012" href="$namespaceZagreus.html#a31c6c0c2eaae076f14a5a3131c81abb1" title=" " alt="" coords="477,320,647,345"/>
 <area shape="poly" id="edge11_Node000006_Node000012" title=" " alt="" coords="340,273,443,305,483,314,482,320,442,310,338,278"/>
-<area shape="rect" id="Node000013" href="$classZagreus_1_1Board.html#a8210f4772db4ca37dd43ea5358c0b88f" title="Retrieves the attackers of a given square by color." alt="" coords="465,206,659,246"/>
+<area shape="rect" id="Node000013" href="$classZagreus_1_1Board.html#ab5dadccf0de6e5507efa4c35b225a675" title="Retrieves the attackers of a given square by color." alt="" coords="465,206,659,246"/>
 <area shape="poly" id="edge12_Node000006_Node000013" title=" " alt="" coords="376,243,451,235,451,240,377,248"/>
 <area shape="rect" id="Node000028" href="$namespaceZagreus.html#a978d5894806a1bdb9f9089e820166aef" title=" " alt="" coords="481,369,643,395"/>
 <area shape="poly" id="edge28_Node000006_Node000028" title=" " alt="" coords="309,273,369,315,405,336,444,354,470,363,468,368,442,359,403,341,366,319,306,278"/>
@@ -35,7 +35,7 @@
 <area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="632,153,749,132,750,137,633,159"/>
 <area shape="rect" id="Node000014" href="$classZagreus_1_1Board.html#ae05e57705dd28daf8718d043c68d16d2" title="Retrieves the bitboard for a given color." alt="" coords="741,157,925,197"/>
 <area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="659,206,727,193,728,199,660,211"/>
-<area shape="rect" id="Node000015" href="$classZagreus_1_1Board.html#a7fb1dd02d78c9111d73cb44f100c8997" title="Retrieves the attackers of a given square." alt="" coords="736,221,931,261"/>
+<area shape="rect" id="Node000015" href="$classZagreus_1_1Board.html#a2f1f56b6140937dd1c0e430f0c0784bb" title="Retrieves the attackers of a given square." alt="" coords="736,221,931,261"/>
 <area shape="poly" id="edge14_Node000013_Node000015" title=" " alt="" coords="660,229,723,232,722,237,659,234"/>
 <area shape="poly" id="edge19_Node000015_Node000009" title=" " alt="" coords="919,218,936,207,947,194,953,181,959,154,964,126,971,112,984,99,1000,88,1003,92,987,103,976,115,969,128,964,155,958,183,951,197,939,211,922,223"/>
 <area shape="rect" id="Node000016" href="$namespaceZagreus.html#adda3e72c179c4e9f1ef1406a61d9fea7" title="Retrieves the bishop attacks for a given square and occupied squares." alt="" coords="989,227,1187,252"/>
