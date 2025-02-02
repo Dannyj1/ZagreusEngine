@@ -748,18 +748,22 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00689" name="l00689"></a><span class="lineno">  689</span>        }</div>
 <div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span> </div>
 <div class="line"><a id="l00691" name="l00691"></a><span class="lineno">  691</span>        <span class="keywordflow">if</span> (spaces == 4) {</div>
-<div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span>            halfMoveClock = character - <span class="charliteral">&#39;0&#39;</span>;</div>
-<div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span>        }</div>
-<div class="line"><a id="l00694" name="l00694"></a><span class="lineno">  694</span> </div>
-<div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span>        <span class="keywordflow">if</span> (spaces == 5) {</div>
-<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span>            fullmoveClock = character - <span class="charliteral">&#39;0&#39;</span>;</div>
-<div class="line"><a id="l00697" name="l00697"></a><span class="lineno">  697</span>        }</div>
-<div class="line"><a id="l00698" name="l00698"></a><span class="lineno">  698</span>    }</div>
-<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span> </div>
-<div class="line"><a id="l00700" name="l00700"></a><span class="lineno">  700</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00701" name="l00701"></a><span class="lineno">  701</span>}</div>
+<div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span>            <span class="keywordflow">if</span> (character &gt;= <span class="charliteral">&#39;0&#39;</span> &amp;&amp; character &lt;= <span class="charliteral">&#39;9&#39;</span>) {</div>
+<div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span>                halfMoveClock = halfMoveClock * 10 + (character - <span class="charliteral">&#39;0&#39;</span>);</div>
+<div class="line"><a id="l00694" name="l00694"></a><span class="lineno">  694</span>            }</div>
+<div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span>        }</div>
+<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span> </div>
+<div class="line"><a id="l00697" name="l00697"></a><span class="lineno">  697</span>        <span class="keywordflow">if</span> (spaces == 5) {</div>
+<div class="line"><a id="l00698" name="l00698"></a><span class="lineno">  698</span>            <span class="keywordflow">if</span> (character &gt;= <span class="charliteral">&#39;0&#39;</span> &amp;&amp; character &lt;= <span class="charliteral">&#39;9&#39;</span>) {</div>
+<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span>                fullmoveClock = fullmoveClock * 10 + (character - <span class="charliteral">&#39;0&#39;</span>);</div>
+<div class="line"><a id="l00700" name="l00700"></a><span class="lineno">  700</span>            }</div>
+<div class="line"><a id="l00701" name="l00701"></a><span class="lineno">  701</span>        }</div>
+<div class="line"><a id="l00702" name="l00702"></a><span class="lineno">  702</span>    }</div>
+<div class="line"><a id="l00703" name="l00703"></a><span class="lineno">  703</span> </div>
+<div class="line"><a id="l00704" name="l00704"></a><span class="lineno">  704</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00705" name="l00705"></a><span class="lineno">  705</span>}</div>
 </div>
-<div class="line"><a id="l00702" name="l00702"></a><span class="lineno">  702</span>} <span class="comment">// namespace Zagreus</span></div>
+<div class="line"><a id="l00706" name="l00706"></a><span class="lineno">  706</span>} <span class="comment">// namespace Zagreus</span></div>
 <div class="ttc" id="abitwise_8h_html"><div class="ttname"><a href="bitwise_8h.html">bitwise.h</a></div></div>
 <div class="ttc" id="aboard_8h_html"><div class="ttname"><a href="board_8h.html">board.h</a></div></div>
 <div class="ttc" id="aclassZagreus_1_1Board_html_a0021a28ee0872d3abca5c8cfe3d8224a"><div class="ttname"><a href="classZagreus_1_1Board.html#a0021a28ee0872d3abca5c8cfe3d8224a">Zagreus::Board::getSmallestAttacker</a></div><div class="ttdeci">Square getSmallestAttacker(Square square) const</div><div class="ttdoc">gets the square of the attacker with the lowest value of a given square</div><div class="ttdef"><b>Definition</b> <a href="#l00220">board.cpp:220</a></div></div>
