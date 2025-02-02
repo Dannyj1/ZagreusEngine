@@ -147,8 +147,8 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <a class="code hl_function" href="namespaceZagreus.html#a37e2265345b942f5ed69201304442a05">initializeMagicBitboards</a>();</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <a class="code hl_function" href="namespaceZagreus.html#af09541379517ebbc25c28b2070c83221">initializeAttackLookupTables</a>();</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <a class="code hl_class" href="classZagreus_1_1UCIOption.html">UCIOption</a> hashOption = <a class="code hl_function" href="classZagreus_1_1Engine.html#a1841215be0f226682591eb725f29d505">getOption</a>(<span class="stringliteral">&quot;Hash&quot;</span>);</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <a class="code hl_function" href="classZagreus_1_1TranspositionTable.html#a4315934b5aa610a63321dfa6515b6f98">TranspositionTable::getTT</a>()-&gt;<a class="code hl_function" href="classZagreus_1_1TranspositionTable.html#ad9c9d627d0a140aec262be74ad419857">setTableSize</a>(std::stoi(hashOption.<a class="code hl_function" href="classZagreus_1_1UCIOption.html#ad72700ea43fab6c0c4290f664e7973de">getValue</a>()));</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="comment">// UCIOption hashOption = getOption(&quot;Hash&quot;);</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="comment">// TranspositionTable::getTT()-&gt;setTableSize(std::stoi(hashOption.getValue()));</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>}</div>
 </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
@@ -286,9 +286,9 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    <span class="keywordflow">if</span> (!didSetup) {</div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>        <a class="code hl_function" href="classZagreus_1_1Engine.html#aa97883c4a13a6a6e8b348589c820aafb">doSetup</a>();</div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (name == <span class="stringliteral">&quot;Hash&quot;</span>) {</div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>        <a class="code hl_function" href="classZagreus_1_1TranspositionTable.html#a4315934b5aa610a63321dfa6515b6f98">TranspositionTable::getTT</a>()-&gt;<a class="code hl_function" href="classZagreus_1_1TranspositionTable.html#ad9c9d627d0a140aec262be74ad419857">setTableSize</a>(std::stoi(value));</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>    }</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    }<span class="comment">/* else if (name == &quot;Hash&quot;) {</span></div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span><span class="comment">        TranspositionTable::getTT()-&gt;setTableSize(std::stoi(value));</span></div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span><span class="comment">    }*/</span></div>
 <div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>}</div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span> </div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span><span class="keywordtype">void</span> Engine::handleUciNewGameCommand() {</div>
@@ -600,8 +600,8 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00491" name="l00491"></a><span class="lineno">  491</span> </div>
 <div class="foldopen" id="foldopen00492" data-start="{" data-end="}">
 <div class="line"><a id="l00492" name="l00492"></a><span class="lineno"><a class="line" href="classZagreus_1_1Engine.html#a4e0f16267cc2bef6e8dcd17687623538">  492</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classZagreus_1_1Engine.html#a4e0f16267cc2bef6e8dcd17687623538">Engine::registerOptions</a>() {</div>
-<div class="line"><a id="l00493" name="l00493"></a><span class="lineno">  493</span>    <a class="code hl_class" href="classZagreus_1_1UCIOption.html">UCIOption</a> hashOption{<span class="stringliteral">&quot;Hash&quot;</span>, <a class="code hl_enumvalue" href="namespaceZagreus.html#a25277ebd2a95d3a6cec246971a6e41c1aef1cb4e20d5d1f4b91af08f120bf90a6">Spin</a>, <span class="stringliteral">&quot;16&quot;</span>, <span class="stringliteral">&quot;1&quot;</span>, <span class="stringliteral">&quot;33554432&quot;</span>};</div>
-<div class="line"><a id="l00494" name="l00494"></a><span class="lineno">  494</span>    <a class="code hl_function" href="classZagreus_1_1Engine.html#a88a7ddc125e98976af68011c08213a5a">addOption</a>(hashOption);</div>
+<div class="line"><a id="l00493" name="l00493"></a><span class="lineno">  493</span>    <span class="comment">// UCIOption hashOption{&quot;Hash&quot;, Spin, &quot;16&quot;, &quot;1&quot;, &quot;33554432&quot;};</span></div>
+<div class="line"><a id="l00494" name="l00494"></a><span class="lineno">  494</span>    <span class="comment">// addOption(hashOption);</span></div>
 <div class="line"><a id="l00495" name="l00495"></a><span class="lineno">  495</span>}</div>
 </div>
 <div class="line"><a id="l00496" name="l00496"></a><span class="lineno">  496</span> </div>
@@ -842,7 +842,6 @@ $(function(){ initResizable(false); });
 <div class="ttc" id="aclassZagreus_1_1Engine_html_acb5bfe97cb4260ca05ad4007e1f837a3"><div class="ttname"><a href="classZagreus_1_1Engine.html#acb5bfe97cb4260ca05ad4007e1f837a3">Zagreus::Engine::sendMessage</a></div><div class="ttdeci">void sendMessage(std::string_view message)</div><div class="ttdef"><b>Definition</b> <a href="#l00513">uci.cpp:513</a></div></div>
 <div class="ttc" id="aclassZagreus_1_1TranspositionTable_html_a4315934b5aa610a63321dfa6515b6f98"><div class="ttname"><a href="classZagreus_1_1TranspositionTable.html#a4315934b5aa610a63321dfa6515b6f98">Zagreus::TranspositionTable::getTT</a></div><div class="ttdeci">static TranspositionTable * getTT()</div><div class="ttdef"><b>Definition</b> <a href="tt_8cpp_source.html#l00115">tt.cpp:115</a></div></div>
 <div class="ttc" id="aclassZagreus_1_1TranspositionTable_html_aa27c01833383a197e102d2494be540b4"><div class="ttname"><a href="classZagreus_1_1TranspositionTable.html#aa27c01833383a197e102d2494be540b4">Zagreus::TranspositionTable::reset</a></div><div class="ttdeci">void reset()</div><div class="ttdef"><b>Definition</b> <a href="tt_8h_source.html#l00052">tt.h:52</a></div></div>
-<div class="ttc" id="aclassZagreus_1_1TranspositionTable_html_ad9c9d627d0a140aec262be74ad419857"><div class="ttname"><a href="classZagreus_1_1TranspositionTable.html#ad9c9d627d0a140aec262be74ad419857">Zagreus::TranspositionTable::setTableSize</a></div><div class="ttdeci">void setTableSize(int megaBytes)</div><div class="ttdef"><b>Definition</b> <a href="tt_8cpp_source.html#l00100">tt.cpp:100</a></div></div>
 <div class="ttc" id="aclassZagreus_1_1UCIOption_html"><div class="ttname"><a href="classZagreus_1_1UCIOption.html">Zagreus::UCIOption</a></div><div class="ttdef"><b>Definition</b> <a href="uci_8h_source.html#l00085">uci.h:85</a></div></div>
 <div class="ttc" id="aclassZagreus_1_1UCIOption_html_a173c2ef559df154a82f97c84246ac577"><div class="ttname"><a href="classZagreus_1_1UCIOption.html#a173c2ef559df154a82f97c84246ac577">Zagreus::UCIOption::removeVar</a></div><div class="ttdeci">void removeVar(std::string value)</div><div class="ttdef"><b>Definition</b> <a href="#l00650">uci.cpp:650</a></div></div>
 <div class="ttc" id="aclassZagreus_1_1UCIOption_html_a199c6af6b8482dc4da4775c72700c10f"><div class="ttname"><a href="classZagreus_1_1UCIOption.html#a199c6af6b8482dc4da4775c72700c10f">Zagreus::UCIOption::setMaxValue</a></div><div class="ttdeci">void setMaxValue(std::string value)</div><div class="ttdef"><b>Definition</b> <a href="#l00597">uci.cpp:597</a></div></div>
