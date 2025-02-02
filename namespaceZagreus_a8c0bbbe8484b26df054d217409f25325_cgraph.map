@@ -19,7 +19,7 @@
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="358,233,394,220,417,205,442,192,470,182,472,187,444,196,420,210,396,224,360,238"/>
 <area shape="rect" id="Node000009" href="$classZagreus_1_1Board.html#aefa101d59ff5ac5c1db21801f7e1b936" title="Retrieves the bitboard for a given piece type." alt="" coords="985,59,1191,84"/>
 <area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="375,233,393,220,405,205,411,189,414,156,418,122,426,106,441,92,481,73,537,60,603,52,677,48,832,50,972,58,971,63,832,55,677,53,603,57,537,65,483,78,444,96,430,110,423,124,419,156,417,190,410,207,396,224,378,237"/>
-<area shape="rect" id="Node000010" href="$namespaceZagreus.html#a5145fe2e6dceea1eb5a27944f3cdbf19" title=" " alt="" coords="471,271,653,296"/>
+<area shape="rect" id="Node000010" href="$namespaceZagreus.html#a29a003e060bc1826f71e141ef47f302c" title=" " alt="" coords="471,271,653,296"/>
 <area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="377,262,457,270,457,276,376,268"/>
 <area shape="rect" id="Node000011" href="$classZagreus_1_1Board.html#a677f3a4ab501298bb506e3923752c047" title="Retrieves the last move made." alt="" coords="455,5,669,31"/>
 <area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="376,233,393,220,408,199,415,179,416,136,417,92,424,70,441,48,459,35,462,39,445,52,429,72,422,93,421,136,420,180,413,202,397,224,379,238"/>
@@ -27,7 +27,7 @@
 <area shape="poly" id="edge11_Node000006_Node000012" title=" " alt="" coords="340,273,443,305,483,314,482,320,442,310,338,278"/>
 <area shape="rect" id="Node000013" href="$classZagreus_1_1Board.html#a8210f4772db4ca37dd43ea5358c0b88f" title="Retrieves the attackers of a given square by color." alt="" coords="465,206,659,246"/>
 <area shape="poly" id="edge12_Node000006_Node000013" title=" " alt="" coords="376,243,451,235,451,240,377,248"/>
-<area shape="rect" id="Node000028" href="$namespaceZagreus.html#adb37f19879f45779690bc5d8ce5526d9" title=" " alt="" coords="481,369,643,395"/>
+<area shape="rect" id="Node000028" href="$namespaceZagreus.html#a978d5894806a1bdb9f9089e820166aef" title=" " alt="" coords="481,369,643,395"/>
 <area shape="poly" id="edge28_Node000006_Node000028" title=" " alt="" coords="309,273,369,315,405,336,444,354,470,363,468,368,442,359,403,341,366,319,306,278"/>
 <area shape="rect" id="Node000029" href="$namespaceZagreus.html#a5b8e7dc1ddf3599e06c25e9e88952fbf" title="Pops the least significant set bit (LSB) from a bitboard and returns its index. This modifies the bit..." alt="" coords="497,107,627,132"/>
 <area shape="poly" id="edge29_Node000006_Node000029" title=" " alt="" coords="372,233,393,220,409,201,416,181,423,161,441,141,461,130,483,123,484,128,463,135,444,145,428,163,421,183,413,204,396,224,374,237"/>

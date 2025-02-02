@@ -1,6 +1,6 @@
 <map id="Zagreus::Board::makeMove" name="Zagreus::Board::makeMove">
 <area shape="rect" id="Node000001" title="Makes a move on the board." alt="" coords="5,256,207,281"/>
-<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a5145fe2e6dceea1eb5a27944f3cdbf19" title=" " alt="" coords="283,5,465,31"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a29a003e060bc1826f71e141ef47f302c" title=" " alt="" coords="283,5,465,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,255,126,213,155,154,197,92,224,64,253,40,269,31,271,36,256,44,227,68,202,95,160,157,131,215,114,257"/>
 <area shape="rect" id="Node000003" href="$namespaceZagreus.html#a31c6c0c2eaae076f14a5a3131c81abb1" title=" " alt="" coords="289,55,459,80"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="113,254,133,222,165,180,205,135,253,97,286,82,288,87,256,102,209,139,169,183,137,225,117,257"/>
@@ -14,7 +14,7 @@
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="118,280,170,348,210,387,256,420,277,429,275,434,253,424,207,391,166,351,113,283"/>
 <area shape="rect" id="Node000008" href="$namespaceZagreus.html#a6c2e1e6c4abc0bc1ae611cd9a78fca36" title=" " alt="" coords="271,484,477,509"/>
 <area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="115,281,133,319,163,371,204,425,229,450,256,470,266,476,264,481,253,475,225,454,200,429,159,374,128,321,110,283"/>
-<area shape="rect" id="Node000009" href="$namespaceZagreus.html#adb37f19879f45779690bc5d8ce5526d9" title=" " alt="" coords="293,533,455,559"/>
+<area shape="rect" id="Node000009" href="$namespaceZagreus.html#a978d5894806a1bdb9f9089e820166aef" title=" " alt="" coords="293,533,455,559"/>
 <area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="113,281,128,327,156,393,176,428,199,462,225,493,256,520,280,532,278,537,253,524,222,497,194,465,171,431,152,395,123,329,108,283"/>
 <area shape="rect" id="Node000010" href="$namespaceZagreus.html#a407181a24d35d16ddc196ecd2195629c" title="Gets the Zobrist constant for a given index." alt="" coords="541,231,749,256"/>
 <area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="207,261,527,246,527,252,207,267"/>
