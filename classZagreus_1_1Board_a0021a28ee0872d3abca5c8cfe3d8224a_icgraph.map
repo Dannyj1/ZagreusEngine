@@ -1,13 +1,8 @@
 <map id="Zagreus::Board::getSmallestAttacker" name="Zagreus::Board::getSmallestAttacker">
-<area shape="rect" id="Node000001" title="gets the square of the attacker with the lowest value of a given square" alt="" coords="631,47,837,87"/>
-<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#a39c4411c08bdfe357f6f73bbb8c7cbf5" title="Perform Static Exchange Evaluation (SEE) on a square for a given color." alt="" coords="431,55,583,80"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="617,70,583,70,583,65,617,65"/>
-<area shape="poly" id="edge5_Node000002_Node000002" title=" " alt="" coords="547,45,536,37,507,33,483,35,470,40,467,46,474,53,470,56,462,46,466,36,482,30,507,28,538,32,550,41"/>
-<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a8a0aa6f732058a286c54db2914fbe28e" title=" " alt="" coords="210,29,353,55"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="416,60,352,53,353,47,417,55"/>
-<area shape="rect" id="Node000005" href="$classZagreus_1_1Board.html#afc43b1dcb3765f284bd8b8c43a16432c" title="Calculates the Static Exchange Evaluation (SEE) score for a capture move." alt="" coords="180,79,383,104"/>
-<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="417,79,383,83,383,78,417,74"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="319,20,309,11,281,8,259,10,247,15,245,20,251,28,247,31,239,21,243,11,258,5,281,3,311,6,322,15"/>
-<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a8402e43c19031fd84e7ff36a670a6161" title=" " alt="" coords="5,29,132,55"/>
-<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="196,45,132,45,132,39,196,39"/>
+<area shape="rect" id="Node000001" title="gets the square of the attacker with the lowest value of a given square" alt="" coords="456,22,663,62"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#a39c4411c08bdfe357f6f73bbb8c7cbf5" title="Perform Static Exchange Evaluation (SEE) on a square for a given color." alt="" coords="256,29,408,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="442,45,408,45,408,39,442,39"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="372,20,362,11,332,8,308,10,295,15,293,20,300,27,295,31,288,21,292,11,307,5,332,3,364,7,376,16"/>
+<area shape="rect" id="Node000003" href="$classZagreus_1_1Board.html#afc43b1dcb3765f284bd8b8c43a16432c" title="Calculates the Static Exchange Evaluation (SEE) score for a capture move." alt="" coords="5,29,208,55"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="242,45,208,45,208,39,242,39"/>
 </map>

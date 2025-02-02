@@ -1,161 +1,155 @@
 <map id="Zagreus::pvSearch" name="Zagreus::pvSearch">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,1090,148,1116"/>
-<area shape="poly" id="edge79_Node000001_Node000001" title=" " alt="" coords="43,1092,36,1082,40,1072,54,1066,77,1064,105,1067,116,1076,113,1081,103,1072,77,1069,55,1071,44,1076,41,1081,48,1089"/>
-<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1" title="Generates all pseudo&#45;legal moves for all pieces of a certain color for a given color and generation t..." alt="" coords="431,521,615,546"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,1089,125,1003,157,947,194,891,275,787,362,690,497,554,501,557,366,694,279,790,198,894,162,949,129,1006,86,1091"/>
-<area shape="rect" id="Node000045" href="$classZagreus_1_1Board.html#afd4c02ec09ab6fde7631b59b2a4d9c97" title="Retrieves the piece on a given square." alt="" coords="707,1039,892,1079"/>
-<area shape="poly" id="edge43_Node000001_Node000045" title=" " alt="" coords="148,1096,693,1063,693,1068,149,1101"/>
-<area shape="rect" id="Node000046" href="$namespaceZagreus.html#a8ae2c4ed999615a6f6b3bc9f23329e25" title="Gets the value of a given piece." alt="" coords="436,420,611,445"/>
-<area shape="poly" id="edge44_Node000001_Node000046" title=" " alt="" coords="79,1089,118,957,152,864,194,771,241,674,281,598,304,564,332,531,368,497,413,462,440,448,442,452,416,467,371,501,336,535,308,567,286,600,246,676,198,773,157,866,123,959,84,1091"/>
-<area shape="rect" id="Node000047" href="$classZagreus_1_1Board.html#adf38c4f68536f92b5abed37c59bb018a" title="Retrieves the number of plies since the start of the game." alt="" coords="196,1444,367,1469"/>
-<area shape="poly" id="edge45_Node000001_Node000047" title=" " alt="" coords="82,1116,89,1171,108,1253,123,1298,142,1343,167,1385,198,1422,216,1436,212,1440,194,1426,163,1388,138,1345,118,1300,102,1254,84,1172,76,1116"/>
-<area shape="rect" id="Node000048" href="$namespaceZagreus.html#a978d5894806a1bdb9f9089e820166aef" title=" " alt="" coords="718,989,881,1014"/>
-<area shape="poly" id="edge46_Node000001_Node000048" title=" " alt="" coords="83,1088,100,1063,125,1031,157,1000,195,976,237,965,292,959,429,960,576,971,705,986,704,991,576,976,429,965,293,964,238,970,197,981,160,1004,128,1035,104,1066,88,1091"/>
-<area shape="rect" id="Node000049" href="$classZagreus_1_1Board.html#a9e6bb00719d45cc2ed6610a9c848fcb4" title="Checks if the current position is a draw. Checks everything but a stalemate." alt="" coords="436,1285,611,1310"/>
-<area shape="poly" id="edge47_Node000001_Node000049" title=" " alt="" coords="85,1115,98,1149,121,1194,154,1241,174,1260,197,1277,226,1290,257,1301,321,1312,384,1314,441,1309,441,1315,384,1319,320,1317,255,1306,224,1295,195,1281,171,1265,150,1244,116,1197,93,1151,80,1117"/>
-<area shape="rect" id="Node000050" href="$classZagreus_1_1Board.html#a27b03cc9604c065a113d26a9848ee0ea" title=" " alt="" coords="433,355,614,395"/>
-<area shape="poly" id="edge48_Node000001_Node000050" title=" " alt="" coords="76,1090,82,1015,100,895,115,826,135,754,161,684,194,618,240,545,285,494,339,452,413,406,429,398,431,403,416,411,342,456,289,497,244,548,198,620,166,686,140,756,120,827,105,896,87,1016,81,1090"/>
-<area shape="rect" id="Node000055" href="$classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8" title="Checks if the current position is legal based on the color that just made a move." alt="" coords="427,882,619,922"/>
-<area shape="poly" id="edge53_Node000001_Node000055" title=" " alt="" coords="80,1089,94,1056,118,1012,151,967,172,948,195,931,247,908,304,894,360,888,413,888,414,893,361,893,305,899,249,913,197,936,175,952,155,971,122,1015,99,1058,85,1091"/>
-<area shape="rect" id="Node000060" href="$classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="423,1170,624,1196"/>
-<area shape="poly" id="edge63_Node000001_Node000060" title=" " alt="" coords="144,1113,196,1123,435,1165,434,1171,196,1128,143,1118"/>
-<area shape="rect" id="Node000068" href="$namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="214,1241,349,1266"/>
-<area shape="poly" id="edge80_Node000001_Node000068" title=" " alt="" coords="95,1114,198,1195,250,1231,247,1236,194,1200,91,1118"/>
-<area shape="rect" id="Node000072" href="$classZagreus_1_1Engine.html#a2d9d038f1c203aadd2042a26e75af516" title=" " alt="" coords="424,1335,623,1375"/>
-<area shape="poly" id="edge107_Node000001_Node000072" title=" " alt="" coords="83,1115,94,1157,116,1213,149,1272,172,1298,197,1319,247,1344,302,1359,357,1365,410,1366,410,1371,357,1371,301,1364,245,1349,195,1324,168,1302,145,1275,111,1216,89,1158,78,1117"/>
-<area shape="rect" id="Node000073" href="$classZagreus_1_1MovePicker.html#ac02126cefeb583a4d31dd47393155e4f" title="sorts the move list based on certain criteria." alt="" coords="444,1399,603,1439"/>
-<area shape="poly" id="edge108_Node000001_Node000073" title=" " alt="" coords="82,1115,90,1165,109,1235,124,1273,144,1310,168,1343,198,1372,224,1388,252,1401,312,1419,373,1426,430,1426,430,1432,373,1431,311,1424,250,1406,221,1393,194,1376,164,1347,139,1313,119,1275,104,1237,85,1166,77,1116"/>
-<area shape="rect" id="Node000074" href="$classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644" title="Unmakes the last move on the board." alt="" coords="415,1118,632,1144"/>
-<area shape="poly" id="edge109_Node000001_Node000074" title=" " alt="" coords="149,1105,401,1121,401,1126,148,1110"/>
-<area shape="rect" id="Node000075" href="$classZagreus_1_1Board.html#a39c4411c08bdfe357f6f73bbb8c7cbf5" title="Perform Static Exchange Evaluation (SEE) on a square for a given color." alt="" coords="205,1014,357,1040"/>
-<area shape="poly" id="edge97_Node000001_Node000075" title=" " alt="" coords="111,1088,233,1042,235,1047,113,1093"/>
-<area shape="rect" id="Node000003" href="$namespaceZagreus.html#aa17c2e6f8c4e9c66ca76f079e0e11f31" title="Generates all pseudo&#45;legal bishop moves for a given color and generation type." alt="" coords="685,270,913,296"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="601,519,630,500,647,476,654,452,655,428,652,403,650,379,651,354,660,329,678,305,682,301,686,305,682,309,664,332,657,355,655,379,658,403,660,428,659,453,651,478,634,504,604,523"/>
-<area shape="rect" id="Node000009" href="$classZagreus_1_1Board.html#aefa101d59ff5ac5c1db21801f7e1b936" title="Retrieves the bitboard for a given piece type." alt="" coords="981,476,1186,501"/>
-<area shape="poly" id="edge41_Node000002_Node000009" title=" " alt="" coords="615,527,918,506,972,500,973,505,919,511,616,532"/>
-<area shape="rect" id="Node000013" href="$namespaceZagreus.html#a72f99667533b11883e9b3f6a2ca6c8df" title="Generates all pseudo&#45;legal king moves for a given color and generation type." alt="" coords="693,221,906,246"/>
-<area shape="poly" id="edge9_Node000002_Node000013" title=" " alt="" coords="603,519,630,500,650,470,657,440,657,409,652,379,648,348,647,317,656,286,678,256,682,252,686,256,682,259,661,288,653,318,653,347,657,378,662,409,663,440,655,472,634,503,606,523"/>
-<area shape="rect" id="Node000017" href="$namespaceZagreus.html#ae2e02d54638a27ad7b0fdc8a116add18" title="Generates all pseudo&#45;legal knight moves for a given color and generation type." alt="" coords="686,470,913,496"/>
-<area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="593,518,715,496,716,501,594,524"/>
-<area shape="rect" id="Node000019" href="$namespaceZagreus.html#a4c7d9b8324d0f12f13e5380e78b7b804" title="Generates all pseudo&#45;legal pawn moves for a given color and generation type." alt="" coords="690,673,909,698"/>
-<area shape="poly" id="edge21_Node000002_Node000019" title=" " alt="" coords="549,544,764,664,762,669,546,549"/>
-<area shape="rect" id="Node000027" href="$classZagreus_1_1Board.html#ae05e57705dd28daf8718d043c68d16d2" title="Retrieves the bitboard for a given color." alt="" coords="991,774,1175,814"/>
-<area shape="poly" id="edge42_Node000002_Node000027" title=" " alt="" coords="534,545,555,579,588,623,631,670,681,709,979,770,977,776,679,713,627,674,584,627,551,582,530,548"/>
-<area shape="rect" id="Node000038" href="$namespaceZagreus.html#a85a2dc8e359321dddb9e90a9d5c10f64" title="Generates all pseudo&#45;legal queen moves for a given color and generation type." alt="" coords="686,320,913,345"/>
-<area shape="poly" id="edge31_Node000002_Node000038" title=" " alt="" coords="600,519,630,500,644,482,650,465,653,428,655,391,663,372,678,354,683,350,687,354,682,358,668,375,660,392,658,428,656,466,648,485,634,504,603,523"/>
-<area shape="rect" id="Node000044" href="$namespaceZagreus.html#a35e152a0c02a5608a31c3c808a742c26" title="Generates all pseudo&#45;legal rook moves for a given color and generation type." alt="" coords="691,369,908,394"/>
-<area shape="poly" id="edge36_Node000002_Node000044" title=" " alt="" coords="583,518,631,499,655,480,678,457,763,399,766,404,682,461,659,484,633,504,585,523"/>
-<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a899c2b4b2028cb3129c82faa3275e2c3" title=" " alt="" coords="1000,312,1167,337"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="887,293,987,308,986,313,887,298"/>
-<area shape="rect" id="Node000005" href="$namespaceZagreus.html#adda3e72c179c4e9f1ef1406a61d9fea7" title="Retrieves the bishop attacks for a given square and occupied squares." alt="" coords="985,262,1182,288"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="913,277,971,275,971,281,914,282"/>
-<area shape="poly" id="edge5_Node000003_Node000009" title=" " alt="" coords="904,294,920,305,936,324,944,345,945,385,947,425,954,444,969,462,973,466,970,470,965,466,949,447,941,426,940,386,939,346,932,327,917,309,901,298"/>
-<area shape="rect" id="Node000010" href="$classZagreus_1_1Board.html#aea6dd15340ca705e00c18b7f967f073c" title="Retrieves the bitboard representing occupied squares." alt="" coords="978,362,1189,402"/>
-<area shape="poly" id="edge6_Node000003_Node000010" title=" " alt="" coords="890,293,920,305,935,315,945,325,954,336,968,346,985,354,983,359,965,351,950,340,941,329,932,319,917,309,888,298"/>
-<area shape="rect" id="Node000011" href="$namespaceZagreus.html#a5b8e7dc1ddf3599e06c25e9e88952fbf" title="Pops the least significant set bit (LSB) from a bitboard and returns its index. This modifies the bit..." alt="" coords="1019,426,1148,452"/>
-<area shape="poly" id="edge7_Node000003_Node000011" title=" " alt="" coords="902,293,920,305,933,318,940,332,945,360,950,387,957,399,968,412,986,422,1006,430,1004,435,984,427,965,416,953,402,945,389,940,361,935,334,929,321,917,309,899,298"/>
-<area shape="rect" id="Node000012" href="$namespaceZagreus.html#a3b7dc37ae50fe6f86723b9c113ba301f" title="Finds the index of the least significant set bit (LSB) in a bitboard." alt="" coords="1268,780,1451,805"/>
-<area shape="poly" id="edge8_Node000011_Node000012" title=" " alt="" coords="1149,437,1177,446,1202,462,1226,496,1236,530,1236,563,1231,597,1226,630,1224,664,1231,699,1250,735,1273,756,1301,772,1298,777,1270,761,1246,738,1226,701,1219,665,1220,630,1226,596,1231,563,1230,531,1221,499,1198,466,1175,450,1147,442"/>
-<area shape="poly" id="edge11_Node000013_Node000004" title=" " alt="" coords="890,244,920,255,935,266,945,276,954,287,968,297,988,305,986,310,965,301,950,291,941,280,932,270,917,260,888,249"/>
-<area shape="poly" id="edge12_Node000013_Node000009" title=" " alt="" coords="905,244,921,256,940,281,948,308,948,335,945,361,942,387,943,413,950,438,969,462,972,466,969,470,965,466,946,440,938,414,937,387,940,361,943,334,943,309,935,284,917,259,902,249"/>
-<area shape="poly" id="edge15_Node000013_Node000011" title=" " alt="" coords="904,244,920,256,936,275,944,295,945,335,947,375,954,393,968,412,986,424,1006,431,1004,436,983,428,965,416,949,396,942,376,940,336,939,296,932,278,917,260,901,249"/>
-<area shape="rect" id="Node000014" href="$classZagreus_1_1Board.html#a9d9ff553f48c46abe04c951636ff64c9" title="Checks if castling is possible for the given side." alt="" coords="987,213,1180,238"/>
-<area shape="poly" id="edge10_Node000013_Node000014" title=" " alt="" coords="906,228,973,226,973,231,906,233"/>
-<area shape="rect" id="Node000015" href="$classZagreus_1_1Board.html#a9ce52c6f55b827d3b30408ef28c0f4f0" title="Retrieves the castling rights available." alt="" coords="982,148,1185,188"/>
-<area shape="poly" id="edge13_Node000013_Node000015" title=" " alt="" coords="855,218,982,189,983,194,856,224"/>
-<area shape="rect" id="Node000016" href="$namespaceZagreus.html#ae4187afed0ab9a364680cf692f292ee3" title="Retrieves the king attacks for a given square." alt="" coords="992,98,1175,124"/>
-<area shape="poly" id="edge14_Node000013_Node000016" title=" " alt="" coords="817,219,880,177,922,154,966,134,994,125,996,130,968,139,924,158,883,182,820,223"/>
-<area shape="poly" id="edge17_Node000017_Node000004" title=" " alt="" coords="824,468,869,441,917,405,931,390,939,375,949,361,965,347,986,337,988,342,968,352,953,365,944,378,935,393,920,409,872,445,827,472"/>
-<area shape="poly" id="edge18_Node000017_Node000009" title=" " alt="" coords="913,482,967,483,967,489,913,488"/>
-<area shape="poly" id="edge20_Node000017_Node000011" title=" " alt="" coords="881,468,1005,448,1006,454,882,473"/>
-<area shape="rect" id="Node000018" href="$namespaceZagreus.html#ade21087cb829e4b3fbcdecc362df557e" title="Retrieves the knight attacks for a given square." alt="" coords="986,525,1181,550"/>
-<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="866,493,1004,520,1003,525,865,498"/>
-<area shape="poly" id="edge27_Node000019_Node000004" title=" " alt="" coords="809,671,860,603,890,557,916,507,925,484,929,462,932,422,938,385,948,367,965,348,985,334,988,338,968,352,953,370,943,387,937,423,934,463,930,485,921,509,894,559,864,606,813,674"/>
-<area shape="poly" id="edge28_Node000019_Node000009" title=" " alt="" coords="886,671,917,652,930,635,937,618,940,583,943,547,950,529,965,512,972,506,976,510,969,516,955,532,948,548,945,583,942,620,935,638,920,656,889,675"/>
-<area shape="poly" id="edge30_Node000019_Node000011" title=" " alt="" coords="826,671,873,643,896,623,917,601,928,583,933,565,936,530,942,496,950,479,965,462,984,450,1005,442,1006,447,986,455,968,466,954,482,947,498,942,531,939,566,932,585,921,605,900,627,876,647,829,675"/>
-<area shape="rect" id="Node000020" href="$namespaceZagreus.html#acef3ff44d80e15c78400d1004a0e8d04" title="Calculates the double push for black pawns." alt="" coords="969,673,1198,698"/>
-<area shape="poly" id="edge22_Node000019_Node000020" title=" " alt="" coords="909,683,955,683,955,688,909,688"/>
-<area shape="rect" id="Node000021" href="$namespaceZagreus.html#ab92b0596a4e9b3fb90f5d34259a44804" title="Calculates the single push for black pawns." alt="" coords="1248,698,1471,724"/>
-<area shape="poly" id="edge25_Node000019_Node000021" title=" " alt="" coords="869,696,967,708,1105,714,1234,713,1234,718,1105,719,966,714,868,701"/>
-<area shape="rect" id="Node000023" href="$namespaceZagreus.html#a319145508da8e9e93177a6a11ee060f8" title="Calculates the east attacks for black pawns." alt="" coords="969,574,1198,600"/>
-<area shape="poly" id="edge24_Node000019_Node000023" title=" " alt="" coords="867,670,917,651,931,641,941,631,950,620,965,610,986,601,988,606,968,615,954,624,945,634,935,645,920,656,869,675"/>
-<area shape="rect" id="Node000025" href="$namespaceZagreus.html#ac1dd827c29aa08f25be85d206411f699" title="Calculates the west attacks for black pawns." alt="" coords="967,624,1200,649"/>
-<area shape="poly" id="edge26_Node000019_Node000025" title=" " alt="" coords="873,670,995,649,996,654,874,676"/>
-<area shape="poly" id="edge29_Node000019_Node000027" title=" " alt="" coords="867,696,920,715,944,734,968,753,998,766,996,771,965,757,941,738,917,720,865,701"/>
-<area shape="poly" id="edge23_Node000020_Node000021" title=" " alt="" coords="1198,693,1235,697,1234,702,1198,699"/>
-<area shape="poly" id="edge32_Node000038_Node000004" title=" " alt="" coords="913,326,986,324,986,330,913,332"/>
-<area shape="poly" id="edge33_Node000038_Node000009" title=" " alt="" coords="902,343,920,354,933,367,940,382,945,410,950,437,957,450,968,462,975,467,972,471,965,466,952,453,945,439,940,411,935,383,929,371,917,358,899,347"/>
-<area shape="poly" id="edge34_Node000038_Node000010" title=" " alt="" coords="874,342,965,358,964,364,873,348"/>
-<area shape="poly" id="edge35_Node000038_Node000011" title=" " alt="" coords="895,343,920,354,936,368,945,384,953,398,968,411,1006,427,1004,432,965,416,949,401,940,386,932,372,917,359,893,348"/>
-<area shape="poly" id="edge37_Node000044_Node000004" title=" " alt="" coords="863,366,1006,337,1007,342,864,371"/>
-<area shape="poly" id="edge38_Node000044_Node000009" title=" " alt="" coords="874,392,920,411,936,424,945,438,953,450,968,462,981,468,979,473,965,467,950,454,940,441,932,428,917,416,871,397"/>
-<area shape="poly" id="edge39_Node000044_Node000010" title=" " alt="" coords="908,379,964,379,964,384,908,384"/>
-<area shape="poly" id="edge40_Node000044_Node000011" title=" " alt="" coords="864,392,1007,421,1006,426,863,397"/>
-<area shape="poly" id="edge50_Node000050_Node000009" title=" " alt="" coords="615,391,681,404,1006,470,1005,475,679,410,614,396"/>
-<area shape="poly" id="edge49_Node000050_Node000012" title=" " alt="" coords="531,353,552,313,585,261,627,208,652,183,678,162,817,71,883,37,947,13,1011,3,1043,4,1074,10,1106,20,1138,36,1170,57,1202,84,1219,107,1232,136,1240,172,1244,212,1243,303,1236,403,1228,504,1224,598,1230,677,1238,709,1250,735,1271,756,1298,772,1295,777,1268,761,1246,738,1233,711,1225,678,1219,598,1223,503,1231,402,1238,303,1238,212,1234,172,1227,138,1215,109,1198,87,1166,61,1135,40,1104,25,1073,15,1042,9,1011,8,949,18,885,42,820,76,682,166,655,187,631,211,589,264,557,315,536,356"/>
-<area shape="rect" id="Node000051" href="$classZagreus_1_1Board.html#a8210f4772db4ca37dd43ea5358c0b88f" title="Retrieves the attackers of a given square by color." alt="" coords="702,774,897,814"/>
-<area shape="poly" id="edge51_Node000050_Node000051" title=" " alt="" coords="616,391,634,406,659,445,670,482,670,519,665,555,659,592,657,629,663,668,682,709,710,741,743,765,740,769,706,745,678,712,658,670,652,630,654,591,660,555,665,519,664,483,654,447,630,410,612,396"/>
-<area shape="poly" id="edge52_Node000051_Node000027" title=" " alt="" coords="897,791,977,791,977,796,897,796"/>
-<area shape="poly" id="edge56_Node000055_Node000009" title=" " alt="" coords="616,879,630,868,648,842,655,817,655,791,653,765,650,739,651,712,659,686,678,660,707,637,737,626,766,624,796,626,825,628,855,627,886,619,917,601,934,580,940,557,947,534,965,512,975,505,978,509,968,516,951,536,945,559,939,582,920,605,888,624,856,632,825,633,796,631,766,629,738,632,710,642,682,663,664,688,656,713,655,739,658,765,661,791,660,818,652,845,634,871,619,883"/>
-<area shape="poly" id="edge62_Node000055_Node000011" title=" " alt="" coords="616,880,630,868,651,837,659,806,660,775,655,744,651,712,650,680,658,646,678,612,705,584,733,565,761,555,789,548,850,536,882,525,917,506,931,495,940,484,950,473,965,462,1004,447,1006,452,968,467,954,477,944,487,935,498,920,510,885,530,851,541,790,553,762,560,735,570,709,588,682,615,663,648,656,680,656,712,661,743,665,775,665,806,656,839,634,871,620,884"/>
-<area shape="poly" id="edge61_Node000055_Node000048" title=" " alt="" coords="592,919,633,938,657,958,667,967,681,975,705,984,703,989,679,980,664,971,654,962,631,943,590,924"/>
-<area shape="poly" id="edge60_Node000055_Node000051" title=" " alt="" coords="596,879,631,867,745,817,747,822,633,872,598,884"/>
-<area shape="rect" id="Node000056" href="$namespaceZagreus.html#aa2f3cb3e05478be9e11f947ea5cc08da" title="Converts a bitboard to a square index." alt="" coords="985,889,1181,914"/>
-<area shape="poly" id="edge54_Node000055_Node000056" title=" " alt="" coords="620,899,971,899,971,904,620,904"/>
-<area shape="rect" id="Node000057" href="$namespaceZagreus.html#a29a003e060bc1826f71e141ef47f302c" title=" " alt="" coords="708,1153,891,1178"/>
-<area shape="poly" id="edge57_Node000055_Node000057" title=" " alt="" coords="534,921,553,967,583,1027,626,1088,652,1116,681,1139,696,1148,694,1152,679,1144,649,1120,622,1092,579,1030,548,969,529,923"/>
-<area shape="rect" id="Node000058" href="$classZagreus_1_1Board.html#a677f3a4ab501298bb506e3923752c047" title="Retrieves the last move made." alt="" coords="693,940,906,965"/>
-<area shape="poly" id="edge58_Node000055_Node000058" title=" " alt="" coords="620,917,717,935,716,940,619,922"/>
-<area shape="rect" id="Node000059" href="$namespaceZagreus.html#a31c6c0c2eaae076f14a5a3131c81abb1" title=" " alt="" coords="714,1104,885,1129"/>
-<area shape="poly" id="edge59_Node000055_Node000059" title=" " alt="" coords="537,921,559,958,591,1003,633,1050,681,1089,702,1099,699,1103,679,1093,629,1054,587,1007,555,960,533,923"/>
-<area shape="poly" id="edge55_Node000056_Node000012" title=" " alt="" coords="1138,886,1199,867,1265,838,1322,809,1324,814,1267,843,1201,872,1140,891"/>
-<area shape="poly" id="edge68_Node000060_Node000045" title=" " alt="" coords="602,1168,630,1154,646,1139,654,1123,662,1106,678,1090,693,1082,695,1086,682,1094,666,1110,659,1126,650,1142,634,1158,604,1173"/>
-<area shape="poly" id="edge71_Node000060_Node000048" title=" " alt="" coords="609,1168,630,1154,643,1139,650,1124,653,1091,657,1058,664,1041,678,1025,704,1010,707,1014,682,1029,669,1044,662,1059,658,1092,655,1125,648,1142,634,1158,612,1172"/>
-<area shape="poly" id="edge64_Node000060_Node000057" title=" " alt="" coords="624,1174,694,1170,694,1175,624,1179"/>
-<area shape="poly" id="edge65_Node000060_Node000059" title=" " alt="" coords="578,1168,631,1154,679,1139,720,1129,721,1134,681,1144,633,1159,579,1173"/>
-<area shape="rect" id="Node000061" href="$namespaceZagreus.html#a4797edd07c51dd24a1f1239ae3f66d7f" title="Gets the color of a piece." alt="" coords="997,1280,1170,1305"/>
-<area shape="poly" id="edge66_Node000060_Node000061" title=" " alt="" coords="610,1193,634,1206,645,1217,651,1228,658,1251,664,1272,671,1282,681,1290,724,1310,770,1322,817,1328,864,1329,954,1321,1027,1306,1028,1311,954,1326,864,1335,816,1333,768,1327,722,1315,679,1295,667,1285,659,1275,652,1253,646,1230,640,1220,630,1210,608,1198"/>
-<area shape="rect" id="Node000062" href="$namespaceZagreus.html#ada8064e489d92ff06a1739538d120ba0" title=" " alt="" coords="680,1406,919,1446"/>
-<area shape="poly" id="edge67_Node000060_Node000062" title=" " alt="" coords="616,1194,634,1206,651,1230,659,1253,661,1277,659,1301,657,1324,658,1347,666,1369,682,1392,686,1395,682,1399,678,1395,661,1372,653,1348,652,1324,654,1300,655,1277,654,1254,647,1232,630,1210,613,1198"/>
-<area shape="rect" id="Node000063" href="$namespaceZagreus.html#ae1b3bf55cd6adf4ca93bffdc9ced467e" title="Gets the type of a piece." alt="" coords="715,1470,884,1496"/>
-<area shape="poly" id="edge69_Node000060_Node000063" title=" " alt="" coords="617,1193,634,1206,656,1238,664,1270,663,1302,658,1334,653,1365,653,1396,661,1426,682,1456,703,1470,700,1475,678,1459,656,1428,648,1396,648,1365,653,1333,658,1301,659,1271,651,1240,630,1210,614,1198"/>
-<area shape="rect" id="Node000064" href="$namespaceZagreus.html#a6c2e1e6c4abc0bc1ae611cd9a78fca36" title=" " alt="" coords="696,1520,903,1545"/>
-<area shape="poly" id="edge70_Node000060_Node000064" title=" " alt="" coords="617,1194,634,1206,649,1225,659,1245,668,1283,666,1321,658,1359,651,1397,649,1434,657,1470,667,1488,682,1506,686,1511,683,1514,678,1510,663,1491,652,1472,643,1434,645,1396,653,1358,660,1321,662,1283,654,1246,644,1228,630,1210,614,1198"/>
-<area shape="rect" id="Node000065" href="$namespaceZagreus.html#a407181a24d35d16ddc196ecd2195629c" title="Gets the Zobrist constant for a given index." alt="" coords="979,1356,1187,1381"/>
-<area shape="poly" id="edge72_Node000060_Node000065" title=" " alt="" coords="618,1194,634,1206,651,1229,662,1251,668,1274,670,1297,665,1343,654,1388,643,1433,640,1476,643,1496,651,1517,663,1536,682,1556,711,1577,738,1591,766,1597,793,1598,821,1593,851,1584,917,1555,944,1540,969,1522,1011,1477,1044,1431,1067,1392,1072,1395,1049,1434,1015,1481,972,1526,947,1545,920,1560,853,1589,822,1598,793,1603,765,1603,737,1596,708,1582,678,1560,659,1540,646,1519,638,1498,635,1476,638,1432,649,1387,660,1342,665,1297,663,1275,657,1253,646,1232,630,1210,614,1198"/>
-<area shape="rect" id="Node000066" href="$classZagreus_1_1Board.html#aea72d78a798679410c1b862700061f83" title="Removes a piece from a given square." alt="" coords="692,1356,907,1381"/>
-<area shape="poly" id="edge73_Node000060_Node000066" title=" " alt="" coords="614,1194,634,1206,648,1222,655,1239,659,1272,663,1304,669,1319,682,1334,701,1348,698,1352,678,1338,665,1322,657,1305,654,1272,650,1240,643,1225,630,1210,611,1198"/>
-<area shape="rect" id="Node000067" href="$classZagreus_1_1Board.html#ab61577ea27b99e8bc99b5004e5645fba" title="Sets a piece on a given square." alt="" coords="707,1254,891,1280"/>
-<area shape="poly" id="edge76_Node000060_Node000067" title=" " alt="" coords="592,1193,633,1206,657,1219,681,1232,728,1248,726,1253,679,1237,655,1224,631,1211,591,1198"/>
-<area shape="poly" id="edge74_Node000066_Node000061" title=" " alt="" coords="847,1353,1021,1306,1022,1311,848,1358"/>
-<area shape="poly" id="edge75_Node000066_Node000065" title=" " alt="" coords="907,1366,966,1366,966,1371,907,1371"/>
-<area shape="poly" id="edge77_Node000067_Node000061" title=" " alt="" coords="892,1272,983,1281,983,1286,891,1278"/>
-<area shape="poly" id="edge78_Node000067_Node000065" title=" " alt="" coords="837,1277,1035,1348,1033,1353,835,1282"/>
-<area shape="poly" id="edge82_Node000068_Node000002" title=" " alt="" coords="287,1240,323,1161,364,1051,381,983,388,929,396,874,412,805,436,733,462,664,508,557,513,560,467,666,441,735,417,806,401,875,394,929,386,984,369,1053,328,1163,292,1242"/>
-<area shape="poly" id="edge83_Node000068_Node000049" title=" " alt="" coords="349,1263,440,1280,439,1285,348,1268"/>
-<area shape="poly" id="edge84_Node000068_Node000055" title=" " alt="" coords="289,1239,498,932,503,935,294,1242"/>
-<area shape="poly" id="edge85_Node000068_Node000060" title=" " alt="" coords="316,1238,414,1206,449,1196,451,1201,415,1211,317,1243"/>
-<area shape="poly" id="edge86_Node000068_Node000068" title=" " alt="" coords="248,1242,241,1233,245,1223,258,1216,281,1214,310,1218,321,1227,317,1231,307,1223,281,1220,260,1222,248,1226,246,1232,252,1239"/>
-<area shape="rect" id="Node000069" href="$classZagreus_1_1Evaluation.html#a0f4174df46fff74d4c208a04c861622a" title="Evaluates the current board position." alt="" coords="447,1220,599,1260"/>
-<area shape="poly" id="edge81_Node000068_Node000069" title=" " alt="" coords="349,1247,434,1243,434,1248,349,1253"/>
-<area shape="poly" id="edge87_Node000068_Node000072" title=" " alt="" coords="305,1264,355,1292,416,1320,435,1328,433,1333,414,1325,353,1297,303,1269"/>
-<area shape="poly" id="edge88_Node000068_Node000073" title=" " alt="" coords="294,1265,342,1322,377,1356,416,1385,432,1393,430,1398,413,1389,373,1360,338,1326,290,1268"/>
-<area shape="poly" id="edge89_Node000068_Node000074" title=" " alt="" coords="295,1239,345,1198,378,1176,414,1157,444,1145,446,1150,416,1161,381,1181,348,1203,298,1243"/>
-<area shape="poly" id="edge93_Node000074_Node000045" title=" " alt="" coords="572,1116,708,1080,709,1085,574,1121"/>
-<area shape="poly" id="edge94_Node000074_Node000048" title=" " alt="" coords="538,1116,597,1071,637,1046,679,1024,705,1015,707,1020,681,1029,639,1051,600,1075,541,1120"/>
-<area shape="poly" id="edge90_Node000074_Node000057" title=" " alt="" coords="625,1141,695,1150,694,1155,625,1146"/>
-<area shape="poly" id="edge91_Node000074_Node000059" title=" " alt="" coords="632,1122,700,1119,700,1124,632,1128"/>
-<area shape="poly" id="edge92_Node000074_Node000061" title=" " alt="" coords="589,1141,633,1157,657,1173,681,1189,745,1211,798,1220,852,1227,919,1240,1030,1273,1029,1278,918,1246,851,1232,797,1225,744,1216,679,1193,654,1177,631,1161,587,1146"/>
-<area shape="poly" id="edge95_Node000074_Node000066" title=" " alt="" coords="609,1142,634,1157,648,1173,656,1190,661,1223,665,1256,671,1273,682,1291,717,1323,757,1347,754,1352,714,1328,678,1294,666,1275,660,1257,656,1223,651,1192,644,1176,630,1161,607,1146"/>
-<area shape="poly" id="edge96_Node000074_Node000067" title=" " alt="" coords="604,1141,634,1157,651,1176,659,1196,666,1215,682,1233,707,1247,705,1252,678,1237,661,1218,654,1198,646,1179,630,1161,601,1146"/>
-<area shape="poly" id="edge98_Node000075_Node000004" title=" " alt="" coords="285,1013,321,916,364,777,371,736,373,699,368,633,368,602,374,571,388,540,413,508,440,487,467,478,495,478,523,481,551,484,578,483,605,475,630,456,650,425,658,394,656,362,650,330,644,297,644,266,654,235,678,206,699,195,728,188,798,183,868,189,898,196,920,206,932,216,940,227,946,251,952,275,958,286,968,297,989,309,986,313,965,301,954,290,947,277,941,253,935,230,928,220,917,211,896,202,868,195,798,188,729,193,701,200,682,210,658,238,649,266,650,297,655,329,661,362,663,395,655,427,634,459,607,480,579,488,551,489,523,486,495,483,468,484,442,492,417,511,392,543,379,573,374,602,373,633,378,699,377,736,369,778,326,918,290,1015"/>
-<area shape="poly" id="edge99_Node000075_Node000045" title=" " alt="" coords="358,1029,693,1050,693,1055,357,1034"/>
-<area shape="poly" id="edge100_Node000075_Node000046" title=" " alt="" coords="281,1013,294,907,320,741,338,654,359,574,384,508,398,482,413,462,429,449,433,453,417,466,402,485,389,510,364,576,343,656,325,742,299,908,287,1014"/>
-<area shape="poly" id="edge104_Node000075_Node000060" title=" " alt="" coords="294,1038,342,1095,377,1127,416,1154,436,1163,434,1168,413,1159,373,1131,338,1098,290,1042"/>
-<area shape="poly" id="edge106_Node000075_Node000074" title=" " alt="" coords="313,1037,481,1110,479,1115,311,1042"/>
-<area shape="poly" id="edge105_Node000075_Node000075" title=" " alt="" coords="248,1016,241,1006,245,996,258,990,281,988,310,991,321,1000,317,1005,307,996,281,993,260,995,248,1000,246,1005,252,1013"/>
-<area shape="rect" id="Node000076" href="$classZagreus_1_1Board.html#a0021a28ee0872d3abca5c8cfe3d8224a" title="gets the square of the attacker with the lowest value of a given square" alt="" coords="420,818,627,858"/>
-<area shape="poly" id="edge101_Node000075_Node000076" title=" " alt="" coords="288,1013,334,944,370,903,413,867,424,861,426,866,416,872,374,907,338,947,292,1016"/>
-<area shape="poly" id="edge102_Node000076_Node000012" title=" " alt="" coords="627,839,887,841,1044,836,1200,823,1296,805,1297,811,1200,828,1044,841,887,846,627,844"/>
-<area shape="poly" id="edge103_Node000076_Node000051" title=" " alt="" coords="626,819,688,809,689,814,627,824"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,1194,148,1219"/>
+<area shape="poly" id="edge81_Node000001_Node000001" title=" " alt="" coords="46,1195,39,1186,43,1176,55,1170,77,1167,102,1171,113,1180,110,1184,100,1176,77,1173,57,1175,47,1179,44,1185,50,1192"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1" title="Generates all pseudo&#45;legal moves for all pieces of a certain color for a given color and generation t..." alt="" coords="395,417,579,442"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,1193,471,453,475,455,87,1195"/>
+<area shape="rect" id="Node000045" href="$classZagreus_1_1Board.html#adf38c4f68536f92b5abed37c59bb018a" title="Retrieves the number of plies since the start of the game." alt="" coords="402,1270,573,1295"/>
+<area shape="poly" id="edge46_Node000001_Node000045" title=" " alt="" coords="147,1217,405,1265,404,1270,146,1222"/>
+<area shape="rect" id="Node000046" href="$classZagreus_1_1Board.html#a9e6bb00719d45cc2ed6610a9c848fcb4" title="Checks if the current position is a draw. Checks everything but a stalemate." alt="" coords="400,1319,575,1345"/>
+<area shape="poly" id="edge47_Node000001_Node000046" title=" " alt="" coords="105,1217,197,1256,287,1284,379,1305,414,1314,413,1319,378,1311,286,1289,195,1261,103,1222"/>
+<area shape="rect" id="Node000047" href="$classZagreus_1_1Board.html#a27b03cc9604c065a113d26a9848ee0ea" title=" " alt="" coords="397,857,578,897"/>
+<area shape="poly" id="edge48_Node000001_Node000047" title=" " alt="" coords="84,1192,127,1129,158,1089,194,1053,253,1006,316,964,430,901,432,906,319,968,256,1010,198,1057,162,1093,131,1132,88,1195"/>
+<area shape="rect" id="Node000052" href="$classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8" title="Checks if the current position is legal based on the color that just made a move." alt="" coords="391,975,583,1015"/>
+<area shape="poly" id="edge53_Node000001_Node000052" title=" " alt="" coords="88,1192,132,1149,162,1124,195,1102,245,1075,298,1052,398,1016,399,1021,300,1057,247,1080,197,1106,165,1128,136,1153,91,1196"/>
+<area shape="rect" id="Node000058" href="$classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="387,1221,588,1246"/>
+<area shape="poly" id="edge63_Node000001_Node000058" title=" " alt="" coords="148,1209,373,1223,373,1229,148,1214"/>
+<area shape="rect" id="Node000067" href="$namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="196,1169,331,1194"/>
+<area shape="poly" id="edge82_Node000001_Node000067" title=" " alt="" coords="148,1194,182,1190,183,1195,148,1200"/>
+<area shape="rect" id="Node000071" href="$classZagreus_1_1Engine.html#a2d9d038f1c203aadd2042a26e75af516" title=" " alt="" coords="388,1369,587,1409"/>
+<area shape="poly" id="edge101_Node000001_Node000071" title=" " alt="" coords="92,1218,137,1257,166,1280,197,1299,286,1337,376,1364,374,1369,285,1342,195,1304,163,1284,133,1262,89,1222"/>
+<area shape="rect" id="Node000072" href="$classZagreus_1_1MovePicker.html#ac02126cefeb583a4d31dd47393155e4f" title="sorts the move list based on certain criteria." alt="" coords="408,1433,567,1473"/>
+<area shape="poly" id="edge102_Node000001_Node000072" title=" " alt="" coords="87,1218,128,1283,160,1322,198,1355,245,1383,295,1406,347,1423,395,1435,393,1440,345,1428,293,1411,242,1388,194,1359,156,1325,124,1286,82,1221"/>
+<area shape="rect" id="Node000073" href="$classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644" title="Unmakes the last move on the board." alt="" coords="379,1106,596,1131"/>
+<area shape="poly" id="edge103_Node000001_Node000073" title=" " alt="" coords="91,1192,136,1160,164,1143,195,1131,237,1120,280,1113,365,1109,365,1114,281,1119,238,1125,197,1136,167,1148,138,1164,94,1196"/>
+<area shape="rect" id="Node000003" href="$namespaceZagreus.html#aa17c2e6f8c4e9c66ca76f079e0e11f31" title="Generates all pseudo&#45;legal bishop moves for a given color and generation type." alt="" coords="649,293,877,318"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="503,414,562,371,601,347,643,327,665,319,666,324,645,332,604,352,565,375,506,419"/>
+<area shape="rect" id="Node000009" href="$classZagreus_1_1Board.html#aefa101d59ff5ac5c1db21801f7e1b936" title="Retrieves the bitboard for a given piece type." alt="" coords="945,431,1150,457"/>
+<area shape="poly" id="edge44_Node000002_Node000009" title=" " alt="" coords="580,429,931,438,931,444,579,434"/>
+<area shape="rect" id="Node000013" href="$namespaceZagreus.html#a72f99667533b11883e9b3f6a2ca6c8df" title="Generates all pseudo&#45;legal king moves for a given color and generation type." alt="" coords="657,194,870,219"/>
+<area shape="poly" id="edge9_Node000002_Node000013" title=" " alt="" coords="492,415,512,378,544,327,588,273,614,249,643,228,654,222,656,227,645,233,618,253,592,277,549,330,517,381,497,418"/>
+<area shape="rect" id="Node000017" href="$namespaceZagreus.html#ae2e02d54638a27ad7b0fdc8a116add18" title="Generates all pseudo&#45;legal knight moves for a given color and generation type." alt="" coords="650,243,877,269"/>
+<area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="496,415,552,348,594,310,643,278,658,271,660,276,645,282,598,314,556,352,500,418"/>
+<area shape="rect" id="Node000019" href="$namespaceZagreus.html#a4c7d9b8324d0f12f13e5380e78b7b804" title="Generates all pseudo&#45;legal pawn moves for a given color and generation type." alt="" coords="654,645,873,670"/>
+<area shape="poly" id="edge21_Node000002_Node000019" title=" " alt="" coords="506,440,738,634,735,638,502,444"/>
+<area shape="rect" id="Node000027" href="$classZagreus_1_1Board.html#ae05e57705dd28daf8718d043c68d16d2" title="Retrieves the bitboard for a given color." alt="" coords="955,809,1139,849"/>
+<area shape="poly" id="edge45_Node000002_Node000027" title=" " alt="" coords="496,441,514,486,545,550,589,619,616,652,646,681,683,709,716,729,747,744,779,754,846,771,931,795,957,803,956,808,930,800,845,776,777,759,746,749,714,734,680,713,642,685,612,655,585,623,540,553,509,488,491,443"/>
+<area shape="rect" id="Node000038" href="$namespaceZagreus.html#a85a2dc8e359321dddb9e90a9d5c10f64" title="Generates all pseudo&#45;legal queen moves for a given color and generation type." alt="" coords="650,391,877,417"/>
+<area shape="poly" id="edge34_Node000002_Node000038" title=" " alt="" coords="579,418,636,413,636,418,580,424"/>
+<area shape="rect" id="Node000044" href="$namespaceZagreus.html#a35e152a0c02a5608a31c3c808a742c26" title="Generates all pseudo&#45;legal rook moves for a given color and generation type." alt="" coords="655,342,872,367"/>
+<area shape="poly" id="edge39_Node000002_Node000044" title=" " alt="" coords="525,414,643,377,684,368,685,373,645,383,526,419"/>
+<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a899c2b4b2028cb3129c82faa3275e2c3" title=" " alt="" coords="964,267,1131,293"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="877,293,950,286,951,291,878,298"/>
+<area shape="rect" id="Node000005" href="$namespaceZagreus.html#adda3e72c179c4e9f1ef1406a61d9fea7" title="Retrieves the bishop attacks for a given square and occupied squares." alt="" coords="949,218,1146,243"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="838,290,882,278,905,265,930,252,956,244,957,249,932,257,908,270,884,282,840,295"/>
+<area shape="poly" id="edge5_Node000003_Node000009" title=" " alt="" coords="864,316,884,327,896,338,903,350,909,374,915,397,922,408,932,418,939,422,936,427,929,422,918,411,910,399,904,375,898,352,892,342,881,331,862,320"/>
+<area shape="rect" id="Node000010" href="$classZagreus_1_1Board.html#aea6dd15340ca705e00c18b7f967f073c" title="Retrieves the bitboard representing occupied squares." alt="" coords="942,317,1153,357"/>
+<area shape="poly" id="edge6_Node000003_Node000010" title=" " alt="" coords="877,315,928,321,928,327,876,321"/>
+<area shape="rect" id="Node000011" href="$namespaceZagreus.html#a5b8e7dc1ddf3599e06c25e9e88952fbf" title="Pops the least significant set bit (LSB) from a bitboard and returns its index. This modifies the bit..." alt="" coords="983,382,1112,407"/>
+<area shape="poly" id="edge7_Node000003_Node000011" title=" " alt="" coords="854,316,884,327,899,337,909,347,918,358,932,367,970,381,968,386,929,372,914,362,905,351,895,341,881,332,852,321"/>
+<area shape="rect" id="Node000012" href="$namespaceZagreus.html#a3b7dc37ae50fe6f86723b9c113ba301f" title="Finds the index of the least significant set bit (LSB) in a bitboard." alt="" coords="1232,874,1415,899"/>
+<area shape="poly" id="edge8_Node000011_Node000012" title=" " alt="" coords="1113,394,1141,403,1166,418,1189,478,1233,606,1316,860,1311,862,1228,608,1184,480,1162,422,1139,407,1111,399"/>
+<area shape="poly" id="edge11_Node000013_Node000004" title=" " alt="" coords="843,217,884,228,908,240,932,252,963,262,961,267,930,257,905,245,882,233,842,222"/>
+<area shape="poly" id="edge12_Node000013_Node000009" title=" " alt="" coords="869,217,885,229,903,252,910,277,912,301,909,326,907,350,908,373,916,396,933,418,936,422,933,426,929,422,911,398,903,374,902,349,904,325,906,301,905,278,898,255,881,233,866,222"/>
+<area shape="poly" id="edge15_Node000013_Node000011" title=" " alt="" coords="868,217,884,229,899,246,907,264,909,300,912,335,919,351,932,367,950,379,970,387,969,392,948,384,929,371,914,354,907,336,904,300,901,265,895,249,881,233,865,222"/>
+<area shape="rect" id="Node000014" href="$classZagreus_1_1Board.html#a9d9ff553f48c46abe04c951636ff64c9" title="Checks if castling is possible for the given side." alt="" coords="951,119,1144,145"/>
+<area shape="poly" id="edge10_Node000013_Node000014" title=" " alt="" coords="802,191,930,153,966,145,967,150,931,159,804,196"/>
+<area shape="rect" id="Node000015" href="$classZagreus_1_1Board.html#a9ce52c6f55b827d3b30408ef28c0f4f0" title="Retrieves the castling rights available." alt="" coords="946,5,1149,45"/>
+<area shape="poly" id="edge13_Node000013_Node000015" title=" " alt="" coords="773,192,835,127,880,88,929,55,943,48,945,53,932,60,883,92,838,131,777,196"/>
+<area shape="rect" id="Node000016" href="$namespaceZagreus.html#ae4187afed0ab9a364680cf692f292ee3" title="Retrieves the king attacks for a given square." alt="" coords="956,70,1139,95"/>
+<area shape="poly" id="edge14_Node000013_Node000016" title=" " alt="" coords="780,192,844,149,886,125,930,104,953,96,954,102,932,109,888,129,846,153,783,196"/>
+<area shape="poly" id="edge17_Node000017_Node000004" title=" " alt="" coords="877,263,950,269,950,274,877,268"/>
+<area shape="poly" id="edge18_Node000017_Node000009" title=" " alt="" coords="868,267,884,278,899,295,907,313,909,350,912,385,919,402,933,418,937,422,934,426,929,422,914,405,907,386,904,350,901,315,895,298,881,282,865,271"/>
+<area shape="poly" id="edge20_Node000017_Node000011" title=" " alt="" coords="864,266,884,278,896,289,903,300,909,324,916,347,922,357,932,367,950,378,970,385,968,390,948,383,929,371,918,360,911,349,904,325,898,303,892,292,881,282,862,271"/>
+<area shape="rect" id="Node000018" href="$namespaceZagreus.html#ade21087cb829e4b3fbcdecc362df557e" title="Retrieves the knight attacks for a given square." alt="" coords="950,169,1145,194"/>
+<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="838,241,882,228,905,216,930,203,956,195,957,200,932,208,908,220,884,233,840,246"/>
+<area shape="poly" id="edge27_Node000019_Node000004" title=" " alt="" coords="770,643,818,554,880,428,892,392,896,361,905,332,929,303,950,290,952,295,932,307,910,335,902,362,897,393,885,430,823,556,774,645"/>
+<area shape="poly" id="edge28_Node000019_Node000009" title=" " alt="" coords="850,642,881,623,895,606,902,588,904,551,906,512,914,493,929,474,947,461,951,465,933,478,919,496,912,514,909,551,907,589,899,608,884,627,853,647"/>
+<area shape="poly" id="edge32_Node000019_Node000011" title=" " alt="" coords="777,643,826,592,880,523,894,493,900,467,908,442,929,418,948,406,968,399,970,404,950,411,932,422,913,445,905,469,899,495,885,525,830,596,780,646"/>
+<area shape="rect" id="Node000020" href="$namespaceZagreus.html#acef3ff44d80e15c78400d1004a0e8d04" title="Calculates the double push for black pawns." alt="" coords="933,533,1162,558"/>
+<area shape="poly" id="edge22_Node000019_Node000020" title=" " alt="" coords="837,642,881,623,896,610,904,596,913,582,929,568,945,560,948,565,932,573,917,585,909,599,900,614,884,628,839,647"/>
+<area shape="rect" id="Node000021" href="$namespaceZagreus.html#ab92b0596a4e9b3fb90f5d34259a44804" title="Calculates the single push for black pawns." alt="" coords="1212,507,1435,533"/>
+<area shape="poly" id="edge25_Node000019_Node000021" title=" " alt="" coords="847,642,881,623,892,611,898,598,903,571,908,544,916,531,929,519,971,498,1016,485,1062,478,1109,477,1198,485,1270,501,1269,506,1197,491,1109,482,1063,483,1017,490,973,503,932,524,920,534,913,546,908,572,903,600,896,614,884,627,850,647"/>
+<area shape="rect" id="Node000023" href="$namespaceZagreus.html#a319145508da8e9e93177a6a11ee060f8" title="Calculates the east attacks for black pawns." alt="" coords="933,582,1162,607"/>
+<area shape="poly" id="edge24_Node000019_Node000023" title=" " alt="" coords="820,642,930,617,974,608,975,613,931,623,821,647"/>
+<area shape="rect" id="Node000025" href="$namespaceZagreus.html#ac1dd827c29aa08f25be85d206411f699" title="Calculates the west attacks for black pawns." alt="" coords="931,631,1164,657"/>
+<area shape="poly" id="edge26_Node000019_Node000025" title=" " alt="" coords="873,650,917,647,917,653,873,655"/>
+<area shape="poly" id="edge29_Node000019_Node000027" title=" " alt="" coords="815,668,851,683,885,706,902,730,908,753,915,775,932,795,945,804,942,808,929,799,911,777,903,754,897,732,881,710,848,688,813,673"/>
+<area shape="rect" id="Node000028" href="$classZagreus_1_1Board.html#a85c42131fc55c15b09f3aa2544a93c4d" title="Retrieves the bitboard representing empty squares." alt="" coords="951,681,1143,721"/>
+<area shape="poly" id="edge30_Node000019_Node000028" title=" " alt="" coords="846,667,938,682,937,687,845,673"/>
+<area shape="rect" id="Node000029" href="$classZagreus_1_1Board.html#aa6253b1169d1bda9e23823590061b280" title="Retrieves the en passant square, if applicable." alt="" coords="939,745,1155,785"/>
+<area shape="poly" id="edge31_Node000019_Node000029" title=" " alt="" coords="798,668,884,706,932,731,953,739,951,744,930,736,882,710,795,673"/>
+<area shape="rect" id="Node000030" href="$namespaceZagreus.html#ad1261455060994b4cea7b1eea416e6f6" title="Converts a square index to a bitboard." alt="" coords="949,1214,1145,1239"/>
+<area shape="poly" id="edge33_Node000019_Node000030" title=" " alt="" coords="781,668,831,717,860,750,885,787,916,843,944,902,990,1021,1023,1126,1043,1200,1037,1201,1018,1128,985,1023,939,904,911,845,880,789,855,754,827,721,777,672"/>
+<area shape="poly" id="edge23_Node000020_Node000021" title=" " alt="" coords="1162,532,1198,529,1199,534,1162,537"/>
+<area shape="poly" id="edge35_Node000038_Node000004" title=" " alt="" coords="860,389,881,378,897,361,904,342,912,322,929,303,950,292,952,297,932,307,916,325,909,344,902,364,884,382,863,394"/>
+<area shape="poly" id="edge36_Node000038_Node000009" title=" " alt="" coords="854,414,944,427,943,432,854,419"/>
+<area shape="poly" id="edge37_Node000038_Node000010" title=" " alt="" coords="830,389,882,377,959,358,960,363,883,383,831,394"/>
+<area shape="poly" id="edge38_Node000038_Node000011" title=" " alt="" coords="877,398,969,395,969,400,877,403"/>
+<area shape="poly" id="edge40_Node000044_Node000004" title=" " alt="" coords="837,339,882,327,905,315,930,303,961,293,963,298,932,308,908,320,884,332,839,345"/>
+<area shape="poly" id="edge41_Node000044_Node000009" title=" " alt="" coords="850,365,884,378,899,388,909,398,918,408,932,418,949,425,947,430,929,422,914,412,905,402,895,392,881,382,848,370"/>
+<area shape="poly" id="edge42_Node000044_Node000010" title=" " alt="" coords="872,345,928,342,928,347,872,351"/>
+<area shape="poly" id="edge43_Node000044_Node000011" title=" " alt="" coords="854,365,969,381,969,386,854,370"/>
+<area shape="poly" id="edge50_Node000047_Node000009" title=" " alt="" coords="492,856,509,803,539,731,583,654,611,618,642,586,676,560,713,537,791,500,871,474,943,457,944,462,872,479,793,505,715,541,679,564,646,590,615,621,588,657,544,733,514,805,497,858"/>
+<area shape="poly" id="edge49_Node000047_Node000012" title=" " alt="" coords="578,876,1218,883,1218,888,578,881"/>
+<area shape="rect" id="Node000048" href="$classZagreus_1_1Board.html#a8210f4772db4ca37dd43ea5358c0b88f" title="Retrieves the attackers of a given square by color." alt="" coords="666,800,861,840"/>
+<area shape="poly" id="edge51_Node000047_Node000048" title=" " alt="" coords="578,856,652,840,653,845,579,861"/>
+<area shape="poly" id="edge52_Node000048_Node000027" title=" " alt="" coords="861,821,942,823,941,829,861,826"/>
+<area shape="poly" id="edge56_Node000052_Node000009" title=" " alt="" coords="525,972,562,945,579,927,594,908,610,870,615,833,613,799,608,765,605,732,606,698,617,665,642,631,671,610,701,601,731,600,760,604,790,609,820,610,850,603,881,586,893,574,899,562,905,535,910,507,917,493,929,479,961,459,964,464,932,483,921,496,915,509,910,536,904,564,897,577,884,590,852,608,820,615,790,614,760,610,730,605,702,606,674,614,646,635,622,668,611,699,610,731,614,764,619,798,621,834,615,871,598,911,584,931,566,949,528,976"/>
+<area shape="poly" id="edge62_Node000052_Node000011" title=" " alt="" coords="525,972,562,945,580,928,594,908,613,864,620,824,619,786,614,749,610,712,610,674,620,634,642,591,674,551,711,517,753,488,798,464,888,428,968,406,970,411,890,433,800,469,756,493,715,521,677,555,646,593,625,636,616,675,615,712,620,748,624,786,625,825,618,866,598,911,584,931,566,949,528,977"/>
+<area shape="poly" id="edge60_Node000052_Node000048" title=" " alt="" coords="519,972,718,845,721,850,521,977"/>
+<area shape="rect" id="Node000053" href="$namespaceZagreus.html#aa2f3cb3e05478be9e11f947ea5cc08da" title="Converts a bitboard to a square index." alt="" coords="665,915,861,941"/>
+<area shape="poly" id="edge54_Node000052_Node000053" title=" " alt="" coords="561,972,643,951,686,941,687,946,645,956,562,977"/>
+<area shape="rect" id="Node000054" href="$namespaceZagreus.html#a29a003e060bc1826f71e141ef47f302c" title=" " alt="" coords="672,1014,855,1039"/>
+<area shape="poly" id="edge57_Node000052_Node000054" title=" " alt="" coords="584,1003,659,1012,658,1017,583,1008"/>
+<area shape="rect" id="Node000055" href="$classZagreus_1_1Board.html#a677f3a4ab501298bb506e3923752c047" title="Retrieves the last move made." alt="" coords="657,965,870,990"/>
+<area shape="poly" id="edge58_Node000052_Node000055" title=" " alt="" coords="583,986,643,982,643,988,584,991"/>
+<area shape="rect" id="Node000056" href="$namespaceZagreus.html#a31c6c0c2eaae076f14a5a3131c81abb1" title=" " alt="" coords="678,1063,849,1089"/>
+<area shape="poly" id="edge59_Node000052_Node000056" title=" " alt="" coords="538,1012,645,1049,678,1058,677,1063,643,1055,536,1017"/>
+<area shape="rect" id="Node000057" href="$namespaceZagreus.html#a978d5894806a1bdb9f9089e820166aef" title=" " alt="" coords="682,1113,845,1138"/>
+<area shape="poly" id="edge61_Node000052_Node000057" title=" " alt="" coords="513,1013,571,1057,607,1080,645,1099,669,1107,668,1113,643,1104,604,1084,568,1061,510,1017"/>
+<area shape="poly" id="edge55_Node000053_Node000012" title=" " alt="" coords="861,921,1164,903,1218,897,1218,902,1164,908,862,927"/>
+<area shape="poly" id="edge64_Node000058_Node000054" title=" " alt="" coords="576,1218,594,1206,609,1188,616,1169,617,1130,619,1090,626,1069,642,1050,658,1039,661,1043,646,1054,631,1072,624,1091,622,1130,621,1170,613,1190,598,1210,579,1223"/>
+<area shape="poly" id="edge65_Node000058_Node000056" title=" " alt="" coords="574,1218,594,1206,606,1194,612,1181,617,1154,623,1126,630,1112,642,1099,663,1087,666,1091,646,1103,634,1115,628,1128,622,1155,617,1183,610,1197,598,1210,577,1223"/>
+<area shape="poly" id="edge71_Node000058_Node000057" title=" " alt="" coords="553,1218,595,1205,667,1174,727,1142,730,1147,669,1179,597,1211,554,1223"/>
+<area shape="rect" id="Node000059" href="$namespaceZagreus.html#a4797edd07c51dd24a1f1239ae3f66d7f" title="Gets the color of a piece." alt="" coords="961,1271,1134,1297"/>
+<area shape="poly" id="edge66_Node000058_Node000059" title=" " alt="" coords="577,1244,598,1257,610,1270,617,1285,621,1314,626,1342,633,1353,646,1364,677,1383,706,1394,733,1400,760,1401,816,1390,881,1364,897,1354,905,1342,914,1328,929,1315,966,1298,968,1303,932,1320,918,1332,910,1345,900,1358,884,1369,817,1395,760,1406,733,1406,704,1399,675,1387,642,1369,629,1357,621,1343,616,1315,612,1286,606,1273,594,1261,574,1248"/>
+<area shape="rect" id="Node000060" href="$namespaceZagreus.html#ada8064e489d92ff06a1739538d120ba0" title=" " alt="" coords="644,1429,883,1469"/>
+<area shape="poly" id="edge67_Node000058_Node000060" title=" " alt="" coords="579,1244,598,1257,613,1276,621,1295,623,1334,625,1372,632,1390,646,1409,660,1420,657,1424,642,1413,627,1393,620,1373,618,1334,616,1296,609,1278,594,1261,576,1248"/>
+<area shape="rect" id="Node000061" href="$classZagreus_1_1Board.html#afd4c02ec09ab6fde7631b59b2a4d9c97" title="Retrieves the piece on a given square." alt="" coords="671,1264,856,1304"/>
+<area shape="poly" id="edge68_Node000058_Node000061" title=" " alt="" coords="558,1243,658,1262,657,1267,557,1249"/>
+<area shape="rect" id="Node000062" href="$namespaceZagreus.html#ae1b3bf55cd6adf4ca93bffdc9ced467e" title="Gets the type of a piece." alt="" coords="679,1545,848,1570"/>
+<area shape="poly" id="edge69_Node000058_Node000062" title=" " alt="" coords="581,1244,598,1257,621,1290,630,1324,629,1358,623,1392,618,1425,616,1458,624,1491,646,1524,668,1540,664,1544,642,1527,620,1493,611,1459,612,1425,618,1391,623,1358,624,1325,616,1293,594,1261,578,1248"/>
+<area shape="rect" id="Node000063" href="$namespaceZagreus.html#a6c2e1e6c4abc0bc1ae611cd9a78fca36" title=" " alt="" coords="660,1594,867,1619"/>
+<area shape="poly" id="edge70_Node000058_Node000063" title=" " alt="" coords="582,1244,598,1257,614,1277,625,1298,634,1339,631,1381,622,1422,613,1462,611,1502,620,1542,630,1561,646,1581,650,1585,647,1589,642,1584,626,1564,615,1544,605,1503,608,1462,617,1421,625,1380,628,1340,620,1300,609,1280,594,1261,578,1248"/>
+<area shape="rect" id="Node000064" href="$namespaceZagreus.html#a407181a24d35d16ddc196ecd2195629c" title="Gets the Zobrist constant for a given index." alt="" coords="943,1329,1151,1354"/>
+<area shape="poly" id="edge72_Node000058_Node000064" title=" " alt="" coords="581,1244,598,1257,618,1285,625,1315,624,1344,620,1374,616,1402,616,1429,625,1455,646,1479,675,1500,703,1512,730,1518,757,1517,814,1504,882,1479,927,1456,967,1425,1001,1392,1026,1363,1030,1367,1005,1396,970,1429,930,1460,884,1484,816,1509,757,1523,729,1523,701,1517,673,1504,642,1483,620,1458,611,1430,610,1402,614,1373,619,1344,620,1315,613,1287,594,1261,577,1248"/>
+<area shape="rect" id="Node000065" href="$classZagreus_1_1Board.html#aea72d78a798679410c1b862700061f83" title="Removes a piece from a given square." alt="" coords="656,1214,871,1239"/>
+<area shape="poly" id="edge73_Node000058_Node000065" title=" " alt="" coords="588,1228,642,1227,642,1232,588,1234"/>
+<area shape="rect" id="Node000066" href="$classZagreus_1_1Board.html#ab61577ea27b99e8bc99b5004e5645fba" title="Sets a piece on a given square." alt="" coords="671,1329,855,1354"/>
+<area shape="poly" id="edge77_Node000058_Node000066" title=" " alt="" coords="570,1244,597,1256,614,1271,622,1286,631,1301,646,1314,661,1321,658,1326,642,1318,626,1304,618,1289,609,1274,595,1261,568,1249"/>
+<area shape="poly" id="edge76_Node000065_Node000030" title=" " alt="" coords="871,1224,935,1224,935,1229,871,1229"/>
+<area shape="poly" id="edge74_Node000065_Node000059" title=" " alt="" coords="828,1237,971,1266,970,1271,827,1242"/>
+<area shape="poly" id="edge75_Node000065_Node000064" title=" " alt="" coords="856,1237,884,1250,900,1264,909,1279,917,1294,932,1307,963,1322,960,1327,929,1312,913,1297,905,1282,896,1267,881,1254,854,1242"/>
+<area shape="poly" id="edge80_Node000066_Node000030" title=" " alt="" coords="854,1326,881,1314,896,1301,905,1287,913,1272,929,1258,963,1241,966,1246,932,1262,918,1276,909,1290,900,1304,884,1318,856,1331"/>
+<area shape="poly" id="edge78_Node000066_Node000059" title=" " alt="" coords="827,1326,970,1297,971,1302,828,1331"/>
+<area shape="poly" id="edge79_Node000066_Node000064" title=" " alt="" coords="856,1339,930,1339,930,1344,856,1344"/>
+<area shape="poly" id="edge84_Node000067_Node000002" title=" " alt="" coords="266,1168,476,454,481,456,271,1169"/>
+<area shape="poly" id="edge85_Node000067_Node000045" title=" " alt="" coords="281,1192,324,1224,380,1256,400,1264,398,1269,378,1261,321,1229,278,1196"/>
+<area shape="poly" id="edge86_Node000067_Node000046" title=" " alt="" coords="274,1193,315,1248,345,1280,380,1306,392,1312,390,1317,377,1310,341,1284,311,1252,270,1196"/>
+<area shape="poly" id="edge87_Node000067_Node000047" title=" " alt="" coords="267,1167,305,1077,337,1017,377,961,408,929,441,903,444,908,411,933,381,964,342,1020,310,1079,272,1169"/>
+<area shape="poly" id="edge88_Node000067_Node000052" title=" " alt="" coords="278,1166,450,1021,454,1025,282,1171"/>
+<area shape="poly" id="edge89_Node000067_Node000058" title=" " alt="" coords="319,1191,419,1215,418,1220,318,1197"/>
+<area shape="poly" id="edge90_Node000067_Node000067" title=" " alt="" coords="232,1170,226,1160,229,1150,242,1144,263,1142,289,1146,300,1154,296,1158,287,1150,263,1147,244,1149,233,1154,231,1160,237,1167"/>
+<area shape="rect" id="Node000068" href="$classZagreus_1_1Evaluation.html#a0f4174df46fff74d4c208a04c861622a" title="Evaluates the current board position." alt="" coords="411,1156,563,1196"/>
+<area shape="poly" id="edge83_Node000067_Node000068" title=" " alt="" coords="331,1177,397,1175,398,1181,331,1182"/>
+<area shape="poly" id="edge91_Node000067_Node000071" title=" " alt="" coords="272,1193,286,1226,309,1270,340,1316,380,1355,388,1360,385,1365,377,1359,336,1319,304,1273,281,1228,267,1195"/>
+<area shape="poly" id="edge92_Node000067_Node000072" title=" " alt="" coords="270,1194,280,1237,300,1298,333,1363,355,1393,380,1419,397,1430,394,1435,377,1423,351,1397,329,1366,296,1300,275,1239,264,1195"/>
+<area shape="poly" id="edge93_Node000067_Node000073" title=" " alt="" coords="300,1166,378,1141,414,1132,416,1137,379,1147,302,1171"/>
+<area shape="poly" id="edge94_Node000073_Node000054" title=" " alt="" coords="513,1103,572,1076,643,1049,678,1040,679,1045,645,1055,574,1081,516,1108"/>
+<area shape="poly" id="edge95_Node000073_Node000056" title=" " alt="" coords="570,1103,667,1088,668,1093,570,1109"/>
+<area shape="poly" id="edge98_Node000073_Node000057" title=" " alt="" coords="596,1119,669,1120,668,1126,596,1124"/>
+<area shape="poly" id="edge96_Node000073_Node000059" title=" " alt="" coords="551,1129,884,1200,900,1213,909,1225,918,1238,932,1250,965,1265,963,1270,929,1254,914,1242,905,1229,896,1216,882,1205,550,1134"/>
+<area shape="poly" id="edge97_Node000073_Node000061" title=" " alt="" coords="577,1129,598,1142,610,1155,617,1169,623,1197,628,1225,634,1237,646,1250,660,1260,657,1264,642,1254,630,1240,623,1226,618,1198,612,1171,606,1158,594,1146,574,1134"/>
+<area shape="poly" id="edge99_Node000073_Node000065" title=" " alt="" coords="568,1129,597,1142,613,1154,622,1168,631,1180,645,1192,678,1207,676,1212,643,1197,627,1184,618,1171,609,1158,595,1146,566,1134"/>
+<area shape="poly" id="edge100_Node000073_Node000066" title=" " alt="" coords="580,1129,598,1142,614,1164,622,1186,622,1230,623,1273,630,1294,646,1314,660,1325,657,1329,642,1318,625,1297,618,1274,617,1230,617,1187,610,1166,594,1146,577,1134"/>
 </map>
