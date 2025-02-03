@@ -1,0 +1,5 @@
+<map id="Zagreus::parsePvLine" name="Zagreus::parsePvLine">
+<area shape="rect" id="Node000001" title="Parses the given pvLine as a string of moves." alt="" coords="5,5,168,31"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a0e6527c2c1fdf39a3b8056627edf07f7" title="Converts the from and to squares from the given move to chess notation (e.g. e2e4)." alt="" coords="216,5,412,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,15,202,15,202,21,168,21"/>
+</map>
