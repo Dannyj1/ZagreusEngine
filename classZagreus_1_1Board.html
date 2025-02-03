@@ -231,6 +231,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afc43b1dcb3765f284bd8b8c43a16432c"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#afc43b1dcb3765f284bd8b8c43a16432c">seeCapture</a> (const <a class="el" href="namespaceZagreus.html#a38e749cf22c411cb709a3da939267e6f">Move</a> &amp;move)</td></tr>
 <tr class="memdesc:afc43b1dcb3765f284bd8b8c43a16432c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Static Exchange <a class="el" href="classZagreus_1_1Evaluation.html">Evaluation</a> (SEE) score for a capture move.  <br /></td></tr>
 <tr class="separator:afc43b1dcb3765f284bd8b8c43a16432c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd8cdeaeed749956497e22e4c272cec7" id="r_afd8cdeaeed749956497e22e4c272cec7"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd8cdeaeed749956497e22e4c272cec7">getHalfMoveClock</a> () const</td></tr>
+<tr class="memdesc:afd8cdeaeed749956497e22e4c272cec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the half move clock.  <br /></td></tr>
+<tr class="separator:afd8cdeaeed749956497e22e4c272cec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6877cbb42bc6f55cbfd3195317dfe87" id="r_aa6877cbb42bc6f55cbfd3195317dfe87"><td class="memItemLeft" align="right" valign="top">constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6877cbb42bc6f55cbfd3195317dfe87">getFullMoveClock</a> () const</td></tr>
+<tr class="memdesc:aa6877cbb42bc6f55cbfd3195317dfe87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the full move clock.  <br /></td></tr>
+<tr class="separator:aa6877cbb42bc6f55cbfd3195317dfe87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents the chess board and provides methods to manipulate it. The board consists of several bitboards. </p>
@@ -700,6 +706,66 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="471,40,462,32,438,29,418,31,408,36,406,41,411,49,407,52,401,42,404,32,417,26,438,24,464,27,474,36"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="aa6877cbb42bc6f55cbfd3195317dfe87" name="aa6877cbb42bc6f55cbfd3195317dfe87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6877cbb42bc6f55cbfd3195317dfe87">&#9670;&#160;</a></span>getFullMoveClock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t Zagreus::Board::getFullMoveClock </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the full move clock. </p>
+<dl class="section return"><dt>Returns</dt><dd>The full move clock. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="board_8h_source.html#l00467">467</a> of file <a class="el" href="board_8h_source.html">board.h</a>.</p>
+
+</div>
+</div>
+<a id="afd8cdeaeed749956497e22e4c272cec7" name="afd8cdeaeed749956497e22e4c272cec7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd8cdeaeed749956497e22e4c272cec7">&#9670;&#160;</a></span>getHalfMoveClock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t Zagreus::Board::getHalfMoveClock </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the half move clock. </p>
+<dl class="section return"><dt>Returns</dt><dd>The half move clock. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="board_8h_source.html#l00459">459</a> of file <a class="el" href="board_8h_source.html">board.h</a>.</p>
 
 </div>
 </div>
