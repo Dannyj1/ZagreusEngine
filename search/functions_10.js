@@ -44,7 +44,7 @@ var searchData=
   ['shiftwest_41',['shiftWest',['../namespaceZagreus.html#a6733b1ddfb36c4f0462c716732aeb6b4',1,'Zagreus']]],
   ['shuffle_42',['shuffle',['../namespacepcg__extras.html#a131f49fae5a8125fbe37eee8c28154b2',1,'pcg_extras']]],
   ['size_43',['size',['../classpcg__extras_1_1seed__seq__from.html#a6889125ccdb3b1113c345d5a7d0c9255',1,'pcg_extras::seed_seq_from']]],
-  ['sort_44',['sort',['../classZagreus_1_1MovePicker.html#ac02126cefeb583a4d31dd47393155e4f',1,'Zagreus::MovePicker']]],
+  ['sort_44',['sort',['../classZagreus_1_1MovePicker.html#aa6780bcb771f5a6b9ef099b18b907701',1,'Zagreus::MovePicker']]],
   ['specific_5fstream_45',['specific_stream',['../classpcg__detail_1_1specific__stream.html#a03f1a82cdf5883c0914903c43078b182',1,'pcg_detail::specific_stream::specific_stream()=default'],['../classpcg__detail_1_1specific__stream.html#a9b0d5b39c4549a7e23f3e2e12c8264b3',1,'pcg_detail::specific_stream::specific_stream(itype specific_seq)']]],
   ['squaretobitboard_46',['squareToBitboard',['../namespaceZagreus.html#ad1261455060994b4cea7b1eea416e6f6',1,'Zagreus']]],
   ['startuci_47',['startUci',['../classZagreus_1_1Engine.html#a757808849badf64e6332e8826eb1d060',1,'Zagreus::Engine']]],
