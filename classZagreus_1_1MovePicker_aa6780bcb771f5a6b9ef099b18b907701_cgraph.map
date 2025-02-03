@@ -1,7 +1,11 @@
 <map id="Zagreus::MovePicker::sort" name="Zagreus::MovePicker::sort">
-<area shape="rect" id="Node000001" title="sorts the move list based on certain criteria." alt="" coords="5,27,164,67"/>
-<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#adf38c4f68536f92b5abed37c59bb018a" title="Retrieves the number of plies since the start of the game." alt="" coords="230,5,401,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,35,216,28,217,33,165,40"/>
-<area shape="rect" id="Node000003" href="$classZagreus_1_1Board.html#a04c3abb6e1f13f099bdaa5d6ad796968" title="Gets the previous PV line." alt="" coords="212,55,419,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,54,199,58,198,64,164,60"/>
+<area shape="rect" id="Node000001" title="sorts the move list based on certain criteria." alt="" coords="5,92,164,132"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1TranspositionTable.html#a0eaba95d499a76b17e0d3499fc14f0c2" title=" " alt="" coords="225,5,428,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,89,211,55,235,47,237,52,213,60,130,94"/>
+<area shape="rect" id="Node000003" href="$classZagreus_1_1Board.html#adf38c4f68536f92b5abed37c59bb018a" title="Retrieves the number of plies since the start of the game." alt="" coords="241,70,412,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,100,227,92,228,97,165,105"/>
+<area shape="rect" id="Node000004" href="$classZagreus_1_1Board.html#a04c3abb6e1f13f099bdaa5d6ad796968" title="Gets the previous PV line." alt="" coords="223,120,430,160"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="165,119,210,124,209,129,164,124"/>
+<area shape="rect" id="Node000005" href="$classZagreus_1_1Board.html#ad94cd8eb15a75774f32ae327ab968aa6" title="Gets the current zobrist hash of the board. It is pre&#45;computed and will only be retrieved from memory..." alt="" coords="212,185,441,210"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="124,130,166,150,213,169,245,179,243,184,211,175,164,155,121,135"/>
 </map>

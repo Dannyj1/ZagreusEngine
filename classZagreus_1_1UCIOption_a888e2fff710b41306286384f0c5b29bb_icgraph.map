@@ -1,5 +1,11 @@
 <map id="Zagreus::UCIOption::getDefaultValue" name="Zagreus::UCIOption::getDefaultValue">
-<area shape="rect" id="Node000001" title=" " alt="" coords="252,5,401,45"/>
-<area shape="rect" id="Node000002" href="$classZagreus_1_1Engine.html#a1841215be0f226682591eb725f29d505" title=" " alt="" coords="5,13,204,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,28,204,28,204,23,238,23"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="733,5,883,45"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Engine.html#a1841215be0f226682591eb725f29d505" title=" " alt="" coords="487,13,685,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="720,28,686,28,686,23,720,23"/>
+<area shape="rect" id="Node000003" href="$classZagreus_1_1Engine.html#aa97883c4a13a6a6e8b348589c820aafb" title=" " alt="" coords="251,13,439,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="473,28,439,28,439,23,473,23"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a9da5c1576379032450eee69dc694e6a4" title=" " alt="" coords="108,13,203,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="237,28,203,28,203,23,237,23"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#a638b85ceffac097c2aa79b76ba8c055e" title=" " alt="" coords="5,13,60,38"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="95,28,60,28,60,23,95,23"/>
 </map>
