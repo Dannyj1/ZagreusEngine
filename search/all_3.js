@@ -22,11 +22,12 @@ var searchData=
   ['castling_19',['CASTLING',['../namespaceZagreus.html#a7735714492e635054e84a0cc179e46baac07eeab1b190e6670cbf7734c73598ec',1,'Zagreus']]],
   ['castlingrights_20',['CastlingRights',['../namespaceZagreus.html#a26be0ed2eb6dbddc9a617b4ec7b05a5e',1,'Zagreus']]],
   ['castlingrights_21',['castlingRights',['../structZagreus_1_1BoardState.html#a0256766f960500190cb586568bcf4378',1,'Zagreus::BoardState']]],
-  ['check_22',['Check',['../namespaceZagreus.html#a25277ebd2a95d3a6cec246971a6e41c1abdb4fefad83966524bb7f2121707702b',1,'Zagreus']]],
-  ['clearvar_23',['clearVar',['../classZagreus_1_1UCIOption.html#ae95b1df4fd9ccf77de1904e892e22515',1,'Zagreus::UCIOption']]],
-  ['colors_24',['COLORS',['../constants_8h.html#a883046b8f0d1f6368a9b9eaf5ca36af3',1,'constants.h']]],
-  ['combo_25',['Combo',['../namespaceZagreus.html#a25277ebd2a95d3a6cec246971a6e41c1adcc0a0c4aa2f3a0af20f04b99a7f135d',1,'Zagreus']]],
-  ['constants_2eh_26',['constants.h',['../constants_8h.html',1,'']]],
-  ['count_5f1s_27',['count_1s',['../namespaceZagreus.html#ad12d6d30c4c67b4bae5738e8481399b0',1,'Zagreus']]],
-  ['count_5fbits_28',['count_bits',['../namespaceZagreus.html#a4ab101cae51c4b69a1d384d608a0ac45',1,'Zagreus']]]
+  ['center_5fsquares_22',['CENTER_SQUARES',['../constants_8h.html#a8e351aae4e97313285bccf88f4428a83',1,'constants.h']]],
+  ['check_23',['Check',['../namespaceZagreus.html#a25277ebd2a95d3a6cec246971a6e41c1abdb4fefad83966524bb7f2121707702b',1,'Zagreus']]],
+  ['clearvar_24',['clearVar',['../classZagreus_1_1UCIOption.html#ae95b1df4fd9ccf77de1904e892e22515',1,'Zagreus::UCIOption']]],
+  ['colors_25',['COLORS',['../constants_8h.html#a883046b8f0d1f6368a9b9eaf5ca36af3',1,'constants.h']]],
+  ['combo_26',['Combo',['../namespaceZagreus.html#a25277ebd2a95d3a6cec246971a6e41c1adcc0a0c4aa2f3a0af20f04b99a7f135d',1,'Zagreus']]],
+  ['constants_2eh_27',['constants.h',['../constants_8h.html',1,'']]],
+  ['count_5f1s_28',['count_1s',['../namespaceZagreus.html#ad12d6d30c4c67b4bae5738e8481399b0',1,'Zagreus']]],
+  ['count_5fbits_29',['count_bits',['../namespaceZagreus.html#a4ab101cae51c4b69a1d384d608a0ac45',1,'Zagreus']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['get_5fbit_0',['get_bit',['../magics_8h.html#ada5138724e0e2fc6529ffece0c45181b',1,'magics.h']]]
+  ['extended_5fcenter_5fsquares_0',['EXTENDED_CENTER_SQUARES',['../constants_8h.html#ad14b9d41df65e3fdca9f84821d4840fa',1,'constants.h']]]
 ];

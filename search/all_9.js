@@ -14,7 +14,7 @@ var searchData=
   ['inside_5fout_11',['inside_out',['../structpcg__detail_1_1inside__out.html',1,'pcg_detail::inside_out&lt; baseclass &gt;'],['../structpcg__detail_1_1inside__out.html#aeabd4f5caea9c094a22f891a858e3d24',1,'pcg_detail::inside_out::inside_out()']]],
   ['insideout_12',['insideout',['../classpcg__detail_1_1extended.html#a3030e00b8bdc505e33d8cc45c979afa1',1,'pcg_detail::extended']]],
   ['is_5fmcg_13',['is_mcg',['../classpcg__detail_1_1no__stream.html#a8571eb34d4cf85425a812f329dd93129',1,'pcg_detail::no_stream::is_mcg'],['../classpcg__detail_1_1oneseq__stream.html#ac15eabd5d288cd794e5b74af6c927336',1,'pcg_detail::oneseq_stream::is_mcg'],['../classpcg__detail_1_1specific__stream.html#ac29793333290df30fee4cf9c3037d249',1,'pcg_detail::specific_stream::is_mcg']]],
-  ['isdraw_14',['isDraw',['../classZagreus_1_1Board.html#a9e6bb00719d45cc2ed6610a9c848fcb4',1,'Zagreus::Board']]],
+  ['isdraw_14',['isDraw',['../classZagreus_1_1Board.html#aca84663c90a0118a09ae4777aa5731ec',1,'Zagreus::Board']]],
   ['iskingincheck_15',['isKingInCheck',['../classZagreus_1_1Board.html#a27b03cc9604c065a113d26a9848ee0ea',1,'Zagreus::Board']]],
   ['ispieceonsquare_16',['isPieceOnSquare',['../classZagreus_1_1Board.html#a47123e6793832bd624e425116173c933',1,'Zagreus::Board']]],
   ['ispositionlegal_17',['isPositionLegal',['../classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8',1,'Zagreus::Board']]],

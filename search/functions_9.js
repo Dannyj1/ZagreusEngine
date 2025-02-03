@@ -9,7 +9,7 @@ var searchData=
   ['initializemagicbitboards_6',['initializeMagicBitboards',['../namespaceZagreus.html#a37e2265345b942f5ed69201304442a05',1,'Zagreus']]],
   ['initzobristconstants_7',['initZobristConstants',['../namespaceZagreus.html#ae320c1a2ab573411bbfc4f56222c8147',1,'Zagreus']]],
   ['inside_5fout_8',['inside_out',['../structpcg__detail_1_1inside__out.html#aeabd4f5caea9c094a22f891a858e3d24',1,'pcg_detail::inside_out']]],
-  ['isdraw_9',['isDraw',['../classZagreus_1_1Board.html#a9e6bb00719d45cc2ed6610a9c848fcb4',1,'Zagreus::Board']]],
+  ['isdraw_9',['isDraw',['../classZagreus_1_1Board.html#aca84663c90a0118a09ae4777aa5731ec',1,'Zagreus::Board']]],
   ['iskingincheck_10',['isKingInCheck',['../classZagreus_1_1Board.html#a27b03cc9604c065a113d26a9848ee0ea',1,'Zagreus::Board']]],
   ['ispieceonsquare_11',['isPieceOnSquare',['../classZagreus_1_1Board.html#a47123e6793832bd624e425116173c933',1,'Zagreus::Board']]],
   ['ispositionlegal_12',['isPositionLegal',['../classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8',1,'Zagreus::Board']]],
