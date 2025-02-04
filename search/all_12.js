@@ -10,7 +10,7 @@ var searchData=
   ['searchparams_7',['SearchParams',['../structZagreus_1_1SearchParams.html',1,'Zagreus']]],
   ['searchstats_8',['SearchStats',['../structZagreus_1_1SearchStats.html',1,'Zagreus']]],
   ['see_9',['see',['../classZagreus_1_1Board.html#a39c4411c08bdfe357f6f73bbb8c7cbf5',1,'Zagreus::Board']]],
-  ['seecapture_10',['seeCapture',['../classZagreus_1_1Board.html#afc43b1dcb3765f284bd8b8c43a16432c',1,'Zagreus::Board']]],
+  ['seecapture_10',['seeCapture',['../classZagreus_1_1Board.html#a476a2dfdca23b463accf29dc61fb1aad',1,'Zagreus::Board']]],
   ['seed_11',['seed',['../classpcg__detail_1_1engine.html#a17ee3e31eadcb8039f996762114d9597',1,'pcg_detail::engine::seed()'],['../classpcg__detail_1_1extended.html#af67216cce3a9091fea149dce8fd3cab9',1,'pcg_detail::extended::seed()']]],
   ['seed_5fseq_5ffrom_12',['seed_seq_from',['../classpcg__extras_1_1seed__seq__from.html',1,'pcg_extras::seed_seq_from&lt; RngType &gt;'],['../classpcg__extras_1_1seed__seq__from.html#a1d01bd6f7f0c4c3dae871e8026d92c38',1,'pcg_extras::seed_seq_from::seed_seq_from()']]],
   ['sendinfomessage_13',['sendInfoMessage',['../classZagreus_1_1Engine.html#aca7f188f346b2c77fa61853cbe9c8e13',1,'Zagreus::Engine']]],
