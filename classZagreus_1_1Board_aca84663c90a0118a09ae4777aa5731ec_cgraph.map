@@ -1,11 +1,11 @@
 <map id="Zagreus::Board::isDraw" name="Zagreus::Board::isDraw">
-<area shape="rect" id="Node000001" title="Checks if the current position is a draw. Checks everything but a stalemate." alt="" coords="5,92,180,117"/>
-<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#aefa101d59ff5ac5c1db21801f7e1b936" title="Retrieves the bitboard for a given piece type." alt="" coords="240,5,445,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,89,167,65,227,41,260,31,261,36,229,46,169,70,119,94"/>
-<area shape="rect" id="Node000003" href="$classZagreus_1_1Board.html#aea6dd15340ca705e00c18b7f967f073c" title="Retrieves the bitboard representing occupied squares." alt="" coords="237,55,448,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,92,223,87,224,92,180,97"/>
-<area shape="rect" id="Node000004" href="$classZagreus_1_1Board.html#ad94cd8eb15a75774f32ae327ab968aa6" title="Gets the current zobrist hash of the board. It is pre&#45;computed and will only be retrieved from memory..." alt="" coords="228,120,457,145"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="180,112,216,116,215,121,180,117"/>
-<area shape="rect" id="Node000005" href="$namespaceZagreus.html#aa0fea3f1f058b2d21f3f387a149b7f8a" title="Counts the number of set bits (population count) in a bitboard." alt="" coords="279,169,406,195"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="124,115,229,154,267,164,265,169,227,159,122,120"/>
+<area shape="rect" id="Node000001" title="Checks if the current position is a draw. Checks everything but a stalemate." alt="" coords="5,106,180,131"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#aea6dd15340ca705e00c18b7f967f073c" title="Retrieves the bitboard representing occupied squares." alt="" coords="237,5,448,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,104,168,80,227,55,250,47,252,52,229,60,170,84,120,108"/>
+<area shape="rect" id="Node000003" href="$classZagreus_1_1Board.html#abf7ceb384a0bfbaef721d8d6d7a089c2" title="Retrieves the bitboard for a given piece type." alt="" coords="250,69,435,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,106,236,99,236,104,180,111"/>
+<area shape="rect" id="Node000004" href="$classZagreus_1_1Board.html#ad94cd8eb15a75774f32ae327ab968aa6" title="Gets the current zobrist hash of the board. It is pre&#45;computed and will only be retrieved from memory..." alt="" coords="228,134,457,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="180,126,216,130,215,135,180,131"/>
+<area shape="rect" id="Node000005" href="$namespaceZagreus.html#aa0fea3f1f058b2d21f3f387a149b7f8a" title="Counts the number of set bits (population count) in a bitboard." alt="" coords="279,183,406,209"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="124,129,229,168,267,178,265,183,227,173,122,134"/>
 </map>

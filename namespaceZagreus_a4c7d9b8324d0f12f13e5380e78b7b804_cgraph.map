@@ -1,51 +1,51 @@
 <map id="Zagreus::generatePawnMoves" name="Zagreus::generatePawnMoves">
-<area shape="rect" id="Node000001" title="Generates all pseudo&#45;legal pawn moves for a given color and generation type." alt="" coords="5,389,224,415"/>
-<area shape="rect" id="Node000002" href="$namespaceZagreus.html#acef3ff44d80e15c78400d1004a0e8d04" title="Calculates the double push for black pawns." alt="" coords="275,71,504,96"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,388,130,335,159,258,180,216,205,175,235,137,270,105,277,101,280,105,274,109,239,141,209,178,184,219,164,260,136,337,121,390"/>
-<area shape="rect" id="Node000003" href="$namespaceZagreus.html#ab92b0596a4e9b3fb90f5d34259a44804" title="Calculates the single push for black pawns." alt="" coords="555,20,778,45"/>
-<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="115,389,125,326,150,234,170,184,196,136,229,92,270,56,309,34,351,19,395,9,439,4,525,6,598,15,597,20,525,11,440,10,396,15,353,24,311,39,274,60,233,96,201,139,175,186,155,236,130,328,120,390"/>
-<area shape="rect" id="Node000005" href="$namespaceZagreus.html#a319145508da8e9e93177a6a11ee060f8" title="Calculates the east attacks for black pawns." alt="" coords="275,120,504,145"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="118,388,135,343,166,279,211,212,239,181,270,155,280,149,283,153,274,159,242,185,215,215,170,282,140,345,123,390"/>
-<area shape="rect" id="Node000007" href="$namespaceZagreus.html#ac1dd827c29aa08f25be85d206411f699" title="Calculates the west attacks for black pawns." alt="" coords="273,169,506,195"/>
-<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="120,388,140,351,173,300,217,248,242,224,271,204,282,198,284,202,273,208,246,228,221,251,177,303,145,353,125,390"/>
-<area shape="rect" id="Node000009" href="$namespaceZagreus.html#a899c2b4b2028cb3129c82faa3275e2c3" title=" " alt="" coords="306,219,473,244"/>
-<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="124,387,181,322,223,285,271,253,292,244,294,249,273,258,226,289,184,326,128,391"/>
-<area shape="rect" id="Node000010" href="$classZagreus_1_1Board.html#aefa101d59ff5ac5c1db21801f7e1b936" title="Retrieves the bitboard for a given piece type." alt="" coords="287,268,492,293"/>
-<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="131,387,191,346,230,323,271,304,298,295,299,300,273,309,232,328,194,350,134,391"/>
-<area shape="rect" id="Node000011" href="$classZagreus_1_1Board.html#ae05e57705dd28daf8718d043c68d16d2" title="Retrieves the bitboard for a given color." alt="" coords="297,318,481,358"/>
-<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="170,387,289,359,290,364,171,392"/>
-<area shape="rect" id="Node000012" href="$classZagreus_1_1Board.html#a85c42131fc55c15b09f3aa2544a93c4d" title="Retrieves the bitboard representing empty squares." alt="" coords="293,382,485,422"/>
-<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="224,399,280,399,280,405,224,405"/>
-<area shape="rect" id="Node000013" href="$classZagreus_1_1Board.html#aa6253b1169d1bda9e23823590061b280" title="Retrieves the en passant square, if applicable." alt="" coords="281,446,497,486"/>
-<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="171,412,290,440,289,445,170,417"/>
-<area shape="rect" id="Node000014" href="$namespaceZagreus.html#a5b8e7dc1ddf3599e06c25e9e88952fbf" title="Pops the least significant set bit (LSB) from a bitboard and returns its index. This modifies the bit..." alt="" coords="325,511,454,536"/>
-<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="134,413,194,454,232,476,273,496,312,508,310,513,271,501,230,481,191,458,131,417"/>
-<area shape="rect" id="Node000016" href="$namespaceZagreus.html#ad1261455060994b4cea7b1eea416e6f6" title="Converts a square index to a bitboard." alt="" coords="291,560,487,585"/>
-<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="128,413,185,477,226,514,273,545,292,553,290,558,271,550,223,518,181,481,124,417"/>
-<area shape="rect" id="Node000017" href="$namespaceZagreus.html#a7692fd3583b6b4062e08a14b12db55e8" title="Calculates the double push for white pawns." alt="" coords="274,609,505,635"/>
-<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="125,414,145,450,177,500,221,551,246,575,273,594,288,602,285,607,271,599,243,579,217,555,173,503,140,453,120,416"/>
-<area shape="rect" id="Node000019" href="$namespaceZagreus.html#a10d8ce4127d68a8189027ba00dce39b5" title="Calculates the single push for white pawns." alt="" coords="555,660,779,685"/>
-<area shape="poly" id="edge24_Node000001_Node000019" title=" " alt="" coords="122,414,138,460,168,525,189,559,213,591,241,620,273,644,311,662,350,675,391,684,433,689,514,691,585,685,585,690,514,696,433,695,390,690,349,681,308,667,271,648,238,624,209,595,184,562,164,527,133,462,117,416"/>
-<area shape="rect" id="Node000020" href="$namespaceZagreus.html#a172d07d677ba7327d7dcf6ce2032527f" title="Calculates the east attacks for white pawns." alt="" coords="274,711,505,736"/>
-<area shape="poly" id="edge22_Node000001_Node000020" title=" " alt="" coords="122,414,137,465,166,540,186,581,211,620,240,657,274,689,297,703,294,708,270,694,236,661,207,624,182,583,161,542,132,467,116,416"/>
-<area shape="rect" id="Node000022" href="$namespaceZagreus.html#aacd111e9b3ec452ad93d48144924aa62" title="Calculates the west attacks for white pawns." alt="" coords="272,760,507,785"/>
-<area shape="poly" id="edge25_Node000001_Node000022" title=" " alt="" coords="120,414,131,475,157,566,178,616,203,664,235,709,274,747,280,751,277,756,270,751,231,712,199,667,173,618,152,568,126,477,115,415"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="459,68,582,45,583,51,460,73"/>
-<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a5f01c9bf422a21d35c075ff1befb41d2" title="Shifts the bitboard south by one rank." alt="" coords="827,45,975,71"/>
-<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="504,75,813,60,813,65,504,80"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="779,42,813,46,812,51,778,47"/>
-<area shape="rect" id="Node000006" href="$namespaceZagreus.html#a1806f70120c6ad25b53eea9d087d5cee" title="Shifts the bitboard south&#45;east by one rank and one file." alt="" coords="579,121,755,147"/>
-<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="504,131,565,131,565,136,504,136"/>
-<area shape="rect" id="Node000008" href="$namespaceZagreus.html#a1d99492a19d826f8167ffa8187639859" title="Shifts the bitboard south&#45;west by one rank and one file." alt="" coords="577,171,757,196"/>
-<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="506,180,563,180,563,186,506,185"/>
-<area shape="rect" id="Node000015" href="$namespaceZagreus.html#a3b7dc37ae50fe6f86723b9c113ba301f" title="Finds the index of the least significant set bit (LSB) in a bitboard." alt="" coords="575,511,758,536"/>
-<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="454,521,562,521,562,526,454,526"/>
-<area shape="rect" id="Node000018" href="$namespaceZagreus.html#a70869d31a469efacc2790cbd2d5cbf42" title="Shifts the bitboard north by one rank." alt="" coords="827,635,974,660"/>
-<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="505,625,814,640,813,646,505,630"/>
-<area shape="poly" id="edge20_Node000017_Node000019" title=" " alt="" coords="460,632,583,655,582,660,459,637"/>
-<area shape="poly" id="edge21_Node000019_Node000018" title=" " alt="" coords="779,658,813,654,814,659,779,663"/>
-<area shape="rect" id="Node000021" href="$namespaceZagreus.html#a7801f978e620c974f8e4bdee22d8b671" title="Shifts the bitboard north&#45;east by one rank and one file." alt="" coords="579,711,754,736"/>
-<area shape="poly" id="edge23_Node000020_Node000021" title=" " alt="" coords="505,721,566,721,566,726,505,726"/>
-<area shape="rect" id="Node000023" href="$namespaceZagreus.html#a61ec51b57900a9f5c4ad48238ec1d7f8" title="Shifts the bitboard north&#45;west by one rank and one file." alt="" coords="577,760,756,785"/>
-<area shape="poly" id="edge26_Node000022_Node000023" title=" " alt="" coords="507,770,564,770,564,775,507,775"/>
+<area shape="rect" id="Node000001" title="Generates all pseudo&#45;legal pawn moves for a given color and generation type." alt="" coords="5,405,224,430"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#acef3ff44d80e15c78400d1004a0e8d04" title="Calculates the double push for black pawns." alt="" coords="275,71,504,97"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,403,129,348,157,267,178,223,203,180,234,140,270,106,277,101,280,105,274,110,238,143,208,183,183,225,162,269,134,349,121,405"/>
+<area shape="rect" id="Node000003" href="$namespaceZagreus.html#ab92b0596a4e9b3fb90f5d34259a44804" title="Calculates the single push for black pawns." alt="" coords="555,21,778,46"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="114,404,123,340,148,243,168,191,194,140,228,94,270,56,309,34,351,19,395,9,440,4,526,6,599,15,598,21,525,11,440,10,396,14,353,24,311,39,274,61,232,98,199,143,172,193,153,245,129,341,120,405"/>
+<area shape="rect" id="Node000005" href="$namespaceZagreus.html#a319145508da8e9e93177a6a11ee060f8" title="Calculates the east attacks for black pawns." alt="" coords="275,121,504,146"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="117,404,133,356,164,288,184,252,209,216,238,183,270,155,279,149,282,154,274,159,241,187,213,219,189,254,168,291,138,358,122,405"/>
+<area shape="rect" id="Node000007" href="$namespaceZagreus.html#ac1dd827c29aa08f25be85d206411f699" title="Calculates the west attacks for black pawns." alt="" coords="273,170,506,195"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="119,403,138,364,171,309,215,252,241,226,271,204,281,198,284,203,273,209,245,230,219,256,175,312,143,366,124,405"/>
+<area shape="rect" id="Node000009" href="$namespaceZagreus.html#a899c2b4b2028cb3129c82faa3275e2c3" title=" " alt="" coords="306,219,473,245"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="122,403,145,372,178,332,221,290,271,255,292,245,294,250,273,260,225,294,182,335,149,375,127,406"/>
+<area shape="rect" id="Node000010" href="$classZagreus_1_1Board.html#ae05e57705dd28daf8718d043c68d16d2" title="Retrieves the bitboard for a given color." alt="" coords="297,269,481,309"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="132,402,192,362,271,319,290,311,292,316,273,324,194,366,135,406"/>
+<area shape="rect" id="Node000011" href="$classZagreus_1_1Board.html#a85c42131fc55c15b09f3aa2544a93c4d" title="Retrieves the bitboard representing empty squares." alt="" coords="293,333,485,373"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="170,402,289,374,290,379,171,407"/>
+<area shape="rect" id="Node000012" href="$classZagreus_1_1Board.html#aa6253b1169d1bda9e23823590061b280" title="Retrieves the en passant square, if applicable." alt="" coords="281,397,497,437"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="224,415,267,415,267,420,224,420"/>
+<area shape="rect" id="Node000013" href="$classZagreus_1_1Board.html#abf7ceb384a0bfbaef721d8d6d7a089c2" title="Retrieves the bitboard for a given piece type." alt="" coords="297,461,482,501"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="171,427,290,455,289,461,170,433"/>
+<area shape="rect" id="Node000014" href="$namespaceZagreus.html#a5b8e7dc1ddf3599e06c25e9e88952fbf" title="Pops the least significant set bit (LSB) from a bitboard and returns its index. This modifies the bit..." alt="" coords="325,526,454,551"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="134,428,194,469,232,492,273,511,312,523,310,528,271,516,230,496,191,473,131,432"/>
+<area shape="rect" id="Node000016" href="$namespaceZagreus.html#ad1261455060994b4cea7b1eea416e6f6" title="Converts a square index to a bitboard." alt="" coords="291,575,487,601"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="128,428,185,492,226,529,273,560,292,568,290,573,271,565,223,534,181,496,124,432"/>
+<area shape="rect" id="Node000017" href="$namespaceZagreus.html#a7692fd3583b6b4062e08a14b12db55e8" title="Calculates the double push for white pawns." alt="" coords="274,625,505,650"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="125,429,145,465,177,515,221,567,246,590,273,610,288,617,285,622,271,614,243,594,217,570,173,518,140,468,120,431"/>
+<area shape="rect" id="Node000019" href="$namespaceZagreus.html#a10d8ce4127d68a8189027ba00dce39b5" title="Calculates the single push for white pawns." alt="" coords="555,675,779,701"/>
+<area shape="poly" id="edge24_Node000001_Node000019" title=" " alt="" coords="122,429,138,476,168,540,189,574,213,606,241,635,273,659,311,677,350,691,391,699,433,705,514,706,585,700,585,705,514,711,433,710,390,705,349,696,308,682,271,664,238,639,209,610,184,577,164,542,133,478,117,431"/>
+<area shape="rect" id="Node000020" href="$namespaceZagreus.html#a172d07d677ba7327d7dcf6ce2032527f" title="Calculates the east attacks for white pawns." alt="" coords="274,726,505,751"/>
+<area shape="poly" id="edge22_Node000001_Node000020" title=" " alt="" coords="122,429,137,481,166,555,186,596,211,636,240,673,274,704,297,718,294,723,270,709,236,676,207,639,182,598,161,557,132,482,116,431"/>
+<area shape="rect" id="Node000022" href="$namespaceZagreus.html#aacd111e9b3ec452ad93d48144924aa62" title="Calculates the west attacks for white pawns." alt="" coords="272,775,507,801"/>
+<area shape="poly" id="edge25_Node000001_Node000022" title=" " alt="" coords="120,430,131,491,157,581,178,631,203,679,235,724,274,762,280,766,277,771,270,766,231,727,199,682,173,633,152,583,126,492,115,431"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="459,69,582,46,583,51,460,74"/>
+<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a5f01c9bf422a21d35c075ff1befb41d2" title="Shifts the bitboard south by one rank." alt="" coords="827,46,975,71"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="504,76,813,60,813,66,504,81"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="779,43,813,46,812,52,778,48"/>
+<area shape="rect" id="Node000006" href="$namespaceZagreus.html#a1806f70120c6ad25b53eea9d087d5cee" title="Shifts the bitboard south&#45;east by one rank and one file." alt="" coords="579,122,755,147"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="504,131,565,131,565,137,504,136"/>
+<area shape="rect" id="Node000008" href="$namespaceZagreus.html#a1d99492a19d826f8167ffa8187639859" title="Shifts the bitboard south&#45;west by one rank and one file." alt="" coords="577,171,757,197"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="506,180,563,181,563,186,506,186"/>
+<area shape="rect" id="Node000015" href="$namespaceZagreus.html#a3b7dc37ae50fe6f86723b9c113ba301f" title="Finds the index of the least significant set bit (LSB) in a bitboard." alt="" coords="575,526,758,551"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="454,536,562,536,562,541,454,541"/>
+<area shape="rect" id="Node000018" href="$namespaceZagreus.html#a70869d31a469efacc2790cbd2d5cbf42" title="Shifts the bitboard north by one rank." alt="" coords="827,650,974,675"/>
+<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="505,640,814,656,813,661,505,646"/>
+<area shape="poly" id="edge20_Node000017_Node000019" title=" " alt="" coords="460,647,583,670,582,675,459,653"/>
+<area shape="poly" id="edge21_Node000019_Node000018" title=" " alt="" coords="779,673,813,669,814,675,779,678"/>
+<area shape="rect" id="Node000021" href="$namespaceZagreus.html#a7801f978e620c974f8e4bdee22d8b671" title="Shifts the bitboard north&#45;east by one rank and one file." alt="" coords="579,726,754,751"/>
+<area shape="poly" id="edge23_Node000020_Node000021" title=" " alt="" coords="505,736,566,736,566,741,505,741"/>
+<area shape="rect" id="Node000023" href="$namespaceZagreus.html#a61ec51b57900a9f5c4ad48238ec1d7f8" title="Shifts the bitboard north&#45;west by one rank and one file." alt="" coords="577,775,756,801"/>
+<area shape="poly" id="edge26_Node000022_Node000023" title=" " alt="" coords="507,785,564,785,564,791,507,791"/>
 </map>
