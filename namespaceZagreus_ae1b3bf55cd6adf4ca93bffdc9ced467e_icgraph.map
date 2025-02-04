@@ -1,26 +1,34 @@
 <map id="Zagreus::getPieceType" name="Zagreus::getPieceType">
-<area shape="rect" id="Node000001" title="Gets the type of a piece." alt="" coords="803,70,972,96"/>
-<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1" title="Generates all pseudo&#45;legal moves for all pieces of a certain color for a given color and generation t..." alt="" coords="562,9,746,34"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="824,69,702,37,704,32,826,64"/>
-<area shape="rect" id="Node000006" href="$classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="553,121,755,146"/>
-<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="815,101,714,124,713,118,814,96"/>
-<area shape="rect" id="Node000008" href="$classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="578,70,730,96"/>
-<area shape="poly" id="edge15_Node000001_Node000008" title=" " alt="" coords="789,86,730,86,730,80,789,80"/>
-<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a9cede8fac151bf6c2336600497bc8b54" title=" " alt="" coords="180,70,323,96"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="548,21,461,25,371,38,321,54,278,73,276,68,319,49,370,32,461,19,548,16"/>
-<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a8402e43c19031fd84e7ff36a670a6161" title=" " alt="" coords="5,70,132,96"/>
-<area shape="poly" id="edge8_Node000002_Node000004" title=" " alt="" coords="548,13,467,9,374,9,276,18,181,38,135,54,95,73,93,68,133,49,179,32,275,13,374,4,467,3,549,8"/>
-<area shape="rect" id="Node000005" href="$namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,70,505,96"/>
-<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="596,41,484,73,483,68,595,36"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="283,60,274,52,251,49,232,51,222,56,220,61,226,69,221,72,215,62,218,52,231,46,251,44,276,47,287,56"/>
-<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="166,86,132,86,132,80,166,80"/>
-<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="357,86,323,86,323,80,357,80"/>
-<area shape="poly" id="edge7_Node000005_Node000005" title=" " alt="" coords="471,60,462,52,438,49,418,51,408,56,406,61,411,69,407,72,401,62,404,52,417,46,438,44,464,47,474,56"/>
-<area shape="poly" id="edge12_Node000006_Node000003" title=" " alt="" coords="539,129,370,111,305,98,306,93,371,106,540,124"/>
-<area shape="poly" id="edge14_Node000006_Node000004" title=" " alt="" coords="539,137,369,131,274,124,180,111,119,98,120,93,180,106,274,118,369,126,540,132"/>
-<area shape="poly" id="edge13_Node000006_Node000005" title=" " alt="" coords="585,120,492,98,493,93,586,115"/>
-<area shape="rect" id="Node000007" href="$namespaceZagreus.html#a8c0bbbe8484b26df054d217409f25325" title="Performs a perft test on the given board to a specified depth." alt="" coords="381,246,495,272"/>
-<area shape="poly" id="edge10_Node000006_Node000007" title=" " alt="" coords="621,155,462,249,460,244,618,151"/>
-<area shape="poly" id="edge11_Node000007_Node000007" title=" " alt="" coords="471,236,462,228,438,225,418,227,408,232,406,237,411,245,407,248,401,238,404,228,417,222,438,220,464,223,474,232"/>
-<area shape="poly" id="edge16_Node000008_Node000005" title=" " alt="" coords="564,86,505,86,505,80,564,80"/>
+<area shape="rect" id="Node000001" title="Gets the type of a piece." alt="" coords="856,101,1025,127"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1" title="Generates all pseudo&#45;legal moves for all pieces of a certain color for a given color and generation t..." alt="" coords="615,13,799,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="893,99,807,66,742,41,744,36,809,61,895,94"/>
+<area shape="rect" id="Node000006" href="$namespaceZagreus.html#acd3bf64552a1c6ab99042c49db1b2b1a" title=" " alt="" coords="628,237,787,263"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="907,136,732,239,729,235,904,132"/>
+<area shape="rect" id="Node000010" href="$classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="607,125,808,151"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="842,127,808,130,808,125,842,122"/>
+<area shape="rect" id="Node000012" href="$classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="631,76,783,101"/>
+<area shape="poly" id="edge19_Node000001_Node000012" title=" " alt="" coords="842,106,783,100,784,94,842,101"/>
+<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a9cede8fac151bf6c2336600497bc8b54" title=" " alt="" coords="180,75,323,100"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="602,23,490,25,430,31,371,41,320,57,277,77,275,72,318,52,370,35,429,25,490,20,602,18"/>
+<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a8402e43c19031fd84e7ff36a670a6161" title=" " alt="" coords="5,75,132,100"/>
+<area shape="poly" id="edge8_Node000002_Node000004" title=" " alt="" coords="601,16,510,10,404,9,291,18,235,27,181,41,134,58,94,77,92,72,132,53,179,35,234,22,290,13,403,4,510,4,602,10"/>
+<area shape="rect" id="Node000005" href="$namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="397,75,532,100"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="644,45,516,77,515,72,643,39"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="283,64,274,57,251,53,232,55,222,60,220,66,226,73,221,76,215,66,218,57,231,50,251,48,276,52,287,60"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="166,90,132,90,132,85,166,85"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="384,90,323,90,323,85,384,85"/>
+<area shape="poly" id="edge7_Node000005_Node000005" title=" " alt="" coords="503,65,492,57,465,53,442,55,430,60,427,66,434,73,430,76,422,66,426,56,441,50,465,48,494,52,506,61"/>
+<area shape="rect" id="Node000007" href="$classZagreus_1_1Engine.html#aa97883c4a13a6a6e8b348589c820aafb" title=" " alt="" coords="371,301,559,327"/>
+<area shape="poly" id="edge10_Node000006_Node000007" title=" " alt="" coords="645,269,515,304,513,299,644,264"/>
+<area shape="rect" id="Node000008" href="$main_8cpp.html#a9da5c1576379032450eee69dc694e6a4" title=" " alt="" coords="204,301,299,327"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="357,317,299,317,299,311,357,311"/>
+<area shape="rect" id="Node000009" href="$main_8cpp.html#a638b85ceffac097c2aa79b76ba8c055e" title=" " alt="" coords="41,301,96,327"/>
+<area shape="poly" id="edge12_Node000008_Node000009" title=" " alt="" coords="190,317,96,317,96,311,190,311"/>
+<area shape="poly" id="edge16_Node000010_Node000003" title=" " alt="" coords="593,135,485,127,370,114,308,103,309,97,371,109,485,122,593,130"/>
+<area shape="poly" id="edge18_Node000010_Node000004" title=" " alt="" coords="685,162,631,205,596,225,560,241,507,254,465,257,423,252,370,241,283,212,201,173,133,133,86,102,89,98,136,129,204,168,285,207,371,235,424,247,465,252,507,248,558,236,594,220,628,200,682,158"/>
+<area shape="poly" id="edge17_Node000010_Node000005" title=" " alt="" coords="632,125,526,103,527,97,633,120"/>
+<area shape="rect" id="Node000011" href="$namespaceZagreus.html#a8c0bbbe8484b26df054d217409f25325" title="Performs a perft test on the given board to a specified depth." alt="" coords="408,200,521,225"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="652,157,508,203,506,197,651,152"/>
+<area shape="poly" id="edge15_Node000011_Node000011" title=" " alt="" coords="503,190,492,182,465,179,442,181,430,186,427,191,434,198,430,202,422,192,426,182,441,176,465,173,494,177,506,186"/>
+<area shape="poly" id="edge20_Node000012_Node000005" title=" " alt="" coords="617,91,532,90,532,85,617,86"/>
 </map>
