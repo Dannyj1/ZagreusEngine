@@ -1,6 +1,6 @@
 <map id="Zagreus::getPieceColor" name="Zagreus::getPieceColor">
 <area shape="rect" id="Node000001" title="Gets the color of a piece." alt="" coords="1155,198,1328,223"/>
-<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="635,86,836,111"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="635,86,836,111"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1217,190,1169,148,1139,127,1106,112,1036,94,963,86,892,85,829,89,829,83,892,79,963,80,1036,89,1108,107,1141,123,1173,143,1221,186"/>
 <area shape="rect" id="Node000007" href="$classZagreus_1_1Board.html#a0504ef64f76044dd624b451b4c5cf8a2" title="Removes a piece from a given square." alt="" coords="892,273,1107,298"/>
 <area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="1197,231,1107,262,1060,275,1059,270,1106,257,1195,226"/>

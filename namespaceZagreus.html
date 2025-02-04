@@ -489,8 +489,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a407181a24d35d16ddc196ecd2195629c" id="r_a407181a24d35d16ddc196ecd2195629c"><td class="memItemLeft" align="right" valign="top">constexpr uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a407181a24d35d16ddc196ecd2195629c">getZobristConstant</a> (const int index)</td></tr>
 <tr class="memdesc:a407181a24d35d16ddc196ecd2195629c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Zobrist constant for a given index.  <br /></td></tr>
 <tr class="separator:a407181a24d35d16ddc196ecd2195629c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8088c1e00ae2a7a9977009208f055ab" id="r_ae8088c1e00ae2a7a9977009208f055ab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8088c1e00ae2a7a9977009208f055ab">estimateMoveValue</a> (const <a class="el" href="classZagreus_1_1Board.html">Board</a> &amp;board, const <a class="el" href="#a38e749cf22c411cb709a3da939267e6f">Move</a> &amp;move)</td></tr>
-<tr class="separator:ae8088c1e00ae2a7a9977009208f055ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a627dc20d2792883f26ad1cc0a0ce485a" id="r_a627dc20d2792883f26ad1cc0a0ce485a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a627dc20d2792883f26ad1cc0a0ce485a">estimateMoveValue</a> (const <a class="el" href="classZagreus_1_1Board.html">Board</a> &amp;board, const <a class="el" href="#a38e749cf22c411cb709a3da939267e6f">Move</a> move)</td></tr>
+<tr class="separator:a627dc20d2792883f26ad1cc0a0ce485a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ae2c4ed999615a6f6b3bc9f23329e25" id="r_a8ae2c4ed999615a6f6b3bc9f23329e25"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ae2c4ed999615a6f6b3bc9f23329e25">getPieceValue</a> (const <a class="el" href="#a80c68b0ed6d2623104cdff1da84729a7">Piece</a> piece)</td></tr>
 <tr class="memdesc:a8ae2c4ed999615a6f6b3bc9f23329e25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the value of a given piece.  <br /></td></tr>
 <tr class="separator:a8ae2c4ed999615a6f6b3bc9f23329e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1299,7 +1299,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1368,382,1277,414,1240,426,1239,421,1275,409,1366,377"/>
 <area shape="rect" href="namespaceZagreus.html#a5b8e7dc1ddf3599e06c25e9e88952fbf" title="Pops the least significant set bit (LSB) from a bitboard and returns its index. This modifies the bit..." alt="" coords="1108,325,1237,350"/>
 <area shape="poly" title=" " alt="" coords="1310,354,1237,347,1238,341,1311,349"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="1097,374,1249,399"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="1097,374,1249,399"/>
 <area shape="poly" title=" " alt="" coords="1311,376,1249,382,1249,376,1310,370"/>
 <area shape="rect" href="namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1" title="Generates all pseudo&#45;legal moves for all pieces of a certain color for a given color and generation t..." alt="" coords="557,337,741,362"/>
 <area shape="poly" title=" " alt="" coords="1110,123,936,176,852,208,819,224,795,239,779,258,772,277,764,298,747,318,728,330,708,339,706,334,726,325,744,314,759,295,767,276,775,255,792,235,816,219,849,203,934,171,1109,118"/>
@@ -2426,8 +2426,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ae8088c1e00ae2a7a9977009208f055ab" name="ae8088c1e00ae2a7a9977009208f055ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8088c1e00ae2a7a9977009208f055ab">&#9670;&#160;</a></span>estimateMoveValue()</h2>
+<a id="a627dc20d2792883f26ad1cc0a0ce485a" name="a627dc20d2792883f26ad1cc0a0ce485a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a627dc20d2792883f26ad1cc0a0ce485a">&#9670;&#160;</a></span>estimateMoveValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2440,7 +2440,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a38e749cf22c411cb709a3da939267e6f">Move</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>move</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a38e749cf22c411cb709a3da939267e6f">Move</a></td>          <td class="paramname"><span class="paramname"><em>move</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2449,8 +2449,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="namespaceZagreus_ae8088c1e00ae2a7a9977009208f055ab_cgraph.png" border="0" usemap="#anamespaceZagreus_ae8088c1e00ae2a7a9977009208f055ab_cgraph" alt=""/></div>
-<map name="anamespaceZagreus_ae8088c1e00ae2a7a9977009208f055ab_cgraph" id="anamespaceZagreus_ae8088c1e00ae2a7a9977009208f055ab_cgraph">
+<div class="center"><img src="namespaceZagreus_a627dc20d2792883f26ad1cc0a0ce485a_cgraph.png" border="0" usemap="#anamespaceZagreus_a627dc20d2792883f26ad1cc0a0ce485a_cgraph" alt=""/></div>
+<map name="anamespaceZagreus_a627dc20d2792883f26ad1cc0a0ce485a_cgraph" id="anamespaceZagreus_a627dc20d2792883f26ad1cc0a0ce485a_cgraph">
 <area shape="rect" title=" " alt="" coords="5,184,219,209"/>
 <area shape="rect" href="namespaceZagreus.html#a31c6c0c2eaae076f14a5a3131c81abb1" title=" " alt="" coords="301,5,471,31"/>
 <area shape="poly" title=" " alt="" coords="120,182,175,114,217,74,265,41,286,32,289,37,268,46,221,79,179,118,124,186"/>
@@ -2471,10 +2471,10 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="namespaceZagreus_ae8088c1e00ae2a7a9977009208f055ab_icgraph.png" border="0" usemap="#anamespaceZagreus_ae8088c1e00ae2a7a9977009208f055ab_icgraph" alt=""/></div>
-<map name="anamespaceZagreus_ae8088c1e00ae2a7a9977009208f055ab_icgraph" id="anamespaceZagreus_ae8088c1e00ae2a7a9977009208f055ab_icgraph">
+<div class="center"><img src="namespaceZagreus_a627dc20d2792883f26ad1cc0a0ce485a_icgraph.png" border="0" usemap="#anamespaceZagreus_a627dc20d2792883f26ad1cc0a0ce485a_icgraph" alt=""/></div>
+<map name="anamespaceZagreus_a627dc20d2792883f26ad1cc0a0ce485a_icgraph" id="anamespaceZagreus_a627dc20d2792883f26ad1cc0a0ce485a_icgraph">
 <area shape="rect" title=" " alt="" coords="753,29,967,55"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="553,29,705,55"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="553,29,705,55"/>
 <area shape="poly" title=" " alt="" coords="739,45,706,45,706,39,739,39"/>
 <area shape="rect" href="namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,29,505,55"/>
 <area shape="poly" title=" " alt="" coords="539,45,506,45,506,39,539,39"/>
@@ -3763,7 +3763,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1425,120,1372,88,1310,58,1261,43,1263,38,1312,53,1375,84,1428,116"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a2f1f56b6140937dd1c0e430f0c0784bb" title="Retrieves the attackers of a given square." alt="" coords="1099,118,1294,158"/>
 <area shape="poly" title=" " alt="" coords="1345,141,1294,141,1294,135,1345,135"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
 <area shape="poly" title=" " alt="" coords="1395,156,1311,173,1143,189,998,196,997,191,1143,184,1310,167,1394,151"/>
 <area shape="rect" href="classZagreus_1_1Evaluation.html#abb089e1f075e914b0789cfefef917fcd" title="Initializes the evaluation data needed to evaluate the board position." alt="" coords="845,233,997,273"/>
 <area shape="poly" title=" " alt="" coords="1417,159,1367,179,1311,197,1228,216,1144,230,998,249,997,244,1143,225,1227,210,1310,191,1365,174,1415,154"/>
@@ -3840,7 +3840,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1425,120,1372,88,1310,58,1261,43,1263,38,1312,53,1375,84,1428,116"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a2f1f56b6140937dd1c0e430f0c0784bb" title="Retrieves the attackers of a given square." alt="" coords="1099,118,1294,158"/>
 <area shape="poly" title=" " alt="" coords="1345,141,1294,141,1294,135,1345,135"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
 <area shape="poly" title=" " alt="" coords="1395,156,1311,173,1143,189,998,196,997,191,1143,184,1310,167,1394,151"/>
 <area shape="rect" href="classZagreus_1_1Evaluation.html#abb089e1f075e914b0789cfefef917fcd" title="Initializes the evaluation data needed to evaluate the board position." alt="" coords="845,233,997,273"/>
 <area shape="poly" title=" " alt="" coords="1417,159,1367,179,1311,197,1228,216,1144,230,998,249,997,244,1143,225,1227,210,1310,191,1365,174,1415,154"/>
@@ -3921,7 +3921,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1425,120,1372,88,1310,58,1261,43,1263,38,1312,53,1375,84,1428,116"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a2f1f56b6140937dd1c0e430f0c0784bb" title="Retrieves the attackers of a given square." alt="" coords="1099,118,1294,158"/>
 <area shape="poly" title=" " alt="" coords="1345,141,1294,141,1294,135,1345,135"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
 <area shape="poly" title=" " alt="" coords="1395,156,1311,173,1143,189,998,196,997,191,1143,184,1310,167,1394,151"/>
 <area shape="rect" href="classZagreus_1_1Evaluation.html#abb089e1f075e914b0789cfefef917fcd" title="Initializes the evaluation data needed to evaluate the board position." alt="" coords="845,233,997,273"/>
 <area shape="poly" title=" " alt="" coords="1417,159,1367,179,1311,197,1228,216,1144,230,998,249,997,244,1143,225,1227,210,1310,191,1365,174,1415,154"/>
@@ -3998,7 +3998,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1425,120,1372,88,1310,58,1261,43,1263,38,1312,53,1375,84,1428,116"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a2f1f56b6140937dd1c0e430f0c0784bb" title="Retrieves the attackers of a given square." alt="" coords="1099,118,1294,158"/>
 <area shape="poly" title=" " alt="" coords="1345,141,1294,141,1294,135,1345,135"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
 <area shape="poly" title=" " alt="" coords="1395,156,1311,173,1143,189,998,196,997,191,1143,184,1310,167,1394,151"/>
 <area shape="rect" href="classZagreus_1_1Evaluation.html#abb089e1f075e914b0789cfefef917fcd" title="Initializes the evaluation data needed to evaluate the board position." alt="" coords="845,233,997,273"/>
 <area shape="poly" title=" " alt="" coords="1417,159,1367,179,1311,197,1228,216,1144,230,998,249,997,244,1143,225,1227,210,1310,191,1365,174,1415,154"/>
@@ -4127,9 +4127,9 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="880,114,831,79,770,46,732,33,734,28,772,41,833,74,884,109"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8" title="Checks if the current position is legal based on the color that just made a move." alt="" coords="566,55,758,95"/>
 <area shape="poly" title=" " alt="" coords="840,119,748,98,750,93,842,114"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="561,169,763,195"/>
+<area shape="rect" href="classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="561,169,763,195"/>
 <area shape="poly" title=" " alt="" coords="833,151,727,172,726,167,832,145"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="586,120,738,145"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="586,120,738,145"/>
 <area shape="poly" title=" " alt="" coords="805,135,738,135,738,130,805,130"/>
 <area shape="rect" href="classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644" title="Unmakes the last move on the board." alt="" coords="553,269,771,295"/>
 <area shape="poly" title=" " alt="" coords="877,155,686,272,683,267,874,150"/>
@@ -4211,7 +4211,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="471,174,462,166,438,163,418,165,408,169,406,175,411,182,407,185,401,176,404,166,417,160,438,157,464,161,474,170"/>
 <area shape="rect" href="classZagreus_1_1Board.html#ab5dadccf0de6e5507efa4c35b225a675" title="Retrieves the attackers of a given square by color." alt="" coords="808,113,1003,153"/>
 <area shape="poly" title=" " alt="" coords="1046,143,1003,140,1003,135,1046,137"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="829,177,981,203"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="829,177,981,203"/>
 <area shape="poly" title=" " alt="" coords="1047,168,979,180,978,175,1046,163"/>
 <area shape="poly" title=" " alt="" coords="865,107,816,75,759,46,721,33,723,28,761,41,818,70,868,103"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a0021a28ee0872d3abca5c8cfe3d8224a" title="gets the square of the attacker with the lowest value of a given square" alt="" coords="553,55,760,95"/>
@@ -4288,7 +4288,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="471,174,462,166,438,163,418,165,408,169,406,175,411,182,407,185,401,176,404,166,417,160,438,157,464,161,474,170"/>
 <area shape="rect" href="classZagreus_1_1Board.html#ab5dadccf0de6e5507efa4c35b225a675" title="Retrieves the attackers of a given square by color." alt="" coords="808,113,1003,153"/>
 <area shape="poly" title=" " alt="" coords="1053,143,1003,140,1003,135,1053,138"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="829,177,981,203"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="829,177,981,203"/>
 <area shape="poly" title=" " alt="" coords="1054,167,981,180,980,175,1053,162"/>
 <area shape="poly" title=" " alt="" coords="865,107,816,75,759,46,721,33,723,28,761,41,818,70,868,103"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a0021a28ee0872d3abca5c8cfe3d8224a" title="gets the square of the attacker with the lowest value of a given square" alt="" coords="553,55,760,95"/>
@@ -4519,15 +4519,15 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="namespaceZagreus_a31c6c0c2eaae076f14a5a3131c81abb1_icgraph.png" border="0" usemap="#anamespaceZagreus_a31c6c0c2eaae076f14a5a3131c81abb1_icgraph" alt=""/></div>
 <map name="anamespaceZagreus_a31c6c0c2eaae076f14a5a3131c81abb1_icgraph" id="anamespaceZagreus_a31c6c0c2eaae076f14a5a3131c81abb1_icgraph">
 <area shape="rect" title=" " alt="" coords="1080,154,1251,179"/>
-<area shape="rect" href="namespaceZagreus.html#ae8088c1e00ae2a7a9977009208f055ab" title=" " alt="" coords="819,78,1032,103"/>
+<area shape="rect" href="namespaceZagreus.html#a627dc20d2792883f26ad1cc0a0ce485a" title=" " alt="" coords="819,78,1032,103"/>
 <area shape="poly" title=" " alt="" coords="1113,152,1031,125,969,106,971,101,1033,120,1115,147"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="586,80,738,106"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="586,80,738,106"/>
 <area shape="poly" title=" " alt="" coords="1066,155,738,107,739,101,1067,150"/>
 <area shape="rect" href="namespaceZagreus.html#a85d8d693072db5ce97cbc6f013c8dde5" title="Converts a Move object to chess notation (e.g. e2e4)." alt="" coords="827,280,1023,306"/>
 <area shape="poly" title=" " alt="" coords="1141,190,1093,227,1033,264,981,283,980,278,1031,259,1090,223,1137,186"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8" title="Checks if the current position is legal based on the color that just made a move." alt="" coords="566,16,758,56"/>
 <area shape="poly" title=" " alt="" coords="1141,146,1093,104,1063,83,1031,68,962,47,890,36,821,31,758,31,758,26,821,26,891,31,963,42,1033,63,1066,79,1096,100,1144,142"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="561,179,763,204"/>
+<area shape="rect" href="classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="561,179,763,204"/>
 <area shape="poly" title=" " alt="" coords="1066,174,763,189,763,184,1066,169"/>
 <area shape="rect" href="classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644" title="Unmakes the last move on the board." alt="" coords="553,255,771,280"/>
 <area shape="poly" title=" " alt="" coords="1088,185,727,258,725,253,1087,179"/>
@@ -4621,7 +4621,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1280,236,1224,244,1224,239,1279,231"/>
 <area shape="rect" href="classZagreus_1_1Board.html#ab5dadccf0de6e5507efa4c35b225a675" title="Retrieves the attackers of a given square by color." alt="" coords="808,117,1003,157"/>
 <area shape="poly" title=" " alt="" coords="1038,167,1001,159,1002,154,1039,162"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="829,181,981,207"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="829,181,981,207"/>
 <area shape="poly" title=" " alt="" coords="1037,193,982,195,981,189,1037,188"/>
 <area shape="rect" href="namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1" title="Generates all pseudo&#45;legal moves for all pieces of a certain color for a given color and generation t..." alt="" coords="565,5,749,31"/>
 <area shape="poly" title=" " alt="" coords="866,110,817,77,759,46,722,33,724,28,761,41,819,72,869,106"/>
@@ -4684,7 +4684,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1280,236,1224,244,1224,239,1279,231"/>
 <area shape="rect" href="classZagreus_1_1Board.html#ab5dadccf0de6e5507efa4c35b225a675" title="Retrieves the attackers of a given square by color." alt="" coords="808,117,1003,157"/>
 <area shape="poly" title=" " alt="" coords="1038,167,1001,159,1002,154,1039,162"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="829,181,981,207"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="829,181,981,207"/>
 <area shape="poly" title=" " alt="" coords="1037,193,982,195,981,189,1037,188"/>
 <area shape="rect" href="namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1" title="Generates all pseudo&#45;legal moves for all pieces of a certain color for a given color and generation t..." alt="" coords="565,5,749,31"/>
 <area shape="poly" title=" " alt="" coords="866,110,817,77,759,46,722,33,724,28,761,41,819,72,869,106"/>
@@ -4760,7 +4760,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="namespaceZagreus_a4797edd07c51dd24a1f1239ae3f66d7f_icgraph.png" border="0" usemap="#anamespaceZagreus_a4797edd07c51dd24a1f1239ae3f66d7f_icgraph" alt=""/></div>
 <map name="anamespaceZagreus_a4797edd07c51dd24a1f1239ae3f66d7f_icgraph" id="anamespaceZagreus_a4797edd07c51dd24a1f1239ae3f66d7f_icgraph">
 <area shape="rect" title="Gets the color of a piece." alt="" coords="1155,198,1328,223"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="635,86,836,111"/>
+<area shape="rect" href="classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="635,86,836,111"/>
 <area shape="poly" title=" " alt="" coords="1217,190,1169,148,1139,127,1106,112,1036,94,963,86,892,85,829,89,829,83,892,79,963,80,1036,89,1108,107,1141,123,1173,143,1221,186"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a0504ef64f76044dd624b451b4c5cf8a2" title="Removes a piece from a given square." alt="" coords="892,273,1107,298"/>
 <area shape="poly" title=" " alt="" coords="1197,231,1107,262,1060,275,1059,270,1106,257,1195,226"/>
@@ -4836,11 +4836,11 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="namespaceZagreus_ada8064e489d92ff06a1739538d120ba0_icgraph.png" border="0" usemap="#anamespaceZagreus_ada8064e489d92ff06a1739538d120ba0_icgraph" alt=""/></div>
 <map name="anamespaceZagreus_ada8064e489d92ff06a1739538d120ba0_icgraph" id="anamespaceZagreus_ada8064e489d92ff06a1739538d120ba0_icgraph">
 <area shape="rect" title=" " alt="" coords="1064,49,1303,89"/>
-<area shape="rect" href="namespaceZagreus.html#ae8088c1e00ae2a7a9977009208f055ab" title=" " alt="" coords="803,5,1016,31"/>
+<area shape="rect" href="namespaceZagreus.html#a627dc20d2792883f26ad1cc0a0ce485a" title=" " alt="" coords="803,5,1016,31"/>
 <area shape="poly" title=" " alt="" coords="1061,49,978,33,979,28,1062,44"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="578,31,730,56"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="578,31,730,56"/>
 <area shape="poly" title=" " alt="" coords="1050,65,730,50,730,44,1051,60"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="553,107,755,132"/>
+<area shape="rect" href="classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="553,107,755,132"/>
 <area shape="poly" title=" " alt="" coords="1051,84,755,112,755,107,1050,79"/>
 <area shape="poly" title=" " alt="" coords="789,33,731,38,730,33,788,27"/>
 <area shape="rect" href="namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,31,505,56"/>
@@ -4906,7 +4906,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="namespaceZagreus_aa3053643ca2c05eed50912ea5f02556c_icgraph.png" border="0" usemap="#anamespaceZagreus_aa3053643ca2c05eed50912ea5f02556c_icgraph" alt=""/></div>
 <map name="anamespaceZagreus_aa3053643ca2c05eed50912ea5f02556c_icgraph" id="anamespaceZagreus_aa3053643ca2c05eed50912ea5f02556c_icgraph">
 <area shape="rect" title="Gets the piece type from a color and type." alt="" coords="753,29,956,55"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="553,29,705,55"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="553,29,705,55"/>
 <area shape="poly" title=" " alt="" coords="740,45,706,45,706,39,740,39"/>
 <area shape="rect" href="namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,29,505,55"/>
 <area shape="poly" title=" " alt="" coords="539,45,506,45,506,39,539,39"/>
@@ -4962,9 +4962,9 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="Gets the type of a piece." alt="" coords="803,70,972,96"/>
 <area shape="rect" href="namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1" title="Generates all pseudo&#45;legal moves for all pieces of a certain color for a given color and generation t..." alt="" coords="562,9,746,34"/>
 <area shape="poly" title=" " alt="" coords="824,69,702,37,704,32,826,64"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="553,121,755,146"/>
+<area shape="rect" href="classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="553,121,755,146"/>
 <area shape="poly" title=" " alt="" coords="815,101,714,124,713,118,814,96"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="578,70,730,96"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="578,70,730,96"/>
 <area shape="poly" title=" " alt="" coords="789,86,730,86,730,80,789,80"/>
 <area shape="rect" href="namespaceZagreus.html#a9cede8fac151bf6c2336600497bc8b54" title=" " alt="" coords="180,70,323,96"/>
 <area shape="poly" title=" " alt="" coords="548,21,461,25,371,38,321,54,278,73,276,68,319,49,370,32,461,19,548,16"/>
@@ -5027,9 +5027,9 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="namespaceZagreus_a8ae2c4ed999615a6f6b3bc9f23329e25_icgraph.png" border="0" usemap="#anamespaceZagreus_a8ae2c4ed999615a6f6b3bc9f23329e25_icgraph" alt=""/></div>
 <map name="anamespaceZagreus_a8ae2c4ed999615a6f6b3bc9f23329e25_icgraph" id="anamespaceZagreus_a8ae2c4ed999615a6f6b3bc9f23329e25_icgraph">
 <area shape="rect" title="Gets the value of a given piece." alt="" coords="1015,31,1189,56"/>
-<area shape="rect" href="namespaceZagreus.html#ae8088c1e00ae2a7a9977009208f055ab" title=" " alt="" coords="753,5,967,31"/>
+<area shape="rect" href="namespaceZagreus.html#a627dc20d2792883f26ad1cc0a0ce485a" title=" " alt="" coords="753,5,967,31"/>
 <area shape="poly" title=" " alt="" coords="1001,35,967,32,967,27,1001,30"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="553,31,705,56"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="553,31,705,56"/>
 <area shape="poly" title=" " alt="" coords="1001,46,705,46,705,41,1001,41"/>
 <area shape="poly" title=" " alt="" coords="740,34,706,38,706,32,739,29"/>
 <area shape="rect" href="namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,31,505,56"/>
@@ -5075,13 +5075,13 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="namespaceZagreus_a6c2e1e6c4abc0bc1ae611cd9a78fca36_icgraph.png" border="0" usemap="#anamespaceZagreus_a6c2e1e6c4abc0bc1ae611cd9a78fca36_icgraph" alt=""/></div>
 <map name="anamespaceZagreus_a6c2e1e6c4abc0bc1ae611cd9a78fca36_icgraph" id="anamespaceZagreus_a6c2e1e6c4abc0bc1ae611cd9a78fca36_icgraph">
 <area shape="rect" title=" " alt="" coords="1064,81,1271,107"/>
-<area shape="rect" href="namespaceZagreus.html#ae8088c1e00ae2a7a9977009208f055ab" title=" " alt="" coords="803,5,1016,31"/>
+<area shape="rect" href="namespaceZagreus.html#a627dc20d2792883f26ad1cc0a0ce485a" title=" " alt="" coords="803,5,1016,31"/>
 <area shape="poly" title=" " alt="" coords="1109,80,953,33,954,28,1111,75"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="578,56,730,81"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="578,56,730,81"/>
 <area shape="poly" title=" " alt="" coords="1050,91,730,75,730,70,1050,86"/>
 <area shape="rect" href="namespaceZagreus.html#a85d8d693072db5ce97cbc6f013c8dde5" title="Converts a Move object to chess notation (e.g. e2e4)." alt="" coords="811,107,1007,132"/>
 <area shape="poly" title=" " alt="" coords="1051,108,1008,112,1007,107,1050,103"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="553,157,755,183"/>
+<area shape="rect" href="classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="553,157,755,183"/>
 <area shape="poly" title=" " alt="" coords="1124,114,1073,132,1017,147,949,158,880,166,755,172,755,167,880,160,948,153,1015,142,1071,127,1122,109"/>
 <area shape="poly" title=" " alt="" coords="831,36,719,59,718,53,830,31"/>
 <area shape="rect" href="namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,56,505,81"/>
@@ -5157,7 +5157,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1410,120,1359,88,1299,58,1253,43,1255,38,1301,53,1362,84,1413,115"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a2f1f56b6140937dd1c0e430f0c0784bb" title="Retrieves the attackers of a given square." alt="" coords="1094,118,1289,158"/>
 <area shape="poly" title=" " alt="" coords="1334,141,1289,141,1289,135,1334,135"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
 <area shape="poly" title=" " alt="" coords="1380,157,1300,173,1139,189,998,196,997,191,1138,184,1300,167,1379,151"/>
 <area shape="rect" href="classZagreus_1_1Evaluation.html#abb089e1f075e914b0789cfefef917fcd" title="Initializes the evaluation data needed to evaluate the board position." alt="" coords="845,233,997,273"/>
 <area shape="poly" title=" " alt="" coords="1403,159,1355,179,1301,198,1221,217,1139,231,998,249,997,244,1139,226,1220,212,1299,193,1353,174,1401,154"/>
@@ -5234,7 +5234,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1410,120,1359,88,1299,58,1253,43,1255,38,1301,53,1362,84,1413,115"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a2f1f56b6140937dd1c0e430f0c0784bb" title="Retrieves the attackers of a given square." alt="" coords="1094,118,1289,158"/>
 <area shape="poly" title=" " alt="" coords="1334,141,1289,141,1289,135,1334,135"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
 <area shape="poly" title=" " alt="" coords="1380,157,1300,173,1139,189,998,196,997,191,1138,184,1300,167,1379,151"/>
 <area shape="rect" href="classZagreus_1_1Evaluation.html#abb089e1f075e914b0789cfefef917fcd" title="Initializes the evaluation data needed to evaluate the board position." alt="" coords="845,233,997,273"/>
 <area shape="poly" title=" " alt="" coords="1403,159,1355,179,1301,198,1221,217,1139,231,998,249,997,244,1139,226,1220,212,1299,193,1353,174,1401,154"/>
@@ -5315,7 +5315,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1410,120,1359,88,1299,58,1253,43,1255,38,1301,53,1362,84,1413,115"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a2f1f56b6140937dd1c0e430f0c0784bb" title="Retrieves the attackers of a given square." alt="" coords="1094,118,1289,158"/>
 <area shape="poly" title=" " alt="" coords="1334,141,1289,141,1289,135,1334,135"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
 <area shape="poly" title=" " alt="" coords="1380,157,1300,173,1139,189,998,196,997,191,1138,184,1300,167,1379,151"/>
 <area shape="rect" href="classZagreus_1_1Evaluation.html#abb089e1f075e914b0789cfefef917fcd" title="Initializes the evaluation data needed to evaluate the board position." alt="" coords="845,233,997,273"/>
 <area shape="poly" title=" " alt="" coords="1403,159,1355,179,1301,198,1221,217,1139,231,998,249,997,244,1139,226,1220,212,1299,193,1353,174,1401,154"/>
@@ -5392,7 +5392,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1410,120,1359,88,1299,58,1253,43,1255,38,1301,53,1362,84,1413,115"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a2f1f56b6140937dd1c0e430f0c0784bb" title="Retrieves the attackers of a given square." alt="" coords="1094,118,1289,158"/>
 <area shape="poly" title=" " alt="" coords="1334,141,1289,141,1289,135,1334,135"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="845,183,997,208"/>
 <area shape="poly" title=" " alt="" coords="1380,157,1300,173,1139,189,998,196,997,191,1138,184,1300,167,1379,151"/>
 <area shape="rect" href="classZagreus_1_1Evaluation.html#abb089e1f075e914b0789cfefef917fcd" title="Initializes the evaluation data needed to evaluate the board position." alt="" coords="845,233,997,273"/>
 <area shape="poly" title=" " alt="" coords="1403,159,1355,179,1301,198,1221,217,1139,231,998,249,997,244,1139,226,1220,212,1299,193,1353,174,1401,154"/>
@@ -5590,9 +5590,9 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="namespaceZagreus_a978d5894806a1bdb9f9089e820166aef_icgraph.png" border="0" usemap="#anamespaceZagreus_a978d5894806a1bdb9f9089e820166aef_icgraph" alt=""/></div>
 <map name="anamespaceZagreus_a978d5894806a1bdb9f9089e820166aef_icgraph" id="anamespaceZagreus_a978d5894806a1bdb9f9089e820166aef_icgraph">
 <area shape="rect" title=" " alt="" coords="1080,147,1243,172"/>
-<area shape="rect" href="namespaceZagreus.html#ae8088c1e00ae2a7a9977009208f055ab" title=" " alt="" coords="819,46,1032,71"/>
+<area shape="rect" href="namespaceZagreus.html#a627dc20d2792883f26ad1cc0a0ce485a" title=" " alt="" coords="819,46,1032,71"/>
 <area shape="poly" title=" " alt="" coords="1127,142,1082,117,1031,93,975,74,977,69,1033,88,1084,113,1129,138"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="586,96,738,122"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="586,96,738,122"/>
 <area shape="poly" title=" " alt="" coords="1066,148,1032,144,738,117,739,112,1032,138,1067,143"/>
 <area shape="rect" href="namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,96,505,122"/>
 <area shape="poly" title=" " alt="" coords="1066,163,833,158,693,150,553,136,490,124,491,119,554,131,693,144,833,153,1066,158"/>
@@ -5600,7 +5600,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1143,185,1096,234,1066,260,1033,282,987,302,984,297,1031,277,1063,256,1093,230,1139,181"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8" title="Checks if the current position is legal based on the color that just made a move." alt="" coords="566,14,758,54"/>
 <area shape="poly" title=" " alt="" coords="1142,137,1097,82,1066,56,1031,36,963,16,891,9,821,10,758,17,758,12,821,5,891,3,964,11,1033,31,1069,51,1101,79,1147,134"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="561,198,763,223"/>
+<area shape="rect" href="classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="561,198,763,223"/>
 <area shape="poly" title=" " alt="" coords="1067,177,1032,181,763,206,763,201,1032,176,1066,171"/>
 <area shape="rect" href="classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644" title="Unmakes the last move on the board." alt="" coords="553,272,771,298"/>
 <area shape="poly" title=" " alt="" coords="1114,180,1033,206,872,246,732,275,731,270,870,241,1031,201,1113,175"/>
@@ -5692,7 +5692,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="namespaceZagreus_a407181a24d35d16ddc196ecd2195629c_icgraph.png" border="0" usemap="#anamespaceZagreus_a407181a24d35d16ddc196ecd2195629c_icgraph" alt=""/></div>
 <map name="anamespaceZagreus_a407181a24d35d16ddc196ecd2195629c_icgraph" id="anamespaceZagreus_a407181a24d35d16ddc196ecd2195629c_icgraph">
 <area shape="rect" title="Gets the Zobrist constant for a given index." alt="" coords="1155,270,1363,295"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="635,134,836,159"/>
+<area shape="rect" href="classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="635,134,836,159"/>
 <area shape="poly" title=" " alt="" coords="1234,262,1179,215,1144,192,1106,174,1038,155,967,145,898,141,836,141,836,136,899,135,968,140,1039,150,1108,169,1146,188,1182,211,1237,258"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a0504ef64f76044dd624b451b4c5cf8a2" title="Removes a piece from a given square." alt="" coords="892,349,1107,374"/>
 <area shape="poly" title=" " alt="" coords="1204,302,1107,332,1044,351,1042,346,1106,327,1203,297"/>
@@ -6376,7 +6376,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="119,304,153,304,153,309,119,309"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8" title="Checks if the current position is legal based on the color that just made a move." alt="" coords="185,344,377,384"/>
 <area shape="poly" title=" " alt="" coords="112,317,191,338,190,343,111,322"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="180,665,381,690"/>
+<area shape="rect" href="classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="180,665,381,690"/>
 <area shape="poly" title=" " alt="" coords="70,319,107,412,135,474,169,536,215,601,260,653,256,656,211,604,164,539,131,477,102,414,65,321"/>
 <area shape="rect" href="classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644" title="Unmakes the last move on the board." alt="" coords="172,499,389,525"/>
 <area shape="poly" title=" " alt="" coords="79,318,258,488,254,492,75,321"/>
@@ -6747,7 +6747,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="148,1275,378,1249,378,1254,148,1281"/>
 <area shape="rect" href="classZagreus_1_1Engine.html#a2fd88cb737e7b4b2af11f6a2e93e6634" title=" " alt="" coords="392,977,583,1017"/>
 <area shape="poly" title=" " alt="" coords="85,1271,129,1214,160,1179,194,1145,241,1105,280,1077,322,1053,378,1026,395,1019,397,1024,380,1031,325,1058,283,1082,245,1110,198,1149,164,1182,133,1217,89,1275"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="387,1500,588,1525"/>
+<area shape="rect" href="classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="387,1500,588,1525"/>
 <area shape="poly" title=" " alt="" coords="99,1297,197,1361,266,1400,332,1443,356,1466,365,1475,380,1485,399,1493,397,1498,377,1490,362,1480,352,1469,329,1447,263,1405,195,1366,96,1301"/>
 <area shape="rect" href="classZagreus_1_1TranspositionTable.html#a2d08e7957c241c6c487761ef0aa0fdf5" title=" " alt="" coords="386,1041,589,1081"/>
 <area shape="poly" title=" " alt="" coords="94,1271,210,1192,291,1142,378,1097,410,1083,412,1088,380,1102,294,1147,213,1197,97,1275"/>
@@ -6879,7 +6879,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="classZagreus_1_1Evaluation.html#a0f4174df46fff74d4c208a04c861622a" title="Evaluates the current board position." alt="" coords="411,1435,563,1475"/>
 <area shape="poly" title=" " alt="" coords="287,1350,332,1380,356,1398,380,1414,410,1428,408,1433,377,1419,353,1402,329,1384,284,1354"/>
 <area shape="poly" title=" " alt="" coords="270,1352,285,1422,311,1525,344,1627,362,1667,381,1694,394,1705,391,1709,377,1697,358,1669,339,1629,306,1526,280,1423,265,1353"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="411,1284,563,1309"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="411,1284,563,1309"/>
 <area shape="poly" title=" " alt="" coords="330,1324,406,1309,407,1315,331,1329"/>
 <area shape="poly" title=" " alt="" coords="269,1352,282,1435,306,1559,339,1683,359,1732,381,1764,384,1768,381,1772,377,1768,354,1734,334,1685,301,1560,277,1436,264,1353"/>
 <area shape="poly" title=" " alt="" coords="272,1351,318,1473,350,1540,366,1567,380,1584,397,1596,394,1600,377,1588,361,1570,345,1543,313,1475,267,1353"/>
@@ -7007,13 +7007,13 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="73,1507,82,1460,102,1395,116,1359,135,1324,158,1292,186,1265,215,1245,246,1228,313,1205,380,1191,444,1186,444,1191,381,1197,314,1210,248,1233,218,1249,190,1269,162,1296,140,1327,121,1361,107,1396,87,1462,78,1508"/>
 <area shape="rect" href="classZagreus_1_1Engine.html#a2fd88cb737e7b4b2af11f6a2e93e6634" title=" " alt="" coords="194,1558,385,1598"/>
 <area shape="poly" title=" " alt="" coords="122,1530,201,1551,200,1557,121,1535"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="453,1996,654,2021"/>
+<area shape="rect" href="classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="453,1996,654,2021"/>
 <area shape="poly" title=" " alt="" coords="78,1533,87,1625,108,1766,123,1839,142,1906,164,1959,177,1979,190,1993,225,2015,263,2030,304,2038,347,2041,428,2036,497,2022,498,2027,429,2041,347,2047,304,2044,262,2035,222,2020,186,1997,172,1982,159,1961,137,1907,118,1841,103,1767,82,1626,72,1533"/>
 <area shape="rect" href="classZagreus_1_1TranspositionTable.html#a2d08e7957c241c6c487761ef0aa0fdf5" title=" " alt="" coords="188,1691,391,1731"/>
 <area shape="poly" title=" " alt="" coords="83,1532,122,1597,153,1636,190,1670,210,1683,207,1687,186,1674,149,1640,118,1600,78,1535"/>
 <area shape="rect" href="classZagreus_1_1TranspositionTable.html#ad87320d2bb05f483be6c7e6f928c7c43" title=" " alt="" coords="188,1755,391,1795"/>
 <area shape="poly" title=" " alt="" coords="79,1532,91,1573,112,1629,145,1689,166,1717,190,1741,196,1746,193,1750,186,1745,162,1720,140,1692,107,1631,86,1574,74,1534"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="213,1508,365,1533"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="213,1508,365,1533"/>
 <area shape="poly" title=" " alt="" coords="141,1518,200,1518,200,1523,141,1523"/>
 <area shape="rect" href="classZagreus_1_1Engine.html#a2d9d038f1c203aadd2042a26e75af516" title=" " alt="" coords="190,1943,389,1983"/>
 <area shape="poly" title=" " alt="" coords="76,1533,79,1600,92,1704,106,1761,126,1819,154,1874,190,1922,203,1934,199,1938,186,1926,149,1877,122,1821,101,1763,87,1705,73,1601,71,1533"/>
@@ -7135,7 +7135,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="367,1527,393,1544,412,1572,419,1600,419,1629,415,1657,411,1685,412,1712,420,1738,440,1762,477,1788,518,1805,562,1816,607,1822,696,1820,771,1809,772,1814,696,1825,607,1827,561,1822,517,1810,475,1792,437,1766,416,1740,407,1713,406,1685,410,1657,414,1629,414,1601,407,1574,389,1547,364,1531"/>
 <area shape="poly" title=" " alt="" coords="367,1526,392,1544,407,1562,416,1581,424,1618,422,1655,414,1692,407,1728,406,1763,415,1797,425,1813,440,1829,458,1840,482,1848,547,1859,624,1862,702,1860,702,1866,624,1867,547,1864,481,1853,456,1845,437,1833,421,1816,410,1799,400,1764,402,1727,409,1691,416,1654,419,1618,411,1582,402,1565,389,1547,364,1531"/>
 <area shape="poly" title=" " alt="" coords="367,1527,392,1544,410,1567,417,1592,418,1616,415,1640,413,1664,414,1686,422,1707,440,1727,460,1738,486,1746,556,1755,638,1757,718,1754,718,1759,638,1762,556,1760,485,1751,457,1743,437,1732,418,1710,409,1687,408,1664,410,1640,412,1616,412,1592,405,1570,389,1547,364,1532"/>
-<area shape="rect" href="namespaceZagreus.html#ae8088c1e00ae2a7a9977009208f055ab" title=" " alt="" coords="447,1692,660,1717"/>
+<area shape="rect" href="namespaceZagreus.html#a627dc20d2792883f26ad1cc0a0ce485a" title=" " alt="" coords="447,1692,660,1717"/>
 <area shape="poly" title=" " alt="" coords="367,1530,392,1543,410,1562,419,1580,427,1599,441,1620,480,1654,519,1682,516,1686,476,1659,437,1623,422,1602,414,1582,406,1565,389,1548,364,1535"/>
 <area shape="rect" href="namespaceZagreus.html#a8ae2c4ed999615a6f6b3bc9f23329e25" title="Gets the value of a given piece." alt="" coords="748,1560,923,1585"/>
 <area shape="poly" title=" " alt="" coords="366,1513,506,1512,588,1516,668,1524,730,1537,786,1553,784,1558,729,1542,668,1530,587,1521,506,1517,366,1519"/>
@@ -7513,7 +7513,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="68,1302,72,1235,88,1128,102,1068,121,1006,146,945,178,889,235,811,262,782,290,758,321,737,356,719,446,685,507,670,571,663,633,662,690,666,690,672,633,668,571,668,508,675,447,690,358,724,323,742,293,762,265,786,239,814,182,891,151,947,126,1007,107,1069,93,1129,78,1235,73,1303"/>
 <area shape="rect" href="classZagreus_1_1Engine.html#a2fd88cb737e7b4b2af11f6a2e93e6634" title=" " alt="" coords="704,1226,895,1266"/>
 <area shape="poly" title=" " alt="" coords="132,1300,180,1293,456,1264,690,1249,691,1254,456,1270,180,1298,132,1306"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="699,1405,900,1431"/>
+<area shape="rect" href="classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="699,1405,900,1431"/>
 <area shape="poly" title=" " alt="" coords="97,1326,136,1342,181,1357,315,1383,451,1400,578,1410,685,1414,685,1420,578,1415,450,1405,314,1388,179,1362,134,1347,95,1331"/>
 <area shape="rect" href="namespaceZagreus.html#a63120017049a308ff86a0a9a00ecca44" title="Parses the given pvLine as a string of moves." alt="" coords="208,1581,371,1607"/>
 <area shape="poly" title=" " alt="" coords="75,1328,84,1372,103,1435,135,1502,156,1533,182,1560,203,1574,200,1578,178,1564,152,1536,130,1505,98,1437,78,1373,69,1329"/>
@@ -8954,7 +8954,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1229,285,1176,320,1112,353,1073,366,1071,361,1110,348,1174,315,1226,280"/>
 <area shape="rect" href="classZagreus_1_1Board.html#aea72d78a798679410c1b862700061f83" title="Removes a piece from a given square." alt="" coords="894,200,1109,225"/>
 <area shape="poly" title=" " alt="" coords="1177,249,1067,228,1068,222,1178,244"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="659,110,811,136"/>
+<area shape="rect" href="classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="659,110,811,136"/>
 <area shape="poly" title=" " alt="" coords="1223,244,1171,216,1110,189,1032,167,952,151,811,132,812,126,953,146,1033,162,1112,184,1173,211,1225,240"/>
 <area shape="rect" href="classZagreus_1_1Board.html#a050b31e81b55ea99da38068f4fb2a25d" title="Sets a piece on a given square." alt="" coords="909,413,1093,438"/>
 <area shape="poly" title=" " alt="" coords="1240,287,1187,346,1152,378,1112,404,1085,415,1082,410,1109,399,1148,373,1183,342,1236,284"/>
@@ -8978,7 +8978,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="628,458,522,470,522,464,627,452"/>
 <area shape="rect" href="main_8cpp.html#a638b85ceffac097c2aa79b76ba8c055e" title=" " alt="" coords="224,460,279,485"/>
 <area shape="poly" title=" " alt="" coords="413,475,279,475,279,470,413,470"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="635,252,836,277"/>
+<area shape="rect" href="classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="635,252,836,277"/>
 <area shape="poly" title=" " alt="" coords="923,230,801,254,800,249,922,225"/>
 <area shape="rect" href="classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644" title="Unmakes the last move on the board." alt="" coords="627,196,844,221"/>
 <area shape="poly" title=" " alt="" coords="880,213,844,213,844,207,880,208"/>

@@ -1,12 +1,12 @@
 <map id="Zagreus::Board::getSideToMove" name="Zagreus::Board::getSideToMove">
 <area shape="rect" id="Node000001" title="Retrieves the color of the side to move." alt="" coords="1015,60,1243,85"/>
-<area shape="rect" id="Node000002" href="$namespaceZagreus.html#ae8088c1e00ae2a7a9977009208f055ab" title=" " alt="" coords="753,7,967,32"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a627dc20d2792883f26ad1cc0a0ce485a" title=" " alt="" coords="753,7,967,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1050,60,924,35,925,29,1051,55"/>
 <area shape="rect" id="Node000007" href="$classZagreus_1_1Evaluation.html#a0f4174df46fff74d4c208a04c861622a" title="Evaluates the current board position." alt="" coords="553,55,705,95"/>
 <area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="1001,76,706,78,706,72,1001,71"/>
 <area shape="rect" id="Node000008" href="$namespaceZagreus.html#a8c0bbbe8484b26df054d217409f25325" title="Performs a perft test on the given board to a specified depth." alt="" coords="803,135,917,160"/>
 <area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="1069,92,907,137,906,132,1068,87"/>
-<area shape="rect" id="Node000003" href="$classZagreus_1_1Board.html#aa6acc4081de9cf8aa58ac61810fb1514" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="553,5,705,31"/>
+<area shape="rect" id="Node000003" href="$classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="553,5,705,31"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="739,21,706,21,706,16,739,16"/>
 <area shape="rect" id="Node000004" href="$namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,35,505,60"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="540,34,506,40,505,34,539,29"/>

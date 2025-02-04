@@ -11,7 +11,7 @@
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="119,304,153,304,153,309,119,309"/>
 <area shape="rect" id="Node000006" href="$classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8" title="Checks if the current position is legal based on the color that just made a move." alt="" coords="185,344,377,384"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="112,317,191,338,190,343,111,322"/>
-<area shape="rect" id="Node000030" href="$classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="180,665,381,690"/>
+<area shape="rect" id="Node000030" href="$classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="180,665,381,690"/>
 <area shape="poly" id="edge31_Node000001_Node000030" title=" " alt="" coords="70,319,107,412,135,474,169,536,215,601,260,653,256,656,211,604,164,539,131,477,102,414,65,321"/>
 <area shape="rect" id="Node000040" href="$classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644" title="Unmakes the last move on the board." alt="" coords="172,499,389,525"/>
 <area shape="poly" id="edge50_Node000001_Node000040" title=" " alt="" coords="79,318,258,488,254,492,75,321"/>

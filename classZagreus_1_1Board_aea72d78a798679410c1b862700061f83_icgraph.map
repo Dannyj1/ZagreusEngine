@@ -1,6 +1,6 @@
 <map id="Zagreus::Board::removePiece" name="Zagreus::Board::removePiece">
 <area shape="rect" id="Node000001" title="Removes a piece from a given square." alt="" coords="819,115,1033,140"/>
-<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#ae70908b24b651bffc106303f3646f2de" title="Makes a move on the board." alt="" coords="561,77,763,103"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="561,77,763,103"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="822,115,752,105,753,100,823,110"/>
 <area shape="rect" id="Node000007" href="$classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644" title="Unmakes the last move on the board." alt="" coords="553,151,771,176"/>
 <area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="819,145,756,153,755,148,819,139"/>
