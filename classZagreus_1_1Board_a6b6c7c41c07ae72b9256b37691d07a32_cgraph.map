@@ -1,0 +1,5 @@
+<map id="Zagreus::Board::canPromotePawn" name="Zagreus::Board::canPromotePawn">
+<area shape="rect" id="Node000001" title="Checks if the given color is close to promoting a pawn." alt="" coords="5,5,247,31"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#aefa101d59ff5ac5c1db21801f7e1b936" title="Retrieves the bitboard for a given piece type." alt="" coords="295,5,500,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,15,281,15,281,21,247,21"/>
+</map>
