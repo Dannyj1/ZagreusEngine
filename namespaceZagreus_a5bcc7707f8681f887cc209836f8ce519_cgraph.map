@@ -1,0 +1,19 @@
+<map id="Zagreus::initializeEvalFeatures" name="Zagreus::initializeEvalFeatures">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,77,228,102"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#ae2056d4ba476dc0eb7043cd9565f573f" title=" " alt="" coords="276,5,493,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,74,286,46,288,51,172,79"/>
+<area shape="rect" id="Node000003" href="$namespaceZagreus.html#af120ce1ee1875bb45a76868d8d8250b4" title=" " alt="" coords="276,69,493,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,87,262,87,262,92,228,92"/>
+<area shape="rect" id="Node000004" href="$namespaceZagreus.html#acd3bf64552a1c6ab99042c49db1b2b1a" title=" " alt="" coords="305,134,464,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="177,99,312,128,311,134,176,105"/>
+<area shape="rect" id="Node000005" href="$namespaceZagreus.html#a320f0b1ca163860195f9e38a354702a5" title=" " alt="" coords="541,35,740,61"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="463,131,492,119,506,108,515,95,524,82,540,70,553,63,555,68,543,74,528,86,520,98,510,111,495,124,465,136"/>
+<area shape="rect" id="Node000006" href="$namespaceZagreus.html#a07e66338d3408d7cc886acf1ea7b2d27" title=" " alt="" coords="541,85,740,110"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="451,131,560,110,561,115,452,137"/>
+<area shape="rect" id="Node000007" href="$namespaceZagreus.html#a4797edd07c51dd24a1f1239ae3f66d7f" title="Gets the color of a piece." alt="" coords="554,134,727,159"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="464,144,540,144,540,149,464,149"/>
+<area shape="rect" id="Node000008" href="$namespaceZagreus.html#ae1b3bf55cd6adf4ca93bffdc9ced467e" title="Gets the type of a piece." alt="" coords="556,183,725,209"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="452,157,561,178,560,183,451,162"/>
+<area shape="rect" id="Node000009" href="$namespaceZagreus.html#a8ae2c4ed999615a6f6b3bc9f23329e25" title="Gets the value of a given piece." alt="" coords="553,233,728,258"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="411,157,470,187,542,217,571,227,569,232,540,223,467,192,408,162"/>
+</map>

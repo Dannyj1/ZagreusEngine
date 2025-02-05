@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ttnodetype_0',['TTNodeType',['../namespaceZagreus.html#ae0877a94867882cbc10b59abe123769e',1,'Zagreus']]]
+  ['square_0',['Square',['../namespaceZagreus.html#a7d2e00f0541186be79cce3c9621e918f',1,'Zagreus']]]
 ];

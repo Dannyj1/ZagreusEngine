@@ -27,5 +27,6 @@ var searchData=
   ['unmakemove_24',['unmakeMove',['../classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644',1,'Zagreus::Board']]],
   ['unmultiplier_25',['unmultiplier',['../namespacepcg__detail.html#a260bd33be49f954c81d6905bd68728c8',1,'pcg_detail']]],
   ['unoutput_26',['unoutput',['../structpcg__detail_1_1rxs__m__xs__mixin.html#a4f6461498fc85c28040d0e1d167d9230',1,'pcg_detail::rxs_m_xs_mixin']]],
-  ['unxorshift_27',['unxorshift',['../namespacepcg__extras.html#a4f03e67e7e86db7eaeb41c67d0cd2cb5',1,'pcg_extras']]]
+  ['unxorshift_27',['unxorshift',['../namespacepcg__extras.html#a4f03e67e7e86db7eaeb41c67d0cd2cb5',1,'pcg_extras']]],
+  ['updatefeaturevalues_28',['updateFeatureValues',['../namespaceZagreus.html#aa2648ecb43024c92fd732133d18c01b6',1,'Zagreus']]]
 ];
