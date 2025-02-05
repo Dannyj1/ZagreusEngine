@@ -271,13 +271,13 @@ Enumerations</h2></td></tr>
 <tr class="memdesc:a7d2e00f0541186be79cce3c9621e918f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum representing squares on the chessboard.  <a href="#a7d2e00f0541186be79cce3c9621e918f">More...</a><br /></td></tr>
 <tr class="separator:a7d2e00f0541186be79cce3c9621e918f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ff930e561c85660192d5277086e9577" id="r_a6ff930e561c85660192d5277086e9577"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ff930e561c85660192d5277086e9577">PieceType</a> : uint8_t { <br />
-&#160;&#160;<a class="el" href="#a6ff930e561c85660192d5277086e9577a82df154e325fe73e8dbbd6464fff311d">PAWN</a>
-, <a class="el" href="#a6ff930e561c85660192d5277086e9577a44f109c25adab1281c20ef1c69c5901f">KNIGHT</a>
-, <a class="el" href="#a6ff930e561c85660192d5277086e9577adaf844db36f5f40671b14dd2d6e3715d">BISHOP</a>
-, <a class="el" href="#a6ff930e561c85660192d5277086e9577a9b208961400d25333f2379d5739ad3fb">ROOK</a>
+&#160;&#160;<a class="el" href="#a6ff930e561c85660192d5277086e9577a82df154e325fe73e8dbbd6464fff311d">PAWN</a> = 0
+, <a class="el" href="#a6ff930e561c85660192d5277086e9577a44f109c25adab1281c20ef1c69c5901f">KNIGHT</a> = 1
+, <a class="el" href="#a6ff930e561c85660192d5277086e9577adaf844db36f5f40671b14dd2d6e3715d">BISHOP</a> = 2
+, <a class="el" href="#a6ff930e561c85660192d5277086e9577a9b208961400d25333f2379d5739ad3fb">ROOK</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="#a6ff930e561c85660192d5277086e9577a9cf2c52e3aa569497f2f7f35aaec6973">QUEEN</a>
-, <a class="el" href="#a6ff930e561c85660192d5277086e9577abbc1bdd5634088aa65b187af1b68b376">KING</a>
+&#160;&#160;<a class="el" href="#a6ff930e561c85660192d5277086e9577a9cf2c52e3aa569497f2f7f35aaec6973">QUEEN</a> = 4
+, <a class="el" href="#a6ff930e561c85660192d5277086e9577abbc1bdd5634088aa65b187af1b68b376">KING</a> = 5
 <br />
  }</td></tr>
 <tr class="memdesc:a6ff930e561c85660192d5277086e9577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum representing types of chess pieces.  <a href="#a6ff930e561c85660192d5277086e9577">More...</a><br /></td></tr>
@@ -630,6 +630,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a8c0bbbe8484b26df054d217409f25325" id="r_a8c0bbbe8484b26df054d217409f25325"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c0bbbe8484b26df054d217409f25325">perft</a> (<a class="el" href="classZagreus_1_1Board.html">Board</a> &amp;board, const int depth, bool printNodes)</td></tr>
 <tr class="memdesc:a8c0bbbe8484b26df054d217409f25325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a perft test on the given board to a specified depth.  <br /></td></tr>
 <tr class="separator:a8c0bbbe8484b26df054d217409f25325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07e66338d3408d7cc886acf1ea7b2d27" id="r_a07e66338d3408d7cc886acf1ea7b2d27"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07e66338d3408d7cc886acf1ea7b2d27">getMidgameTable</a> (<a class="el" href="#a6ff930e561c85660192d5277086e9577">PieceType</a> pieceType)</td></tr>
+<tr class="separator:a07e66338d3408d7cc886acf1ea7b2d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a320f0b1ca163860195f9e38a354702a5" id="r_a320f0b1ca163860195f9e38a354702a5"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a320f0b1ca163860195f9e38a354702a5">getEndgameTable</a> (<a class="el" href="#a6ff930e561c85660192d5277086e9577">PieceType</a> pieceType)</td></tr>
+<tr class="separator:a320f0b1ca163860195f9e38a354702a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd3bf64552a1c6ab99042c49db1b2b1a" id="r_acd3bf64552a1c6ab99042c49db1b2b1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd3bf64552a1c6ab99042c49db1b2b1a">initializePst</a> ()</td></tr>
 <tr class="separator:acd3bf64552a1c6ab99042c49db1b2b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41bd91910eda29709b83f6517553ac83" id="r_a41bd91910eda29709b83f6517553ac83"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41bd91910eda29709b83f6517553ac83">getMidgamePst</a> (const <a class="el" href="#a80c68b0ed6d2623104cdff1da84729a7">Piece</a> piece, const <a class="el" href="#a7d2e00f0541186be79cce3c9621e918f">Square</a> square)</td></tr>
@@ -749,14 +753,6 @@ Variables</h2></td></tr>
 <tr class="separator:a2bbe624ecf427e91efc9a13beb95cff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49f1ebbaabb28c4f0934a24bb38b3c14" id="r_a49f1ebbaabb28c4f0934a24bb38b3c14"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49f1ebbaabb28c4f0934a24bb38b3c14">eg_king_table</a> [64]</td></tr>
 <tr class="separator:a49f1ebbaabb28c4f0934a24bb38b3c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a2aef0a271e4343b244af81ce7e4501" id="r_a9a2aef0a271e4343b244af81ce7e4501"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a2aef0a271e4343b244af81ce7e4501">midgameTableMapping</a> [<a class="el" href="constants_8h.html#ab2852fb03da622f49801aa40a676c658">PIECE_TYPES</a>]</td></tr>
-<tr class="separator:a9a2aef0a271e4343b244af81ce7e4501"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4232952f083162d42b1446cb4e368a3c" id="r_a4232952f083162d42b1446cb4e368a3c"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4232952f083162d42b1446cb4e368a3c">endgameTableMapping</a> [<a class="el" href="constants_8h.html#ab2852fb03da622f49801aa40a676c658">PIECE_TYPES</a>]</td></tr>
-<tr class="separator:a4232952f083162d42b1446cb4e368a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ab6a1df8877ad08215f8703bf1f7298" id="r_a2ab6a1df8877ad08215f8703bf1f7298"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ab6a1df8877ad08215f8703bf1f7298">midgamePst</a> [<a class="el" href="constants_8h.html#a818a7aec9c89ec6951d701e6bd4220ac">PIECES</a>][<a class="el" href="constants_8h.html#a7fade7363ac979586113d8813d65826b">SQUARES</a>] {}</td></tr>
-<tr class="separator:a2ab6a1df8877ad08215f8703bf1f7298"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ac10193f092dfbf7af13ee658332d05" id="r_a3ac10193f092dfbf7af13ee658332d05"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ac10193f092dfbf7af13ee658332d05">endgamePst</a> [<a class="el" href="constants_8h.html#a818a7aec9c89ec6951d701e6bd4220ac">PIECES</a>][<a class="el" href="constants_8h.html#a7fade7363ac979586113d8813d65826b">SQUARES</a>] {}</td></tr>
-<tr class="separator:a3ac10193f092dfbf7af13ee658332d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af06c7a265e63d5df7642baf04e51a761" id="r_af06c7a265e63d5df7642baf04e51a761"><td class="memItemLeft" align="right" valign="top">constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af06c7a265e63d5df7642baf04e51a761">startPosFEN</a> = &quot;rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1&quot;</td></tr>
 <tr class="separator:af06c7a265e63d5df7642baf04e51a761"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -4164,7 +4160,42 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00207">207</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00224">224</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a320f0b1ca163860195f9e38a354702a5" name="a320f0b1ca163860195f9e38a354702a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a320f0b1ca163860195f9e38a354702a5">&#9670;&#160;</a></span>getEndgameTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int * Zagreus::getEndgameTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6ff930e561c85660192d5277086e9577">PieceType</a></td>          <td class="paramname"><span class="paramname"><em>pieceType</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00184">184</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespaceZagreus_a320f0b1ca163860195f9e38a354702a5_icgraph.png" border="0" usemap="#anamespaceZagreus_a320f0b1ca163860195f9e38a354702a5_icgraph" alt=""/></div>
+<map name="anamespaceZagreus_a320f0b1ca163860195f9e38a354702a5_icgraph" id="anamespaceZagreus_a320f0b1ca163860195f9e38a354702a5_icgraph">
+<area shape="rect" title=" " alt="" coords="693,5,892,31"/>
+<area shape="rect" href="namespaceZagreus.html#acd3bf64552a1c6ab99042c49db1b2b1a" title=" " alt="" coords="487,5,645,31"/>
+<area shape="poly" title=" " alt="" coords="680,21,646,21,646,15,680,15"/>
+<area shape="rect" href="classZagreus_1_1Engine.html#aa97883c4a13a6a6e8b348589c820aafb" title=" " alt="" coords="251,5,439,31"/>
+<area shape="poly" title=" " alt="" coords="473,21,439,21,439,15,473,15"/>
+<area shape="rect" href="main_8cpp.html#a9da5c1576379032450eee69dc694e6a4" title=" " alt="" coords="108,5,203,31"/>
+<area shape="poly" title=" " alt="" coords="237,21,203,21,203,15,237,15"/>
+<area shape="rect" href="main_8cpp.html#a638b85ceffac097c2aa79b76ba8c055e" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" title=" " alt="" coords="95,21,60,21,60,15,95,15"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -4408,7 +4439,42 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00201">201</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00218">218</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a07e66338d3408d7cc886acf1ea7b2d27" name="a07e66338d3408d7cc886acf1ea7b2d27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07e66338d3408d7cc886acf1ea7b2d27">&#9670;&#160;</a></span>getMidgameTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int * Zagreus::getMidgameTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6ff930e561c85660192d5277086e9577">PieceType</a></td>          <td class="paramname"><span class="paramname"><em>pieceType</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00167">167</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespaceZagreus_a07e66338d3408d7cc886acf1ea7b2d27_icgraph.png" border="0" usemap="#anamespaceZagreus_a07e66338d3408d7cc886acf1ea7b2d27_icgraph" alt=""/></div>
+<map name="anamespaceZagreus_a07e66338d3408d7cc886acf1ea7b2d27_icgraph" id="anamespaceZagreus_a07e66338d3408d7cc886acf1ea7b2d27_icgraph">
+<area shape="rect" title=" " alt="" coords="693,5,892,31"/>
+<area shape="rect" href="namespaceZagreus.html#acd3bf64552a1c6ab99042c49db1b2b1a" title=" " alt="" coords="487,5,645,31"/>
+<area shape="poly" title=" " alt="" coords="680,21,646,21,646,15,680,15"/>
+<area shape="rect" href="classZagreus_1_1Engine.html#aa97883c4a13a6a6e8b348589c820aafb" title=" " alt="" coords="251,5,439,31"/>
+<area shape="poly" title=" " alt="" coords="473,21,439,21,439,15,473,15"/>
+<area shape="rect" href="main_8cpp.html#a9da5c1576379032450eee69dc694e6a4" title=" " alt="" coords="108,5,203,31"/>
+<area shape="poly" title=" " alt="" coords="237,21,203,21,203,15,237,15"/>
+<area shape="rect" href="main_8cpp.html#a638b85ceffac097c2aa79b76ba8c055e" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" title=" " alt="" coords="95,21,60,21,60,15,95,15"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -6200,19 +6266,23 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00184">184</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00201">201</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespaceZagreus_acd3bf64552a1c6ab99042c49db1b2b1a_cgraph.png" border="0" usemap="#anamespaceZagreus_acd3bf64552a1c6ab99042c49db1b2b1a_cgraph" alt=""/></div>
 <map name="anamespaceZagreus_acd3bf64552a1c6ab99042c49db1b2b1a_cgraph" id="anamespaceZagreus_acd3bf64552a1c6ab99042c49db1b2b1a_cgraph">
-<area shape="rect" title=" " alt="" coords="5,55,164,80"/>
-<area shape="rect" href="namespaceZagreus.html#a4797edd07c51dd24a1f1239ae3f66d7f" title="Gets the color of a piece." alt="" coords="213,5,386,31"/>
-<area shape="poly" title=" " alt="" coords="140,52,229,31,230,36,141,57"/>
-<area shape="rect" href="namespaceZagreus.html#ae1b3bf55cd6adf4ca93bffdc9ced467e" title="Gets the type of a piece." alt="" coords="215,55,384,80"/>
-<area shape="poly" title=" " alt="" coords="164,65,201,65,201,70,164,70"/>
-<area shape="rect" href="namespaceZagreus.html#a8ae2c4ed999615a6f6b3bc9f23329e25" title="Gets the value of a given piece." alt="" coords="212,104,387,129"/>
-<area shape="poly" title=" " alt="" coords="141,77,230,98,229,103,140,83"/>
+<area shape="rect" title=" " alt="" coords="5,104,164,129"/>
+<area shape="rect" href="namespaceZagreus.html#a320f0b1ca163860195f9e38a354702a5" title=" " alt="" coords="212,5,411,31"/>
+<area shape="poly" title=" " alt="" coords="102,102,150,71,211,40,232,32,234,37,213,44,153,75,105,106"/>
+<area shape="rect" href="namespaceZagreus.html#a07e66338d3408d7cc886acf1ea7b2d27" title=" " alt="" coords="212,55,411,80"/>
+<area shape="poly" title=" " alt="" coords="143,101,238,80,239,86,144,107"/>
+<area shape="rect" href="namespaceZagreus.html#a4797edd07c51dd24a1f1239ae3f66d7f" title="Gets the color of a piece." alt="" coords="225,104,398,129"/>
+<area shape="poly" title=" " alt="" coords="164,114,211,114,211,119,164,119"/>
+<area shape="rect" href="namespaceZagreus.html#ae1b3bf55cd6adf4ca93bffdc9ced467e" title="Gets the type of a piece." alt="" coords="227,153,396,179"/>
+<area shape="poly" title=" " alt="" coords="144,127,239,148,238,153,143,132"/>
+<area shape="rect" href="namespaceZagreus.html#a8ae2c4ed999615a6f6b3bc9f23329e25" title="Gets the value of a given piece." alt="" coords="224,203,399,228"/>
+<area shape="poly" title=" " alt="" coords="106,127,153,157,213,188,238,196,236,201,211,192,151,162,103,132"/>
 </map>
 </div>
 <div class="dynheader">
@@ -9994,7 +10064,7 @@ Here is the caller graph for this function:</div>
 <div class="line">    -23, -9, -23, -5, -9, -16, -5, -17,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00086">86</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00087">87</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
 
 </div>
 </div>
@@ -10020,7 +10090,7 @@ Here is the caller graph for this function:</div>
 <div class="line">    -53, -34, -21, -11, -28, -14, -24, -43</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00152">152</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00153">153</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
 
 </div>
 </div>
@@ -10046,7 +10116,7 @@ Here is the caller graph for this function:</div>
 <div class="line">    -29, -51, -23, -15, -22, -18, -50, -64,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00064">64</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00065">65</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
 
 </div>
 </div>
@@ -10072,7 +10142,7 @@ Here is the caller graph for this function:</div>
 <div class="line">    0, 0, 0, 0, 0, 0, 0, 0,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00042">42</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00043">43</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
 
 </div>
 </div>
@@ -10098,7 +10168,7 @@ Here is the caller graph for this function:</div>
 <div class="line">    -33, -28, -22, -43, -5, -32, -20, -41,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00130">130</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00131">131</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
 
 </div>
 </div>
@@ -10124,53 +10194,7 @@ Here is the caller graph for this function:</div>
 <div class="line">    -9, 2, 3, -1, -5, -13, 4, -20,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00108">108</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a3ac10193f092dfbf7af13ee658332d05" name="a3ac10193f092dfbf7af13ee658332d05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ac10193f092dfbf7af13ee658332d05">&#9670;&#160;</a></span>endgamePst</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Zagreus::endgamePst[<a class="el" href="constants_8h.html#a818a7aec9c89ec6951d701e6bd4220ac">PIECES</a>][<a class="el" href="constants_8h.html#a7fade7363ac979586113d8813d65826b">SQUARES</a>] {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00182">182</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a4232952f083162d42b1446cb4e368a3c" name="a4232952f083162d42b1446cb4e368a3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4232952f083162d42b1446cb4e368a3c">&#9670;&#160;</a></span>endgameTableMapping</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int* Zagreus::endgameTableMapping[<a class="el" href="constants_8h.html#ab2852fb03da622f49801aa40a676c658">PIECE_TYPES</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_variable" href="#a6518c62febf3ae96899d9a6b0b4e3a4d">eg_pawn_table</a>,</div>
-<div class="line">    <a class="code hl_variable" href="#aa5df2d1a93566323d82613df19ca422c">eg_knight_table</a>,</div>
-<div class="line">    <a class="code hl_variable" href="#a7f77bacb5354e0ae8d25e05e1e9ed74a">eg_bishop_table</a>,</div>
-<div class="line">    <a class="code hl_variable" href="#ab189515946f82df48dd4bd326e608c72">eg_rook_table</a>,</div>
-<div class="line">    <a class="code hl_variable" href="#a6d453044349a00682909ddf387b3e618">eg_queen_table</a>,</div>
-<div class="line">    <a class="code hl_variable" href="#a49f1ebbaabb28c4f0934a24bb38b3c14">eg_king_table</a></div>
-<div class="line">}</div>
-<div class="ttc" id="anamespaceZagreus_html_a49f1ebbaabb28c4f0934a24bb38b3c14"><div class="ttname"><a href="#a49f1ebbaabb28c4f0934a24bb38b3c14">Zagreus::eg_king_table</a></div><div class="ttdeci">int eg_king_table[64]</div><div class="ttdef"><b>Definition</b> <a href="pst_8cpp_source.html#l00152">pst.cpp:152</a></div></div>
-<div class="ttc" id="anamespaceZagreus_html_a6518c62febf3ae96899d9a6b0b4e3a4d"><div class="ttname"><a href="#a6518c62febf3ae96899d9a6b0b4e3a4d">Zagreus::eg_pawn_table</a></div><div class="ttdeci">int eg_pawn_table[64]</div><div class="ttdef"><b>Definition</b> <a href="pst_8cpp_source.html#l00042">pst.cpp:42</a></div></div>
-<div class="ttc" id="anamespaceZagreus_html_a6d453044349a00682909ddf387b3e618"><div class="ttname"><a href="#a6d453044349a00682909ddf387b3e618">Zagreus::eg_queen_table</a></div><div class="ttdeci">int eg_queen_table[64]</div><div class="ttdef"><b>Definition</b> <a href="pst_8cpp_source.html#l00130">pst.cpp:130</a></div></div>
-<div class="ttc" id="anamespaceZagreus_html_a7f77bacb5354e0ae8d25e05e1e9ed74a"><div class="ttname"><a href="#a7f77bacb5354e0ae8d25e05e1e9ed74a">Zagreus::eg_bishop_table</a></div><div class="ttdeci">int eg_bishop_table[64]</div><div class="ttdef"><b>Definition</b> <a href="pst_8cpp_source.html#l00086">pst.cpp:86</a></div></div>
-<div class="ttc" id="anamespaceZagreus_html_aa5df2d1a93566323d82613df19ca422c"><div class="ttname"><a href="#aa5df2d1a93566323d82613df19ca422c">Zagreus::eg_knight_table</a></div><div class="ttdeci">int eg_knight_table[64]</div><div class="ttdef"><b>Definition</b> <a href="pst_8cpp_source.html#l00064">pst.cpp:64</a></div></div>
-<div class="ttc" id="anamespaceZagreus_html_ab189515946f82df48dd4bd326e608c72"><div class="ttname"><a href="#ab189515946f82df48dd4bd326e608c72">Zagreus::eg_rook_table</a></div><div class="ttdeci">int eg_rook_table[64]</div><div class="ttdef"><b>Definition</b> <a href="pst_8cpp_source.html#l00108">pst.cpp:108</a></div></div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00172">172</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00109">109</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
 
 </div>
 </div>
@@ -10244,7 +10268,7 @@ Here is the caller graph for this function:</div>
 <div class="line">    -33, -3, -14, -21, -13, -12, -39, -21,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00075">75</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00076">76</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
 
 </div>
 </div>
@@ -10270,7 +10294,7 @@ Here is the caller graph for this function:</div>
 <div class="line">    -15, 36, 12, -54, 8, -28, 24, 14,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00141">141</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00142">142</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
 
 </div>
 </div>
@@ -10296,7 +10320,7 @@ Here is the caller graph for this function:</div>
 <div class="line">    -105, -21, -58, -33, -17, -28, -19, -23,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00053">53</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00054">54</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
 
 </div>
 </div>
@@ -10322,7 +10346,7 @@ Here is the caller graph for this function:</div>
 <div class="line">    0, 0, 0, 0, 0, 0, 0, 0,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00031">31</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00032">32</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
 
 </div>
 </div>
@@ -10348,7 +10372,7 @@ Here is the caller graph for this function:</div>
 <div class="line">    -1, -18, -9, 10, -15, -25, -31, -50,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00119">119</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00120">120</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
 
 </div>
 </div>
@@ -10374,53 +10398,7 @@ Here is the caller graph for this function:</div>
 <div class="line">    -19, -13, 1, 17, 16, 7, -37, -26,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00097">97</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a2ab6a1df8877ad08215f8703bf1f7298" name="a2ab6a1df8877ad08215f8703bf1f7298"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ab6a1df8877ad08215f8703bf1f7298">&#9670;&#160;</a></span>midgamePst</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Zagreus::midgamePst[<a class="el" href="constants_8h.html#a818a7aec9c89ec6951d701e6bd4220ac">PIECES</a>][<a class="el" href="constants_8h.html#a7fade7363ac979586113d8813d65826b">SQUARES</a>] {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00181">181</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a9a2aef0a271e4343b244af81ce7e4501" name="a9a2aef0a271e4343b244af81ce7e4501"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a2aef0a271e4343b244af81ce7e4501">&#9670;&#160;</a></span>midgameTableMapping</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int* Zagreus::midgameTableMapping[<a class="el" href="constants_8h.html#ab2852fb03da622f49801aa40a676c658">PIECE_TYPES</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_variable" href="#a4e99a43faf49eba303adf4a193acc134">mg_pawn_table</a>,</div>
-<div class="line">    <a class="code hl_variable" href="#a348479c21b5fe379edf873739d4f913b">mg_knight_table</a>,</div>
-<div class="line">    <a class="code hl_variable" href="#ac057ab50068fe7c76e9b2ebcf87cbe6c">mg_bishop_table</a>,</div>
-<div class="line">    <a class="code hl_variable" href="#a719592f786cb48a862fcd9322746a0c8">mg_rook_table</a>,</div>
-<div class="line">    <a class="code hl_variable" href="#a918f72f7e07c86512387a1079408556f">mg_queen_table</a>,</div>
-<div class="line">    <a class="code hl_variable" href="#a2bbe624ecf427e91efc9a13beb95cff5">mg_king_table</a></div>
-<div class="line">}</div>
-<div class="ttc" id="anamespaceZagreus_html_a2bbe624ecf427e91efc9a13beb95cff5"><div class="ttname"><a href="#a2bbe624ecf427e91efc9a13beb95cff5">Zagreus::mg_king_table</a></div><div class="ttdeci">int mg_king_table[64]</div><div class="ttdef"><b>Definition</b> <a href="pst_8cpp_source.html#l00141">pst.cpp:141</a></div></div>
-<div class="ttc" id="anamespaceZagreus_html_a348479c21b5fe379edf873739d4f913b"><div class="ttname"><a href="#a348479c21b5fe379edf873739d4f913b">Zagreus::mg_knight_table</a></div><div class="ttdeci">int mg_knight_table[64]</div><div class="ttdef"><b>Definition</b> <a href="pst_8cpp_source.html#l00053">pst.cpp:53</a></div></div>
-<div class="ttc" id="anamespaceZagreus_html_a4e99a43faf49eba303adf4a193acc134"><div class="ttname"><a href="#a4e99a43faf49eba303adf4a193acc134">Zagreus::mg_pawn_table</a></div><div class="ttdeci">int mg_pawn_table[64]</div><div class="ttdef"><b>Definition</b> <a href="pst_8cpp_source.html#l00031">pst.cpp:31</a></div></div>
-<div class="ttc" id="anamespaceZagreus_html_a719592f786cb48a862fcd9322746a0c8"><div class="ttname"><a href="#a719592f786cb48a862fcd9322746a0c8">Zagreus::mg_rook_table</a></div><div class="ttdeci">int mg_rook_table[64]</div><div class="ttdef"><b>Definition</b> <a href="pst_8cpp_source.html#l00097">pst.cpp:97</a></div></div>
-<div class="ttc" id="anamespaceZagreus_html_a918f72f7e07c86512387a1079408556f"><div class="ttname"><a href="#a918f72f7e07c86512387a1079408556f">Zagreus::mg_queen_table</a></div><div class="ttdeci">int mg_queen_table[64]</div><div class="ttdef"><b>Definition</b> <a href="pst_8cpp_source.html#l00119">pst.cpp:119</a></div></div>
-<div class="ttc" id="anamespaceZagreus_html_ac057ab50068fe7c76e9b2ebcf87cbe6c"><div class="ttname"><a href="#ac057ab50068fe7c76e9b2ebcf87cbe6c">Zagreus::mg_bishop_table</a></div><div class="ttdeci">int mg_bishop_table[64]</div><div class="ttdef"><b>Definition</b> <a href="pst_8cpp_source.html#l00075">pst.cpp:75</a></div></div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00163">163</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pst_8cpp_source.html#l00098">98</a> of file <a class="el" href="pst_8cpp_source.html">pst.cpp</a>.</p>
 
 </div>
 </div>

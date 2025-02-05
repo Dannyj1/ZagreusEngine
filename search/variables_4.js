@@ -6,7 +6,5 @@ var searchData=
   ['eg_5fpawn_5ftable_3',['eg_pawn_table',['../namespaceZagreus.html#a6518c62febf3ae96899d9a6b0b4e3a4d',1,'Zagreus']]],
   ['eg_5fqueen_5ftable_4',['eg_queen_table',['../namespaceZagreus.html#a6d453044349a00682909ddf387b3e618',1,'Zagreus']]],
   ['eg_5frook_5ftable_5',['eg_rook_table',['../namespaceZagreus.html#ab189515946f82df48dd4bd326e608c72',1,'Zagreus']]],
-  ['endgamepst_6',['endgamePst',['../namespaceZagreus.html#a3ac10193f092dfbf7af13ee658332d05',1,'Zagreus']]],
-  ['endgametablemapping_7',['endgameTableMapping',['../namespaceZagreus.html#a4232952f083162d42b1446cb4e368a3c',1,'Zagreus']]],
-  ['enpassantsquare_8',['enPassantSquare',['../structZagreus_1_1BoardState.html#a8168f2482c44d4edf790701162e2a79f',1,'Zagreus::BoardState']]]
+  ['enpassantsquare_6',['enPassantSquare',['../structZagreus_1_1BoardState.html#a8168f2482c44d4edf790701162e2a79f',1,'Zagreus::BoardState']]]
 ];
