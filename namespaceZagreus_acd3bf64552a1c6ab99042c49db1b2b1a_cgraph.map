@@ -1,7 +1,9 @@
 <map id="Zagreus::initializePst" name="Zagreus::initializePst">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,164,56"/>
-<area shape="rect" id="Node000002" href="$namespaceZagreus.html#ae1b3bf55cd6adf4ca93bffdc9ced467e" title="Gets the type of a piece." alt="" coords="215,5,384,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,31,201,27,202,32,165,37"/>
-<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a8ae2c4ed999615a6f6b3bc9f23329e25" title="Gets the value of a given piece." alt="" coords="212,55,387,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,50,199,53,198,59,164,55"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,164,80"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a4797edd07c51dd24a1f1239ae3f66d7f" title="Gets the color of a piece." alt="" coords="213,5,386,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,52,229,31,230,36,141,57"/>
+<area shape="rect" id="Node000003" href="$namespaceZagreus.html#ae1b3bf55cd6adf4ca93bffdc9ced467e" title="Gets the type of a piece." alt="" coords="215,55,384,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,65,201,65,201,70,164,70"/>
+<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a8ae2c4ed999615a6f6b3bc9f23329e25" title="Gets the value of a given piece." alt="" coords="212,104,387,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="141,77,230,98,229,103,140,83"/>
 </map>
