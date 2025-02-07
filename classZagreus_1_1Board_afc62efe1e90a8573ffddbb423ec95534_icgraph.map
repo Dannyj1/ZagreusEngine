@@ -1,21 +1,25 @@
 <map id="Zagreus::Board::getSideToMove" name="Zagreus::Board::getSideToMove">
-<area shape="rect" id="Node000001" title="Retrieves the color of the side to move." alt="" coords="1015,60,1243,85"/>
-<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a627dc20d2792883f26ad1cc0a0ce485a" title=" " alt="" coords="753,7,967,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1050,60,924,35,925,29,1051,55"/>
-<area shape="rect" id="Node000007" href="$classZagreus_1_1Evaluation.html#a0f4174df46fff74d4c208a04c861622a" title="Evaluates the current board position." alt="" coords="553,55,705,95"/>
-<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="1001,76,706,78,706,72,1001,71"/>
-<area shape="rect" id="Node000008" href="$namespaceZagreus.html#a8c0bbbe8484b26df054d217409f25325" title="Performs a perft test on the given board to a specified depth." alt="" coords="803,135,917,160"/>
-<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="1069,92,907,137,906,132,1068,87"/>
-<area shape="rect" id="Node000003" href="$classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="553,5,705,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="739,21,706,21,706,16,739,16"/>
-<area shape="rect" id="Node000004" href="$namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,35,505,60"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="540,34,506,40,505,34,539,29"/>
-<area shape="poly" id="edge7_Node000004_Node000004" title=" " alt="" coords="471,24,462,16,438,13,418,15,408,20,406,26,411,33,407,36,401,26,404,16,417,10,438,8,464,12,474,20"/>
-<area shape="rect" id="Node000005" href="$namespaceZagreus.html#a9cede8fac151bf6c2336600497bc8b54" title=" " alt="" coords="180,35,323,60"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="357,50,323,50,323,45,357,45"/>
-<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="283,24,274,16,251,13,232,15,222,20,220,26,226,33,221,36,215,26,218,17,231,10,251,8,276,12,287,20"/>
-<area shape="rect" id="Node000006" href="$namespaceZagreus.html#a8402e43c19031fd84e7ff36a670a6161" title=" " alt="" coords="5,35,132,60"/>
-<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="166,50,132,50,132,45,166,45"/>
-<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="539,65,505,60,506,55,540,60"/>
-<area shape="poly" id="edge11_Node000008_Node000008" title=" " alt="" coords="901,126,890,117,860,113,835,115,822,120,820,126,827,133,823,136,815,126,819,116,834,110,860,108,892,112,905,121"/>
+<area shape="rect" id="Node000001" title="Retrieves the color of the side to move." alt="" coords="1221,119,1449,145"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a627dc20d2792883f26ad1cc0a0ce485a" title=" " alt="" coords="960,66,1173,91"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1257,119,1131,94,1132,89,1258,114"/>
+<area shape="rect" id="Node000008" href="$classZagreus_1_1Evaluation.html#a0f4174df46fff74d4c208a04c861622a" title="Evaluates the current board position." alt="" coords="760,113,912,153"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="1208,135,912,136,912,130,1208,130"/>
+<area shape="rect" id="Node000009" href="$namespaceZagreus.html#a8c0bbbe8484b26df054d217409f25325" title="Performs a perft test on the given board to a specified depth." alt="" coords="1010,194,1123,219"/>
+<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="1276,151,1114,197,1112,191,1274,146"/>
+<area shape="rect" id="Node000003" href="$classZagreus_1_1Board.html#a6d3bdafe6f3749109e90fed4cbd3ca17" title="Calculates if the Static Exchange Evaluation (SEE) for a given move is good for the given color." alt="" coords="760,63,912,89"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="946,80,912,80,913,74,946,75"/>
+<area shape="rect" id="Node000004" href="$namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,79,505,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="746,82,506,92,506,87,746,77"/>
+<area shape="rect" id="Node000007" href="$classZagreus_1_1MovePicker.html#aeba50cb29b83315129602e2bc05d1474" title="sorts the move list based on certain criteria." alt="" coords="553,5,712,45"/>
+<area shape="poly" id="edge8_Node000003_Node000007" title=" " alt="" coords="770,62,712,48,713,43,772,57"/>
+<area shape="poly" id="edge7_Node000004_Node000004" title=" " alt="" coords="471,69,462,61,438,58,418,60,408,65,406,70,411,78,407,81,401,71,404,61,417,55,438,53,464,56,474,65"/>
+<area shape="rect" id="Node000005" href="$namespaceZagreus.html#a9cede8fac151bf6c2336600497bc8b54" title=" " alt="" coords="180,42,323,67"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="360,79,315,70,316,65,361,74"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="283,32,274,24,251,21,232,23,222,27,220,33,226,40,221,43,215,34,218,24,231,18,251,15,276,19,287,28"/>
+<area shape="rect" id="Node000006" href="$namespaceZagreus.html#a8402e43c19031fd84e7ff36a670a6161" title=" " alt="" coords="5,42,132,67"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="166,57,132,57,132,52,166,52"/>
+<area shape="poly" id="edge10_Node000007_Node000004" title=" " alt="" coords="562,52,477,82,475,77,560,47"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="540,33,371,45,323,50,323,44,370,40,539,28"/>
+<area shape="poly" id="edge12_Node000008_Node000004" title=" " alt="" coords="746,127,506,102,506,96,746,121"/>
+<area shape="poly" id="edge14_Node000009_Node000009" title=" " alt="" coords="1108,185,1097,176,1067,173,1042,175,1029,180,1026,185,1033,192,1029,196,1021,186,1025,176,1041,170,1067,167,1099,171,1111,181"/>
 </map>
