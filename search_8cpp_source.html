@@ -283,19 +283,19 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <a class="code hl_struct" href="structZagreus_1_1PvLine.html">PvLine</a> nodePvLine = <a class="code hl_struct" href="structZagreus_1_1PvLine.html">PvLine</a>{board.<a class="code hl_function" href="classZagreus_1_1Board.html#adf38c4f68536f92b5abed37c59bb018a">getPly</a>()};</div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span> </div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    <span class="keywordflow">while</span> (movePicker.next(move)) {</div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>        board.<a class="code hl_function" href="classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9">makeMove</a>(move);</div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span> </div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>        <span class="keywordflow">if</span> (!board.<a class="code hl_function" href="classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8">isPositionLegal</a>&lt;color&gt;()) {</div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>            board.<a class="code hl_function" href="classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644">unmakeMove</a>();</div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>        }</div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span> </div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>        legalMoves += 1;</div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>        <span class="keyword">const</span> <a class="code hl_enumeration" href="namespaceZagreus.html#a7d2e00f0541186be79cce3c9621e918f">Square</a> toSquare = <a class="code hl_function" href="namespaceZagreus.html#a978d5894806a1bdb9f9089e820166aef">getToSquare</a>(move);</div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>        <span class="keyword">const</span> <a class="code hl_enumeration" href="namespaceZagreus.html#a80c68b0ed6d2623104cdff1da84729a7">Piece</a> capturedPiece = board.<a class="code hl_function" href="classZagreus_1_1Board.html#afd4c02ec09ab6fde7631b59b2a4d9c97">getPieceOnSquare</a>(toSquare);</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>        <span class="keyword">const</span> <a class="code hl_enumeration" href="namespaceZagreus.html#a7d2e00f0541186be79cce3c9621e918f">Square</a> toSquare = <a class="code hl_function" href="namespaceZagreus.html#a978d5894806a1bdb9f9089e820166aef">getToSquare</a>(move);</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>        <span class="keyword">const</span> <a class="code hl_enumeration" href="namespaceZagreus.html#a80c68b0ed6d2623104cdff1da84729a7">Piece</a> capturedPiece = board.<a class="code hl_function" href="classZagreus_1_1Board.html#afd4c02ec09ab6fde7631b59b2a4d9c97">getPieceOnSquare</a>(toSquare);</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span> </div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>        board.<a class="code hl_function" href="classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9">makeMove</a>(move);</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span> </div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>        <span class="keywordflow">if</span> (!board.<a class="code hl_function" href="classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8">isPositionLegal</a>&lt;color&gt;()) {</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>            board.<a class="code hl_function" href="classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644">unmakeMove</a>();</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>        }</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span> </div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>        legalMoves += 1;</div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span> </div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>        <span class="keywordflow">if</span> (capturedPiece == <a class="code hl_enumvalue" href="namespaceZagreus.html#a80c68b0ed6d2623104cdff1da84729a7ad46b5d947d7e11d716e462ac7a2f8c1d">EMPTY</a> &amp;&amp; !isInCheck) {</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>        <span class="keywordflow">if</span> (capturedPiece == <a class="code hl_enumvalue" href="namespaceZagreus.html#a80c68b0ed6d2623104cdff1da84729a7ad46b5d947d7e11d716e462ac7a2f8c1d">EMPTY</a>) {</div>
 <div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>            searchedQuietMoves.moves[searchedQuietMoves.size++] = move;</div>
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>        }</div>
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span> </div>
@@ -327,7 +327,7 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>            <span class="keywordflow">if</span> (!engine.<a class="code hl_function" href="classZagreus_1_1Engine.html#a2fd88cb737e7b4b2af11f6a2e93e6634">isSearchStopped</a>()) {</div>
 <div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>                bestMove = move;</div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span> </div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>                <span class="keywordflow">if</span> (capturedPiece != <a class="code hl_enumvalue" href="namespaceZagreus.html#a80c68b0ed6d2623104cdff1da84729a7ad46b5d947d7e11d716e462ac7a2f8c1d">EMPTY</a>) {</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>                <span class="keywordflow">if</span> (capturedPiece == <a class="code hl_enumvalue" href="namespaceZagreus.html#a80c68b0ed6d2623104cdff1da84729a7ad46b5d947d7e11d716e462ac7a2f8c1d">EMPTY</a>) {</div>
 <div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>                    <span class="keyword">const</span> <span class="keywordtype">int</span> historyValue = 300 * depth - 250;</div>
 <div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span> </div>
 <div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>                    tt-&gt;<a class="code hl_function" href="classZagreus_1_1TranspositionTable.html#a0cad62cc546cbfb21e62441420ce0d69">updateHistory</a>&lt;color&gt;(move, historyValue);</div>
