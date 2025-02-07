@@ -141,6 +141,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac05d6daab7a00953ae30a1c5a4dba38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95cb68b25557dd839277349b09d240af" id="r_a95cb68b25557dd839277349b09d240af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceZagreus.html#a38e749cf22c411cb709a3da939267e6f">Move</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95cb68b25557dd839277349b09d240af">getKillerMove</a> (int ply, int index) const</td></tr>
 <tr class="separator:a95cb68b25557dd839277349b09d240af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb567c81dec6a1acbc580ef6ef6bb014" id="r_afb567c81dec6a1acbc580ef6ef6bb014"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb567c81dec6a1acbc580ef6ef6bb014">clearKillerMovePly</a> (int ply)</td></tr>
+<tr class="separator:afb567c81dec6a1acbc580ef6ef6bb014"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -208,7 +210,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tt_8h_source.html#l00060">60</a> of file <a class="el" href="tt_8h_source.html">tt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tt_8h_source.html#l00059">59</a> of file <a class="el" href="tt_8h_source.html">tt.h</a>.</p>
 
 </div>
 </div>
@@ -238,6 +240,42 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="afb567c81dec6a1acbc580ef6ef6bb014" name="afb567c81dec6a1acbc580ef6ef6bb014"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb567c81dec6a1acbc580ef6ef6bb014">&#9670;&#160;</a></span>clearKillerMovePly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Zagreus::TranspositionTable::clearKillerMovePly </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>ply</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tt_8cpp_source.html#l00112">112</a> of file <a class="el" href="tt_8cpp_source.html">tt.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classZagreus_1_1TranspositionTable_afb567c81dec6a1acbc580ef6ef6bb014_icgraph.png" border="0" usemap="#aclassZagreus_1_1TranspositionTable_afb567c81dec6a1acbc580ef6ef6bb014_icgraph" alt=""/></div>
+<map name="aclassZagreus_1_1TranspositionTable_afb567c81dec6a1acbc580ef6ef6bb014_icgraph" id="aclassZagreus_1_1TranspositionTable_afb567c81dec6a1acbc580ef6ef6bb014_icgraph">
+<area shape="rect" title=" " alt="" coords="553,22,756,62"/>
+<area shape="rect" href="namespaceZagreus.html#a9cede8fac151bf6c2336600497bc8b54" title=" " alt="" coords="180,29,323,55"/>
+<area shape="poly" title=" " alt="" coords="539,35,505,33,438,31,371,33,323,36,323,31,371,27,438,25,505,27,540,29"/>
+<area shape="rect" href="namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,67,505,92"/>
+<area shape="poly" title=" " alt="" coords="540,64,506,70,505,65,540,59"/>
+<area shape="poly" title=" " alt="" coords="283,19,274,11,251,8,232,10,222,15,220,20,226,28,221,31,215,21,218,11,231,5,251,3,276,6,287,15"/>
+<area shape="rect" href="namespaceZagreus.html#a8402e43c19031fd84e7ff36a670a6161" title=" " alt="" coords="5,29,132,55"/>
+<area shape="poly" title=" " alt="" coords="166,45,132,45,132,39,166,39"/>
+<area shape="poly" title=" " alt="" coords="360,67,315,57,316,52,361,61"/>
+<area shape="poly" title=" " alt="" coords="471,56,462,48,438,45,418,47,408,52,406,58,411,65,407,68,401,58,404,48,417,42,438,40,464,44,474,52"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a0eaba95d499a76b17e0d3499fc14f0c2" name="a0eaba95d499a76b17e0d3499fc14f0c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0eaba95d499a76b17e0d3499fc14f0c2">&#9670;&#160;</a></span>getEntry()</h2>
 
@@ -309,7 +347,7 @@ template&lt;<a class="el" href="namespaceZagreus.html#a06e913bde27d160c82c691b39
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tt_8h_source.html#l00099">99</a> of file <a class="el" href="tt_8h_source.html">tt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tt_8h_source.html#l00098">98</a> of file <a class="el" href="tt_8h_source.html">tt.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -371,7 +409,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tt_8h_source.html#l00106">106</a> of file <a class="el" href="tt_8h_source.html">tt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tt_8h_source.html#l00105">105</a> of file <a class="el" href="tt_8h_source.html">tt.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -409,12 +447,12 @@ Here is the call graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tt_8h_source.html#l00115">115</a> of file <a class="el" href="tt_8h_source.html">tt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tt_8cpp_source.html#l00108">108</a> of file <a class="el" href="tt_8cpp_source.html">tt.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -460,7 +498,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tt_8cpp_source.html#l00122">122</a> of file <a class="el" href="tt_8cpp_source.html">tt.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tt_8cpp_source.html#l00132">132</a> of file <a class="el" href="tt_8cpp_source.html">tt.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -590,7 +628,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tt_8h_source.html#l00064">64</a> of file <a class="el" href="tt_8h_source.html">tt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tt_8h_source.html#l00063">63</a> of file <a class="el" href="tt_8h_source.html">tt.h</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -681,7 +719,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tt_8cpp_source.html#l00107">107</a> of file <a class="el" href="tt_8cpp_source.html">tt.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tt_8cpp_source.html#l00117">117</a> of file <a class="el" href="tt_8cpp_source.html">tt.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -721,7 +759,7 @@ template&lt;<a class="el" href="namespaceZagreus.html#a06e913bde27d160c82c691b39
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tt_8cpp_source.html#l00128">128</a> of file <a class="el" href="tt_8cpp_source.html">tt.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tt_8cpp_source.html#l00138">138</a> of file <a class="el" href="tt_8cpp_source.html">tt.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
