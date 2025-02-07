@@ -30,5 +30,6 @@ var searchData=
   ['combo_27',['Combo',['../namespaceZagreus.html#a25277ebd2a95d3a6cec246971a6e41c1adcc0a0c4aa2f3a0af20f04b99a7f135d',1,'Zagreus']]],
   ['constants_2eh_28',['constants.h',['../constants_8h.html',1,'']]],
   ['count_5f1s_29',['count_1s',['../namespaceZagreus.html#ad12d6d30c4c67b4bae5738e8481399b0',1,'Zagreus']]],
-  ['count_5fbits_30',['count_bits',['../namespaceZagreus.html#a4ab101cae51c4b69a1d384d608a0ac45',1,'Zagreus']]]
+  ['count_5fbits_30',['count_bits',['../namespaceZagreus.html#a4ab101cae51c4b69a1d384d608a0ac45',1,'Zagreus']]],
+  ['countermoves_31',['counterMoves',['../classZagreus_1_1TranspositionTable.html#a5d957ecd2a84531bcd149dc842395efe',1,'Zagreus::TranspositionTable']]]
 ];
