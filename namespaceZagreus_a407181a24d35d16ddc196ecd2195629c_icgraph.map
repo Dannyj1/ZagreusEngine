@@ -1,6 +1,6 @@
 <map id="Zagreus::getZobristConstant" name="Zagreus::getZobristConstant">
 <area shape="rect" id="Node000001" title="Gets the Zobrist constant for a given index." alt="" coords="1155,270,1363,295"/>
-<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#a7b701a74fc4664bf23d71ab49195b535" title="Makes a move on the board." alt="" coords="635,134,836,159"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="635,134,836,159"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1234,262,1179,215,1144,192,1106,174,1038,155,967,145,898,141,836,141,836,136,899,135,968,140,1039,150,1108,169,1146,188,1182,211,1237,258"/>
 <area shape="rect" id="Node000007" href="$classZagreus_1_1Board.html#a0504ef64f76044dd624b451b4c5cf8a2" title="Removes a piece from a given square." alt="" coords="892,349,1107,374"/>
 <area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="1204,302,1107,332,1044,351,1042,346,1106,327,1203,297"/>

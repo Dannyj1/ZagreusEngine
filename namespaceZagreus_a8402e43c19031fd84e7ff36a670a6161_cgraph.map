@@ -10,7 +10,7 @@
 <area shape="poly" id="edge41_Node000001_Node000057" title=" " alt="" coords="68,1458,79,1301,102,1047,118,917,136,802,156,715,166,685,178,668,207,644,239,624,307,595,380,579,455,572,529,574,599,581,718,605,717,610,599,587,528,579,455,578,380,584,308,600,241,629,210,648,182,671,171,688,161,716,141,803,123,918,108,1048,85,1301,73,1458"/>
 <area shape="rect" id="Node000062" href="$classZagreus_1_1Engine.html#a2fd88cb737e7b4b2af11f6a2e93e6634" title=" " alt="" coords="704,1501,895,1541"/>
 <area shape="poly" id="edge50_Node000001_Node000062" title=" " alt="" coords="133,1473,447,1497,690,1513,690,1518,446,1503,132,1479"/>
-<area shape="rect" id="Node000063" href="$classZagreus_1_1Board.html#a7b701a74fc4664bf23d71ab49195b535" title="Makes a move on the board." alt="" coords="699,1566,900,1591"/>
+<area shape="rect" id="Node000063" href="$classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="699,1566,900,1591"/>
 <area shape="poly" id="edge51_Node000001_Node000063" title=" " alt="" coords="114,1481,181,1500,255,1524,313,1545,371,1562,447,1576,570,1585,685,1584,685,1589,569,1591,446,1581,370,1567,311,1550,254,1529,179,1505,113,1486"/>
 <area shape="rect" id="Node000070" href="$namespaceZagreus.html#a63120017049a308ff86a0a9a00ecca44" title="Parses the given pvLine as a string of moves." alt="" coords="208,1762,371,1787"/>
 <area shape="poly" id="edge67_Node000001_Node000070" title=" " alt="" coords="74,1483,82,1532,100,1601,114,1639,132,1676,154,1711,182,1741,201,1754,198,1758,178,1745,150,1714,127,1679,109,1641,95,1603,76,1533,69,1484"/>

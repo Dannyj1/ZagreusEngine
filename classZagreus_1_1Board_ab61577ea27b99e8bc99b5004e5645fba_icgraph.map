@@ -1,6 +1,6 @@
 <map id="Zagreus::Board::setPiece" name="Zagreus::Board::setPiece">
 <area shape="rect" id="Node000001" title="Sets a piece on a given square." alt="" coords="892,185,1076,210"/>
-<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#a7b701a74fc4664bf23d71ab49195b535" title="Makes a move on the board." alt="" coords="635,86,836,111"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="635,86,836,111"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="937,182,768,114,770,109,939,177"/>
 <area shape="rect" id="Node000007" href="$classZagreus_1_1Board.html#a7801b76e1ebf0292f9192ee68b38dbd8" title="Sets a piece on the board from a FEN character." alt="" coords="643,256,827,296"/>
 <area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="930,217,800,258,799,253,929,212"/>
