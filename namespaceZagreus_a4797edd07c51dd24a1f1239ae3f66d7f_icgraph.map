@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="Gets the color of a piece." alt="" coords="1160,243,1333,268"/>
 <area shape="rect" id="Node000002" href="$namespaceZagreus.html#acd3bf64552a1c6ab99042c49db1b2b1a" title=" " alt="" coords="925,53,1084,79"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1221,235,1171,189,1110,137,1026,81,1029,77,1114,133,1175,185,1225,231"/>
-<area shape="rect" id="Node000007" href="$classZagreus_1_1Board.html#abeabc3305abf62467e0678859dc85bf9" title="Makes a move on the board." alt="" coords="637,255,839,280"/>
+<area shape="rect" id="Node000007" href="$classZagreus_1_1Board.html#a7b701a74fc4664bf23d71ab49195b535" title="Makes a move on the board." alt="" coords="637,255,839,280"/>
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1146,260,839,268,839,262,1146,255"/>
 <area shape="rect" id="Node000012" href="$classZagreus_1_1Board.html#a0504ef64f76044dd624b451b4c5cf8a2" title="Removes a piece from a given square." alt="" coords="897,343,1112,368"/>
 <area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="1216,278,1169,306,1113,332,1073,345,1071,340,1111,328,1166,301,1214,273"/>

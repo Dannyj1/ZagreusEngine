@@ -1,0 +1,7 @@
+<map id="Zagreus::Board::hasNonPawnMaterial" name="Zagreus::Board::hasNonPawnMaterial">
+<area shape="rect" id="Node000001" title="Determines if the board has material that isn&#39;t pawn or king for the given color." alt="" coords="5,37,217,77"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#ae05e57705dd28daf8718d043c68d16d2" title="Retrieves the bitboard for a given color." alt="" coords="266,5,450,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,41,252,36,253,42,218,46"/>
+<area shape="rect" id="Node000003" href="$classZagreus_1_1Board.html#abf7ceb384a0bfbaef721d8d6d7a089c2" title="Retrieves the bitboard for a given piece type." alt="" coords="265,69,451,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="218,68,252,73,252,78,217,74"/>
+</map>
