@@ -25,9 +25,10 @@ var searchData=
   ['unique_5fxsl_5frr_5frr_5f128_5f128_22',['unique_xsl_rr_rr_128_128',['../namespacepcg__engines.html#a6267906701d4d7e64b3ad2c194574a27',1,'pcg_engines']]],
   ['unique_5fxsl_5frr_5frr_5f64_5f64_23',['unique_xsl_rr_rr_64_64',['../namespacepcg__engines.html#a923eef210ffc7202afe9bd810da4d772',1,'pcg_engines']]],
   ['unmakemove_24',['unmakeMove',['../classZagreus_1_1Board.html#ab040dee99098c5b98a5b1fa7e348b644',1,'Zagreus::Board']]],
-  ['unmultiplier_25',['unmultiplier',['../namespacepcg__detail.html#a260bd33be49f954c81d6905bd68728c8',1,'pcg_detail']]],
-  ['unoutput_26',['unoutput',['../structpcg__detail_1_1rxs__m__xs__mixin.html#a4f6461498fc85c28040d0e1d167d9230',1,'pcg_detail::rxs_m_xs_mixin']]],
-  ['unxorshift_27',['unxorshift',['../namespacepcg__extras.html#a4f03e67e7e86db7eaeb41c67d0cd2cb5',1,'pcg_extras']]],
-  ['updatefeaturevalues_28',['updateFeatureValues',['../namespaceZagreus.html#aa2648ecb43024c92fd732133d18c01b6',1,'Zagreus']]],
-  ['updatehistory_29',['updateHistory',['../classZagreus_1_1TranspositionTable.html#a0cad62cc546cbfb21e62441420ce0d69',1,'Zagreus::TranspositionTable']]]
+  ['unmakenullmove_25',['unmakeNullMove',['../classZagreus_1_1Board.html#a5a387be98476403d3a63633af71c13d7',1,'Zagreus::Board']]],
+  ['unmultiplier_26',['unmultiplier',['../namespacepcg__detail.html#a260bd33be49f954c81d6905bd68728c8',1,'pcg_detail']]],
+  ['unoutput_27',['unoutput',['../structpcg__detail_1_1rxs__m__xs__mixin.html#a4f6461498fc85c28040d0e1d167d9230',1,'pcg_detail::rxs_m_xs_mixin']]],
+  ['unxorshift_28',['unxorshift',['../namespacepcg__extras.html#a4f03e67e7e86db7eaeb41c67d0cd2cb5',1,'pcg_extras']]],
+  ['updatefeaturevalues_29',['updateFeatureValues',['../namespaceZagreus.html#aa2648ecb43024c92fd732133d18c01b6',1,'Zagreus']]],
+  ['updatehistory_30',['updateHistory',['../classZagreus_1_1TranspositionTable.html#a0cad62cc546cbfb21e62441420ce0d69',1,'Zagreus::TranspositionTable']]]
 ];
