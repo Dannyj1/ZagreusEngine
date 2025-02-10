@@ -365,9 +365,9 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span> </div>
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>        <span class="keywordflow">if</span> (score &gt; bestScore) {</div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>            bestScore = score;</div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>            bestMove = move;</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span> </div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>            <span class="keywordflow">if</span> (score &gt; alpha) {</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>            <span class="keywordflow">if</span> (score &gt; alpha) {</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>                bestMove = move;</div>
 <div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>                alpha = score;</div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>                pvLine.<a class="code hl_variable" href="structZagreus_1_1PvLine.html#a932f4df3c65d9fc564a7ed28363d7223">moves</a>[0] = move;</div>
 <div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>                std::memcpy(pvLine.<a class="code hl_variable" href="structZagreus_1_1PvLine.html#a932f4df3c65d9fc564a7ed28363d7223">moves</a> + 1, nodePvLine.<a class="code hl_variable" href="structZagreus_1_1PvLine.html#a932f4df3c65d9fc564a7ed28363d7223">moves</a>, nodePvLine.<a class="code hl_variable" href="structZagreus_1_1PvLine.html#a24e84727144ed7667d658ddb67542e0f">moveCount</a> * <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="namespaceZagreus.html#a38e749cf22c411cb709a3da939267e6f">Move</a>));</div>
