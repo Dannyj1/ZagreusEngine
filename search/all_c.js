@@ -22,7 +22,7 @@ var searchData=
   ['max_19',['max',['../classpcg__detail_1_1engine.html#afb796307012f539f9ac31eb4390a9ead',1,'pcg_detail::engine']]],
   ['max_5fhistory_20',['MAX_HISTORY',['../constants_8h.html#abf8d8994f09509f9e061f5bf82daf4cd',1,'constants.h']]],
   ['max_5fmoves_21',['MAX_MOVES',['../constants_8h.html#afe0c4249f8b5f7d5be976a330a3117d1',1,'constants.h']]],
-  ['max_5fply_22',['MAX_PLY',['../constants_8h.html#aafd045f3232c051cc6b016faf73838b1',1,'constants.h']]],
+  ['max_5fplies_22',['MAX_PLIES',['../constants_8h.html#a0bbe4cc8be73cec78c85e164eb6efea6',1,'constants.h']]],
   ['mcg_23',['mcg',['../namespacepcg__detail.html#a1338b2f0b0575e795053506ae0579262',1,'pcg_detail']]],
   ['mcg_5fbase_24',['mcg_base',['../namespacepcg__detail.html#a71530cd89a1c16f73ea7672210065e7e',1,'pcg_detail']]],
   ['mcg_5fmultiplier_25',['mcg_multiplier',['../structpcg__detail_1_1mcg__multiplier.html',1,'pcg_detail']]],

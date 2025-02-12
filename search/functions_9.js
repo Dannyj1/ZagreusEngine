@@ -9,12 +9,13 @@ var searchData=
   ['initializeevalfeatures_6',['initializeEvalFeatures',['../namespaceZagreus.html#a5bcc7707f8681f887cc209836f8ce519',1,'Zagreus']]],
   ['initializemagicbitboards_7',['initializeMagicBitboards',['../namespaceZagreus.html#a37e2265345b942f5ed69201304442a05',1,'Zagreus']]],
   ['initializepst_8',['initializePst',['../namespaceZagreus.html#acd3bf64552a1c6ab99042c49db1b2b1a',1,'Zagreus']]],
-  ['initzobristconstants_9',['initZobristConstants',['../namespaceZagreus.html#ae320c1a2ab573411bbfc4f56222c8147',1,'Zagreus']]],
-  ['inside_5fout_10',['inside_out',['../structpcg__detail_1_1inside__out.html#aeabd4f5caea9c094a22f891a858e3d24',1,'pcg_detail::inside_out']]],
-  ['isdraw_11',['isDraw',['../classZagreus_1_1Board.html#aca84663c90a0118a09ae4777aa5731ec',1,'Zagreus::Board']]],
-  ['iskingincheck_12',['isKingInCheck',['../classZagreus_1_1Board.html#a27b03cc9604c065a113d26a9848ee0ea',1,'Zagreus::Board']]],
-  ['ispieceonsquare_13',['isPieceOnSquare',['../classZagreus_1_1Board.html#a47123e6793832bd624e425116173c933',1,'Zagreus::Board']]],
-  ['ispositionlegal_14',['isPositionLegal',['../classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8',1,'Zagreus::Board']]],
-  ['issearchstopped_15',['isSearchStopped',['../classZagreus_1_1Engine.html#a2fd88cb737e7b4b2af11f6a2e93e6634',1,'Zagreus::Engine']]],
-  ['isslidingpiece_16',['isSlidingPiece',['../namespaceZagreus.html#abf76ffcbd4040cf7ec9d76440c7b8058',1,'Zagreus']]]
+  ['initializesearch_9',['initializeSearch',['../namespaceZagreus.html#a2869e9fc155c108cb9b85350d3250177',1,'Zagreus']]],
+  ['initzobristconstants_10',['initZobristConstants',['../namespaceZagreus.html#ae320c1a2ab573411bbfc4f56222c8147',1,'Zagreus']]],
+  ['inside_5fout_11',['inside_out',['../structpcg__detail_1_1inside__out.html#aeabd4f5caea9c094a22f891a858e3d24',1,'pcg_detail::inside_out']]],
+  ['isdraw_12',['isDraw',['../classZagreus_1_1Board.html#aca84663c90a0118a09ae4777aa5731ec',1,'Zagreus::Board']]],
+  ['iskingincheck_13',['isKingInCheck',['../classZagreus_1_1Board.html#a27b03cc9604c065a113d26a9848ee0ea',1,'Zagreus::Board']]],
+  ['ispieceonsquare_14',['isPieceOnSquare',['../classZagreus_1_1Board.html#a47123e6793832bd624e425116173c933',1,'Zagreus::Board']]],
+  ['ispositionlegal_15',['isPositionLegal',['../classZagreus_1_1Board.html#a30e87c423701c0fe273a588c8119b4c8',1,'Zagreus::Board']]],
+  ['issearchstopped_16',['isSearchStopped',['../classZagreus_1_1Engine.html#a2fd88cb737e7b4b2af11f6a2e93e6634',1,'Zagreus::Engine']]],
+  ['isslidingpiece_17',['isSlidingPiece',['../namespaceZagreus.html#abf76ffcbd4040cf7ec9d76440c7b8058',1,'Zagreus']]]
 ];
