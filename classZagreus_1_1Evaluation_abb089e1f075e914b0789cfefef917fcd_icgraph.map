@@ -1,5 +1,5 @@
 <map id="Zagreus::Evaluation::initializeEvalData" name="Zagreus::Evaluation::initializeEvalData">
-<area shape="rect" id="Node000001" title="Initializes the evaluation data needed to evaluate the board position." alt="" coords="753,22,905,62"/>
+<area shape="rect" id="Node000001" title="Initializes part of the evaluation data needed to evaluate the board position." alt="" coords="753,22,905,62"/>
 <area shape="rect" id="Node000002" href="$classZagreus_1_1Evaluation.html#a0f4174df46fff74d4c208a04c861622a" title="Evaluates the current board position." alt="" coords="553,22,705,62"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="739,45,706,45,706,39,739,39"/>
 <area shape="rect" id="Node000003" href="$namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,29,505,55"/>

@@ -107,7 +107,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6d1edf08dbeb14dc69efda4fb5bb2081" id="r_a6d1edf08dbeb14dc69efda4fb5bb2081"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classZagreus_1_1Evaluation.html">Evaluation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d1edf08dbeb14dc69efda4fb5bb2081">operator=</a> (const <a class="el" href="classZagreus_1_1Evaluation.html">Evaluation</a> &amp;)=delete</td></tr>
 <tr class="separator:a6d1edf08dbeb14dc69efda4fb5bb2081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb089e1f075e914b0789cfefef917fcd" id="r_abb089e1f075e914b0789cfefef917fcd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb089e1f075e914b0789cfefef917fcd">initializeEvalData</a> ()</td></tr>
-<tr class="memdesc:abb089e1f075e914b0789cfefef917fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the evaluation data needed to evaluate the board position.  <br /></td></tr>
+<tr class="memdesc:abb089e1f075e914b0789cfefef917fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes part of the evaluation data needed to evaluate the board position.  <br /></td></tr>
 <tr class="separator:abb089e1f075e914b0789cfefef917fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f4174df46fff74d4c208a04c861622a" id="r_a0f4174df46fff74d4c208a04c861622a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f4174df46fff74d4c208a04c861622a">evaluate</a> ()</td></tr>
 <tr class="memdesc:a0f4174df46fff74d4c208a04c861622a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluates the current board position.  <br /></td></tr>
@@ -115,7 +115,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="eval_8h_source.html#l00047">47</a> of file <a class="el" href="eval_8h_source.html">eval.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eval_8h_source.html#l00050">50</a> of file <a class="el" href="eval_8h_source.html">eval.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae6c3954cd63bcea3be3239a2569bfef7" name="ae6c3954cd63bcea3be3239a2569bfef7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae6c3954cd63bcea3be3239a2569bfef7">&#9670;&#160;</a></span>Evaluation() <span class="overload">[1/2]</span></h2>
@@ -148,7 +148,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="eval_8h_source.html#l00083">83</a> of file <a class="el" href="eval_8h_source.html">eval.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eval_8h_source.html#l00126">126</a> of file <a class="el" href="eval_8h_source.html">eval.h</a>.</p>
 
 </div>
 </div>
@@ -206,58 +206,19 @@ Public Member Functions</h2></td></tr>
 <p>This function calculates the evaluation score of the current board position based on material and other features. It considers the phase of the game (midgame or endgame) and adjusts the scores accordingly (tapered eval).</p>
 <dl class="section return"><dt>Returns</dt><dd>The evaluation score of the current board position. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="eval_8cpp_source.html#l00038">38</a> of file <a class="el" href="eval_8cpp_source.html">eval.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eval_8cpp_source.html#l00055">55</a> of file <a class="el" href="eval_8cpp_source.html">eval.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classZagreus_1_1Evaluation_a0f4174df46fff74d4c208a04c861622a_cgraph.png" border="0" usemap="#aclassZagreus_1_1Evaluation_a0f4174df46fff74d4c208a04c861622a_cgraph" alt=""/></div>
 <map name="aclassZagreus_1_1Evaluation_a0f4174df46fff74d4c208a04c861622a_cgraph" id="aclassZagreus_1_1Evaluation_a0f4174df46fff74d4c208a04c861622a_cgraph">
-<area shape="rect" title="Evaluates the current board position." alt="" coords="5,273,157,313"/>
-<area shape="rect" href="classZagreus_1_1Board.html#afc62efe1e90a8573ffddbb423ec95534" title="Retrieves the color of the side to move." alt="" coords="205,251,433,276"/>
-<area shape="poly" title=" " alt="" coords="157,281,202,275,203,280,158,286"/>
-<area shape="rect" href="classZagreus_1_1Evaluation.html#abb089e1f075e914b0789cfefef917fcd" title="Initializes the evaluation data needed to evaluate the board position." alt="" coords="243,301,395,341"/>
-<area shape="poly" title=" " alt="" coords="158,299,230,307,229,313,157,304"/>
-<area shape="rect" href="namespaceZagreus.html#aa2f3cb3e05478be9e11f947ea5cc08da" title="Converts a bitboard to a square index." alt="" coords="489,5,685,31"/>
-<area shape="poly" title=" " alt="" coords="395,308,415,299,431,286,451,255,459,225,458,195,454,164,449,133,449,102,458,71,479,40,483,37,486,41,483,44,463,73,454,103,455,133,459,163,464,194,464,226,456,258,435,289,417,304,397,313"/>
-<area shape="rect" href="namespaceZagreus.html#adda3e72c179c4e9f1ef1406a61d9fea7" title="Retrieves the bishop attacks for a given square and occupied squares." alt="" coords="740,525,937,551"/>
-<area shape="poly" title=" " alt="" coords="333,340,355,378,387,426,431,473,455,494,483,510,543,533,607,546,670,550,729,549,729,554,670,555,606,551,541,538,480,515,452,498,427,477,383,429,350,381,328,342"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae05e57705dd28daf8718d043c68d16d2" title="Retrieves the bitboard for a given color." alt="" coords="495,105,679,145"/>
-<area shape="poly" title=" " alt="" coords="394,307,414,298,432,285,444,270,451,254,455,222,459,188,466,171,479,155,484,151,488,155,483,159,471,174,464,190,460,222,456,256,449,273,435,289,417,302,397,312"/>
-<area shape="rect" href="namespaceZagreus.html#ae4187afed0ab9a364680cf692f292ee3" title="Retrieves the king attacks for a given square." alt="" coords="495,169,678,195"/>
-<area shape="poly" title=" " alt="" coords="394,305,432,285,448,266,455,245,462,224,480,204,488,199,491,203,483,208,467,227,460,247,452,269,435,289,397,310"/>
-<area shape="rect" href="namespaceZagreus.html#ade21087cb829e4b3fbcdecc362df557e" title="Retrieves the knight attacks for a given square." alt="" coords="489,219,684,244"/>
-<area shape="poly" title=" " alt="" coords="395,299,432,285,456,270,480,254,505,245,507,250,483,259,459,274,435,290,397,304"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aea6dd15340ca705e00c18b7f967f073c" title="Retrieves the bitboard representing occupied squares." alt="" coords="481,269,692,309"/>
-<area shape="poly" title=" " alt="" coords="395,309,467,300,468,306,396,314"/>
-<area shape="rect" href="namespaceZagreus.html#acf014bb71364ab1fefd85f1534fd8ac9" title=" " alt="" coords="493,333,680,373"/>
-<area shape="poly" title=" " alt="" coords="396,327,480,337,480,343,395,332"/>
-<area shape="rect" href="namespaceZagreus.html#a6bc5df6eb9e6addf084bf8f712089101" title=" " alt="" coords="493,397,680,437"/>
-<area shape="poly" title=" " alt="" coords="369,338,482,382,505,390,503,395,480,387,367,343"/>
-<area shape="rect" href="classZagreus_1_1Board.html#afd4c02ec09ab6fde7631b59b2a4d9c97" title="Retrieves the piece on a given square." alt="" coords="494,461,679,501"/>
-<area shape="poly" title=" " alt="" coords="342,339,402,392,441,421,483,446,497,453,495,458,480,451,438,425,399,396,339,343"/>
-<area shape="rect" href="namespaceZagreus.html#add77fa8eb55ed30b4214c32fe19535a2" title="Retrieves the rook attacks for a given square and occupied squares." alt="" coords="745,627,932,652"/>
-<area shape="poly" title=" " alt="" coords="327,340,343,397,372,473,393,512,418,550,448,584,483,612,515,629,550,642,623,655,695,657,760,651,760,657,696,662,623,660,549,647,513,634,480,616,444,588,414,553,388,515,367,475,338,398,322,342"/>
-<area shape="rect" href="namespaceZagreus.html#a5b8e7dc1ddf3599e06c25e9e88952fbf" title="Pops the least significant set bit (LSB) from a bitboard and returns its index. This modifies the bit..." alt="" coords="522,55,651,80"/>
-<area shape="poly" title=" " alt="" coords="395,308,415,299,431,285,448,262,455,238,456,214,454,190,452,165,453,140,461,115,480,91,507,74,510,78,483,95,466,118,458,141,457,165,459,189,462,214,461,239,453,264,435,289,417,303,397,313"/>
-<area shape="rect" href="namespaceZagreus.html#aefaad17c1b86767da8627885966c7eda" title="Retrieves the queen attacks for a given square and occupied squares." alt="" coords="501,576,673,601"/>
-<area shape="poly" title=" " alt="" coords="331,340,352,384,385,442,429,503,454,530,483,554,509,569,506,573,480,559,451,534,424,506,380,445,347,387,326,342"/>
-<area shape="rect" href="namespaceZagreus.html#a3b7dc37ae50fe6f86723b9c113ba301f" title="Finds the index of the least significant set bit (LSB) in a bitboard." alt="" coords="747,31,930,56"/>
-<area shape="poly" title=" " alt="" coords="685,25,734,30,733,35,684,30"/>
-<area shape="rect" href="namespaceZagreus.html#ae3519ba733e472381623f3868513e43f" title=" " alt="" coords="1010,452,1197,477"/>
-<area shape="poly" title=" " alt="" coords="873,523,985,486,1019,478,1021,483,986,491,875,528"/>
-<area shape="rect" href="namespaceZagreus.html#acdb08b76f59773ab8364f87aebecc0ae" title=" " alt="" coords="985,501,1221,527"/>
-<area shape="poly" title=" " alt="" coords="937,526,972,523,972,529,938,532"/>
-<area shape="rect" href="namespaceZagreus.html#af639a00a96edb3e7b6595d2491a94e68" title=" " alt="" coords="1012,551,1195,576"/>
-<area shape="poly" title=" " alt="" coords="938,545,998,551,998,556,937,550"/>
-<area shape="rect" href="namespaceZagreus.html#ad4768ae93bb0dc19ee59941eca3939d4" title=" " alt="" coords="1015,600,1191,625"/>
-<area shape="poly" title=" " alt="" coords="932,627,1001,620,1002,626,932,633"/>
-<area shape="rect" href="namespaceZagreus.html#a5a1a0242284cacb058524547c81e6155" title=" " alt="" coords="991,649,1216,675"/>
-<area shape="poly" title=" " alt="" coords="932,645,977,649,977,654,932,650"/>
-<area shape="rect" href="namespaceZagreus.html#aad7a8f657e79fd0f873328e7cdbd5cc7" title=" " alt="" coords="1017,699,1189,724"/>
-<area shape="poly" title=" " alt="" coords="876,650,986,685,1021,693,1019,698,985,690,874,655"/>
-<area shape="poly" title=" " alt="" coords="651,59,733,51,734,56,652,64"/>
-<area shape="poly" title=" " alt="" coords="650,573,761,551,762,556,651,578"/>
-<area shape="poly" title=" " alt="" coords="651,599,762,621,761,627,650,604"/>
+<area shape="rect" title="Evaluates the current board position." alt="" coords="5,27,157,67"/>
+<area shape="rect" href="classZagreus_1_1Board.html#afc62efe1e90a8573ffddbb423ec95534" title="Retrieves the color of the side to move." alt="" coords="205,5,433,31"/>
+<area shape="poly" title=" " alt="" coords="157,35,202,30,203,35,158,41"/>
+<area shape="rect" href="classZagreus_1_1Evaluation.html#abb089e1f075e914b0789cfefef917fcd" title="Initializes part of the evaluation data needed to evaluate the board position." alt="" coords="243,55,395,95"/>
+<area shape="poly" title=" " alt="" coords="158,54,230,62,229,67,157,59"/>
+<area shape="rect" href="classZagreus_1_1Board.html#ae05e57705dd28daf8718d043c68d16d2" title="Retrieves the bitboard for a given color." alt="" coords="481,55,665,95"/>
+<area shape="poly" title=" " alt="" coords="395,73,468,73,468,78,395,78"/>
 </map>
 </div>
 <div class="dynheader">
@@ -294,56 +255,17 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Initializes the evaluation data needed to evaluate the board position. </p>
+<p>Initializes part of the evaluation data needed to evaluate the board position. </p>
 
-<p class="definition">Definition at line <a class="el" href="eval_8cpp_source.html#l00142">142</a> of file <a class="el" href="eval_8cpp_source.html">eval.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eval_8cpp_source.html#l00266">266</a> of file <a class="el" href="eval_8cpp_source.html">eval.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classZagreus_1_1Evaluation_abb089e1f075e914b0789cfefef917fcd_cgraph.png" border="0" usemap="#aclassZagreus_1_1Evaluation_abb089e1f075e914b0789cfefef917fcd_cgraph" alt=""/></div>
 <map name="aclassZagreus_1_1Evaluation_abb089e1f075e914b0789cfefef917fcd_cgraph" id="aclassZagreus_1_1Evaluation_abb089e1f075e914b0789cfefef917fcd_cgraph">
-<area shape="rect" title="Initializes the evaluation data needed to evaluate the board position." alt="" coords="5,301,157,341"/>
-<area shape="rect" href="namespaceZagreus.html#aa2f3cb3e05478be9e11f947ea5cc08da" title="Converts a bitboard to a square index." alt="" coords="213,5,409,31"/>
-<area shape="poly" title=" " alt="" coords="83,300,93,247,114,177,130,139,150,103,174,69,204,40,210,36,213,40,207,44,179,73,155,106,135,142,119,179,98,249,88,301"/>
-<area shape="rect" href="namespaceZagreus.html#adda3e72c179c4e9f1ef1406a61d9fea7" title="Retrieves the bishop attacks for a given square and occupied squares." alt="" coords="464,525,661,551"/>
-<area shape="poly" title=" " alt="" coords="91,340,106,378,129,426,163,473,183,494,207,510,239,526,272,538,343,551,414,554,476,550,477,555,414,559,343,557,271,543,236,531,204,515,180,498,159,477,125,429,101,380,86,342"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae05e57705dd28daf8718d043c68d16d2" title="Retrieves the bitboard for a given color." alt="" coords="219,105,403,145"/>
-<area shape="poly" title=" " alt="" coords="90,299,133,228,165,189,204,155,213,149,216,153,207,159,169,192,137,231,95,302"/>
-<area shape="rect" href="namespaceZagreus.html#ae4187afed0ab9a364680cf692f292ee3" title="Retrieves the king attacks for a given square." alt="" coords="219,169,402,195"/>
-<area shape="poly" title=" " alt="" coords="97,298,141,250,171,225,204,204,219,197,221,202,207,208,174,229,145,254,101,302"/>
-<area shape="rect" href="namespaceZagreus.html#ade21087cb829e4b3fbcdecc362df557e" title="Retrieves the knight attacks for a given square." alt="" coords="213,219,408,244"/>
-<area shape="poly" title=" " alt="" coords="115,298,157,275,204,254,233,245,234,250,206,259,159,280,117,303"/>
-<area shape="rect" href="classZagreus_1_1Board.html#aea6dd15340ca705e00c18b7f967f073c" title="Retrieves the bitboard representing occupied squares." alt="" coords="205,269,416,309"/>
-<area shape="poly" title=" " alt="" coords="157,307,191,303,192,308,158,313"/>
-<area shape="rect" href="namespaceZagreus.html#acf014bb71364ab1fefd85f1534fd8ac9" title=" " alt="" coords="217,333,404,373"/>
-<area shape="poly" title=" " alt="" coords="158,329,204,335,203,340,157,334"/>
-<area shape="rect" href="namespaceZagreus.html#a6bc5df6eb9e6addf084bf8f712089101" title=" " alt="" coords="217,397,404,437"/>
-<area shape="poly" title=" " alt="" coords="118,339,206,382,226,390,224,395,204,387,116,343"/>
-<area shape="rect" href="classZagreus_1_1Board.html#afd4c02ec09ab6fde7631b59b2a4d9c97" title="Retrieves the piece on a given square." alt="" coords="218,461,403,501"/>
-<area shape="poly" title=" " alt="" coords="99,339,143,393,173,422,207,446,218,453,216,457,204,451,170,426,139,396,95,343"/>
-<area shape="rect" href="namespaceZagreus.html#add77fa8eb55ed30b4214c32fe19535a2" title="Retrieves the rook attacks for a given square and occupied squares." alt="" coords="469,627,656,652"/>
-<area shape="poly" title=" " alt="" coords="87,340,95,396,114,472,130,511,150,549,176,583,207,612,240,631,275,645,313,654,351,659,426,659,491,652,492,657,426,664,350,664,312,659,274,650,237,636,204,616,172,587,146,552,125,514,109,474,90,398,82,341"/>
-<area shape="rect" href="namespaceZagreus.html#a5b8e7dc1ddf3599e06c25e9e88952fbf" title="Pops the least significant set bit (LSB) from a bitboard and returns its index. This modifies the bit..." alt="" coords="246,55,375,80"/>
-<area shape="poly" title=" " alt="" coords="85,300,98,256,122,199,156,141,178,114,204,90,231,76,234,81,207,95,182,117,161,144,127,202,103,258,90,301"/>
-<area shape="rect" href="namespaceZagreus.html#aefaad17c1b86767da8627885966c7eda" title="Retrieves the queen attacks for a given square and occupied squares." alt="" coords="225,576,397,601"/>
-<area shape="poly" title=" " alt="" coords="90,340,103,384,127,442,161,503,182,530,207,555,229,568,226,573,204,559,178,534,156,506,122,445,98,386,85,342"/>
-<area shape="rect" href="namespaceZagreus.html#a3b7dc37ae50fe6f86723b9c113ba301f" title="Finds the index of the least significant set bit (LSB) in a bitboard." alt="" coords="471,31,654,56"/>
-<area shape="poly" title=" " alt="" coords="409,25,458,30,457,35,408,30"/>
-<area shape="rect" href="namespaceZagreus.html#ae3519ba733e472381623f3868513e43f" title=" " alt="" coords="734,452,921,477"/>
-<area shape="poly" title=" " alt="" coords="597,523,709,486,743,478,745,483,710,491,599,528"/>
-<area shape="rect" href="namespaceZagreus.html#acdb08b76f59773ab8364f87aebecc0ae" title=" " alt="" coords="709,501,945,527"/>
-<area shape="poly" title=" " alt="" coords="661,526,696,523,696,529,662,532"/>
-<area shape="rect" href="namespaceZagreus.html#af639a00a96edb3e7b6595d2491a94e68" title=" " alt="" coords="736,551,919,576"/>
-<area shape="poly" title=" " alt="" coords="662,545,722,551,722,556,661,550"/>
-<area shape="rect" href="namespaceZagreus.html#ad4768ae93bb0dc19ee59941eca3939d4" title=" " alt="" coords="739,600,915,625"/>
-<area shape="poly" title=" " alt="" coords="656,627,725,620,726,626,656,633"/>
-<area shape="rect" href="namespaceZagreus.html#a5a1a0242284cacb058524547c81e6155" title=" " alt="" coords="715,649,940,675"/>
-<area shape="poly" title=" " alt="" coords="656,645,701,649,701,654,656,650"/>
-<area shape="rect" href="namespaceZagreus.html#aad7a8f657e79fd0f873328e7cdbd5cc7" title=" " alt="" coords="741,699,913,724"/>
-<area shape="poly" title=" " alt="" coords="600,650,710,685,745,693,743,698,709,690,598,655"/>
-<area shape="poly" title=" " alt="" coords="375,59,457,51,458,56,376,64"/>
-<area shape="poly" title=" " alt="" coords="374,573,485,551,486,556,375,578"/>
-<area shape="poly" title=" " alt="" coords="375,599,486,621,485,627,374,604"/>
+<area shape="rect" title="Initializes part of the evaluation data needed to evaluate the board position." alt="" coords="5,5,157,45"/>
+<area shape="rect" href="classZagreus_1_1Board.html#ae05e57705dd28daf8718d043c68d16d2" title="Retrieves the bitboard for a given color." alt="" coords="205,5,389,45"/>
+<area shape="poly" title=" " alt="" coords="158,23,192,23,192,28,158,28"/>
 </map>
 </div>
 <div class="dynheader">
@@ -351,7 +273,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classZagreus_1_1Evaluation_abb089e1f075e914b0789cfefef917fcd_icgraph.png" border="0" usemap="#aclassZagreus_1_1Evaluation_abb089e1f075e914b0789cfefef917fcd_icgraph" alt=""/></div>
 <map name="aclassZagreus_1_1Evaluation_abb089e1f075e914b0789cfefef917fcd_icgraph" id="aclassZagreus_1_1Evaluation_abb089e1f075e914b0789cfefef917fcd_icgraph">
-<area shape="rect" title="Initializes the evaluation data needed to evaluate the board position." alt="" coords="753,22,905,62"/>
+<area shape="rect" title="Initializes part of the evaluation data needed to evaluate the board position." alt="" coords="753,22,905,62"/>
 <area shape="rect" href="classZagreus_1_1Evaluation.html#a0f4174df46fff74d4c208a04c861622a" title="Evaluates the current board position." alt="" coords="553,22,705,62"/>
 <area shape="poly" title=" " alt="" coords="739,45,706,45,706,39,739,39"/>
 <area shape="rect" href="namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,29,505,55"/>

@@ -1,4 +1,4 @@
-<map id="Zagreus::MovePicker::sort" name="Zagreus::MovePicker::sort">
+<map id="Zagreus::MovePicker::score" name="Zagreus::MovePicker::score">
 <area shape="rect" id="Node000001" title="sorts the move list based on certain criteria." alt="" coords="553,22,712,62"/>
 <area shape="rect" id="Node000002" href="$namespaceZagreus.html#a9cede8fac151bf6c2336600497bc8b54" title=" " alt="" coords="180,29,323,55"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="539,35,505,33,438,30,371,33,323,36,323,31,371,27,438,25,505,27,540,30"/>
