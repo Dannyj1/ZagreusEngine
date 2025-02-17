@@ -1,11 +1,5 @@
 <map id="Zagreus::initializePst" name="Zagreus::initializePst">
-<area shape="rect" id="Node000001" title=" " alt="" coords="757,5,916,31"/>
-<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a5bcc7707f8681f887cc209836f8ce519" title=" " alt="" coords="487,5,709,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="743,21,710,21,710,15,743,15"/>
-<area shape="rect" id="Node000003" href="$classZagreus_1_1Engine.html#aa97883c4a13a6a6e8b348589c820aafb" title=" " alt="" coords="251,5,439,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="473,21,439,21,439,15,473,15"/>
-<area shape="rect" id="Node000004" href="$main_8cpp.html#a9da5c1576379032450eee69dc694e6a4" title=" " alt="" coords="108,5,203,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="237,21,203,21,203,15,237,15"/>
-<area shape="rect" id="Node000005" href="$main_8cpp.html#a638b85ceffac097c2aa79b76ba8c055e" title=" " alt="" coords="5,5,60,31"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="95,21,60,21,60,15,95,15"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="241,5,400,31"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Engine.html#aa97883c4a13a6a6e8b348589c820aafb" title=" " alt="" coords="5,5,193,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,21,193,21,193,15,227,15"/>
 </map>

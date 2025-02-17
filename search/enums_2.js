@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['evalfeature_0',['EvalFeature',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1d',1,'Zagreus']]]
+  ['generationtype_0',['GenerationType',['../namespaceZagreus.html#a3d471f60f5bbb9c34722924daef89c8c',1,'Zagreus']]]
 ];

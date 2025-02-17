@@ -1,21 +1,12 @@
 var searchData=
 [
-  ['material_5fendgame_5fbishop_5fvalue_0',['MATERIAL_ENDGAME_BISHOP_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da2dd78035fb02b3e5b095187bc2db1f9f',1,'Zagreus']]],
-  ['material_5fendgame_5fknight_5fvalue_1',['MATERIAL_ENDGAME_KNIGHT_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1dad0c320b246bfccf0b8b9938fe8f14c72',1,'Zagreus']]],
-  ['material_5fendgame_5fpawn_5fvalue_2',['MATERIAL_ENDGAME_PAWN_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da7cbdb38a4ddd5f072a4240000f1f94fb',1,'Zagreus']]],
-  ['material_5fendgame_5fqueen_5fvalue_3',['MATERIAL_ENDGAME_QUEEN_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da23047ad716d87cd9c7238ea0466960f5',1,'Zagreus']]],
-  ['material_5fendgame_5frook_5fvalue_4',['MATERIAL_ENDGAME_ROOK_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1daae288d4b5158011c0b5f18c62102d048',1,'Zagreus']]],
-  ['material_5fmidgame_5fbishop_5fvalue_5',['MATERIAL_MIDGAME_BISHOP_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da47616d23f335a53c186cac957682c3ee',1,'Zagreus']]],
-  ['material_5fmidgame_5fknight_5fvalue_6',['MATERIAL_MIDGAME_KNIGHT_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1dafe3a885aa9fc7d0e5f776978c4d09e41',1,'Zagreus']]],
-  ['material_5fmidgame_5fpawn_5fvalue_7',['MATERIAL_MIDGAME_PAWN_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1daa02e7cbe9525d48488f6ff79b5a296bf',1,'Zagreus']]],
-  ['material_5fmidgame_5fqueen_5fvalue_8',['MATERIAL_MIDGAME_QUEEN_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da3fdd1911546684160adc3464421ac0e9',1,'Zagreus']]],
-  ['material_5fmidgame_5frook_5fvalue_9',['MATERIAL_MIDGAME_ROOK_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da172aa2e42f62461a489d60661b2da701',1,'Zagreus']]],
-  ['mobility_5fendgame_5fbishop_5fvalue_10',['MOBILITY_ENDGAME_BISHOP_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da3cbe8bf1c82196bc4120a4d810aff3fb',1,'Zagreus']]],
-  ['mobility_5fendgame_5fknight_5fvalue_11',['MOBILITY_ENDGAME_KNIGHT_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1dad18ad0d714f7f87e781a8bd20dcbeb27',1,'Zagreus']]],
-  ['mobility_5fendgame_5fqueen_5fvalue_12',['MOBILITY_ENDGAME_QUEEN_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da89cc48237ada38cfc8b9c5941efbc008',1,'Zagreus']]],
-  ['mobility_5fendgame_5frook_5fvalue_13',['MOBILITY_ENDGAME_ROOK_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1dafce4b3f6b5a3a43da5d3e0cab8309bde',1,'Zagreus']]],
-  ['mobility_5fmidgame_5fbishop_5fvalue_14',['MOBILITY_MIDGAME_BISHOP_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1daedf21bf0f3730c5b6e853cb68f95d263',1,'Zagreus']]],
-  ['mobility_5fmidgame_5fknight_5fvalue_15',['MOBILITY_MIDGAME_KNIGHT_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1daa336cf61dc68941fcb9cd34327ff7992',1,'Zagreus']]],
-  ['mobility_5fmidgame_5fqueen_5fvalue_16',['MOBILITY_MIDGAME_QUEEN_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1daf3c53259fd68b014f81ca1950b6c59e3',1,'Zagreus']]],
-  ['mobility_5fmidgame_5frook_5fvalue_17',['MOBILITY_MIDGAME_ROOK_VALUE',['../namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da69452a1e61b52783e554d957ab49c947',1,'Zagreus']]]
+  ['none_0',['NONE',['../namespaceZagreus.html#a7d2e00f0541186be79cce3c9621e918fa2beb1ec0edc792a0992b1e6552224ed0',1,'Zagreus']]],
+  ['normal_1',['NORMAL',['../namespaceZagreus.html#a7735714492e635054e84a0cc179e46baa7fdf1dd7aec9850c9b444187d3a86e5a',1,'Zagreus']]],
+  ['north_2',['NORTH',['../namespaceZagreus.html#acbaf61e8219e5455fa0c0db3e50a94f0ab429c915a3b0471875d9c30bc0fe7313',1,'Zagreus']]],
+  ['north_5feast_3',['NORTH_EAST',['../namespaceZagreus.html#acbaf61e8219e5455fa0c0db3e50a94f0a11d407e8fdc8fcfe8aca048adccee16a',1,'Zagreus']]],
+  ['north_5feast_5feast_4',['NORTH_EAST_EAST',['../namespaceZagreus.html#acbaf61e8219e5455fa0c0db3e50a94f0a27a72281bea613f2e70bdc08d383afae',1,'Zagreus']]],
+  ['north_5fnorth_5feast_5',['NORTH_NORTH_EAST',['../namespaceZagreus.html#acbaf61e8219e5455fa0c0db3e50a94f0ad2939b48218ff9530c43a6512bf7cbef',1,'Zagreus']]],
+  ['north_5fnorth_5fwest_6',['NORTH_NORTH_WEST',['../namespaceZagreus.html#acbaf61e8219e5455fa0c0db3e50a94f0ae1036e65da7bf5297746ef15dca50224',1,'Zagreus']]],
+  ['north_5fwest_7',['NORTH_WEST',['../namespaceZagreus.html#acbaf61e8219e5455fa0c0db3e50a94f0aedc4bcc6883dfe57164561d327af77a4',1,'Zagreus']]],
+  ['north_5fwest_5fwest_8',['NORTH_WEST_WEST',['../namespaceZagreus.html#acbaf61e8219e5455fa0c0db3e50a94f0a78e8fce3ca3fd50856d2212bd805300d',1,'Zagreus']]]
 ];

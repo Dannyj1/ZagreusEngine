@@ -1,13 +1,9 @@
 <map id="Zagreus::rook_attacks_on_the_fly" name="Zagreus::rook_attacks_on_the_fly">
-<area shape="rect" id="Node000001" title=" " alt="" coords="916,5,1083,45"/>
-<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a294ebe229d913ef95b6b65410c2d84e2" title=" " alt="" coords="713,5,868,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="903,28,868,28,868,23,903,23"/>
-<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a37e2265345b942f5ed69201304442a05" title=" " alt="" coords="487,5,665,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="699,28,666,28,666,23,699,23"/>
-<area shape="rect" id="Node000004" href="$classZagreus_1_1Engine.html#aa97883c4a13a6a6e8b348589c820aafb" title=" " alt="" coords="251,13,439,38"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="473,28,439,28,439,23,473,23"/>
-<area shape="rect" id="Node000005" href="$main_8cpp.html#a9da5c1576379032450eee69dc694e6a4" title=" " alt="" coords="108,13,203,38"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="237,28,203,28,203,23,237,23"/>
-<area shape="rect" id="Node000006" href="$main_8cpp.html#a638b85ceffac097c2aa79b76ba8c055e" title=" " alt="" coords="5,13,60,38"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="95,28,60,28,60,23,95,23"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="671,5,837,45"/>
+<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a294ebe229d913ef95b6b65410c2d84e2" title=" " alt="" coords="468,5,623,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="657,28,623,28,623,23,657,23"/>
+<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a37e2265345b942f5ed69201304442a05" title=" " alt="" coords="241,5,420,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="454,28,420,28,420,23,454,23"/>
+<area shape="rect" id="Node000004" href="$classZagreus_1_1Engine.html#aa97883c4a13a6a6e8b348589c820aafb" title=" " alt="" coords="5,13,193,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="227,28,193,28,193,23,227,23"/>
 </map>

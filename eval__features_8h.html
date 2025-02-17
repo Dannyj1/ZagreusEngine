@@ -89,30 +89,28 @@ $(function(){ initResizable(false); });
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle"><div class="title">eval_features.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;<a class="el" href="constants_8h_source.html">constants.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pst_8h_source.html">pst.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for eval_features.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="eval__features_8h__incl.png" border="0" usemap="#asrc_2eval__features_8h" alt=""/></div>
 <map name="asrc_2eval__features_8h" id="asrc_2eval__features_8h">
-<area shape="rect" title=" " alt="" coords="5,5,152,31"/>
-<area shape="rect" title=" " alt="" coords="6,79,69,104"/>
-<area shape="poly" title=" " alt="" coords="74,32,53,68,49,65,70,30"/>
-<area shape="rect" href="pst_8h.html" title=" " alt="" coords="93,79,147,104"/>
-<area shape="poly" title=" " alt="" coords="88,30,109,65,104,68,83,32"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="85,152,155,177"/>
-<area shape="poly" title=" " alt="" coords="123,104,123,138,117,138,117,104"/>
-<area shape="rect" title=" " alt="" coords="40,225,109,251"/>
-<area shape="poly" title=" " alt="" coords="115,179,92,215,87,212,110,176"/>
-<area shape="rect" title=" " alt="" coords="133,225,200,251"/>
-<area shape="poly" title=" " alt="" coords="130,176,154,212,149,215,125,179"/>
+<area shape="rect" title=" " alt="" coords="33,5,179,31"/>
+<area shape="rect" title=" " alt="" coords="5,79,68,104"/>
+<area shape="poly" title=" " alt="" coords="96,33,59,71,55,67,93,29"/>
+<area shape="rect" href="constants_8h.html" title=" " alt="" coords="89,152,187,177"/>
+<area shape="poly" title=" " alt="" coords="111,31,135,138,130,139,106,32"/>
+<area shape="rect" href="pst_8h.html" title=" " alt="" coords="144,79,199,104"/>
+<area shape="poly" title=" " alt="" coords="119,29,153,67,150,70,115,33"/>
+<area shape="rect" title=" " alt="" coords="105,225,171,251"/>
+<area shape="poly" title=" " alt="" coords="141,178,141,212,135,212,135,178"/>
+<area shape="poly" title=" " alt="" coords="168,105,152,141,147,139,163,103"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -120,13 +118,24 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="eval__features_8h__dep__incl.png" border="0" usemap="#asrc_2eval__features_8hdep" alt=""/></div>
 <map name="asrc_2eval__features_8hdep" id="asrc_2eval__features_8hdep">
-<area shape="rect" title=" " alt="" coords="137,5,283,31"/>
-<area shape="rect" href="eval_8cpp.html" title=" " alt="" coords="5,79,105,104"/>
-<area shape="poly" title=" " alt="" coords="174,39,82,81,80,76,172,34"/>
-<area shape="rect" href="eval__features_8cpp.html" title=" " alt="" coords="129,79,291,104"/>
-<area shape="poly" title=" " alt="" coords="213,44,213,79,207,79,207,44"/>
-<area shape="rect" href="uci_8cpp.html" title=" " alt="" coords="315,79,406,104"/>
-<area shape="poly" title=" " alt="" coords="248,34,337,76,335,81,245,39"/>
+<area shape="rect" title=" " alt="" coords="262,5,409,31"/>
+<area shape="rect" href="eval_8cpp.html" title=" " alt="" coords="5,152,105,177"/>
+<area shape="poly" title=" " alt="" coords="298,39,209,81,76,154,73,150,206,76,295,34"/>
+<area shape="rect" href="eval_8h.html" title=" " alt="" coords="219,79,305,104"/>
+<area shape="poly" title=" " alt="" coords="315,42,276,80,272,77,312,38"/>
+<area shape="rect" href="eval__features_8cpp.html" title=" " alt="" coords="329,79,491,104"/>
+<area shape="poly" title=" " alt="" coords="359,38,400,77,396,80,355,42"/>
+<area shape="rect" href="uci_8cpp.html" title=" " alt="" coords="515,79,606,104"/>
+<area shape="poly" title=" " alt="" coords="385,32,525,76,523,81,384,37"/>
+<area shape="poly" title=" " alt="" coords="217,111,90,154,88,149,215,106"/>
+<area shape="rect" href="board_8cpp.html" title=" " alt="" coords="130,152,239,177"/>
+<area shape="poly" title=" " alt="" coords="241,115,199,154,196,150,238,111"/>
+<area shape="rect" href="move__picker_8cpp.html" title=" " alt="" coords="263,152,418,177"/>
+<area shape="poly" title=" " alt="" coords="287,111,330,150,326,154,283,115"/>
+<area shape="rect" href="pst_8cpp.html" title=" " alt="" coords="443,152,535,177"/>
+<area shape="poly" title=" " alt="" coords="312,106,453,149,451,154,311,111"/>
+<area shape="rect" href="search_8cpp.html" title=" " alt="" coords="559,152,674,177"/>
+<area shape="poly" title=" " alt="" coords="318,101,319,101,559,149,558,155,317,107,317,107"/>
 </map>
 </div>
 </div>
@@ -136,48 +145,6 @@ This graph shows which files directly or indirectly include this file:</div>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceZagreus.html">Zagreus</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:af69dc005470efe0237b5adc82dfbdb1d" id="r_af69dc005470efe0237b5adc82dfbdb1d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1d">Zagreus::EvalFeature</a> { <br />
-&#160;&#160;<a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1daa02e7cbe9525d48488f6ff79b5a296bf">Zagreus::MATERIAL_MIDGAME_PAWN_VALUE</a>
-, <a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1dafe3a885aa9fc7d0e5f776978c4d09e41">Zagreus::MATERIAL_MIDGAME_KNIGHT_VALUE</a>
-, <a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da47616d23f335a53c186cac957682c3ee">Zagreus::MATERIAL_MIDGAME_BISHOP_VALUE</a>
-, <a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da172aa2e42f62461a489d60661b2da701">Zagreus::MATERIAL_MIDGAME_ROOK_VALUE</a>
-, <br />
-&#160;&#160;<a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da3fdd1911546684160adc3464421ac0e9">Zagreus::MATERIAL_MIDGAME_QUEEN_VALUE</a>
-, <a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da7cbdb38a4ddd5f072a4240000f1f94fb">Zagreus::MATERIAL_ENDGAME_PAWN_VALUE</a>
-, <a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1dad0c320b246bfccf0b8b9938fe8f14c72">Zagreus::MATERIAL_ENDGAME_KNIGHT_VALUE</a>
-, <a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da2dd78035fb02b3e5b095187bc2db1f9f">Zagreus::MATERIAL_ENDGAME_BISHOP_VALUE</a>
-, <br />
-&#160;&#160;<a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1daae288d4b5158011c0b5f18c62102d048">Zagreus::MATERIAL_ENDGAME_ROOK_VALUE</a>
-, <a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da23047ad716d87cd9c7238ea0466960f5">Zagreus::MATERIAL_ENDGAME_QUEEN_VALUE</a>
-, <a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1daa336cf61dc68941fcb9cd34327ff7992">Zagreus::MOBILITY_MIDGAME_KNIGHT_VALUE</a>
-, <a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1daedf21bf0f3730c5b6e853cb68f95d263">Zagreus::MOBILITY_MIDGAME_BISHOP_VALUE</a>
-, <br />
-&#160;&#160;<a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da69452a1e61b52783e554d957ab49c947">Zagreus::MOBILITY_MIDGAME_ROOK_VALUE</a>
-, <a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1daf3c53259fd68b014f81ca1950b6c59e3">Zagreus::MOBILITY_MIDGAME_QUEEN_VALUE</a>
-, <a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1dad18ad0d714f7f87e781a8bd20dcbeb27">Zagreus::MOBILITY_ENDGAME_KNIGHT_VALUE</a>
-, <a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da3cbe8bf1c82196bc4120a4d810aff3fb">Zagreus::MOBILITY_ENDGAME_BISHOP_VALUE</a>
-, <br />
-&#160;&#160;<a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1dafce4b3f6b5a3a43da5d3e0cab8309bde">Zagreus::MOBILITY_ENDGAME_ROOK_VALUE</a>
-, <a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1da89cc48237ada38cfc8b9c5941efbc008">Zagreus::MOBILITY_ENDGAME_QUEEN_VALUE</a>
-<br />
- }</td></tr>
-<tr class="separator:af69dc005470efe0237b5adc82dfbdb1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a5bcc7707f8681f887cc209836f8ce519" id="r_a5bcc7707f8681f887cc209836f8ce519"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceZagreus.html#a5bcc7707f8681f887cc209836f8ce519">Zagreus::initializeEvalFeatures</a> ()</td></tr>
-<tr class="separator:a5bcc7707f8681f887cc209836f8ce519"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2648ecb43024c92fd732133d18c01b6" id="r_aa2648ecb43024c92fd732133d18c01b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceZagreus.html#aa2648ecb43024c92fd732133d18c01b6">Zagreus::updateFeatureValues</a> (const std::vector&lt; int &gt; &amp;values)</td></tr>
-<tr class="separator:aa2648ecb43024c92fd732133d18c01b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a310197c18ce364e25e344af5ebc45682" id="r_a310197c18ce364e25e344af5ebc45682"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceZagreus.html#a310197c18ce364e25e344af5ebc45682">Zagreus::getEvalFeatureValue</a> (const <a class="el" href="namespaceZagreus.html#af69dc005470efe0237b5adc82dfbdb1d">EvalFeature</a> feature)</td></tr>
-<tr class="separator:a310197c18ce364e25e344af5ebc45682"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ab69415dfe689177bd629b8cc02d460" id="r_a7ab69415dfe689177bd629b8cc02d460"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceZagreus.html#a7ab69415dfe689177bd629b8cc02d460">Zagreus::getMidgamePstEvalFeature</a> (const <a class="el" href="namespaceZagreus.html#a80c68b0ed6d2623104cdff1da84729a7">Piece</a> piece, const <a class="el" href="namespaceZagreus.html#a7d2e00f0541186be79cce3c9621e918f">Square</a> square)</td></tr>
-<tr class="separator:a7ab69415dfe689177bd629b8cc02d460"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d20d75edf3c6b68c68ef1a8c5c23b7c" id="r_a0d20d75edf3c6b68c68ef1a8c5c23b7c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceZagreus.html#a0d20d75edf3c6b68c68ef1a8c5c23b7c">Zagreus::getEndgamePstEvalFeature</a> (const <a class="el" href="namespaceZagreus.html#a80c68b0ed6d2623104cdff1da84729a7">Piece</a> piece, const <a class="el" href="namespaceZagreus.html#a7d2e00f0541186be79cce3c9621e918f">Square</a> square)</td></tr>
-<tr class="separator:a0d20d75edf3c6b68c68ef1a8c5c23b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

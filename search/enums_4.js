@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['movetype_0',['MoveType',['../namespaceZagreus.html#a7735714492e635054e84a0cc179e46ba',1,'Zagreus']]]
+  ['nodetype_0',['NodeType',['../namespaceZagreus.html#ada679bdc3b3121c6d715689e2990b0ea',1,'Zagreus']]]
 ];
