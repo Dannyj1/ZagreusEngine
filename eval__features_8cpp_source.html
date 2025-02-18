@@ -116,26 +116,28 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceZagreus.html">Zagreus</a> {</div>
-<div class="foldopen" id="foldopen00026" data-start="{" data-end="};">
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="namespaceZagreus.html#a77212675e9ec1ea5afc27509b4afdd4a">   26</a></span><span class="keywordtype">int</span> <a class="code hl_variable" href="namespaceZagreus.html#a77212675e9ec1ea5afc27509b4afdd4a">evalMaterialValues</a>[<a class="code hl_define" href="constants_8h.html#a170754edbd09a328bef8d53b71d0e9e8">GAME_PHASES</a>][<a class="code hl_define" href="constants_8h.html#ab2852fb03da622f49801aa40a676c658">PIECE_TYPES</a>]{</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    {100, 350, 350, 525, 1000}, <span class="comment">// Midgame</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    {100, 350, 350, 525, 1000} <span class="comment">// Endgame</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>};</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="comment">// Material values</span></div>
+<div class="foldopen" id="foldopen00027" data-start="{" data-end="};">
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="namespaceZagreus.html#a77212675e9ec1ea5afc27509b4afdd4a">   27</a></span><span class="keywordtype">int</span> <a class="code hl_variable" href="namespaceZagreus.html#a77212675e9ec1ea5afc27509b4afdd4a">evalMaterialValues</a>[<a class="code hl_define" href="constants_8h.html#a170754edbd09a328bef8d53b71d0e9e8">GAME_PHASES</a>][<a class="code hl_define" href="constants_8h.html#ab2852fb03da622f49801aa40a676c658">PIECE_TYPES</a>]{</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    {166, 382, 423, 517, 1000, 0}, <span class="comment">// Midgame</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    {277, 368, 384, 521, 999, 0} <span class="comment">// Endgame</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>};</div>
 </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="foldopen" id="foldopen00031" data-start="{" data-end="};">
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="namespaceZagreus.html#a025a34fc4750a9af6e51d2c95b95c4d0">   31</a></span><span class="keywordtype">int</span> <a class="code hl_variable" href="namespaceZagreus.html#a025a34fc4750a9af6e51d2c95b95c4d0">evalMobility</a>[<a class="code hl_define" href="constants_8h.html#a170754edbd09a328bef8d53b71d0e9e8">GAME_PHASES</a>][<a class="code hl_define" href="constants_8h.html#ab2852fb03da622f49801aa40a676c658">PIECE_TYPES</a>]{</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    {0, 4, 6, 2, 4, 0},</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    {0, 2, 3, 5, 6, 0}</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>};</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="comment">// Mobility values</span></div>
+<div class="foldopen" id="foldopen00033" data-start="{" data-end="};">
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="namespaceZagreus.html#a025a34fc4750a9af6e51d2c95b95c4d0">   33</a></span><span class="keywordtype">int</span> <a class="code hl_variable" href="namespaceZagreus.html#a025a34fc4750a9af6e51d2c95b95c4d0">evalMobility</a>[<a class="code hl_define" href="constants_8h.html#a170754edbd09a328bef8d53b71d0e9e8">GAME_PHASES</a>][<a class="code hl_define" href="constants_8h.html#ab2852fb03da622f49801aa40a676c658">PIECE_TYPES</a>]{</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    {0, 20, 18, -3, 4, 0}, <span class="comment">// Midgame</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    {0, 37, 29, -6, -7, 0} <span class="comment">// Endgame</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>};</div>
 </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>} <span class="comment">// namespace Zagreus</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>} <span class="comment">// namespace Zagreus</span></div>
 <div class="ttc" id="aconstants_8h_html_a170754edbd09a328bef8d53b71d0e9e8"><div class="ttname"><a href="constants_8h.html#a170754edbd09a328bef8d53b71d0e9e8">GAME_PHASES</a></div><div class="ttdeci">#define GAME_PHASES</div><div class="ttdef"><b>Definition</b> <a href="constants_8h_source.html#l00060">constants.h:60</a></div></div>
 <div class="ttc" id="aconstants_8h_html_ab2852fb03da622f49801aa40a676c658"><div class="ttname"><a href="constants_8h.html#ab2852fb03da622f49801aa40a676c658">PIECE_TYPES</a></div><div class="ttdeci">#define PIECE_TYPES</div><div class="ttdef"><b>Definition</b> <a href="constants_8h_source.html#l00058">constants.h:58</a></div></div>
 <div class="ttc" id="aeval__features_8h_html"><div class="ttname"><a href="eval__features_8h.html">eval_features.h</a></div></div>
 <div class="ttc" id="anamespaceZagreus_html"><div class="ttname"><a href="namespaceZagreus.html">Zagreus</a></div><div class="ttdef"><b>Definition</b> <a href="bitboard_8cpp_source.html#l00025">bitboard.cpp:25</a></div></div>
-<div class="ttc" id="anamespaceZagreus_html_a025a34fc4750a9af6e51d2c95b95c4d0"><div class="ttname"><a href="namespaceZagreus.html#a025a34fc4750a9af6e51d2c95b95c4d0">Zagreus::evalMobility</a></div><div class="ttdeci">int evalMobility[GAME_PHASES][PIECE_TYPES]</div><div class="ttdef"><b>Definition</b> <a href="#l00031">eval_features.cpp:31</a></div></div>
-<div class="ttc" id="anamespaceZagreus_html_a77212675e9ec1ea5afc27509b4afdd4a"><div class="ttname"><a href="namespaceZagreus.html#a77212675e9ec1ea5afc27509b4afdd4a">Zagreus::evalMaterialValues</a></div><div class="ttdeci">int evalMaterialValues[GAME_PHASES][PIECE_TYPES]</div><div class="ttdef"><b>Definition</b> <a href="#l00026">eval_features.cpp:26</a></div></div>
+<div class="ttc" id="anamespaceZagreus_html_a025a34fc4750a9af6e51d2c95b95c4d0"><div class="ttname"><a href="namespaceZagreus.html#a025a34fc4750a9af6e51d2c95b95c4d0">Zagreus::evalMobility</a></div><div class="ttdeci">int evalMobility[GAME_PHASES][PIECE_TYPES]</div><div class="ttdef"><b>Definition</b> <a href="#l00033">eval_features.cpp:33</a></div></div>
+<div class="ttc" id="anamespaceZagreus_html_a77212675e9ec1ea5afc27509b4afdd4a"><div class="ttname"><a href="namespaceZagreus.html#a77212675e9ec1ea5afc27509b4afdd4a">Zagreus::evalMaterialValues</a></div><div class="ttdeci">int evalMaterialValues[GAME_PHASES][PIECE_TYPES]</div><div class="ttdef"><b>Definition</b> <a href="#l00027">eval_features.cpp:27</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -112,6 +112,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f4174df46fff74d4c208a04c861622a" id="r_a0f4174df46fff74d4c208a04c861622a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f4174df46fff74d4c208a04c861622a">evaluate</a> ()</td></tr>
 <tr class="memdesc:a0f4174df46fff74d4c208a04c861622a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluates the current board position.  <br /></td></tr>
 <tr class="separator:a0f4174df46fff74d4c208a04c861622a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f92719cc46b4ab20e9c18cd7c994d6f" id="r_a3f92719cc46b4ab20e9c18cd7c994d6f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f92719cc46b4ab20e9c18cd7c994d6f">calculatePhase</a> () const</td></tr>
+<tr class="memdesc:a3f92719cc46b4ab20e9c18cd7c994d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluates the material on the board.  <br /></td></tr>
+<tr class="separator:a3f92719cc46b4ab20e9c18cd7c994d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -148,7 +151,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="eval_8h_source.html#l00123">123</a> of file <a class="el" href="eval_8h_source.html">eval.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eval_8h_source.html#l00115">115</a> of file <a class="el" href="eval_8h_source.html">eval.h</a>.</p>
 
 </div>
 </div>
@@ -178,6 +181,69 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3f92719cc46b4ab20e9c18cd7c994d6f" name="a3f92719cc46b4ab20e9c18cd7c994d6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f92719cc46b4ab20e9c18cd7c994d6f">&#9670;&#160;</a></span>calculatePhase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Zagreus::Evaluation::calculatePhase </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Evaluates the material on the board. </p>
+<p>Calculates the phase of the game.</p>
+<p>This function evaluates the material on the board for both sides (white and black) and updates the midgame and endgame scores accordingly.</p>
+<p>This function calculates the phase of the game (midgame or endgame) based on the remaining pieces on the board. The phase is used to adjust the evaluation scores accordingly.</p>
+<dl class="section return"><dt>Returns</dt><dd>The phase of the game as an integer. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="eval_8cpp_source.html#l00086">86</a> of file <a class="el" href="eval_8cpp_source.html">eval.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classZagreus_1_1Evaluation_a3f92719cc46b4ab20e9c18cd7c994d6f_cgraph.png" border="0" usemap="#aclassZagreus_1_1Evaluation_a3f92719cc46b4ab20e9c18cd7c994d6f_cgraph" alt=""/></div>
+<map name="aclassZagreus_1_1Evaluation_a3f92719cc46b4ab20e9c18cd7c994d6f_cgraph" id="aclassZagreus_1_1Evaluation_a3f92719cc46b4ab20e9c18cd7c994d6f_cgraph">
+<area shape="rect" title="Evaluates the material on the board." alt="" coords="5,35,157,75"/>
+<area shape="rect" href="classZagreus_1_1Board.html#abf7ceb384a0bfbaef721d8d6d7a089c2" title="Retrieves the bitboard for a given piece type." alt="" coords="205,5,391,45"/>
+<area shape="poly" title=" " alt="" coords="157,42,191,37,192,42,158,47"/>
+<area shape="rect" href="namespaceZagreus.html#aa0fea3f1f058b2d21f3f387a149b7f8a" title="Counts the number of set bits (population count) in a bitboard." alt="" coords="235,70,361,95"/>
+<area shape="poly" title=" " alt="" coords="158,62,222,70,221,75,157,67"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classZagreus_1_1Evaluation_a3f92719cc46b4ab20e9c18cd7c994d6f_icgraph.png" border="0" usemap="#aclassZagreus_1_1Evaluation_a3f92719cc46b4ab20e9c18cd7c994d6f_icgraph" alt=""/></div>
+<map name="aclassZagreus_1_1Evaluation_a3f92719cc46b4ab20e9c18cd7c994d6f_icgraph" id="aclassZagreus_1_1Evaluation_a3f92719cc46b4ab20e9c18cd7c994d6f_icgraph">
+<area shape="rect" title="Evaluates the material on the board." alt="" coords="753,22,905,62"/>
+<area shape="rect" href="classZagreus_1_1Evaluation.html#a0f4174df46fff74d4c208a04c861622a" title="Evaluates the current board position." alt="" coords="553,22,705,62"/>
+<area shape="poly" title=" " alt="" coords="739,45,706,45,706,39,739,39"/>
+<area shape="rect" href="namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,29,505,55"/>
+<area shape="poly" title=" " alt="" coords="539,45,506,45,506,39,539,39"/>
+<area shape="poly" title=" " alt="" coords="471,19,462,11,438,8,418,10,408,15,406,20,411,28,407,31,401,21,404,11,417,5,438,3,464,6,474,15"/>
+<area shape="rect" href="namespaceZagreus.html#a9cede8fac151bf6c2336600497bc8b54" title=" " alt="" coords="180,29,323,55"/>
+<area shape="poly" title=" " alt="" coords="357,45,323,45,323,39,357,39"/>
+<area shape="poly" title=" " alt="" coords="283,19,274,11,251,8,232,10,222,15,220,20,226,28,221,31,215,21,218,11,231,5,251,3,276,6,287,15"/>
+<area shape="rect" href="namespaceZagreus.html#a8402e43c19031fd84e7ff36a670a6161" title=" " alt="" coords="5,29,132,55"/>
+<area shape="poly" title=" " alt="" coords="166,45,132,45,132,39,166,39"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a0f4174df46fff74d4c208a04c861622a" name="a0f4174df46fff74d4c208a04c861622a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0f4174df46fff74d4c208a04c861622a">&#9670;&#160;</a></span>evaluate()</h2>
 
@@ -212,13 +278,19 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classZagreus_1_1Evaluation_a0f4174df46fff74d4c208a04c861622a_cgraph.png" border="0" usemap="#aclassZagreus_1_1Evaluation_a0f4174df46fff74d4c208a04c861622a_cgraph" alt=""/></div>
 <map name="aclassZagreus_1_1Evaluation_a0f4174df46fff74d4c208a04c861622a_cgraph" id="aclassZagreus_1_1Evaluation_a0f4174df46fff74d4c208a04c861622a_cgraph">
-<area shape="rect" title="Evaluates the current board position." alt="" coords="5,27,157,67"/>
-<area shape="rect" href="classZagreus_1_1Board.html#afc62efe1e90a8573ffddbb423ec95534" title="Retrieves the color of the side to move." alt="" coords="205,5,433,31"/>
-<area shape="poly" title=" " alt="" coords="157,35,202,30,203,35,158,41"/>
-<area shape="rect" href="classZagreus_1_1Evaluation.html#abb089e1f075e914b0789cfefef917fcd" title="Initializes part of the evaluation data needed to evaluate the board position." alt="" coords="243,55,395,95"/>
-<area shape="poly" title=" " alt="" coords="158,54,230,62,229,67,157,59"/>
-<area shape="rect" href="classZagreus_1_1Board.html#ae05e57705dd28daf8718d043c68d16d2" title="Retrieves the bitboard for a given color." alt="" coords="481,55,665,95"/>
-<area shape="poly" title=" " alt="" coords="395,73,468,73,468,78,395,78"/>
+<area shape="rect" title="Evaluates the current board position." alt="" coords="5,91,157,131"/>
+<area shape="rect" href="classZagreus_1_1Evaluation.html#a3f92719cc46b4ab20e9c18cd7c994d6f" title="Evaluates the material on the board." alt="" coords="243,33,395,73"/>
+<area shape="poly" title=" " alt="" coords="157,90,230,72,231,77,158,95"/>
+<area shape="rect" href="classZagreus_1_1Board.html#afc62efe1e90a8573ffddbb423ec95534" title="Retrieves the color of the side to move." alt="" coords="205,98,433,123"/>
+<area shape="poly" title=" " alt="" coords="158,108,191,108,191,113,158,113"/>
+<area shape="rect" href="classZagreus_1_1Evaluation.html#abb089e1f075e914b0789cfefef917fcd" title="Initializes part of the evaluation data needed to evaluate the board position." alt="" coords="243,148,395,188"/>
+<area shape="poly" title=" " alt="" coords="158,126,231,144,230,149,157,132"/>
+<area shape="rect" href="classZagreus_1_1Board.html#abf7ceb384a0bfbaef721d8d6d7a089c2" title="Retrieves the bitboard for a given piece type." alt="" coords="481,5,667,45"/>
+<area shape="poly" title=" " alt="" coords="395,42,467,34,468,40,396,48"/>
+<area shape="rect" href="namespaceZagreus.html#aa0fea3f1f058b2d21f3f387a149b7f8a" title="Counts the number of set bits (population count) in a bitboard." alt="" coords="511,70,637,95"/>
+<area shape="poly" title=" " alt="" coords="396,59,497,71,497,77,395,65"/>
+<area shape="rect" href="classZagreus_1_1Board.html#ae05e57705dd28daf8718d043c68d16d2" title="Retrieves the bitboard for a given color." alt="" coords="482,148,666,188"/>
+<area shape="poly" title=" " alt="" coords="396,165,469,165,469,171,396,171"/>
 </map>
 </div>
 <div class="dynheader">

@@ -1,19 +1,24 @@
 <map id="Zagreus::popcnt" name="Zagreus::popcnt">
-<area shape="rect" id="Node000001" title="Counts the number of set bits (population count) in a bitboard." alt="" coords="785,48,912,74"/>
-<area shape="rect" id="Node000002" href="$namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1" title="Generates all pseudo&#45;legal moves for all pieces of a certain color for a given color and generation t..." alt="" coords="553,11,737,36"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="771,49,714,39,715,34,772,44"/>
-<area shape="rect" id="Node000006" href="$classZagreus_1_1Board.html#aca84663c90a0118a09ae4777aa5731ec" title="Checks if the current position is a draw. Checks everything but a stalemate." alt="" coords="558,72,733,98"/>
-<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="772,73,733,77,733,72,771,67"/>
-<area shape="rect" id="Node000003" href="$namespaceZagreus.html#a9cede8fac151bf6c2336600497bc8b54" title=" " alt="" coords="180,47,323,72"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="540,27,457,31,371,38,307,49,306,44,370,33,457,25,540,22"/>
-<area shape="rect" id="Node000004" href="$namespaceZagreus.html#a8402e43c19031fd84e7ff36a670a6161" title=" " alt="" coords="5,10,132,35"/>
-<area shape="poly" id="edge8_Node000002_Node000004" title=" " alt="" coords="539,18,505,16,343,9,180,13,132,17,132,12,180,8,343,3,505,10,540,12"/>
-<area shape="rect" id="Node000005" href="$namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,72,505,98"/>
-<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="589,43,482,75,481,70,588,38"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="283,37,274,29,251,26,232,28,222,32,220,38,226,45,221,48,215,39,218,29,231,22,251,20,276,24,287,33"/>
-<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="175,47,131,38,132,32,176,41"/>
-<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="357,77,322,72,323,67,357,71"/>
-<area shape="poly" id="edge7_Node000005_Node000005" title=" " alt="" coords="471,62,462,54,438,51,418,53,408,58,406,63,411,71,407,74,401,64,404,54,417,48,438,46,464,49,474,58"/>
-<area shape="poly" id="edge10_Node000006_Node000003" title=" " alt="" coords="584,103,537,112,483,118,426,119,370,113,317,96,274,75,276,70,319,91,371,108,427,114,483,113,536,107,583,98"/>
-<area shape="poly" id="edge11_Node000006_Node000005" title=" " alt="" coords="544,88,506,88,506,82,544,82"/>
+<area shape="rect" id="Node000001" title="Counts the number of set bits (population count) in a bitboard." alt="" coords="985,63,1112,88"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Evaluation.html#a3f92719cc46b4ab20e9c18cd7c994d6f" title="Evaluates the material on the board." alt="" coords="785,55,937,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="972,78,938,78,938,73,972,73"/>
+<area shape="rect" id="Node000007" href="$namespaceZagreus.html#a45782314392fdfb6bf0b51cdd98376f1" title="Generates all pseudo&#45;legal moves for all pieces of a certain color for a given color and generation t..." alt="" coords="553,120,737,145"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="998,95,938,110,835,124,738,132,737,127,834,119,937,105,996,90"/>
+<area shape="rect" id="Node000008" href="$classZagreus_1_1Board.html#aca84663c90a0118a09ae4777aa5731ec" title="Checks if the current position is a draw. Checks everything but a stalemate." alt="" coords="558,5,733,31"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="996,61,937,46,831,31,733,24,733,18,832,26,938,41,998,56"/>
+<area shape="rect" id="Node000003" href="$classZagreus_1_1Evaluation.html#a0f4174df46fff74d4c208a04c861622a" title="Evaluates the current board position." alt="" coords="569,55,721,95"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="771,78,722,78,722,73,771,73"/>
+<area shape="rect" id="Node000004" href="$namespaceZagreus.html#aa7c500d003ac3b2a52af5b921a04b5b7" title=" " alt="" coords="371,65,505,91"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="555,79,506,80,506,74,555,74"/>
+<area shape="poly" id="edge7_Node000004_Node000004" title=" " alt="" coords="471,55,462,47,438,44,418,46,408,51,406,56,411,64,407,67,401,57,404,47,417,41,438,39,464,42,474,51"/>
+<area shape="rect" id="Node000005" href="$namespaceZagreus.html#a9cede8fac151bf6c2336600497bc8b54" title=" " alt="" coords="180,91,323,116"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="357,92,323,96,322,91,357,86"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="283,80,274,72,251,69,232,71,222,76,220,82,226,89,221,92,215,82,218,73,231,66,251,64,276,68,287,76"/>
+<area shape="rect" id="Node000006" href="$namespaceZagreus.html#a8402e43c19031fd84e7ff36a670a6161" title=" " alt="" coords="5,141,132,167"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="192,122,116,144,115,139,191,117"/>
+<area shape="poly" id="edge10_Node000007_Node000004" title=" " alt="" coords="583,119,486,93,488,88,584,114"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="540,128,323,111,323,106,540,122"/>
+<area shape="poly" id="edge11_Node000007_Node000006" title=" " alt="" coords="540,139,132,154,132,149,540,134"/>
+<area shape="poly" id="edge14_Node000008_Node000004" title=" " alt="" coords="586,37,554,46,481,68,480,63,553,41,584,32"/>
+<area shape="poly" id="edge13_Node000008_Node000005" title=" " alt="" coords="544,13,459,16,414,22,371,33,341,45,313,61,269,93,266,88,310,56,339,40,370,27,413,17,458,11,544,8"/>
 </map>

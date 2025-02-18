@@ -1,0 +1,7 @@
+<map id="Zagreus::Evaluation::calculatePhase" name="Zagreus::Evaluation::calculatePhase">
+<area shape="rect" id="Node000001" title="Evaluates the material on the board." alt="" coords="5,35,157,75"/>
+<area shape="rect" id="Node000002" href="$classZagreus_1_1Board.html#abf7ceb384a0bfbaef721d8d6d7a089c2" title="Retrieves the bitboard for a given piece type." alt="" coords="205,5,391,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,42,191,37,192,42,158,47"/>
+<area shape="rect" id="Node000003" href="$namespaceZagreus.html#aa0fea3f1f058b2d21f3f387a149b7f8a" title="Counts the number of set bits (population count) in a bitboard." alt="" coords="235,70,361,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,62,222,70,221,75,157,67"/>
+</map>
