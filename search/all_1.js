@@ -13,8 +13,7 @@ var searchData=
   ['advance_10',['advance',['../classpcg__detail_1_1engine.html#a12d3653cfe490a59f7ce55d028f1a7e0',1,'pcg_detail::engine::advance(itype state, itype delta, itype cur_mult, itype cur_plus)'],['../classpcg__detail_1_1engine.html#ad825cdb944e1a8c9e58e1b20dcbdf042',1,'pcg_detail::engine::advance(itype delta)'],['../classpcg__detail_1_1extended.html#ad917a2241597772e81668695c18ab2bb',1,'pcg_detail::extended::advance()']]],
   ['all_11',['ALL',['../namespaceZagreus.html#a3d471f60f5bbb9c34722924daef89c8caa6d0baaddf607878ab0d9a3c8bbe321e',1,'Zagreus']]],
   ['alpha_12',['ALPHA',['../namespaceZagreus.html#ae0877a94867882cbc10b59abe123769ea400e68c7fe8580a082d6f80a13040da7',1,'Zagreus']]],
-  ['attacksaroundkingscore_13',['attacksAroundKingScore',['../structZagreus_1_1EvalData.html#a59e2bf2e0f94a4ae58323812f0692a7f',1,'Zagreus::EvalData']]],
-  ['attacksbycolor_14',['attacksByColor',['../structZagreus_1_1EvalData.html#ac2e6c5e1688cafce6f1ca9fa86e5129d',1,'Zagreus::EvalData']]],
-  ['attacksbypiece_15',['attacksByPiece',['../structZagreus_1_1EvalData.html#af1b1b70cb80e19ff429cd3bf94b8d86b',1,'Zagreus::EvalData']]],
-  ['attacksfrom_16',['attacksFrom',['../structZagreus_1_1EvalData.html#a91f81be15d05dbe44b32a211c586cb44',1,'Zagreus::EvalData']]]
+  ['attacksbycolor_13',['attacksByColor',['../structZagreus_1_1EvalData.html#ac2e6c5e1688cafce6f1ca9fa86e5129d',1,'Zagreus::EvalData']]],
+  ['attacksbypiece_14',['attacksByPiece',['../structZagreus_1_1EvalData.html#af1b1b70cb80e19ff429cd3bf94b8d86b',1,'Zagreus::EvalData']]],
+  ['attacksfrom_15',['attacksFrom',['../structZagreus_1_1EvalData.html#a91f81be15d05dbe44b32a211c586cb44',1,'Zagreus::EvalData']]]
 ];
