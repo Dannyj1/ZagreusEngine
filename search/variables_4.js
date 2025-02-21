@@ -8,6 +8,7 @@ var searchData=
   ['eg_5frook_5ftable_5',['eg_rook_table',['../namespaceZagreus.html#ab189515946f82df48dd4bd326e608c72',1,'Zagreus']]],
   ['endgamepsttable_6',['endgamePstTable',['../namespaceZagreus.html#a7b3cc214c8366a5b0a70e7743277d0a9',1,'Zagreus']]],
   ['enpassantsquare_7',['enPassantSquare',['../structZagreus_1_1BoardState.html#a8168f2482c44d4edf790701162e2a79f',1,'Zagreus::BoardState']]],
-  ['evalmaterialvalues_8',['evalMaterialValues',['../namespaceZagreus.html#a77212675e9ec1ea5afc27509b4afdd4a',1,'Zagreus']]],
-  ['evalmobility_9',['evalMobility',['../namespaceZagreus.html#a025a34fc4750a9af6e51d2c95b95c4d0',1,'Zagreus']]]
+  ['evalattacksaroundking_8',['evalAttacksAroundKing',['../namespaceZagreus.html#ab77fe0fb03ec0fc3624276aaf33fe0d6',1,'Zagreus']]],
+  ['evalmaterialvalues_9',['evalMaterialValues',['../namespaceZagreus.html#a77212675e9ec1ea5afc27509b4afdd4a',1,'Zagreus']]],
+  ['evalmobility_10',['evalMobility',['../namespaceZagreus.html#a025a34fc4750a9af6e51d2c95b95c4d0',1,'Zagreus']]]
 ];
