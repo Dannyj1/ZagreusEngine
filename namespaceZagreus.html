@@ -749,6 +749,12 @@ Variables</h2></td></tr>
 <tr class="separator:a77212675e9ec1ea5afc27509b4afdd4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a025a34fc4750a9af6e51d2c95b95c4d0" id="r_a025a34fc4750a9af6e51d2c95b95c4d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a025a34fc4750a9af6e51d2c95b95c4d0">evalMobility</a> [<a class="el" href="constants_8h.html#a170754edbd09a328bef8d53b71d0e9e8">GAME_PHASES</a>][<a class="el" href="constants_8h.html#ab2852fb03da622f49801aa40a676c658">PIECE_TYPES</a>]</td></tr>
 <tr class="separator:a025a34fc4750a9af6e51d2c95b95c4d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abebda8eaf5b5b15a1f536ba0356dae62" id="r_abebda8eaf5b5b15a1f536ba0356dae62"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abebda8eaf5b5b15a1f536ba0356dae62">evalPieceOnStrongSquare</a> [<a class="el" href="constants_8h.html#a170754edbd09a328bef8d53b71d0e9e8">GAME_PHASES</a>] {4, 1}</td></tr>
+<tr class="separator:abebda8eaf5b5b15a1f536ba0356dae62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6661f739159de28b594454b9b8c5996" id="r_ac6661f739159de28b594454b9b8c5996"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6661f739159de28b594454b9b8c5996">evalPieceOnWeakSquare</a> [<a class="el" href="constants_8h.html#a170754edbd09a328bef8d53b71d0e9e8">GAME_PHASES</a>] {-4, -1}</td></tr>
+<tr class="separator:ac6661f739159de28b594454b9b8c5996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1185cde53fd56796e75eaa68e15d89a" id="r_aa1185cde53fd56796e75eaa68e15d89a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1185cde53fd56796e75eaa68e15d89a">evalUnoccupiedStrongSquare</a> [<a class="el" href="constants_8h.html#a170754edbd09a328bef8d53b71d0e9e8">GAME_PHASES</a>] {2, 0}</td></tr>
+<tr class="separator:aa1185cde53fd56796e75eaa68e15d89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fac5ee53f7209a034032316726a7e81" id="r_a6fac5ee53f7209a034032316726a7e81"><td class="memItemLeft" align="right" valign="top">std::random_device&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fac5ee53f7209a034032316726a7e81">rd</a></td></tr>
 <tr class="separator:a6fac5ee53f7209a034032316726a7e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cbe1ef1cebd2532f1f7af1253da11d1" id="r_a7cbe1ef1cebd2532f1f7af1253da11d1"><td class="memItemLeft" align="right" valign="top">std::uniform_int_distribution&lt; uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cbe1ef1cebd2532f1f7af1253da11d1">dis</a></td></tr>
@@ -5160,7 +5166,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The value of the given piece. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="eval_8cpp_source.html#l00335">335</a> of file <a class="el" href="eval_8cpp_source.html">eval.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eval_8cpp_source.html#l00386">386</a> of file <a class="el" href="eval_8cpp_source.html">eval.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -10508,6 +10514,54 @@ Here is the caller graph for this function:</div>
 <div class="line">}</div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="eval__features_8cpp_source.html#l00033">33</a> of file <a class="el" href="eval__features_8cpp_source.html">eval_features.cpp</a>.</p>
+
+</div>
+</div>
+<a id="abebda8eaf5b5b15a1f536ba0356dae62" name="abebda8eaf5b5b15a1f536ba0356dae62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abebda8eaf5b5b15a1f536ba0356dae62">&#9670;&#160;</a></span>evalPieceOnStrongSquare</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Zagreus::evalPieceOnStrongSquare {4, 1}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="eval__features_8cpp_source.html#l00038">38</a> of file <a class="el" href="eval__features_8cpp_source.html">eval_features.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ac6661f739159de28b594454b9b8c5996" name="ac6661f739159de28b594454b9b8c5996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6661f739159de28b594454b9b8c5996">&#9670;&#160;</a></span>evalPieceOnWeakSquare</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Zagreus::evalPieceOnWeakSquare {-4, -1}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="eval__features_8cpp_source.html#l00040">40</a> of file <a class="el" href="eval__features_8cpp_source.html">eval_features.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa1185cde53fd56796e75eaa68e15d89a" name="aa1185cde53fd56796e75eaa68e15d89a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1185cde53fd56796e75eaa68e15d89a">&#9670;&#160;</a></span>evalUnoccupiedStrongSquare</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Zagreus::evalUnoccupiedStrongSquare {2, 0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="eval__features_8cpp_source.html#l00042">42</a> of file <a class="el" href="eval__features_8cpp_source.html">eval_features.cpp</a>.</p>
 
 </div>
 </div>
