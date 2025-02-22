@@ -18,18 +18,25 @@
  along with Zagreus.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#include "pst.h"
-
-#include <iostream>
-
-#include "constants.h"
-#include "eval.h"
+#include "eval_base_values.h"
 #include "types.h"
 
 namespace Zagreus {
+// Base material values
+const int baseMaterialValues[GAME_PHASES][PIECE_TYPES] = {
+    {100, 350, 350, 525, 1000, 0}, // Midgame
+    {100, 350, 350, 525, 1000, 0}  // Endgame
+};
+
+// Base mobility values
+const int baseMobility[GAME_PHASES][PIECE_TYPES] = {
+    {0, 4, 6, 2, 4, 0}, // Midgame
+    {0, 2, 3, 5, 6, 0}  // Endgame
+};
+
 // PeSTO's piece-square tables from: https://www.chessprogramming.org/PeSTO%27s_Evaluation_Function
 // For every table: The first square in the table [0] is square A8 and the last square [63] is H1
-int mg_pawn_table[64] = {
+const int baseMgPawnTable[64] = {
     0, 0, 0, 0, 0, 0, 0, 0,
     98, 134, 61, 95, 68, 126, 34, -11,
     -6, 7, 26, 31, 65, 56, 25, -20,
@@ -40,7 +47,7 @@ int mg_pawn_table[64] = {
     0, 0, 0, 0, 0, 0, 0, 0,
 };
 
-int eg_pawn_table[64] = {
+const int baseEgPawnTable[64] = {
     0, 0, 0, 0, 0, 0, 0, 0,
     178, 173, 158, 134, 147, 132, 165, 187,
     94, 100, 85, 67, 56, 53, 82, 84,
@@ -51,7 +58,7 @@ int eg_pawn_table[64] = {
     0, 0, 0, 0, 0, 0, 0, 0,
 };
 
-int mg_knight_table[64] = {
+const int baseMgKnightTable[64] = {
     -167, -89, -34, -49, 61, -97, -15, -107,
     -73, -41, 72, 36, 23, 62, 7, -17,
     -47, 60, 37, 65, 84, 129, 73, 44,
@@ -62,7 +69,7 @@ int mg_knight_table[64] = {
     -105, -21, -58, -33, -17, -28, -19, -23,
 };
 
-int eg_knight_table[64] = {
+const int baseEgKnightTable[64] = {
     -58, -38, -13, -28, -31, -27, -63, -99,
     -25, -8, -25, -2, -9, -25, -24, -52,
     -24, -20, 10, 9, -1, -9, -19, -41,
@@ -73,7 +80,7 @@ int eg_knight_table[64] = {
     -29, -51, -23, -15, -22, -18, -50, -64,
 };
 
-int mg_bishop_table[64] = {
+const int baseMgBishopTable[64] = {
     -29, 4, -82, -37, -25, -42, 7, -8,
     -26, 16, -18, -13, 30, 59, 18, -47,
     -16, 37, 43, 40, 35, 50, 37, -2,
@@ -84,7 +91,7 @@ int mg_bishop_table[64] = {
     -33, -3, -14, -21, -13, -12, -39, -21,
 };
 
-int eg_bishop_table[64] = {
+const int baseEgBishopTable[64] = {
     -14, -21, -11, -8, -7, -9, -17, -24,
     -8, -4, 7, -12, -3, -13, -4, -14,
     2, -8, 0, -1, -2, 6, 0, 4,
@@ -95,7 +102,7 @@ int eg_bishop_table[64] = {
     -23, -9, -23, -5, -9, -16, -5, -17,
 };
 
-int mg_rook_table[64] = {
+const int baseMgRookTable[64] = {
     32, 42, 32, 51, 63, 9, 31, 43,
     27, 32, 58, 62, 80, 67, 26, 44,
     -5, 19, 26, 36, 17, 45, 61, 16,
@@ -106,7 +113,7 @@ int mg_rook_table[64] = {
     -19, -13, 1, 17, 16, 7, -37, -26,
 };
 
-int eg_rook_table[64] = {
+const int baseEgRookTable[64] = {
     13, 10, 18, 15, 12, 12, 8, 5,
     11, 13, 13, 11, -3, 3, 8, 3,
     7, 7, 7, 5, 4, -3, -5, -3,
@@ -117,7 +124,7 @@ int eg_rook_table[64] = {
     -9, 2, 3, -1, -5, -13, 4, -20,
 };
 
-int mg_queen_table[64] = {
+const int baseMgQueenTable[64] = {
     -28, 0, 29, 12, 59, 44, 43, 45,
     -24, -39, -5, 1, -16, 57, 28, 54,
     -13, -17, 7, 8, 29, 56, 47, 57,
@@ -128,7 +135,7 @@ int mg_queen_table[64] = {
     -1, -18, -9, 10, -15, -25, -31, -50,
 };
 
-int eg_queen_table[64] = {
+const int baseEgQueenTable[64] = {
     -9, 22, 22, 27, 27, 19, 10, 20,
     -17, 20, 32, 41, 58, 25, 30, 0,
     -20, 6, 9, 49, 47, 35, 19, 9,
@@ -139,7 +146,7 @@ int eg_queen_table[64] = {
     -33, -28, -22, -43, -5, -32, -20, -41,
 };
 
-int mg_king_table[64] = {
+const int baseMgKingTable[64] = {
     -65, 23, 16, -15, -56, -34, 2, 13,
     29, -1, -20, -7, -8, -4, -38, -29,
     -9, 24, 2, -16, -20, 6, 22, -22,
@@ -150,7 +157,7 @@ int mg_king_table[64] = {
     -15, 36, 12, -54, 8, -28, 24, 14,
 };
 
-int eg_king_table[64] = {
+const int baseEgKingTable[64] = {
     -74, -35, -18, -18, -11, 15, 4, -17,
     -12, 17, 14, 17, 17, 38, 23, 11,
     10, 17, 23, 15, 20, 45, 44, 13,
@@ -161,58 +168,61 @@ int eg_king_table[64] = {
     -53, -34, -21, -11, -28, -14, -24, -43
 };
 
-int midgamePstTable[PIECES][SQUARES]{};
-int endgamePstTable[PIECES][SQUARES]{};
+int baseMidgamePstTable[PIECES][SQUARES]{};
+int baseEndgamePstTable[PIECES][SQUARES]{};
 
-int* getMidgameTable(const PieceType pieceType) {
+// Helper functions to get base PST tables
+const int* getBaseMidgameTable(const PieceType pieceType) {
     switch (pieceType) {
         case PAWN:
-            return mg_pawn_table;
+            return baseMgPawnTable;
         case KNIGHT:
-            return mg_knight_table;
+            return baseMgKnightTable;
         case BISHOP:
-            return mg_bishop_table;
+            return baseMgBishopTable;
         case ROOK:
-            return mg_rook_table;
+            return baseMgRookTable;
         case QUEEN:
-            return mg_queen_table;
+            return baseMgQueenTable;
         case KING:
-            return mg_king_table;
+            return baseMgKingTable;
     }
+    return nullptr;
 }
 
-int* getEndgameTable(const PieceType pieceType) {
+const int* getBaseEndgameTable(const PieceType pieceType) {
     switch (pieceType) {
         case PAWN:
-            return eg_pawn_table;
+            return baseEgPawnTable;
         case KNIGHT:
-            return eg_knight_table;
+            return baseEgKnightTable;
         case BISHOP:
-            return eg_bishop_table;
+            return baseEgBishopTable;
         case ROOK:
-            return eg_rook_table;
+            return baseEgRookTable;
         case QUEEN:
-            return eg_queen_table;
+            return baseEgQueenTable;
         case KING:
-            return eg_king_table;
+            return baseEgKingTable;
     }
+    return nullptr;
 }
 
-void initializePst() {
+void initializeBasePst() {
     for (Piece piece = WHITE_PAWN; piece <= BLACK_KING; piece++) {
         for (Square square = A1; square <= H8; square++) {
-            const int midgamePieceValue = evalMaterialValues[MIDGAME][getPieceType(piece)];
-            const int endgamePieceValue = evalMaterialValues[ENDGAME][getPieceType(piece)];
+            const int midgamePieceValue = baseMaterialValues[MIDGAME][getPieceType(piece)];
+            const int endgamePieceValue = baseMaterialValues[ENDGAME][getPieceType(piece)];
             const PieceColor color = getPieceColor(piece);
 
             if (color == WHITE) {
-                midgamePstTable[piece][square] = midgamePieceValue + getMidgameTable(getPieceType(piece))[square ^ 56];
-                endgamePstTable[piece][square] = endgamePieceValue + getEndgameTable(getPieceType(piece))[square ^ 56];
+                baseMidgamePstTable[piece][square] = midgamePieceValue + getBaseMidgameTable(getPieceType(piece))[square ^ 56];
+                baseEndgamePstTable[piece][square] = endgamePieceValue + getBaseEndgameTable(getPieceType(piece))[square ^ 56];
             } else {
-                midgamePstTable[piece][square] = midgamePieceValue + getMidgameTable(getPieceType(piece))[square];
-                endgamePstTable[piece][square] = endgamePieceValue + getEndgameTable(getPieceType(piece))[square];
+                baseMidgamePstTable[piece][square] = midgamePieceValue + getBaseMidgameTable(getPieceType(piece))[square];
+                baseEndgamePstTable[piece][square] = endgamePieceValue + getBaseEndgameTable(getPieceType(piece))[square];
             }
         }
     }
 }
-} // namespace Zagreus
+} // namespace Zagreus 

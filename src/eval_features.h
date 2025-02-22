@@ -1,4 +1,3 @@
-
 /*
  This file is part of Zagreus.
 
@@ -20,16 +19,19 @@
  */
 
 #pragma once
+#include <vector>
+
 #include "constants.h"
+#include "pst.h"
 
 namespace Zagreus {
-enum PieceType : uint8_t;
-extern int midgamePstTable[PIECES][SQUARES];
-extern int endgamePstTable[PIECES][SQUARES];
+extern int evalMaterialValues[GAME_PHASES][PIECE_TYPES];
 
-void initializePst();
+extern int evalMobility[GAME_PHASES][PIECE_TYPES];
 
-int* getMidgameTable(PieceType pieceType);
+extern int evalPieceOnStrongSquare[GAME_PHASES];
 
-int* getEndgameTable(PieceType pieceType);
+extern int evalPieceOnWeakSquare[GAME_PHASES];
+
+extern int evalUnoccupiedStrongSquare[GAME_PHASES];
 } // namespace Zagreus

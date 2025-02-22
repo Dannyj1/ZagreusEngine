@@ -1,4 +1,3 @@
-
 /*
  This file is part of Zagreus.
 
@@ -19,17 +18,12 @@
  along with Zagreus.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#pragma once
-#include "constants.h"
+#include <catch2/catch_test_macros.hpp>
+
+#include "../src/types.h"
 
 namespace Zagreus {
-enum PieceType : uint8_t;
-extern int midgamePstTable[PIECES][SQUARES];
-extern int endgamePstTable[PIECES][SQUARES];
+TEST_CASE("test_SEE", "[board], [see]") {
 
-void initializePst();
-
-int* getMidgameTable(PieceType pieceType);
-
-int* getEndgameTable(PieceType pieceType);
+}
 } // namespace Zagreus

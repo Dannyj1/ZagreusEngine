@@ -1,4 +1,3 @@
-
 /*
  This file is part of Zagreus.
 
@@ -19,17 +18,28 @@
  along with Zagreus.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#pragma once
-#include "constants.h"
+#include "timeman.h"
+#include <algorithm>
+#include <limits>
 
 namespace Zagreus {
-enum PieceType : uint8_t;
-extern int midgamePstTable[PIECES][SQUARES];
-extern int endgamePstTable[PIECES][SQUARES];
+template <PieceColor color>
+int calculateSearchTime(SearchParams& params) {
+    int timeLeft = color == WHITE ? params.whiteTime : params.blackTime;
+    int timeInc = color == WHITE ? params.whiteInc : params.blackInc;
 
-void initializePst();
+    if (timeLeft > 0) {
+        int movesToGo = 50;
+        int searchTime = timeLeft + (timeInc * movesToGo);
 
-int* getMidgameTable(PieceType pieceType);
+        searchTime /= movesToGo;
+        return std::max<int>(searchTime, 1);
+    } else {
+        return std::numeric_limits<int>::max();
+    }
+}
 
-int* getEndgameTable(PieceType pieceType);
+template int calculateSearchTime<WHITE>(SearchParams& params);
+template int calculateSearchTime<BLACK>(SearchParams& params);
+
 } // namespace Zagreus

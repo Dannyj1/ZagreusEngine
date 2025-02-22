@@ -1,8 +1,9 @@
+
 /*
  This file is part of Zagreus.
 
  Zagreus is a UCI chess engine
- Copyright (C) 2023  Danny Jelsma
+ Copyright (C) 2023-2025  Danny Jelsma
 
  Zagreus is free software: you can redistribute it and/or modify
  it under the terms of the GNU Affero General Public License as published
@@ -19,41 +20,16 @@
  */
 
 #pragma once
-
-#include <deque>
+#ifdef ZAGREUS_TUNER
 #include <string>
-
-#include "bitboard.h"
 
 namespace Zagreus {
 struct TunePosition {
-    std::string fen;
-    float result = 0.0f;
-    int score = 0;
+    std::string fen = "";
+    double result = 0.0;
+    int evalScore = 0;
 };
 
-class ExponentialMovingAverage {
-private:
-    double alpha;
-    double ma;
-    bool initialized;
-
-public:
-    ExponentialMovingAverage(size_t period)
-        : alpha(2.0 / (period + 1)), ma(0), initialized(false) {
-    }
-
-    void add(double value) {
-        if (!initialized) {
-            ma = value;
-            initialized = true;
-        } else {
-            ma = alpha * value + (1 - alpha) * ma;
-        }
-    }
-
-    double getMA() const { return ma; }
-};
-
-void startTuning(char* filePath);
-} // namespace Zagreus
+void startTuning(std::string filePath);
+}
+#endif
